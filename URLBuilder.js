@@ -10,100 +10,6 @@ import { json } from "stream/consumers";
 //********* */
 //! /////////////////////////////////////////
 
-//! NEEDS TO BE COMPLETED
-export let venueNameToVenueMnemonic = {
-  //! "CASINO":"",
-  //! "NOWRA":"",
-  //! "RICHMOND-STRAIGHT":"",
-  //! "SANDOWN-PARK":"",
-  //! "WARRNAMBOOL":"",
-  //! "MOUNT-GAMBIER":"",
-  //* "":"",
-  // VIC
-  "THE-MEADOWS": "MEA",
-  WARRAGUL: "WRG",
-  BALLARAT: "BAL",
-  GEELONG: "GEL",
-  SALE: "SLE", //??????
-  //! "BENDIGO":"",
-  HEALESVILLE: "HSV",
-  SHEPPARTON: "SHE",
-  // WA
-  MANDURAH: "MRD",
-  CANNINGTON: "CNP",
-  // SA
-  // NSW
-  TAREE: "TRE",
-  "THE-GARDENS": "GAR",
-  "WENTWORTH-PARK": "WWP",
-  GUNNEDAH: "GDH",
-  // QLD
-  "Q1-LAKESIDE": "QLE",
-  // NT
-  // TAS
-  HOBART: "HOB",
-  // NZ
-  ADDINGTON: "ADD",
-  //! "MANAWATU":"",
-  MANUKAU: "MAA",
-};
-
-/**
- * url builder for json data to be returned from tab, feed an object as the param, will destructure, use the following properties
- *
- * @param {{ date: string; raceType: string; venueMnemonic: string; raceNumber: string; jurisdiction: string; }}
- * @param {string} date yyyy-mm-dd i.e. 2026-03-23
- * @param {string} [raceType="G"] "G" for greyhounds, "H" for harness, "R" for horses
- * @param {string} venueMnemonic Such as "ADD", "BAL", "GEL", "MRD", etc
- * @param {string || int} raceNumber 1-12
- * @param {string} jurisdiction "NSW",
- * @returns {string} the url to get the json data from
- */
-export function URLBuilder({
-  date,
-  raceType = "G",
-  venueMnemonic,
-  raceNumber,
-  jurisdiction = "NSW",
-}) {
-  return `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings/${raceType}/
-${venueMnemonic}/races/${raceNumber}?returnPromo=true&returnOffers=true&jurisdiction=${jurisdiction}`;
-}
-
-/**
- * builds an array of urls for each race at a given venue
- *
- * @param {{ numberOfRaces: number; date: string; raceType: string; venueMnemonic: string; jurisdiction: string; }}
- * @param {number} [numberOfRaces=12] max is generally/pretty much 12
- * @param {string} date yyyy-mm-dd
- * @param {string} [raceType="G"] "G", "H", "R"
- * @param {string} venueMnemonic Such as "ADD", "BAL", "GEL", "MRD", etc
- * @param {string} [jurisdiction="NSW"] generally tends to be NSW but may be something else in some other cases
- */
-export function buildVenueURLArray({
-  numberOfRaces = 12,
-  date,
-  raceType = "G",
-  venueMnemonic,
-  jurisdiction = "NSW",
-}) {
-  let r = [];
-
-  for (let i = 1; i <= numberOfRaces; i++) {
-    r.push(
-      URLBuilder({
-        date,
-        raceType,
-        venueMnemonic,
-        jurisdiction,
-        raceNumber: i,
-      }),
-    );
-  }
-
-  return r;
-}
-
 /**
  * fetch the json from the url
  *
@@ -318,7 +224,7 @@ export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
  * @param {{}} [arrayOfExclusionStrings=[]] i.e. ["NSW","SA","NZL"] etc
  * @param {string} [raceType="G"] "G", "H", "R"
  * @param {boolean} [namesOnly=true] true by default, false for array of objects with all data
- * @returns {unknown} string or object
+ * @returns {*} stringArray or object
  */
 export async function filterMeetingByExludingJurisdictions({
   filePath,
@@ -361,6 +267,20 @@ export async function filterMeetingByExludingJurisdictions({
 export async function fetchDailyMeetings(date) {
   let data = await fetchURL(`https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings?jurisdiction=NSW&returnOffers=true&returnPromo=false`);
   return await data;
+}
+
+/**
+ * fetch and save the meetings of the input date
+ *
+ * @export
+ * @async
+ * @param {{ date: string; filePath: string; }} 
+ * @param {string} date 
+ * @param {string} filePath 
+ */
+export async function fetchAndSaveDailyMeetings({date, filePath}){
+  let data = await fetchDailyMeetings(date);
+  saveDataToFile({filePath:filePath, data:data});
 }
 
 console.log(
