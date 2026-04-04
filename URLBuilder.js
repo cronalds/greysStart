@@ -336,7 +336,7 @@ let test = readDataFromFile("./test5.json");
 
 //console.log(_.default.hasIn(test.data.meetings[0].races[0], ["raceNumber"]))
 
-export async function filterMeetingByExludingJurisdictions({filePath, arrayOfExclusionStrings, raceType="G", namesOnly=true}) {
+export async function filterMeetingByExludingJurisdictions({filePath, arrayOfExclusionStrings=[], raceType="G", namesOnly=true}) {
   let meetings = [];
   let returnValues = [];
   let data = await readDataFromFile(filePath);
@@ -358,4 +358,4 @@ export async function filterMeetingByExludingJurisdictions({filePath, arrayOfExc
   return await returnValues;
 }
 
-console.log(await filterMeetingByExludingJurisdictions({filePath:"./test5.json", arrayOfExclusionStrings:["GBR", "NSW", "FRA", "NZL", "TAS"], raceType:"H", namesOnly:false}));
+console.log(await filterMeetingByExludingJurisdictions({filePath:"./test5.json", raceType:"G"}));
