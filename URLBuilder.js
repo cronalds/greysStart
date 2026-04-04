@@ -282,10 +282,24 @@ export async function fetchAndSaveDailyMeetings({date, filePath}){
  *
  * @export
  * @param {{ date: string; venueName: string; raceNumber: string; }} 
- * @param {*} date meeting/race date
- * @param {*} venueName 
- * @param {*} raceNumber 
+ * @param {string} date meeting/race date
+ * @param {string} venueName 
+ * @param {string} raceNumber string or int
  * @returns {{ meetings: string; races: string; form: string; resultedMeetings: string; }} 
+ * @example 
+ * // will return something like:
+ * 
+ * {
+    meetings:`2026-04-04-TAREE-meetings.json`,
+    race: `2026-04-04-TAREE-race-1.json`,
+    form:`2026-04-04-TAREE-race-1-form.json`,
+    resultedMeetings:`2026-04-04-TAREE-meetings-RESULTED.json`,
+  }
+
+  // to be accessed like:
+
+  let x = fileNameBuilderObject({date:"2026-04-04", venueName:"TAREE", raceNumber:1}); // in a for loop can increment raceNumber as i and will coerce int to string
+  let y = x.race // === `2026-04-04-TAREE-race-1.json`
  */
 export function fileNameBuilderObject({
   date,
@@ -294,7 +308,7 @@ export function fileNameBuilderObject({
 }){
   return {
     meetings:`${date}-${venueName}-meetings.json`,
-    races: `${date}-${venueName}-race-${raceNumber}.json`,
+    race: `${date}-${venueName}-race-${raceNumber}.json`,
     form:`${date}-${venueName}-race-${raceNumber}-form.json`,
     resultedMeetings:`${date}-${venueName}-meetings-RESULTED.json`,
   }

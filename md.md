@@ -14,10 +14,7 @@
 - this will all be done in a monolithic procedural function that will straight up get called and handle everything, right now its split up over various functions and all that shit but i think id prefer this as a single large function that handles everything in order of procedure. ill figure that out too but atm thats what im thinking itll be.
 
 - naming conventions:
-  - meetings: {date i.e. 2026-04-04/yyyy-mm-dd}-{VENUENAME}-MEETING
-  - meetingsResulted: {date i.e. 2026-04-04/yyyy-mm-dd}-{VENUENAME}-RESULTEDMEET
-  - race: {date i.e. 2026-04-04/yyyy-mm-dd}-{VENUENAME}-{VENUENAME}-RACE-{#}
-  - form: {date i.e. 2026-04-04/yyyy-mm-dd}-{VENUENAME}-{VENUENAME}-RACE-{#}-RUNNERFORM
+  - fileNameBuilderObject function to do it and ensures consistency of naming with basic access.
 
 - infrastructure of data storage:
   - "./data"
@@ -30,3 +27,5 @@
 - fetchMeetings -> splitByRaceType -> fetchRaces -> fetchRunnerForms
 
 - later i can consolidate runnerData into a single json for each runner then foreign key them to races/trainers/etc
+
+- create a cron job to do this auto, will host/serve somewhere online
