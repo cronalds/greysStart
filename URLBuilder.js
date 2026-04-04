@@ -4,12 +4,6 @@ import { json } from "stream/consumers";
 
 // import * as _ from "lodash";
 
-//! /////////////////////////////////////////
-
-//! /////////////////////////////////////////
-//********* */
-//! /////////////////////////////////////////
-
 /**
  * fetch the json from the url
  *
@@ -283,7 +277,6 @@ export async function fetchAndSaveDailyMeetings({date, filePath}){
   saveDataToFile({filePath:filePath, data:data});
 }
 
-
 /**
  * returns a string for meeting, race, form, and resultedMeeting file names, ensures consistency
  *
@@ -306,10 +299,12 @@ export function fileNameBuilderObject({
     resultedMeetings:`${date}-${venueName}-meetings-RESULTED.json`,
   }
 }
-
-console.log(
-  await filterMeetingByExludingJurisdictions({
-    filePath: "./test5.json",
-    raceType: "G",
-  }),
-);
+/**
+ * 
+ *console.log(
+ *  await filterMeetingByExludingJurisdictions({
+ *    filePath: "./test5.json",
+ *    raceType: "G",
+ *  }),
+ *);
+*/
