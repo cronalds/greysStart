@@ -23,7 +23,7 @@
   - "./data"
   - += "/{raceType}" // G/H/R
   - += "/{venueName}" // TAREE/GUNNEDAH/WARRNAMBOOL/etc
-  - += "/{date}/"
+  - += "/{date}/" // store meeting/meetresults/racedata and formdata for each venue on the day
 
 ##
 
