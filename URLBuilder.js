@@ -2,6 +2,8 @@ import fs from "fs";
 
 import { json } from "stream/consumers";
 
+import * as _ from "lodash";
+
 //! /////////////////////////////////////////
 let date = "2026-03-23";
 let raceType = "G";
@@ -15,62 +17,61 @@ ${venueMnemonic}/races/${raceNumber}?returnPromo=true&returnOffers=true&jurisdic
 
 let dailyMeetings = `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-04/meetings?jurisdiction=NSW&returnOffers=true&returnPromo=false`;
 
-
 /**
  * get the json containing the days meetings
  *
  * @export
- * @param {{ date: any; }} 
+ * @param {{ date: any; }}
  * @param {*} date yyyy-mm-dd
- * @returns {string} 
+ * @returns {string}
  */
-export function dailyMeetingURLBuilder({date}){
-    return `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings?jurisdiction=NSW&returnOffers=true&returnPromo=false`
+export function dailyMeetingURLBuilder({ date }) {
+  return `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings?jurisdiction=NSW&returnOffers=true&returnPromo=false`;
 }
 
-export async function fetchDailyMeetings(date){
-    let data = await fetchURL(dailyMeetingURLBuilder(date));
-    return data;
+export async function fetchDailyMeetings(date) {
+  let data = await fetchURL(dailyMeetingURLBuilder(date));
+  return data;
 }
 
 //! /////////////////////////////////////////
 
 //! NEEDS TO BE COMPLETED
 export let venueNameToVenueMnemonic = {
-    //! "CASINO":"",
-    //! "NOWRA":"",
-    //! "RICHMOND-STRAIGHT":"",
-    //! "SANDOWN-PARK":"",
-    //! "WARRNAMBOOL":"",
-    //! "MOUNT-GAMBIER":"",
-    //* "":"",
-    // VIC
-    "THE-MEADOWS":"MEA",
-    "WARRAGUL":"WRG",
-    "BALLARAT":"BAL",
-    "GEELONG":"GEL",
-    "SALE":"SLE",//??????
-    //! "BENDIGO":"",
-    "HEALESVILLE":"HSV",
-    "SHEPPARTON":"SHE",
-    // WA
-    "MANDURAH":"MRD",
-    "CANNINGTON":"CNP",
-    // SA
-    // NSW
-    "TAREE":"TRE",
-    "THE-GARDENS":"GAR",
-    "WENTWORTH-PARK":"WWP",
-    "GUNNEDAH":"GDH",
-    // QLD
-    "Q1-LAKESIDE":"QLE",
-    // NT
-    // TAS
-    "HOBART":"HOB",
-    // NZ
-    "ADDINGTON":"ADD",
-    //! "MANAWATU":"",
-    "MANUKAU":"MAA",
+  //! "CASINO":"",
+  //! "NOWRA":"",
+  //! "RICHMOND-STRAIGHT":"",
+  //! "SANDOWN-PARK":"",
+  //! "WARRNAMBOOL":"",
+  //! "MOUNT-GAMBIER":"",
+  //* "":"",
+  // VIC
+  "THE-MEADOWS": "MEA",
+  WARRAGUL: "WRG",
+  BALLARAT: "BAL",
+  GEELONG: "GEL",
+  SALE: "SLE", //??????
+  //! "BENDIGO":"",
+  HEALESVILLE: "HSV",
+  SHEPPARTON: "SHE",
+  // WA
+  MANDURAH: "MRD",
+  CANNINGTON: "CNP",
+  // SA
+  // NSW
+  TAREE: "TRE",
+  "THE-GARDENS": "GAR",
+  "WENTWORTH-PARK": "WWP",
+  GUNNEDAH: "GDH",
+  // QLD
+  "Q1-LAKESIDE": "QLE",
+  // NT
+  // TAS
+  HOBART: "HOB",
+  // NZ
+  ADDINGTON: "ADD",
+  //! "MANAWATU":"",
+  MANUKAU: "MAA",
 };
 
 /**
@@ -81,11 +82,17 @@ export let venueNameToVenueMnemonic = {
  * @param {string} [raceType="G"] "G" for greyhounds, "H" for harness, "R" for horses
  * @param {string} venueMnemonic Such as "ADD", "BAL", "GEL", "MRD", etc
  * @param {string || int} raceNumber 1-12
- * @param {string} jurisdiction "NSW", 
+ * @param {string} jurisdiction "NSW",
  * @returns {string} the url to get the json data from
  */
-export function URLBuilder({date, raceType = "G", venueMnemonic, raceNumber, jurisdiction="NSW"}){
-    return `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings/${raceType}/
+export function URLBuilder({
+  date,
+  raceType = "G",
+  venueMnemonic,
+  raceNumber,
+  jurisdiction = "NSW",
+}) {
+  return `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings/${raceType}/
 ${venueMnemonic}/races/${raceNumber}?returnPromo=true&returnOffers=true&jurisdiction=${jurisdiction}`;
 }
 
@@ -99,15 +106,28 @@ ${venueMnemonic}/races/${raceNumber}?returnPromo=true&returnOffers=true&jurisdic
  * @param {*} venueMnemonic Such as "ADD", "BAL", "GEL", "MRD", etc
  * @param {string} [jurisdiction="NSW"] generally tends to be NSW but may be something else in some other cases
  */
-export function buildVenueURLArray({numberOfRaces=12,date, raceType = "G", venueMnemonic, jurisdiction="NSW"}){
-    let r = [];
+export function buildVenueURLArray({
+  numberOfRaces = 12,
+  date,
+  raceType = "G",
+  venueMnemonic,
+  jurisdiction = "NSW",
+}) {
+  let r = [];
 
-    for(let i = 1; i <= numberOfRaces; i++)
-    {
-        r.push(URLBuilder({date, raceType, venueMnemonic, jurisdiction, raceNumber:i}));
-    }
+  for (let i = 1; i <= numberOfRaces; i++) {
+    r.push(
+      URLBuilder({
+        date,
+        raceType,
+        venueMnemonic,
+        jurisdiction,
+        raceNumber: i,
+      }),
+    );
+  }
 
-    return r;
+  return r;
 }
 
 /**
@@ -115,17 +135,19 @@ export function buildVenueURLArray({numberOfRaces=12,date, raceType = "G", venue
  *
  * @async
  * @param {string} url the url string from the builder
- * @returns {json} 
+ * @returns {json}
  */
 export async function fetchURL(url) {
-    const res = await fetch(url);
+  const res = await fetch(url);
 
-    if (!res.ok) {throw new Error(`HTTP ${res.status} - ${res.statusText}`);}
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status} - ${res.statusText}`);
+  }
 
-    let awaitedResponse = await res.json(); // or .txt, depends on all that kinda stuff, but .json here
-    let properObject = {data:awaitedResponse};
+  let awaitedResponse = await res.json(); // or .txt, depends on all that kinda stuff, but .json here
+  let properObject = { data: awaitedResponse };
 
-    return properObject;
+  return properObject;
 }
 
 //let test = await fetchURL(`https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-03/meetings/G/GEL/races/1?returnPromo=true&returnOffers=true&jurisdiction=NSW`);
@@ -140,88 +162,97 @@ export async function fetchURL(url) {
  * @param {*} data data to save
  * @param {boolean} [json=true] if true will stringify, default true
  */
-export function saveDataToFile({filePath, data, json=true}){
-    if(json === true){fs.writeFileSync(filePath, JSON.stringify(data))}
-    else {fs.writeFileSync(filePath, data)}
+export function saveDataToFile({ filePath, data, json = true }) {
+  if (json === true) {
+    fs.writeFileSync(filePath, JSON.stringify(data));
+  } else {
+    fs.writeFileSync(filePath, data);
+  }
 }
-
 
 /**
  * read data from path such as arrays or objects, etc, back to js types
  *
  * @export
- * @param {*} filePath 
- * @returns {*} 
+ * @param {*} filePath
+ * @returns {*}
  */
-export function readDataFromFile(filePath)
-{
-    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
+export function readDataFromFile(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 }
 
 /**
  * gets the form urls for each runner so as to download the forms as well
  *
- * @param {*} filePathString 
- * @returns {[]} 
+ * @param {*} filePathString
+ * @returns {[]}
  */
-export function getFormURLsFromJsonFile(filePathString){
-    let dataFile = fs.readFileSync(filePathString, "utf-8");
-    let data = JSON.parse(dataFile);
-    let runnersArray = data["data"]["runners"];
-    let runnersFormURLsArray = [];
+export function getFormURLsFromJsonFile(filePathString) {
+  let dataFile = fs.readFileSync(filePathString, "utf-8");
+  let data = JSON.parse(dataFile);
+  let runnersArray = data["data"]["runners"];
+  let runnersFormURLsArray = [];
 
-    for(let i = 0; i < runnersArray.length; i++){
-        let scratchedPotential = i + 1;
-        try{
-            let getting = runnersArray[i]["_links"]["form"]
-            runnersFormURLsArray.push(getting)
-        }
-        catch{console.log("unable for runner " + scratchedPotential + ", must be scratched")}
+  for (let i = 0; i < runnersArray.length; i++) {
+    let scratchedPotential = i + 1;
+    try {
+      let getting = runnersArray[i]["_links"]["form"];
+      runnersFormURLsArray.push(getting);
+    } catch {
+      console.log(
+        "unable for runner " + scratchedPotential + ", must be scratched",
+      );
     }
-    return runnersFormURLsArray;
+  }
+  return runnersFormURLsArray;
 }
 
-export function getFormURLsFromJsonFileAndSaveToFile({filePath, destinationFilePath}){
-    let x = getFormURLsFromJsonFile(filePath);
-    saveDataToFile({filePath :destinationFilePath, data : x});
+export function getFormURLsFromJsonFileAndSaveToFile({
+  filePath,
+  destinationFilePath,
+}) {
+  let x = getFormURLsFromJsonFile(filePath);
+  saveDataToFile({ filePath: destinationFilePath, data: x });
 }
-
 
 /**
  * gets the form urls from json
  *
  * @export
  * @async
- * @param {*} data 
- * @returns {unknown} 
+ * @param {*} data
+ * @returns {unknown}
  */
-export async function getFormURLs(data){
-    let runnersArray = data["data"]["runners"];
-    let runnersFormURLsArray = [];
+export async function getFormURLs(data) {
+  let runnersArray = data["data"]["runners"];
+  let runnersFormURLsArray = [];
 
-    for(let i = 0; i < runnersArray.length; i++){
-        let scratchedPotential = i + 1;
-        try{
-            let getting = runnersArray[i]["_links"]["form"]
-            runnersFormURLsArray.push(getting)
-        }
-        catch{console.log("unable for runner " + scratchedPotential + ", must be scratched")}
+  for (let i = 0; i < runnersArray.length; i++) {
+    let scratchedPotential = i + 1;
+    try {
+      let getting = runnersArray[i]["_links"]["form"];
+      runnersFormURLsArray.push(getting);
+    } catch {
+      console.log(
+        "unable for runner " + scratchedPotential + ", must be scratched",
+      );
     }
-    return runnersFormURLsArray;
+  }
+  return runnersFormURLsArray;
 }
 
-async function fetchFormDataOfRunningDogs({url, filePath}){
-    const raceData = await fetchURL(url);
-    console.log(raceData);
-    let formDataURLS = await getFormURLs(raceData);
-    let fetchedFormData = [];
+async function fetchFormDataOfRunningDogs({ url, filePath }) {
+  const raceData = await fetchURL(url);
+  console.log(raceData);
+  let formDataURLS = await getFormURLs(raceData);
+  let fetchedFormData = [];
 
-    for(let i = 0; i < formDataURLS.length; i++){
-        const data = await fetchURL(formDataURLS[i])
-        fetchedFormData.push(data);
-        console.log(data)
-    }
-    saveDataToFile({filePath:filePath, data: fetchedFormData});
+  for (let i = 0; i < formDataURLS.length; i++) {
+    const data = await fetchURL(formDataURLS[i]);
+    fetchedFormData.push(data);
+    console.log(data);
+  }
+  saveDataToFile({ filePath: filePath, data: fetchedFormData });
 }
 
 //fetchFormDataOfRunningDogs({url:`https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-03/meetings/G/GEL/races/1?returnPromo=true&returnOffers=true&jurisdiction=NSW`, filePath:"./test4.json"});
@@ -229,58 +260,102 @@ async function fetchFormDataOfRunningDogs({url, filePath}){
 //let test = await fetchDailyMeetings({date:"2026-04-04"});
 //fs.writeFileSync("test5.json", JSON.stringify(test));
 
-
 /**
  * filter json meeting data by either the meetingName or venueMnemonic
- * 
- * 
+ *
+ *
  *
  * @export
- * @param {{ filePath: any; venueName: any; venueMnemonic: any; }} 
+ * @param {{ filePath: any; venueName: any; venueMnemonic: any; }}
  * @param {string} filePath i.e. "./test.json"
  * @param {string} venueName "SALE", "MANDURAH", "THE-GARDENS", etc
  * @param {string} venueMnemonic "GDH", "HEA", "TRE", etc
- * @returns {*} 
+ * @returns {*}
  */
-export function filterMeetingByVenueNameOrMnemonic({filePath, venueName, venueMnemonic}){
-    let data = readDataFromFile(filePath);
-    if(!venueMnemonic && !venueName){return []}
-    if(venueName)
-    {
-        return data?.data?.meetings.filter(meeting => meeting.meetingName === venueName);
-    } else if(venueMnemonic){
-        return data?.data?.meetings.filter(meeting => meeting.venueMnemonic === venueMnemonic);
-
-    }
+export function filterMeetingByVenueNameOrMnemonic({
+  filePath,
+  venueName,
+  venueMnemonic,
+}) {
+  let data = readDataFromFile(filePath);
+  if (!venueMnemonic && !venueName) {
+    return [];
+  }
+  if (venueName) {
+    return data?.data?.meetings.filter(
+      (meeting) => meeting.meetingName === venueName,
+    );
+  } else if (venueMnemonic) {
+    return data?.data?.meetings.filter(
+      (meeting) => meeting.venueMnemonic === venueMnemonic,
+    );
+  }
 }
-
 
 /**
  * fetchs the json of all races in a meeting from the meeting data file
  *
  * @export
  * @async
- * @param {{ filePath: any; venueName: any; venueMnemonic: any; }} 
+ * @param {{ filePath: any; venueName: any; venueMnemonic: any; }}
  * @param {*} filePath filepath to the meeting data file
  * @param {string} venueName "SALE", "MANDURAH", "THE-GARDENS", etc
  * @param {string} venueMnemonic "GDH", "HEA", "TRE", etc
- * @returns {{}} 
+ * @returns {{}}
  */
-export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({filePath, venueName, venueMnemonic}){
-    if(!venueName && !venueMnemonic){return "NO VENUE NAME OR MNEMONIC MATCH"}
-    if(venueMnemonic){
-        let data = filterMeetingByVenueNameOrMnemonic({filePath:filePath, venueMnemonic:venueMnemonic})[0]; // gets first indices of array before going into object such as below
-        console.log(data);
-        return await fetchURL(data._links.races);
-    } else if(venueName){
-        let data = filterMeetingByVenueNameOrMnemonic({filePath:filePath, venueName:venueName})[0]; // gets first indices of array before going into object such as below
-        console.log(data);
-        return await fetchURL(data._links.races);
-    }
+export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
+  filePath,
+  venueName,
+  venueMnemonic,
+}) {
+  if (!venueName && !venueMnemonic) {
+    return "NO VENUE NAME OR MNEMONIC MATCH";
+  }
+  if (venueMnemonic) {
+    let data = filterMeetingByVenueNameOrMnemonic({
+      filePath: filePath,
+      venueMnemonic: venueMnemonic,
+    })[0]; // gets first indices of array before going into object such as below
+    console.log(data);
+    return await fetchURL(data._links.races);
+  } else if (venueName) {
+    let data = filterMeetingByVenueNameOrMnemonic({
+      filePath: filePath,
+      venueName: venueName,
+    })[0]; // gets first indices of array before going into object such as below
+    console.log(data);
+    return await fetchURL(data._links.races);
+  }
 }
 
 //console.log(filterMeetingByVenueNameOrMnemonic({filePath:"./test5.json", venueMnemonic:"TRE"}));
 
-let test = await fetchRacesOfAMeetingByVenueNameOrMnemonic({filePath:"./test5.json",venueMnemonic:"TRE"});
-saveDataToFile({filePath:"./test6.json", data:test});
-console.log(test);
+let test = readDataFromFile("./test5.json");
+//saveDataToFile({filePath:"./test6.json", data:test});
+//console.log(test);
+
+//console.log(_.default.hasIn(test.data.meetings[0].races[0], ["raceNumber"]))
+
+export async function filterMeetingByExludingJurisdictions({filePath, arrayOfExclusionStrings, raceType="G", namesOnly=true}) {
+  let meetings = [];
+  let returnValues = [];
+  let data = await readDataFromFile(filePath);
+  let meetAddr = data.data.meetings;
+
+  for (let i = 0; i < meetAddr.length; i++) {
+    if (meetAddr[i].raceType === raceType) {
+      meetings.push(meetAddr[i]);
+    }
+  }
+
+  for (let i = 0; i < meetings.length; i++) {
+    let excludeByLocation = arrayOfExclusionStrings;
+
+    if (!excludeByLocation.includes(meetings[i].location))
+      if(namesOnly){returnValues.push(meetings[i].meetingName);}
+      else{returnValues.push(meetings[i]);}
+  }
+  return await returnValues;
+}
+
+console.log(await filterMeetingByExludingJurisdictions({filePath:"./test5.json", arrayOfExclusionStrings:["GBR", "NSW", "FRA", "NZL", "TAS"], raceType:"H", namesOnly:false}));
