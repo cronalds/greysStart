@@ -283,6 +283,30 @@ export async function fetchAndSaveDailyMeetings({date, filePath}){
   saveDataToFile({filePath:filePath, data:data});
 }
 
+
+/**
+ * returns a string for meeting, race, form, and resultedMeeting file names, ensures consistency
+ *
+ * @export
+ * @param {{ date: string; venueName: string; raceNumber: string; }} 
+ * @param {*} date meeting/race date
+ * @param {*} venueName 
+ * @param {*} raceNumber 
+ * @returns {{ meetings: string; races: string; form: string; resultedMeetings: string; }} 
+ */
+export function fileNameBuilderObject({
+  date,
+  venueName,
+  raceNumber,
+}){
+  return {
+    meetings:`${date}-${venueName}-meetings.json`,
+    races: `${date}-${venueName}-race-${raceNumber}.json`,
+    form:`${date}-${venueName}-race-${raceNumber}-form.json`,
+    resultedMeetings:`${date}-${venueName}-meetings-RESULTED.json`,
+  }
+}
+
 console.log(
   await filterMeetingByExludingJurisdictions({
     filePath: "./test5.json",
