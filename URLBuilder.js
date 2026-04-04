@@ -14,26 +14,7 @@ let jurisdiction = "NSW";
 let url = `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings/${raceType}/
 ${venueMnemonic}/races/${raceNumber}?returnPromo=true&returnOffers=true&jurisdiction=${jurisdiction}`;
 //! /////////////////////////////////////////
-
-let dailyMeetings = `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-04/meetings?jurisdiction=NSW&returnOffers=true&returnPromo=false`;
-
-/**
- * get the json containing the days meetings
- *
- * @export
- * @param {{ date: any; }}
- * @param {*} date yyyy-mm-dd
- * @returns {string}
- */
-export function dailyMeetingURLBuilder({ date }) {
-  return `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings?jurisdiction=NSW&returnOffers=true&returnPromo=false`;
-}
-
-export async function fetchDailyMeetings(date) {
-  let data = await fetchURL(dailyMeetingURLBuilder(date));
-  return data;
-}
-
+//********* */
 //! /////////////////////////////////////////
 
 //! NEEDS TO BE COMPLETED
@@ -190,13 +171,13 @@ export function readDataFromFile(filePath) {
 export function getFormURLsFromJsonFile(filePathString) {
   let dataFile = fs.readFileSync(filePathString, "utf-8");
   let data = JSON.parse(dataFile);
-  let runnersArray = data["data"]["runners"];
+  let runnersArray = data.data.runners;
   let runnersFormURLsArray = [];
 
   for (let i = 0; i < runnersArray.length; i++) {
     let scratchedPotential = i + 1;
     try {
-      let getting = runnersArray[i]["_links"]["form"];
+      let getting = runnersArray[i]._links.form;
       runnersFormURLsArray.push(getting);
     } catch {
       console.log(
@@ -224,7 +205,7 @@ export function getFormURLsFromJsonFileAndSaveToFile({
  * @returns {unknown}
  */
 export async function getFormURLs(data) {
-  let runnersArray = data["data"]["runners"];
+  let runnersArray = data.data.runners;
   let runnersFormURLsArray = [];
 
   for (let i = 0; i < runnersArray.length; i++) {
@@ -315,14 +296,14 @@ export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
     let data = filterMeetingByVenueNameOrMnemonic({
       filePath: filePath,
       venueMnemonic: venueMnemonic,
-    })[0]; // gets first indices of array before going into object such as below
+    })[0]; // gets first indices of array before going into object such as below; its the only indices, idk why they didnt just make it a string, probably an accident that doesnt need fixing
     console.log(data);
     return await fetchURL(data._links.races);
   } else if (venueName) {
     let data = filterMeetingByVenueNameOrMnemonic({
       filePath: filePath,
       venueName: venueName,
-    })[0]; // gets first indices of array before going into object such as below
+    })[0]; // gets first indices of array before going into object such as below; its the only indices, idk why they didnt just make it a string, probably an accident that doesnt need fixing
     console.log(data);
     return await fetchURL(data._links.races);
   }
@@ -336,7 +317,12 @@ let test = readDataFromFile("./test5.json");
 
 //console.log(_.default.hasIn(test.data.meetings[0].races[0], ["raceNumber"]))
 
-export async function filterMeetingByExludingJurisdictions({filePath, arrayOfExclusionStrings=[], raceType="G", namesOnly=true}) {
+export async function filterMeetingByExludingJurisdictions({
+  filePath,
+  arrayOfExclusionStrings = [],
+  raceType = "G",
+  namesOnly = true,
+}) {
   let meetings = [];
   let returnValues = [];
   let data = await readDataFromFile(filePath);
@@ -352,10 +338,32 @@ export async function filterMeetingByExludingJurisdictions({filePath, arrayOfExc
     let excludeByLocation = arrayOfExclusionStrings;
 
     if (!excludeByLocation.includes(meetings[i].location))
-      if(namesOnly){returnValues.push(meetings[i].meetingName);}
-      else{returnValues.push(meetings[i]);}
+      if (namesOnly) {
+        returnValues.push(meetings[i].meetingName);
+      } else {
+        returnValues.push(meetings[i]);
+      }
   }
   return await returnValues;
 }
 
-console.log(await filterMeetingByExludingJurisdictions({filePath:"./test5.json", raceType:"G"}));
+
+/**
+ * get the json file containing the days meetings
+ *
+ * @export
+ * @async
+ * @param {*} date yyyy-mm-dd i.e. 2026-04-23
+ * @returns {JSON} 
+ */
+export async function fetchDailyMeetings(date) {
+  let data = await fetchURL(`https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings?jurisdiction=NSW&returnOffers=true&returnPromo=false`);
+  return await data;
+}
+
+console.log(
+  await filterMeetingByExludingJurisdictions({
+    filePath: "./test5.json",
+    raceType: "G",
+  }),
+);
