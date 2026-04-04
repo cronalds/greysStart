@@ -5,14 +5,7 @@ import { json } from "stream/consumers";
 import * as _ from "lodash";
 
 //! /////////////////////////////////////////
-let date = "2026-03-23";
-let raceType = "G";
-let venueMnemonic = "ADD";
-let raceNumber = 11;
-let jurisdiction = "NSW";
 
-let url = `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings/${raceType}/
-${venueMnemonic}/races/${raceNumber}?returnPromo=true&returnOffers=true&jurisdiction=${jurisdiction}`;
 //! /////////////////////////////////////////
 //********* */
 //! /////////////////////////////////////////
@@ -58,8 +51,8 @@ export let venueNameToVenueMnemonic = {
 /**
  * url builder for json data to be returned from tab, feed an object as the param, will destructure, use the following properties
  *
- * @param {{ date: any; raceType: string; venueMnemonic: string; raceNumber: string | int; jurisdiction: string; }}
- * @param {*} date yyyy-mm-dd i.e. 2026-03-23
+ * @param {{ date: string; raceType: string; venueMnemonic: string; raceNumber: string; jurisdiction: string; }}
+ * @param {string} date yyyy-mm-dd i.e. 2026-03-23
  * @param {string} [raceType="G"] "G" for greyhounds, "H" for harness, "R" for horses
  * @param {string} venueMnemonic Such as "ADD", "BAL", "GEL", "MRD", etc
  * @param {string || int} raceNumber 1-12
@@ -80,7 +73,7 @@ ${venueMnemonic}/races/${raceNumber}?returnPromo=true&returnOffers=true&jurisdic
 /**
  * builds an array of urls for each race at a given venue
  *
- * @param {{ numberOfRaces?: number; date: any; raceType?: string; venueMnemonic: any; jurisdiction?: string; }}
+ * @param {{ numberOfRaces: number; date: string; raceType: string; venueMnemonic: string; jurisdiction: string; }}
  * @param {number} [numberOfRaces=12] max is generally/pretty much 12
  * @param {*} date yyyy-mm-dd
  * @param {string} [raceType="G"] "G", "H", "R"
@@ -130,10 +123,6 @@ export async function fetchURL(url) {
 
   return properObject;
 }
-
-//let test = await fetchURL(`https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-03/meetings/G/GEL/races/1?returnPromo=true&returnOffers=true&jurisdiction=NSW`);
-
-//let test2 = await fetchURL(URLBuilder({date:"2026-04-03", raceType:"G",venueMnemonic:"GEL",raceNumber:"1",jurisdiction:"NSW"}));
 
 /**
  * save data to a filepath
@@ -188,6 +177,14 @@ export function getFormURLsFromJsonFile(filePathString) {
   return runnersFormURLsArray;
 }
 
+/**
+ * gets the formURL of the runners in an array and saves it to a file.
+ *
+ * @export
+ * @param {{ filePath: any; destinationFilePath: any; }} 
+ * @param {string} filePath 
+ * @param {string} destinationFilePath 
+ */
 export function getFormURLsFromJsonFileAndSaveToFile({
   filePath,
   destinationFilePath,
@@ -201,8 +198,8 @@ export function getFormURLsFromJsonFileAndSaveToFile({
  *
  * @export
  * @async
- * @param {*} data
- * @returns {unknown}
+ * @param {*} data json data
+ * @returns {[string]}
  */
 export async function getFormURLs(data) {
   let runnersArray = data.data.runners;
@@ -222,6 +219,15 @@ export async function getFormURLs(data) {
   return runnersFormURLsArray;
 }
 
+/**
+ * fetchs the form data from a url to racedata
+ *
+ * @async
+ * @param {{ url: string; filePath: string; }} 
+ * @param {string} url 
+ * @param {string} filePath 
+ * @returns {{}} 
+ */
 async function fetchFormDataOfRunningDogs({ url, filePath }) {
   const raceData = await fetchURL(url);
   console.log(raceData);
@@ -236,22 +242,15 @@ async function fetchFormDataOfRunningDogs({ url, filePath }) {
   saveDataToFile({ filePath: filePath, data: fetchedFormData });
 }
 
-//fetchFormDataOfRunningDogs({url:`https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-03/meetings/G/GEL/races/1?returnPromo=true&returnOffers=true&jurisdiction=NSW`, filePath:"./test4.json"});
-
-//let test = await fetchDailyMeetings({date:"2026-04-04"});
-//fs.writeFileSync("test5.json", JSON.stringify(test));
-
 /**
  * filter json meeting data by either the meetingName or venueMnemonic
- *
- *
  *
  * @export
  * @param {{ filePath: any; venueName: any; venueMnemonic: any; }}
  * @param {string} filePath i.e. "./test.json"
  * @param {string} venueName "SALE", "MANDURAH", "THE-GARDENS", etc
  * @param {string} venueMnemonic "GDH", "HEA", "TRE", etc
- * @returns {*}
+ * @returns {{}}
  */
 export function filterMeetingByVenueNameOrMnemonic({
   filePath,
@@ -309,14 +308,18 @@ export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
   }
 }
 
-//console.log(filterMeetingByVenueNameOrMnemonic({filePath:"./test5.json", venueMnemonic:"TRE"}));
-
-let test = readDataFromFile("./test5.json");
-//saveDataToFile({filePath:"./test6.json", data:test});
-//console.log(test);
-
-//console.log(_.default.hasIn(test.data.meetings[0].races[0], ["raceNumber"]))
-
+/**
+ * returns all meetings exluding those in the arrayOfExclusionStrings i.e. ["NSW","SA","NZL"] etc
+ *
+ * @export
+ * @async
+ * @param {{ filePath: any; arrayOfExclusionStrings?: {}; raceType?: string; namesOnly?: boolean; }} param0 
+ * @param {*} param0.filePath 
+ * @param {{}} [param0.arrayOfExclusionStrings=[]] 
+ * @param {string} [param0.raceType="G"] 
+ * @param {boolean} [param0.namesOnly=true] 
+ * @returns {unknown} 
+ */
 export async function filterMeetingByExludingJurisdictions({
   filePath,
   arrayOfExclusionStrings = [],
@@ -346,7 +349,6 @@ export async function filterMeetingByExludingJurisdictions({
   }
   return await returnValues;
 }
-
 
 /**
  * get the json file containing the days meetings
