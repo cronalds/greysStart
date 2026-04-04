@@ -75,9 +75,9 @@ ${venueMnemonic}/races/${raceNumber}?returnPromo=true&returnOffers=true&jurisdic
  *
  * @param {{ numberOfRaces: number; date: string; raceType: string; venueMnemonic: string; jurisdiction: string; }}
  * @param {number} [numberOfRaces=12] max is generally/pretty much 12
- * @param {*} date yyyy-mm-dd
+ * @param {string} date yyyy-mm-dd
  * @param {string} [raceType="G"] "G", "H", "R"
- * @param {*} venueMnemonic Such as "ADD", "BAL", "GEL", "MRD", etc
+ * @param {string} venueMnemonic Such as "ADD", "BAL", "GEL", "MRD", etc
  * @param {string} [jurisdiction="NSW"] generally tends to be NSW but may be something else in some other cases
  */
 export function buildVenueURLArray({
@@ -127,7 +127,7 @@ export async function fetchURL(url) {
 /**
  * save data to a filepath
  *
- * @param {{ filePath: any; data: any; json?: boolean; }}
+ * @param {{ filePath: string; data: string; json: boolean; }}
  * @param {*} filePath filepath to save to i.e. "./test.json"
  * @param {*} data data to save
  * @param {boolean} [json=true] if true will stringify, default true
@@ -144,8 +144,8 @@ export function saveDataToFile({ filePath, data, json = true }) {
  * read data from path such as arrays or objects, etc, back to js types
  *
  * @export
- * @param {*} filePath
- * @returns {*}
+ * @param {string} filePath
+ * @returns {{}}
  */
 export function readDataFromFile(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf-8"));
@@ -154,7 +154,7 @@ export function readDataFromFile(filePath) {
 /**
  * gets the form urls for each runner so as to download the forms as well
  *
- * @param {*} filePathString
+ * @param {string} filePathString
  * @returns {[]}
  */
 export function getFormURLsFromJsonFile(filePathString) {
@@ -181,7 +181,7 @@ export function getFormURLsFromJsonFile(filePathString) {
  * gets the formURL of the runners in an array and saves it to a file.
  *
  * @export
- * @param {{ filePath: any; destinationFilePath: any; }} 
+ * @param {{ filePath: string; destinationFilePath: string; }} 
  * @param {string} filePath 
  * @param {string} destinationFilePath 
  */
@@ -198,7 +198,7 @@ export function getFormURLsFromJsonFileAndSaveToFile({
  *
  * @export
  * @async
- * @param {*} data json data
+ * @param {{}} data json data
  * @returns {[string]}
  */
 export async function getFormURLs(data) {
@@ -246,7 +246,7 @@ async function fetchFormDataOfRunningDogs({ url, filePath }) {
  * filter json meeting data by either the meetingName or venueMnemonic
  *
  * @export
- * @param {{ filePath: any; venueName: any; venueMnemonic: any; }}
+ * @param {{ filePath: string; venueName: string; venueMnemonic: string; }}
  * @param {string} filePath i.e. "./test.json"
  * @param {string} venueName "SALE", "MANDURAH", "THE-GARDENS", etc
  * @param {string} venueMnemonic "GDH", "HEA", "TRE", etc
@@ -277,8 +277,8 @@ export function filterMeetingByVenueNameOrMnemonic({
  *
  * @export
  * @async
- * @param {{ filePath: any; venueName: any; venueMnemonic: any; }}
- * @param {*} filePath filepath to the meeting data file
+ * @param {{ filePath: string; venueName: string; venueMnemonic: string; }}
+ * @param {string} filePath filepath to the meeting data file
  * @param {string} venueName "SALE", "MANDURAH", "THE-GARDENS", etc
  * @param {string} venueMnemonic "GDH", "HEA", "TRE", etc
  * @returns {{}}
@@ -313,12 +313,12 @@ export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
  *
  * @export
  * @async
- * @param {{ filePath: any; arrayOfExclusionStrings?: {}; raceType?: string; namesOnly?: boolean; }} param0 
- * @param {*} param0.filePath 
- * @param {{}} [param0.arrayOfExclusionStrings=[]] 
- * @param {string} [param0.raceType="G"] 
- * @param {boolean} [param0.namesOnly=true] 
- * @returns {unknown} 
+ * @param {{ filePath: string; arrayOfExclusionStrings?: [string]; raceType?: string; namesOnly?: boolean; }} 
+ * @param {string} filePath 
+ * @param {{}} [arrayOfExclusionStrings=[]] i.e. ["NSW","SA","NZL"] etc
+ * @param {string} [raceType="G"] "G", "H", "R"
+ * @param {boolean} [namesOnly=true] true by default, false for array of objects with all data
+ * @returns {unknown} string or object
  */
 export async function filterMeetingByExludingJurisdictions({
   filePath,
@@ -355,7 +355,7 @@ export async function filterMeetingByExludingJurisdictions({
  *
  * @export
  * @async
- * @param {*} date yyyy-mm-dd i.e. 2026-04-23
+ * @param {string} date yyyy-mm-dd i.e. 2026-04-23
  * @returns {JSON} 
  */
 export async function fetchDailyMeetings(date) {
