@@ -256,7 +256,7 @@ export function filterMeetingByVenueNameOrMnemonic({filePath, venueName, venueMn
 
 
 /**
- * fetchs the json of all races in a meeting from the meeting data
+ * fetchs the json of all races in a meeting from the meeting data file
  *
  * @export
  * @async
@@ -279,10 +279,8 @@ export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({filePath, venue
     }
 }
 
-
-
 //console.log(filterMeetingByVenueNameOrMnemonic({filePath:"./test5.json", venueMnemonic:"TRE"}));
 
-//let test = await fetchRacesOfAMeetingByVenueNameOrMnemonic({filePath:"./test5.json",venueMnemonic:"TRE"});
-//saveDataToFile({filePath:"./test6.json", data:test});
-//console.log(test);
+let test = await fetchRacesOfAMeetingByVenueNameOrMnemonic({filePath:"./test5.json",venueMnemonic:"TRE"});
+saveDataToFile({filePath:"./test6.json", data:test});
+console.log(test);
