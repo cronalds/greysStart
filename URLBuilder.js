@@ -81,9 +81,9 @@ export function getFormURLsFromJsonFile(filePathString) {
  * gets the formURL of the runners in an array and saves it to a file.
  *
  * @export
- * @param {{ filePath: string; destinationFilePath: string; }} 
- * @param {string} filePath 
- * @param {string} destinationFilePath 
+ * @param {{ filePath: string; destinationFilePath: string; }}
+ * @param {string} filePath
+ * @param {string} destinationFilePath
  */
 export function getFormURLsFromJsonFileAndSaveToFile({
   filePath,
@@ -123,10 +123,10 @@ export async function getFormURLs(data) {
  * fetchs the form data from a url to racedata
  *
  * @async
- * @param {{ url: string; filePath: string; }} 
- * @param {string} url 
- * @param {string} filePath 
- * @returns {{}} 
+ * @param {{ url: string; filePath: string; }}
+ * @param {string} url
+ * @param {string} filePath
+ * @returns {{}}
  */
 async function fetchFormDataOfRunningDogs({ url, filePath }) {
   const raceData = await fetchURL(url);
@@ -213,8 +213,8 @@ export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
  *
  * @export
  * @async
- * @param {{ filePath: string; arrayOfExclusionStrings?: [string]; raceType?: string; namesOnly?: boolean; }} 
- * @param {string} filePath 
+ * @param {{ filePath: string; arrayOfExclusionStrings?: [string]; raceType?: string; namesOnly?: boolean; }}
+ * @param {string} filePath
  * @param {{}} [arrayOfExclusionStrings=[]] i.e. ["NSW","SA","NZL"] etc
  * @param {string} [raceType="G"] "G", "H", "R"
  * @param {boolean} [namesOnly=true] true by default, false for array of objects with all data
@@ -256,10 +256,12 @@ export async function filterMeetingByExludingJurisdictions({
  * @export
  * @async
  * @param {string} date yyyy-mm-dd i.e. 2026-04-23
- * @returns {JSON} 
+ * @returns {JSON}
  */
 export async function fetchDailyMeetings(date) {
-  let data = await fetchURL(`https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings?jurisdiction=NSW&returnOffers=true&returnPromo=false`);
+  let data = await fetchURL(
+    `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings?jurisdiction=NSW&returnOffers=true&returnPromo=false`,
+  );
   return await data;
 }
 
@@ -268,24 +270,25 @@ export async function fetchDailyMeetings(date) {
  *
  * @export
  * @async
- * @param {{ date: string; filePath: string; }} 
- * @param {string} date 
- * @param {string} filePath 
+ * @param {{ date: string; filePath: string; }}
+ * @param {string} date
+ * @param {string} filePath
  */
-export async function fetchAndSaveDailyMeetings({date, filePath}){
+export async function fetchAndSaveDailyMeetings({ date, filePath }) {
   let data = await fetchDailyMeetings(date);
-  saveDataToFile({filePath:filePath, data:data});
+  saveDataToFile({ filePath: filePath, data: data });
 }
 
 /**
- * returns a string for meeting, race, form, and resultedMeeting file names, ensures consistency
+ * returns an object with strings built for meeting, race, form, and resultedMeeting file names, ensures consistency
  *
  * @export
- * @param {{ date: string; venueName: string; raceNumber: string; }} 
+ * @param {{ date: string; venueName: string; raceNumber: int; fileExtension:string;}} 
  * @param {string} date meeting/race date
  * @param {string} venueName 
- * @param {string} raceNumber string or int
- * @returns {{ meetings: string; races: string; form: string; resultedMeetings: string; }} 
+ * @param {number} raceNumber 
+ * @param {string="json"} fileExtension "json" by default
+ * @returns {{ meetings: string; races: string; form: string; resultedMeetings: string;}} 
  * @example 
  * // will return something like:
  * 
@@ -298,27 +301,105 @@ export async function fetchAndSaveDailyMeetings({date, filePath}){
 
   // to be accessed like:
 
-  let x = fileNameBuilderObject({date:"2026-04-04", venueName:"TAREE", raceNumber:1}); // in a for loop can increment raceNumber as i and will coerce int to string
+  let x = fileNameBuilderObject({date:"2026-04-04", venueName:"TAREE", raceNumber:1}); // in a for loop can increment raceNumber param as i and will coerce int to string
   let y = x.race // === `2026-04-04-TAREE-race-1.json`
  */
 export function fileNameBuilderObject({
   date,
   venueName,
-  raceNumber,
-}){
+  raceNumber = 1,
+  fileExtension = "json",
+}) {
   return {
-    meetings:`${date}-${venueName}-meetings.json`,
-    race: `${date}-${venueName}-race-${raceNumber}.json`,
-    form:`${date}-${venueName}-race-${raceNumber}-form.json`,
-    resultedMeetings:`${date}-${venueName}-meetings-RESULTED.json`,
-  }
+    meetings: `${date}-${venueName}-meetings.${fileExtension}`,
+    race: `${date}-${venueName}-race-${raceNumber}.${fileExtension}`,
+    form: `${date}-${venueName}-race-${raceNumber}-form.${fileExtension}`,
+    resultedMeetings: `${date}-${venueName}-meetings-RESULTED.${fileExtension}`,
+  };
 }
+
 /**
- * 
+ * returns an object with strings built for meeting, race, form, and resultedMeeting path names including filenames built, ensures consistency
+ *
+ * @export
+ * @param {{ pathStart?: string; raceType?: string; venueName: string; date: string; fileNameObject?: {}; }}
+ * @param {string} [pathStart="./data"] this is the start of the path strings, currently "./data", but made a param in case i need to "../../etc"
+ * @param {{}} [fileNameObject={}] returned fileNameObject from the function
+ * @param {string} [raceType="G"] G/R/H
+ * @param {string} venueName
+ * @param {string} date yyyy-mm-dd
+ * @returns {{ meetingsPath: string; racePath: string; formPath: string; resultedMeetingsPath: string; }}
+ * @example
+ * let x = filenameBuilderObject({date:date:"2026-04-05", venueName:"MANDURAH", raceNumber:1, fileExtension:"json"});
+ *
+ * let y = pathBuilderObject({pathStart:"./data",raceType:"G",venueName:"MANDURAH", date:"2026-04-05", fileNameObject:x});
+ *
+ * // returns something like:
+ *
+ * {
+ *    meetingsPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-meetings.json",
+ *    racePath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-race-1.json",
+ *    formPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-race-1-form.json",
+ *    resultedMeetingsPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-meetings-RESULTED.json"
+ * }
+ */
+export function pathBuilderObject({
+  pathStart = "./data",
+  raceType = "G",
+  venueName,
+  date,
+  fileNameObject = {},
+}) {
+  let initialPathStart = `${pathStart}/${raceType}/${venueName}/${date}`;
+  return {
+    meetingsPath: `${initialPathStart}/${fileNameObject.meetings}`,
+    racePath: `${initialPathStart}/${fileNameObject.race}`,
+    formPath: `${initialPathStart}/${fileNameObject.form}`,
+    resultedMeetingsPath: `${initialPathStart}/${fileNameObject.resultedMeetings}`,
+  };
+}
+
+/**
+ * returns the object with path and filenames, essentially facading filenameBuilderObject and pathBuilderObject
+ *
+ * @export
+ * @param {{ date: any; venueName: any; raceNumber?: number; fileExtension?: string; pathStart?: string; raceType?: string; }}
+ * @param {string} date yyyy-mm-dd
+ * @param {string} venueName
+ * @param {number} [raceNumber=1]
+ * @param {string} [fileExtension="json"] "json" by default
+ * @param {string} [pathStart="./data"] this is the start of the path strings, currently "./data", but made a param in case i need to "../../etc"
+ * @param {string} [raceType="G"] G/H/R
+ * @returns {{ meetingsPath: string; racePath: string; formPath: string; resultedMeetingsPath: string; }}
+ */
+export function pathsWithFilenames({
+  date,
+  venueName,
+  raceNumber = 1,
+  fileExtension = "json",
+  pathStart = "./data",
+  raceType = "G",
+}) {
+  let x = fileNameBuilderObject({
+    date: date,
+    venueName: venueName,
+    raceNumber: raceNumber,
+    fileExtension: fileExtension,
+  });
+
+  return pathBuilder({
+    pathStart: pathStart,
+    raceType: raceType,
+    fileNameObject: x,
+  });
+}
+
+/**
+ *
  *console.log(
  *  await filterMeetingByExludingJurisdictions({
  *    filePath: "./test5.json",
  *    raceType: "G",
  *  }),
  *);
-*/
+ */
