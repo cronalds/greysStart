@@ -360,7 +360,7 @@ export function pathBuilderObject({
 }
 
 /**
- * returns the object with path and filenames, essentially facading filenameBuilderObject and pathBuilderObject
+ * returns the object with path and filenames, essentially facading filenameBuilderObject and pathBuilderObject to create paths to files for saving/loading json data and probably csv data later when i start breaking this data down and feature engineering for the model.
  *
  * @export
  * @param {{ date: any; venueName: any; raceNumber?: number; fileExtension?: string; pathStart?: string; raceType?: string; }}
