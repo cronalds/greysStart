@@ -410,21 +410,34 @@ export function pathsWithFilenamesBuilderObject({
   });
 }
 
+
+/**
+ * input a path and the parent dirs will be ensured, and also returns the path string to be used as a filepath or dirpath etc
+ *
+ * @export
+ * @param {string} path i.e. "./this/directory/and/this/subdirectory/are/all/ensured/to/be/created/file.json"
+ * @returns {string} 
+ */
+export function dirString(path)
+{
+  fs.mkdirSync(path, {recursive:true});
+  return path;
+}
+
 async function test({
   destinationDirectory = "./test8",
   loadDirectory = "./test8",
   name = "test8",
   date = "2026-04-05",
-  download = true,
+  downloadDailyMeeting = true,
 }) {
   /*
   ! this is a test, will be working on this more and seeing what does and doesnt need to be done/removed
   */
-  fs.mkdirSync(`${destinationDirectory}`, { recursive: true });
-  download
+  downloadDailyMeeting
     ? await fetchAndSaveDailyMeetings({
         date: date,
-        filePath: `${destinationDirectory}/${name}.json`,
+        filePath: `${dirString(destinationDirectory)}/${name}.json`,
       })
     : console.log("presumably downloaded");
   let dailyMeetings = readDataFromFile(`${loadDirectory}/${name}.json`);
@@ -445,15 +458,15 @@ async function test({
     namesOnly: false,
   });
   saveDataToFile({
-    filePath: `${destinationDirectory}/${name}G.json`,
+    filePath: `${dirString(destinationDirectory)}/${name}G.json`,
     data: dailyGreyhounds,
   });
   saveDataToFile({
-    filePath: `${destinationDirectory}/${name}H.json`,
+    filePath: `${dirString(destinationDirectory)}/${name}H.json`,
     data: dailyHarness,
   });
   saveDataToFile({
-    filePath: `${destinationDirectory}/${name}R.json`,
+    filePath: `${dirString(destinationDirectory)}/${name}R.json`,
     data: dailyHorses,
   });
 
@@ -462,28 +475,62 @@ async function test({
   for (let i = 0; i < dailyGreyhounds.length; i++) {
     greyhoundMeetingsArray.push({
       venueName: dailyGreyhounds[i].meetingName.replace(" ", "_"),
-      raceLink: dailyGreyhounds[i]._links.races
+      raceLink: dailyGreyhounds[i]._links.races,
     });
   }
   console.log(greyhoundMeetingsArray);
+
+  //! save each venues race data in individual files
   let raceArray = [];
-  for(let i = 0; i < greyhoundMeetingsArray.length; i++)
-  {
-    let x = await fetchURL(greyhoundMeetingsArray[i].raceLink)
+  for (let i = 0; i < greyhoundMeetingsArray.length; i++) {
+    let x = await fetchURL(greyhoundMeetingsArray[i].raceLink);
     raceArray.push({
       venueName: greyhoundMeetingsArray[i].venueName,
-      races: await x
+      races: await x,
     });
   }
-  console.log(raceArray)
-  for(let i = 0; i < raceArray.length; i++){
+
+  console.log(raceArray);
+
+  //! save race data from daily meetings as a monolithic file
+  saveDataToFile({
+    filePath: `${dirString(destinationDirectory)}/${name}G-all-meetings-race-DATA.json`,
+    data: raceArray,
+  });
+
+  for (let i = 0; i < raceArray.length; i++) {
     saveDataToFile({
-      filePath: `${destinationDirectory}/${name}G-${raceArray[i].venueName}-race-DATA.json`,
+      filePath: `${dirString(destinationDirectory)}/${name}G-${raceArray[i].venueName}-race-DATA.json`,
       data: raceArray[i].races,
     });
   }
 
+  //! get form data for each race
+  let formArray = [];
+  for (let i = 0; i < raceArray.length; i++) {
+    for (let j = 0; j < raceArray[i].races.data.races.length; j++) {
+      let x = await fetchURL(raceArray[i].races.data.races[j]._links.form);
+      formArray.push({
+        venueName: raceArray[i].venueName,
+        raceNumber:j+1,
+        form: x.data.form,
+      });
+    }
+  }
 
+  saveDataToFile({
+    filePath: `${dirString(destinationDirectory)}/${name}G-all-meetings-races-form-DATA.json`,
+    data: formArray,
+  });
+
+  for(let i = 0; i < formArray.length; i++){
+    saveDataToFile({
+    filePath: `${dirString(destinationDirectory)}/${dirString(formArray[i].venueName)}/${formArray[i].venueName}-race-${formArray[i].raceNumber}-form-DATA.json`,
+    data: formArray[i],
+  });
+  }
+
+  console.log(formArray);
   //! save those
 
   //! get form data for each race
