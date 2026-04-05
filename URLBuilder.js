@@ -213,8 +213,9 @@ export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
  *
  * @export
  * @async
- * @param {{ filePath: string; arrayOfExclusionStrings?: [string]; raceType?: string; namesOnly?: boolean; }}
+ * @param {{ filePath?: string; meetingData?: object; arrayOfExclusionStrings?: [string]; raceType?: string; namesOnly?: boolean; }}
  * @param {string} filePath
+ * @param {{}} meetingData if meeting data is already read into a var, then exclude filePath and use the data in the variable
  * @param {{}} [arrayOfExclusionStrings=[]] i.e. ["NSW","SA","NZL"] etc
  * @param {string} [raceType="G"] "G", "H", "R"
  * @param {boolean} [namesOnly=true] true by default, false for array of objects with all data
@@ -222,13 +223,15 @@ export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
  */
 export async function filterMeetingByExludingJurisdictions({
   filePath,
+  meetingData,
   arrayOfExclusionStrings = [],
   raceType = "G",
   namesOnly = true,
 }) {
   let meetings = [];
   let returnValues = [];
-  let data = await readDataFromFile(filePath);
+  let data =
+    filePath && !meetingData ? await readDataFromFile(filePath) : meetingData;
   let meetAddr = data.data.meetings;
 
   for (let i = 0; i < meetAddr.length; i++) {
@@ -370,9 +373,20 @@ export function pathBuilderObject({
  * @param {string} [fileExtension="json"] "json" by default
  * @param {string} [pathStart="./data"] this is the start of the path strings, currently "./data", but made a param in case i need to "../../etc"
  * @param {string} [raceType="G"] G/H/R
+ * @example
+ *
+ * let x = pathsWithFilenamesBuilderObject({date:"2026-04-05", venueName:"MANDURAH", raceNumber:1, fileExtension:"json", pathStart:"./data", raceType:"G"});
+ * // returns something like:
+ *
+ * {
+ *    meetingsPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-meetings.json",
+ *    racePath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-race-1.json",
+ *    formPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-race-1-form.json",
+ *    resultedMeetingsPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-meetings-RESULTED.json"
+ * }
  * @returns {{ meetingsPath: string; racePath: string; formPath: string; resultedMeetingsPath: string; }}
  */
-export function pathsWithFilenames({
+export function pathsWithFilenamesBuilderObject({
   date,
   venueName,
   raceNumber = 1,
@@ -387,19 +401,99 @@ export function pathsWithFilenames({
     fileExtension: fileExtension,
   });
 
-  return pathBuilder({
+  return pathBuilderObject({
     pathStart: pathStart,
     raceType: raceType,
+    venueName: venueName,
+    date: date,
     fileNameObject: x,
   });
 }
 
-/**
- *
- *console.log(
- *  await filterMeetingByExludingJurisdictions({
- *    filePath: "./test5.json",
- *    raceType: "G",
- *  }),
- *);
- */
+async function test({
+  destinationDirectory = "./test8",
+  loadDirectory = "./test8",
+  name = "test8",
+  date = "2026-04-05",
+  download = true,
+}) {
+  /*
+  ! this is a test, will be working on this more and seeing what does and doesnt need to be done/removed
+  */
+  fs.mkdirSync(`${destinationDirectory}`, { recursive: true });
+  download
+    ? await fetchAndSaveDailyMeetings({
+        date: date,
+        filePath: `${destinationDirectory}/${name}.json`,
+      })
+    : console.log("presumably downloaded");
+  let dailyMeetings = readDataFromFile(`${loadDirectory}/${name}.json`);
+  let dailyGreyhounds = await filterMeetingByExludingJurisdictions({
+    meetingData: dailyMeetings,
+    raceType: "G",
+    arrayOfExclusionStrings: ["GBR"],
+    namesOnly: false,
+  });
+  let dailyHarness = await filterMeetingByExludingJurisdictions({
+    meetingData: dailyMeetings,
+    raceType: "H",
+    namesOnly: false,
+  });
+  let dailyHorses = await filterMeetingByExludingJurisdictions({
+    meetingData: dailyMeetings,
+    raceType: "R",
+    namesOnly: false,
+  });
+  saveDataToFile({
+    filePath: `${destinationDirectory}/${name}G.json`,
+    data: dailyGreyhounds,
+  });
+  saveDataToFile({
+    filePath: `${destinationDirectory}/${name}H.json`,
+    data: dailyHarness,
+  });
+  saveDataToFile({
+    filePath: `${destinationDirectory}/${name}R.json`,
+    data: dailyHorses,
+  });
+
+  //! get race urls from each venue meeting
+  let greyhoundMeetingsArray = [];
+  for (let i = 0; i < dailyGreyhounds.length; i++) {
+    greyhoundMeetingsArray.push({
+      venueName: dailyGreyhounds[i].meetingName.replace(" ", "_"),
+      raceLink: dailyGreyhounds[i]._links.races
+    });
+  }
+  console.log(greyhoundMeetingsArray);
+  let raceArray = [];
+  for(let i = 0; i < greyhoundMeetingsArray.length; i++)
+  {
+    let x = await fetchURL(greyhoundMeetingsArray[i].raceLink)
+    raceArray.push({
+      venueName: greyhoundMeetingsArray[i].venueName,
+      races: await x
+    });
+  }
+  console.log(raceArray)
+  for(let i = 0; i < raceArray.length; i++){
+    saveDataToFile({
+      filePath: `${destinationDirectory}/${name}G-${raceArray[i].venueName}-race-DATA.json`,
+      data: raceArray[i].races,
+    });
+  }
+
+
+  //! save those
+
+  //! get form data for each race
+  //! save those
+}
+
+test({
+  name: "test9",
+  destinationDirectory: "./test9",
+  loadDirectory: "./test9",
+  date: "2026-04-05",
+  download: false,
+});
