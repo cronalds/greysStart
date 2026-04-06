@@ -440,24 +440,28 @@ async function test({
   let dailyMeetings = readDataFromFile(
     `${loadDirectory ? loadDirectory : destinationDirectory}/${date}.json`,
   );
+
   let dailyGreyhounds = await filterMeetingByExludingJurisdictions({
     meetingData: dailyMeetings,
     raceType: "G",
     arrayOfExclusionStrings: ["GBR"],
     namesOnly: false,
   });
+
   let dailyHarness = await filterMeetingByExludingJurisdictions({
     meetingData: dailyMeetings,
     raceType: "H",
     arrayOfExclusionStrings:["CAN"],
     namesOnly: false,
   });
+
   let dailyHorses = await filterMeetingByExludingJurisdictions({
     meetingData: dailyMeetings,
     raceType: "R",
     arrayOfExclusionStrings:["IRL", "USA", "ARG", "GBR", "TUR"],
     namesOnly: false,
   });
+
   saveDataToFile({
     filePath: dirString(`${destinationDirectory}`) + `/${date}-G-meetings.json`,
     data: dailyGreyhounds,
@@ -647,7 +651,7 @@ async function test({
   for (let i = 0; i < horseRaceArray.length; i++) {
     saveDataToFile({
       filePath:
-        dirString(`${destinationDirectory}/H`) +
+        dirString(`${destinationDirectory}/R`) +
         `/${date}-${horseRaceArray[i].venueName}-race-DATA.json`,
       data: horseRaceArray[i].races,
     });
