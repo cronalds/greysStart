@@ -426,8 +426,7 @@ export function dirString(path)
 
 async function test({
   destinationDirectory = "./test8",
-  loadDirectory = "./test8",
-  name = "test8",
+  loadDirectory,
   date = "2026-04-05",
   downloadDailyMeeting = true,
 }) {
@@ -440,7 +439,7 @@ async function test({
         filePath: dirString(`${destinationDirectory}`) +`/${date}.json`,
       })
     : console.log("presumably downloaded");
-  let dailyMeetings = readDataFromFile(`${loadDirectory}/${date}.json`);
+  let dailyMeetings = readDataFromFile(`${loadDirectory ? loadDirectory: destinationDirectory}/${date}.json`);
   let dailyGreyhounds = await filterMeetingByExludingJurisdictions({
     meetingData: dailyMeetings,
     raceType: "G",
@@ -458,15 +457,15 @@ async function test({
     namesOnly: false,
   });
   saveDataToFile({
-    filePath: dirString(`${destinationDirectory}`) + `/${date}G.json`,
+    filePath: dirString(`${destinationDirectory}`) + `/${date}-G-meetings.json`,
     data: dailyGreyhounds,
   });
   saveDataToFile({
-    filePath: dirString(`${destinationDirectory}`) + `/${date}H.json`,
+    filePath: dirString(`${destinationDirectory}`) + `/${date}-H-meetings.json`,
     data: dailyHarness,
   });
   saveDataToFile({
-    filePath: dirString(`${destinationDirectory}`) + `/${date}R.json`,
+    filePath: dirString(`${destinationDirectory}`) + `/${date}-R-meetings.json`,
     data: dailyHorses,
   });
 
@@ -494,13 +493,13 @@ async function test({
 
   //! save race data from daily meetings as a monolithic file
   saveDataToFile({
-    filePath: dirString(`${destinationDirectory}`) + `/${date}G-all-meetings-race-DATA.json`,
+    filePath: dirString(`${destinationDirectory}/G`) + `/${date}-all-meetings-race-DATA.json`,
     data: raceArray,
   });
 
   for (let i = 0; i < raceArray.length; i++) {
     saveDataToFile({
-      filePath: dirString(`${destinationDirectory}`) + `/${date}G-${raceArray[i].venueName}-race-DATA.json`,
+      filePath: dirString(`${destinationDirectory}/G`) + `/${date}-${raceArray[i].venueName}-race-DATA.json`,
       data: raceArray[i].races,
     });
   }
@@ -519,13 +518,13 @@ async function test({
   }
 
   saveDataToFile({
-    filePath: dirString(`${destinationDirectory}`)+`/${date}G-all-meetings-races-form-DATA.json`,
+    filePath: dirString(`${destinationDirectory}/G`)+`/${date}-all-meetings-races-form-DATA.json`,
     data: formArray,
   });
 
   for(let i = 0; i < formArray.length; i++){
     saveDataToFile({
-    filePath: dirString(`${destinationDirectory}/${formArray[i].venueName}`) + `/${date}-${formArray[i].venueName}-race-${formArray[i].raceNumber}-form-DATA.json`,
+    filePath: dirString(`${destinationDirectory}/G/${formArray[i].venueName}`) + `/${date}-${formArray[i].venueName}-race-${formArray[i].raceNumber}-form-DATA.json`,
     data: formArray[i],
   });
   }
@@ -539,9 +538,7 @@ async function test({
 
 
 test({
-  name: "test9",
-  destinationDirectory: "./test9",
-  loadDirectory: "./test9",
-  date: "2026-04-05",
+  destinationDirectory: "./data",
+  date: "2026-04-06",
   download: true,
 });
