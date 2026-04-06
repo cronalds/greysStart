@@ -410,17 +410,15 @@ export function pathsWithFilenamesBuilderObject({
   });
 }
 
-
 /**
  * input a path and the parent dirs will be ensured, and also returns the path string to be used as a filepath or dirpath etc
  *
  * @export
  * @param {string} path i.e. "./this/directory/and/this/subdirectory/are/all/ensured/to/be/created/BUT_NO_FILES
- * @returns {string} 
+ * @returns {string}
  */
-export function dirString(path)
-{
-  fs.mkdirSync(path, {recursive:true});
+export function dirString(path) {
+  fs.mkdirSync(path, { recursive: true });
   return path;
 }
 
@@ -436,10 +434,12 @@ async function test({
   downloadDailyMeeting
     ? await fetchAndSaveDailyMeetings({
         date: date,
-        filePath: dirString(`${destinationDirectory}`) +`/${date}.json`,
+        filePath: dirString(`${destinationDirectory}`) + `/${date}.json`,
       })
     : console.log("presumably downloaded");
-  let dailyMeetings = readDataFromFile(`${loadDirectory ? loadDirectory: destinationDirectory}/${date}.json`);
+  let dailyMeetings = readDataFromFile(
+    `${loadDirectory ? loadDirectory : destinationDirectory}/${date}.json`,
+  );
   let dailyGreyhounds = await filterMeetingByExludingJurisdictions({
     meetingData: dailyMeetings,
     raceType: "G",
@@ -449,11 +449,13 @@ async function test({
   let dailyHarness = await filterMeetingByExludingJurisdictions({
     meetingData: dailyMeetings,
     raceType: "H",
+    arrayOfExclusionStrings:["CAN"],
     namesOnly: false,
   });
   let dailyHorses = await filterMeetingByExludingJurisdictions({
     meetingData: dailyMeetings,
     raceType: "R",
+    arrayOfExclusionStrings:["IRL", "USA", "ARG", "GBR", "TUR"],
     namesOnly: false,
   });
   saveDataToFile({
@@ -493,13 +495,17 @@ async function test({
 
   //! save race data from daily meetings as a monolithic file
   saveDataToFile({
-    filePath: dirString(`${destinationDirectory}/G`) + `/${date}-all-meetings-race-DATA.json`,
+    filePath:
+      dirString(`${destinationDirectory}/G`) +
+      `/${date}-all-meetings-race-DATA.json`,
     data: raceArray,
   });
 
   for (let i = 0; i < raceArray.length; i++) {
     saveDataToFile({
-      filePath: dirString(`${destinationDirectory}/G`) + `/${date}-${raceArray[i].venueName}-race-DATA.json`,
+      filePath:
+        dirString(`${destinationDirectory}/G`) +
+        `/${date}-${raceArray[i].venueName}-race-DATA.json`,
       data: raceArray[i].races,
     });
   }
@@ -511,31 +517,176 @@ async function test({
       let x = await fetchURL(raceArray[i].races.data.races[j]._links.form);
       formArray.push({
         venueName: raceArray[i].venueName,
-        raceNumber:j+1,
+        raceNumber: j + 1,
         form: x.data.form,
       });
     }
   }
 
   saveDataToFile({
-    filePath: dirString(`${destinationDirectory}/G`)+`/${date}-all-meetings-races-form-DATA.json`,
+    filePath:
+      dirString(`${destinationDirectory}/G`) +
+      `/${date}-all-meetings-races-form-DATA.json`,
     data: formArray,
   });
 
-  for(let i = 0; i < formArray.length; i++){
+  for (let i = 0; i < formArray.length; i++) {
     saveDataToFile({
-    filePath: dirString(`${destinationDirectory}/G/${formArray[i].venueName}`) + `/${date}-${formArray[i].venueName}-race-${formArray[i].raceNumber}-form-DATA.json`,
-    data: formArray[i],
-  });
+      filePath:
+        dirString(`${destinationDirectory}/G/${formArray[i].venueName}`) +
+        `/${date}-${formArray[i].venueName}-race-${formArray[i].raceNumber}-form-DATA.json`,
+      data: formArray[i],
+    });
   }
 
   console.log(formArray);
-  //! save those
+  //! ////////////////////////////////////////////////////////////////
+
+  //! get race urls from each venue meeting
+  let harnessMeetingsArray = [];
+  for (let i = 0; i < dailyHarness.length; i++) {
+    harnessMeetingsArray.push({
+      venueName: dailyHarness[i].meetingName.replace(" ", "_"),
+      raceLink: dailyHarness[i]._links.races,
+    });
+  }
+  console.log(harnessMeetingsArray);
+
+  //! save each venues race data in individual files
+  let harnessRaceArray = [];
+  for (let i = 0; i < harnessMeetingsArray.length; i++) {
+    let x = await fetchURL(harnessMeetingsArray[i].raceLink);
+    harnessRaceArray.push({
+      venueName: harnessMeetingsArray[i].venueName,
+      races: await x,
+    });
+  }
+
+  console.log(harnessRaceArray);
+
+  //! save race data from daily meetings as a monolithic file
+  saveDataToFile({
+    filePath:
+      dirString(`${destinationDirectory}/H`) +
+      `/${date}-all-meetings-race-DATA.json`,
+    data: raceArray,
+  });
+
+  for (let i = 0; i < harnessRaceArray.length; i++) {
+    saveDataToFile({
+      filePath:
+        dirString(`${destinationDirectory}/H`) +
+        `/${date}-${harnessRaceArray[i].venueName}-race-DATA.json`,
+      data: harnessRaceArray[i].races,
+    });
+  }
+
+  //! get form data for each race
+  let harnessFormArray = [];
+  for (let i = 0; i < harnessRaceArray.length; i++) {
+    for (let j = 0; j < harnessRaceArray[i].races.data.races.length; j++) {
+      let x = await fetchURL(harnessRaceArray[i].races.data.races[j]._links.form);
+      harnessFormArray.push({
+        venueName: harnessRaceArray[i].venueName,
+        raceNumber: j + 1,
+        form: x.data.form,
+      });
+    }
+  }
+
+  saveDataToFile({
+    filePath:
+      dirString(`${destinationDirectory}/H`) +
+      `/${date}-all-meetings-races-form-DATA.json`,
+    data: formArray,
+  });
+
+  for (let i = 0; i < harnessFormArray.length; i++) {
+    saveDataToFile({
+      filePath:
+        dirString(`${destinationDirectory}/H/${harnessFormArray[i].venueName}`) +
+        `/${date}-${harnessFormArray[i].venueName}-race-${harnessFormArray[i].raceNumber}-form-DATA.json`,
+      data: harnessFormArray[i],
+    });
+  }
+
+  console.log(harnessFormArray);
+
+  //! //////////////////////////////////////////
+
+  //! get race urls from each venue meeting
+  let horsesMeetingsArray = [];
+  for (let i = 0; i < dailyHorses.length; i++) {
+    horsesMeetingsArray.push({
+      venueName: dailyHorses[i].meetingName.replace(" ", "_"),
+      raceLink: dailyHorses[i]._links.races,
+    });
+  }
+  console.log(horsesMeetingsArray);
+
+  //! save each venues race data in individual files
+  let horseRaceArray = [];
+  for (let i = 0; i < horsesMeetingsArray.length; i++) {
+    let x = await fetchURL(horsesMeetingsArray[i].raceLink);
+    horseRaceArray.push({
+      venueName: horsesMeetingsArray[i].venueName,
+      races: await x,
+    });
+  }
+
+  console.log(horseRaceArray);
+
+  //! save race data from daily meetings as a monolithic file
+  saveDataToFile({
+    filePath:
+      dirString(`${destinationDirectory}/R`) +
+      `/${date}-all-meetings-race-DATA.json`,
+    data: horseRaceArray,
+  });
+
+  for (let i = 0; i < horseRaceArray.length; i++) {
+    saveDataToFile({
+      filePath:
+        dirString(`${destinationDirectory}/H`) +
+        `/${date}-${horseRaceArray[i].venueName}-race-DATA.json`,
+      data: horseRaceArray[i].races,
+    });
+  }
+
+  //! get form data for each race
+  let horseFormArray = [];
+  for (let i = 0; i < horseRaceArray.length; i++) {
+    for (let j = 0; j < horseRaceArray[i].races.data.races.length; j++) {
+      let x = await fetchURL(horseRaceArray[i].races.data.races[j]._links.form);
+      horseFormArray.push({
+        venueName: horseRaceArray[i].venueName,
+        raceNumber: j + 1,
+        form: x.data.form,
+      });
+    }
+  }
+
+  saveDataToFile({
+    filePath:
+      dirString(`${destinationDirectory}/R`) +
+      `/${date}-all-meetings-races-form-DATA.json`,
+    data: horseFormArray,
+  });
+
+  for (let i = 0; i < horseFormArray.length; i++) {
+    saveDataToFile({
+      filePath:
+        dirString(`${destinationDirectory}/R/${horseFormArray[i].venueName}`) +
+        `/${date}-${horseFormArray[i].venueName}-race-${horseFormArray[i].raceNumber}-form-DATA.json`,
+      data: horseFormArray[i],
+    });
+  }
+
+  console.log(horseFormArray);
 
   //! get form data for each race
   //! save those
 }
-
 
 test({
   destinationDirectory: "./data",
