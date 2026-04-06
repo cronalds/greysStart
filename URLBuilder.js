@@ -423,9 +423,9 @@ export function dirString(path) {
 }
 
 async function test({
-  destinationDirectory = "./test8",
+  destinationDirectory = "./data",
   loadDirectory,
-  date = "2026-04-05",
+  date,
   downloadDailyMeeting = true,
 }) {
   /*
