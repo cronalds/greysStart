@@ -312,8 +312,12 @@ async function test({
   /*
   ! this is a test, will be working on this more and seeing what does and doesnt need to be done/removed
   */
+  let alreadyCapturedVenues = readDataFromFile(`./data/${date}/${date}-captured-venues.json`) ?? []; // null coalesced, if null then will just be empty array, otherwise will be loaded in array from stored json
+  
   let newDir = dirString(destinationDirectory + `/${date}`);
+
   destinationDirectory = newDir;
+
   if (!resulted) {
     downloadDailyMeeting
       ? await fetchAndSaveDailyMeetings({
@@ -379,6 +383,7 @@ async function test({
             venueName: dailyGreyhounds[i].meetingName.replace(" ", "_"),
             raceLink: dailyGreyhounds[i]._links.races,
           });
+          alreadyCapturedVenues.push(dailyGreyhounds[i].meetingName.replace(" ", "_"));
         } catch {}
       }
       console.log(greyhoundMeetingsArray);
@@ -454,6 +459,7 @@ async function test({
             venueName: dailyHarness[i].meetingName.replace(" ", "_"),
             raceLink: dailyHarness[i]._links.races,
           });
+          alreadyCapturedVenues.push(dailyHarness[i].meetingName.replace(" ", "_"));
         } catch {}
       }
       console.log(harnessMeetingsArray);
@@ -534,6 +540,7 @@ async function test({
             venueName: dailyHorses[i].meetingName.replace(" ", "_"),
             raceLink: dailyHorses[i]._links.races,
           });
+          alreadyCapturedVenues.push(dailyHorses[i].meetingName.replace(" ", "_"));
         } catch {}
       }
       console.log(horsesMeetingsArray);
@@ -601,6 +608,7 @@ async function test({
       }
       console.log(horseFormArray);
     }
+    saveDataToFile({filePath:`./data/${date}/${date}-captured-venues.json`, data:alreadyCapturedVenues});
   }
   //! if resulted=true
   else {
@@ -749,3 +757,5 @@ saveDataToFile({ filePath: dirString("./data/test") + "/racePaths.json", data: r
 */
 
 // when i upload this to aws to automate, when it runs every 5 mins i may redownload the meetings each time and update what races to download; tralee in irl for G wasnt listed earlier or id have it, the irish dogs seem to have good form info too; ill have to think more about this stuff
+
+// probably an array of already captured venues stored as a file and exclude those from download when redownloading, should be pretty simple, if str in array then dont download else do
