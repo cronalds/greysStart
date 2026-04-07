@@ -4,6 +4,8 @@ import { json } from "stream/consumers";
 
 import path from "path";
 
+const timeHHMMSS = new Date().toTimeString().slice(0, 8).replace(/:/g, '-');
+
 // import * as _ from "lodash";
 
 /**
@@ -338,8 +340,8 @@ async function test({
 
     dailyMeetings = {
       data: {
-        meetings: !dailyMeetings.data.meetings.filter(
-          (meeting) => !alreadyCapturedVenues.includes(meeting.meetingName),
+        meetings: dailyMeetings.data.meetings.filter(
+          (meeting) => !alreadyCapturedVenues.includes(meeting.meetingName.replace(" ", "_")),
         ),
       },
     };
@@ -365,26 +367,26 @@ async function test({
       namesOnly: false,
     });
 
-    if (greyhounds && alreadyCapturedVenues.length > 0) {
+    if (greyhounds) {
       saveDataToFile({
         filePath:
-          dirString(`${destinationDirectory}`) + `/${date}-G-meetings.json`,
+          dirString(`${destinationDirectory}`) + `/${date}-${timeHHMMSS}-G-meetings.json`,
         data: dailyGreyhounds,
       });
     }
 
-    if (harness && alreadyCapturedVenues.length > 0) {
+    if (harness) {
       saveDataToFile({
         filePath:
-          dirString(`${destinationDirectory}`) + `/${date}-H-meetings.json`,
+          dirString(`${destinationDirectory}`) + `/${date}-${timeHHMMSS}-H-meetings.json`,
         data: dailyHarness,
       });
     }
 
-    if (horses && alreadyCapturedVenues.length > 0) {
+    if (horses) {
       saveDataToFile({
         filePath:
-          dirString(`${destinationDirectory}`) + `/${date}-R-meetings.json`,
+          dirString(`${destinationDirectory}`) + `/${date}-${timeHHMMSS}-R-meetings.json`,
         data: dailyHorses,
       });
     }
@@ -421,7 +423,7 @@ async function test({
       saveDataToFile({
         filePath:
           dirString(`${destinationDirectory}/G`) +
-          `/${date}-all-meetings-race-DATA.json`,
+          `/${date}-${timeHHMMSS}-all-meetings-race-DATA.json`,
         data: raceArray,
       });
 
@@ -450,7 +452,7 @@ async function test({
       saveDataToFile({
         filePath:
           dirString(`${destinationDirectory}/G`) +
-          `/${date}-all-meetings-races-form-DATA.json`,
+          `/${date}-${timeHHMMSS}-all-meetings-races-form-DATA.json`,
         data: formArray,
       });
 
@@ -499,7 +501,7 @@ async function test({
       saveDataToFile({
         filePath:
           dirString(`${destinationDirectory}/H`) +
-          `/${date}-all-meetings-race-DATA.json`,
+          `/${date}-${timeHHMMSS}-all-meetings-race-DATA.json`,
         data: harnessRaceArray,
       });
 
@@ -530,7 +532,7 @@ async function test({
       saveDataToFile({
         filePath:
           dirString(`${destinationDirectory}/H`) +
-          `/${date}-all-meetings-races-form-DATA.json`,
+          `/${date}-${timeHHMMSS}-all-meetings-races-form-DATA.json`,
         data: harnessFormArray,
       });
 
@@ -582,7 +584,7 @@ async function test({
       saveDataToFile({
         filePath:
           dirString(`${destinationDirectory}/R`) +
-          `/${date}-all-meetings-race-DATA.json`,
+          `/${date}-${timeHHMMSS}-all-meetings-race-DATA.json`,
         data: horseRaceArray,
       });
 
@@ -613,7 +615,7 @@ async function test({
       saveDataToFile({
         filePath:
           dirString(`${destinationDirectory}/R`) +
-          `/${date}-all-meetings-races-form-DATA.json`,
+          `/${date}-${timeHHMMSS}-all-meetings-races-form-DATA.json`,
         data: horseFormArray,
       });
 
@@ -763,9 +765,9 @@ test({
   greyhounds: true,
   harness: true,
   horses: true,
-  greyhoundsExcludedLocationsArray: ["GBR"],
-  harnessExcludedLocationsArray: ["CAN"],
-  horsesExcludedLocationsArray: ["IRL", "USA", "ARG", "GBR", "TUR"],
+  //greyhoundsExcludedLocationsArray: ["GBR"],
+  //harnessExcludedLocationsArray: ["CAN"],
+  //horsesExcludedLocationsArray: ["IRL", "USA", "ARG", "GBR", "TUR"],
 });
 
 /*
