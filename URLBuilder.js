@@ -655,7 +655,7 @@ async function getAllFiles({
 }
 
 /**
- * same as get all files except returns all race form files a a 2d array containing greyhound paths at the array in indices 0, then harness at indices 1, then horses at 3.
+ * same as get all files except returns all race form files as an object with greys, harness, and horses properties to access for the arrays.
  *
  * @async
  * @param {{ dir: any; excludeSubstrings?: {}; mustIncludeSubstrings?: {}; }} 
