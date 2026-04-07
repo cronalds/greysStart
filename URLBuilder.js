@@ -2,6 +2,8 @@ import fs from "fs";
 
 import { json } from "stream/consumers";
 
+import path from "path";
+
 // import * as _ from "lodash";
 
 /**
@@ -283,136 +285,6 @@ export async function fetchAndSaveDailyMeetings({ date, filePath }) {
 }
 
 /**
- * returns an object with strings built for meeting, race, form, and resultedMeeting file names, ensures consistency
- *
- * @export
- * @param {{ date: string; venueName: string; raceNumber: int; fileExtension:string;}} 
- * @param {string} date meeting/race date
- * @param {string} venueName 
- * @param {number} raceNumber 
- * @param {string="json"} fileExtension "json" by default
- * @returns {{ meetings: string; races: string; form: string; resultedMeetings: string;}} 
- * @example 
- * // will return something like:
- * 
- * {
-    meetings:`2026-04-04-TAREE-meetings.json`,
-    race: `2026-04-04-TAREE-race-1.json`,
-    form:`2026-04-04-TAREE-race-1-form.json`,
-    resultedMeetings:`2026-04-04-TAREE-meetings-RESULTED.json`,
-  }
-
-  // to be accessed like:
-
-  let x = fileNameBuilderObject({date:"2026-04-04", venueName:"TAREE", raceNumber:1}); // in a for loop can increment raceNumber param as i and will coerce int to string
-  let y = x.race // === `2026-04-04-TAREE-race-1.json`
- */
-export function fileNameBuilderObject({
-  date,
-  venueName,
-  raceNumber = 1,
-  fileExtension = "json",
-}) {
-  return {
-    meetings: `${date}-${venueName}-meetings.${fileExtension}`,
-    race: `${date}-${venueName}-race-${raceNumber}.${fileExtension}`,
-    form: `${date}-${venueName}-race-${raceNumber}-form.${fileExtension}`,
-    resultedMeetings: `${date}-${venueName}-meetings-RESULTED.${fileExtension}`,
-  };
-}
-
-/**
- * returns an object with strings built for meeting, race, form, and resultedMeeting path names including filenames built, ensures consistency
- *
- * @export
- * @param {{ pathStart?: string; raceType?: string; venueName: string; date: string; fileNameObject?: {}; }}
- * @param {string} [pathStart="./data"] this is the start of the path strings, currently "./data", but made a param in case i need to "../../etc"
- * @param {{}} [fileNameObject={}] returned fileNameObject from the function
- * @param {string} [raceType="G"] G/R/H
- * @param {string} venueName
- * @param {string} date yyyy-mm-dd
- * @returns {{ meetingsPath: string; racePath: string; formPath: string; resultedMeetingsPath: string; }}
- * @example
- * let x = filenameBuilderObject({date:date:"2026-04-05", venueName:"MANDURAH", raceNumber:1, fileExtension:"json"});
- *
- * let y = pathBuilderObject({pathStart:"./data",raceType:"G",venueName:"MANDURAH", date:"2026-04-05", fileNameObject:x});
- *
- * // returns something like:
- *
- * {
- *    meetingsPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-meetings.json",
- *    racePath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-race-1.json",
- *    formPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-race-1-form.json",
- *    resultedMeetingsPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-meetings-RESULTED.json"
- * }
- */
-export function pathBuilderObject({
-  pathStart = "./data",
-  raceType = "G",
-  venueName,
-  date,
-  fileNameObject = {},
-}) {
-  let initialPathStart = dirString(
-    `${pathStart}/${raceType}/${venueName}/${date}`,
-  );
-  return {
-    meetingsPath: `${initialPathStart}/${fileNameObject.meetings}`,
-    racePath: `${initialPathStart}/${fileNameObject.race}`,
-    formPath: `${initialPathStart}/${fileNameObject.form}`,
-    resultedMeetingsPath: `${initialPathStart}/${fileNameObject.resultedMeetings}`,
-  };
-}
-
-/**
- * returns the object with path and filenames, essentially facading filenameBuilderObject and pathBuilderObject to create paths to files for saving/loading json data and probably csv data later when i start breaking this data down and feature engineering for the model.
- *
- * @export
- * @param {{ date: any; venueName: any; raceNumber?: number; fileExtension?: string; pathStart?: string; raceType?: string; }}
- * @param {string} date yyyy-mm-dd
- * @param {string} venueName
- * @param {number} [raceNumber=1]
- * @param {string} [fileExtension="json"] "json" by default
- * @param {string} [pathStart="./data"] this is the start of the path strings, currently "./data", but made a param in case i need to "../../etc"
- * @param {string} [raceType="G"] G/H/R
- * @example
- *
- * let x = pathsWithFilenamesBuilderObject({date:"2026-04-05", venueName:"MANDURAH", raceNumber:1, fileExtension:"json", pathStart:"./data", raceType:"G"});
- * // returns something like:
- *
- * {
- *    meetingsPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-meetings.json",
- *    racePath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-race-1.json",
- *    formPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-race-1-form.json",
- *    resultedMeetingsPath: "./data/G/MANDURAH/2026-04-05/2026-04-05-MANDURAH-meetings-RESULTED.json"
- * }
- * @returns {{ meetingsPath: string; racePath: string; formPath: string; resultedMeetingsPath: string; }}
- */
-export function pathsWithFilenamesBuilderObject({
-  date,
-  venueName,
-  raceNumber = 1,
-  fileExtension = "json",
-  pathStart = "./data",
-  raceType = "G",
-}) {
-  let x = fileNameBuilderObject({
-    date: date,
-    venueName: venueName,
-    raceNumber: raceNumber,
-    fileExtension: fileExtension,
-  });
-
-  return pathBuilderObject({
-    pathStart: pathStart,
-    raceType: raceType,
-    venueName: venueName,
-    date: date,
-    fileNameObject: x,
-  });
-}
-
-/**
  * input a path and the parent dirs will be ensured, and also returns the path string to be used as a filepath or dirpath etc
  *
  * @export
@@ -440,7 +312,7 @@ async function test({
   /*
   ! this is a test, will be working on this more and seeing what does and doesnt need to be done/removed
   */
-  let newDir = dirString(destinationDirectory + `/${date}`)
+  let newDir = dirString(destinationDirectory + `/${date}`);
   destinationDirectory = newDir;
   if (!resulted) {
     downloadDailyMeeting
@@ -502,13 +374,12 @@ async function test({
       //! get race urls from each venue meeting
       let greyhoundMeetingsArray = [];
       for (let i = 0; i < dailyGreyhounds.length; i++) {
-        try{
+        try {
           greyhoundMeetingsArray.push({
-          venueName: dailyGreyhounds[i].meetingName.replace(" ", "_"),
-          raceLink: dailyGreyhounds[i]._links.races,
-        });
-        }
-        catch{}
+            venueName: dailyGreyhounds[i].meetingName.replace(" ", "_"),
+            raceLink: dailyGreyhounds[i]._links.races,
+          });
+        } catch {}
       }
       console.log(greyhoundMeetingsArray);
 
@@ -578,13 +449,12 @@ async function test({
     if (harness) {
       let harnessMeetingsArray = [];
       for (let i = 0; i < dailyHarness.length; i++) {
-        try{
+        try {
           harnessMeetingsArray.push({
-          venueName: dailyHarness[i].meetingName.replace(" ", "_"),
-          raceLink: dailyHarness[i]._links.races,
-        });
-        }
-        catch{}
+            venueName: dailyHarness[i].meetingName.replace(" ", "_"),
+            raceLink: dailyHarness[i]._links.races,
+          });
+        } catch {}
       }
       console.log(harnessMeetingsArray);
 
@@ -659,13 +529,12 @@ async function test({
     if (horses) {
       let horsesMeetingsArray = [];
       for (let i = 0; i < dailyHorses.length; i++) {
-        try{
+        try {
           horsesMeetingsArray.push({
-          venueName: dailyHorses[i].meetingName.replace(" ", "_"),
-          raceLink: dailyHorses[i]._links.races,
-        });
-        }
-        catch{}
+            venueName: dailyHorses[i].meetingName.replace(" ", "_"),
+            raceLink: dailyHorses[i]._links.races,
+          });
+        } catch {}
       }
       console.log(horsesMeetingsArray);
 
@@ -730,7 +599,6 @@ async function test({
           data: horseFormArray[i],
         });
       }
-
       console.log(horseFormArray);
     }
   }
@@ -743,6 +611,124 @@ async function test({
   }
 }
 
+async function getAllFiles({
+  dir,
+  excludeSubstrings = [],
+  mustIncludeSubstrings = [],
+}) {
+  const stack = [dir];
+  const results = [];
+
+  const exclude = excludeSubstrings.map((s) => s);
+  const include = mustIncludeSubstrings.map((s) => s);
+
+  while (stack.length) {
+    const current = stack.pop();
+    const entries = await fs.promises.readdir(current, { withFileTypes: true });
+
+    for (const entry of entries) {
+      const fullPath = path.join(current, entry.name);
+
+      if (exclude.some((sub) => fullPath.includes(sub))) {
+        continue;
+      }
+
+      if (entry.isDirectory()) {
+        stack.push(fullPath);
+        continue;
+      }
+
+      if (
+        include.length > 0 &&
+        !include.some((sub) => fullPath.includes(sub))
+      ) {
+        continue;
+      }
+      results.push(fullPath);
+    }
+  }
+  for(let i = 0; i < results.length; i++)
+  {
+    results[i] = results[i].replace(/\\/g, "/") // replaces all occurrences of "\\" 
+  }
+  return results
+}
+
+/**
+ * same as get all files except returns all race form files a a 2d array containing greyhound paths at the array in indices 0, then harness at indices 1, then horses at 3.
+ *
+ * @async
+ * @param {{ dir: any; excludeSubstrings?: {}; mustIncludeSubstrings?: {}; }} 
+ * @param {*} dir 
+ * @param {{}} [excludeSubstrings=[]] 
+ * @param {{}} [mustIncludeSubstrings=[]] 
+ * @returns {unknown} 
+ */
+async function getAllRaceFiles({
+  dir,
+  excludeSubstrings = ["race-DATA", "all-meetings", "meetings","racePaths"],
+  mustIncludeSubstrings = ["race"],
+}) {
+  const stack = [dir];
+  const results = [];
+
+  const exclude = excludeSubstrings.map((s) => s);
+  const include = mustIncludeSubstrings.map((s) => s);
+
+  while (stack.length) {
+    const current = stack.pop();
+    const entries = await fs.promises.readdir(current, { withFileTypes: true });
+
+    for (const entry of entries) {
+      const fullPath = path.join(current, entry.name);
+
+      if (exclude.some((sub) => fullPath.includes(sub))) {
+        continue;
+      }
+
+      if (entry.isDirectory()) {
+        stack.push(fullPath);
+        continue;
+      }
+
+      if (
+        include.length > 0 &&
+        !include.some((sub) => fullPath.includes(sub))
+      ) {
+        continue;
+      }
+
+      results.push(fullPath);
+    }
+  }
+  for(let i = 0; i < results.length; i++)
+  {
+    results[i] = results[i].replace(/\\/g, "/") // replaces all occurrences of "\\" 
+  }
+  let greys = [];
+  let harness = [];
+  let horses = [];
+
+  for(let str of results){
+    if(str.includes("/G/"))
+      {
+        greys.push(str)
+      } else if(str.includes("/H/"))
+      {
+        harness.push(str)
+      } else if (str.includes("/R/"))
+      {
+        horses.push(str)
+      }
+  }
+  greys.sort((a,b) => a.localeCompare(b,undefined, {numeric:true}))
+  harness.sort((a,b) => a.localeCompare(b,undefined, {numeric:true}))
+  horses.sort((a,b) => a.localeCompare(b,undefined, {numeric:true}))
+
+  return {greys, harness, horses};
+}
+
+/* 
 test({
   destinationDirectory: "./data",
   date: "2026-04-07",
@@ -755,3 +741,9 @@ test({
   harnessExcludedLocationsArray: ["CAN"],
   horsesExcludedLocationsArray: ["IRL", "USA", "ARG", "GBR", "TUR"],
 });
+*/
+
+let races = await getAllRaceFiles({
+  dir: "./data",
+});
+saveDataToFile({ filePath: dirString("./data/test") + "/racePaths.json", data: races });
