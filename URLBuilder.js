@@ -311,7 +311,8 @@ async function test({
 }) {
   /*
   ! this is a test, will be working on this more and seeing what does and doesnt need to be done/removed
-  */
+  */ 
+ 
   let alreadyCapturedVenues = readDataFromFile(`./data/${date}/${date}-captured-venues.json`) ?? []; // null coalesced, if null then will just be empty array, otherwise will be loaded in array from stored json
   
   let newDir = dirString(destinationDirectory + `/${date}`);
