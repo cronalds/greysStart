@@ -728,22 +728,24 @@ async function getAllRaceFiles({
   return {greys, harness, horses};
 }
 
-/* 
 test({
   destinationDirectory: "./data",
   date: "2026-04-07",
   download: true,
   resulted: false,
   greyhounds: true,
-  harness: true,
-  horses: true,
+  harness: false,
+  horses: false,
   greyhoundsExcludedLocationsArray: ["GBR"],
   harnessExcludedLocationsArray: ["CAN"],
   horsesExcludedLocationsArray: ["IRL", "USA", "ARG", "GBR", "TUR"],
 });
-*/
 
+/*
 let races = await getAllRaceFiles({
   dir: "./data",
 });
 saveDataToFile({ filePath: dirString("./data/test") + "/racePaths.json", data: races });
+*/
+
+// when i upload this to aws to automate, when it runs every 5 mins i may redownload the meetings each time and update what races to download; tralee in irl for G wasnt listed earlier or id have it, the irish dogs seem to have good form info too; ill have to think more about this stuff
