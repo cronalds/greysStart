@@ -625,6 +625,14 @@ async function scrape({
       data: results,
     });
   }
+
+  let races = await getAllRaceFiles({
+    dir: "./data",
+  });
+  saveDataToFile({
+    filePath: dirString("./data/raceFormFiles") + "/racePaths.json",
+    data: races,
+  });
 }
 
 async function getAllFiles({
@@ -725,7 +733,7 @@ async function getAllRaceFiles({
     results[i] = results[i].replace(/\\/g, "/"); // replaces all occurrences of "\\"
     results[i] = `${relativeDir}${results[i]}`;
   }
-  
+
   let greys = [];
   let harness = [];
   let horses = [];
@@ -765,14 +773,6 @@ scrape({
   //greyhoundsExcludedLocationsArray: ["GBR"],
   //harnessExcludedLocationsArray: ["CAN"],
   //horsesExcludedLocationsArray: ["IRL", "USA", "ARG", "GBR", "TUR"],
-});
-
-let races = await getAllRaceFiles({
-  dir: "./data",
-});
-saveDataToFile({
-  filePath: dirString("./data/raceFormFiles") + "/racePaths.json",
-  data: races,
 });
 
 // when i upload this to aws to automate, when it runs every 5 mins i may redownload the meetings each time and update what races to download; tralee in irl for G wasnt listed earlier or id have it, the irish dogs seem to have good form info too; ill have to think more about this stuff
