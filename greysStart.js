@@ -5,6 +5,7 @@ import { json } from "stream/consumers";
 import path from "path";
 
 import dayjs from "dayjs";
+import { time } from "console";
 
 const timeHHMMSS = new Date().toTimeString().slice(0, 8).replace(/:/g, "-");
 
@@ -360,19 +361,25 @@ async function capture({
   let form = [];
   for (let i = 0; i < races.length; i++) {
     for (let j = 0; j < races[i].races.data.races.length; j++) {
-      let x = await fetchURL(races[i].races.data.races[j]._links.form);
+      try{
+        let x = await fetchURL(races[i].races.data.races[j]["_links"]["form"]);
+      console.log(`${races[i].races.data.races[j]["_links"]["form"]}`)
+      console.log(x);
       form.push({
         venueName: races[i].venueName,
         raceNumber: races[i].races.data.races[j].raceNumber,
         form: x.data.form,
       });
+      setTimeout(()=>{},1000);
+      }
+      catch{}
     }
   }
 
   //! save runner form for each race at all meetings in a single monolithic file
   saveDataToFile({
     filePath:
-      dirString(`${destinationDirectory}/${raceType}`) +
+      dirString(destinationDirectory) +
       `/${date}-${timeHHMMSS}-all-meetings-races-form-DATA.json`,
     data: form,
   });
@@ -671,12 +678,12 @@ async function getAllRaceFiles({
 
 scrape({
   destinationDirectory: "./data",
-  date: "2026-04-08",
+  date: "2026-04-09",
   download: false,
-  resulted: true,
+  resulted: false,
   greyhounds: false,
-  harness: false,
-  horses: false,
+  harness: true,
+  horses: true,
   //greyhoundsExcludedLocationsArray: ["GBR"],
   //harnessExcludedLocationsArray: ["CAN"],
   //horsesExcludedLocationsArray: ["IRL", "USA", "ARG", "GBR", "TUR"],
