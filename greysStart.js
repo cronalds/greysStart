@@ -324,7 +324,7 @@ async function capture({
         raceLink: dailyMeeting[i]._links.races,
       });
       alreadyCapturedVenues.push(dailyMeeting[i].meetingName.replace(" ", "_"));
-      setTimeout(()=>{},1000);
+      setTimeout(() => {}, 1000);
     } catch {}
   }
   console.log(meetings);
@@ -337,7 +337,7 @@ async function capture({
       venueName: meetings[i].venueName,
       races: await x,
     });
-    setTimeout(()=>{},1000);
+    setTimeout(() => {}, 1000);
   }
 
   console.log(races);
@@ -363,18 +363,17 @@ async function capture({
   let form = [];
   for (let i = 0; i < races.length; i++) {
     for (let j = 0; j < races[i].races.data.races.length; j++) {
-      try{
+      try {
         let x = await fetchURL(races[i].races.data.races[j]["_links"]["form"]);
-      console.log(`${races[i].races.data.races[j]["_links"]["form"]}`)
-      console.log(x);
-      form.push({
-        venueName: races[i].venueName,
-        raceNumber: races[i].races.data.races[j].raceNumber,
-        form: x.data.form,
-      });
-      setTimeout(()=>{},1000);
-      }
-      catch{}
+        console.log(`${races[i].races.data.races[j]["_links"]["form"]}`);
+        console.log(x);
+        form.push({
+          venueName: races[i].venueName,
+          raceNumber: races[i].races.data.races[j].raceNumber,
+          form: x.data.form,
+        });
+        setTimeout(() => {}, 1000);
+      } catch {}
     }
   }
 
@@ -527,7 +526,7 @@ async function scrape({
   });
 
   if (resulted) {
-    let dayBefore = dayjs(date).subtract(1,"day").format("YYYY-MM-DD")
+    let dayBefore = dayjs(date).subtract(1, "day").format("YYYY-MM-DD");
     let results = await fetchResultsByDate({ date: dayBefore });
 
     let greyResults = await filterMeetingByExludingJurisdictions({
@@ -546,67 +545,85 @@ async function scrape({
       namesOnly: false,
     });
 
-    saveDataToFile({
-      filePath: `./data/${dayBefore}/${dayBefore}-G-RESULTS.json`,
-      data: greyResults,
-    });
+    if (fs.existsSync(`${destinationDirectory}/${dayBefore}`)) {
+      saveDataToFile({
+        filePath: `./data/${dayBefore}/${dayBefore}-G-RESULTS.json`,
+        data: greyResults,
+      });
 
-    for(let i = 0; i < greyResults.length; i++){
-      let arr = []
-      for(let j = 0; j < greyResults[i].races.length; j++){
-        arr.push(greyResults[i].races[j].results);
+      for (let i = 0; i < greyResults.length; i++) {
+        let arr = [];
+        for (let j = 0; j < greyResults[i].races.length; j++) {
+          arr.push(greyResults[i].races[j].results);
+        }
+
+        saveDataToFile({
+          filePath:
+            dirString(`./data/${dayBefore}/results/G/`) +
+            `${dayBefore}-${greyResults[i].meetingName}-RESULTS.json`,
+          data: greyResults[i],
+        });
+
+        saveDataToFile({
+          filePath:
+            dirString(`./data/${dayBefore}/results/G/`) +
+            `${dayBefore}-${greyResults[i].meetingName}-RESULTS-ONLY.json`,
+          data: arr,
+        });
       }
-
-      saveDataToFile({
-        filePath: dirString(`./data/${dayBefore}/results/G/`) + `${dayBefore}-${greyResults[i].meetingName}-RESULTS.json`,
-        data: greyResults[i]
-      });
-
-      saveDataToFile({
-        filePath: dirString(`./data/${dayBefore}/results/G/`) + `${dayBefore}-${greyResults[i].meetingName}-RESULTS-ONLY.json`,
-        data: arr
-      });
     }
 
-    saveDataToFile({
-      filePath: `./data/${dayBefore}/${dayBefore}-H-RESULTS.json`,
-      data: harnessResults,
-    });
+    if (fs.existsSync(`${destinationDirectory}/${dayBefore}`)) {
+      saveDataToFile({
+        filePath: `./data/${dayBefore}/${dayBefore}-H-RESULTS.json`,
+        data: harnessResults,
+      });
 
-    for(let i = 0; i < harnessResults.length; i++){
-      let arr = []
-      for(let j = 0; j < harnessResults[i].races.length; j++){
-        arr.push(harnessResults[i].races[j].results);
+      for (let i = 0; i < harnessResults.length; i++) {
+        let arr = [];
+        for (let j = 0; j < harnessResults[i].races.length; j++) {
+          arr.push(harnessResults[i].races[j].results);
+        }
+        saveDataToFile({
+          filePath:
+            dirString(`./data/${dayBefore}/results/H/`) +
+            `${dayBefore}-${harnessResults[i].meetingName}-RESULTS.json`,
+          data: harnessResults[i],
+        });
+
+        saveDataToFile({
+          filePath:
+            dirString(`./data/${dayBefore}/results/H/`) +
+            `${dayBefore}-${harnessResults[i].meetingName}-RESULTS-ONLY.json`,
+          data: arr,
+        });
       }
-      saveDataToFile({
-        filePath: dirString(`./data/${dayBefore}/results/H/`) + `${dayBefore}-${harnessResults[i].meetingName}-RESULTS.json`,
-        data: harnessResults[i]
-      });
-
-      saveDataToFile({
-        filePath: dirString(`./data/${dayBefore}/results/H/`) + `${dayBefore}-${harnessResults[i].meetingName}-RESULTS-ONLY.json`,
-        data: arr
-      });
     }
 
-    saveDataToFile({
-      filePath: `./data/${dayBefore}/${dayBefore}-R-RESULTS.json`,
-      data: horseResults,
-    });
+    if (fs.existsSync(`${destinationDirectory}/${dayBefore}`)) {
+      saveDataToFile({
+        filePath: `./data/${dayBefore}/${dayBefore}-R-RESULTS.json`,
+        data: horseResults,
+      });
 
-    for(let i = 0; i < horseResults.length; i++){
-      let arr = []
-      for(let j = 0; j < horseResults[i].races.length; j++){
-        arr.push(horseResults[i].races[j].results);
+      for (let i = 0; i < horseResults.length; i++) {
+        let arr = [];
+        for (let j = 0; j < horseResults[i].races.length; j++) {
+          arr.push(horseResults[i].races[j].results);
+        }
+        saveDataToFile({
+          filePath:
+            dirString(`./data/${dayBefore}/results/R/`) +
+            `${dayBefore}-${horseResults[i].meetingName}-RESULTS.json`,
+          data: horseResults[i],
+        });
+        saveDataToFile({
+          filePath:
+            dirString(`./data/${dayBefore}/results/R/`) +
+            `${dayBefore}-${horseResults[i].meetingName}-RESULTS-ONLY.json`,
+          data: arr,
+        });
       }
-      saveDataToFile({
-        filePath: dirString(`./data/${dayBefore}/results/R/`) + `${dayBefore}-${horseResults[i].meetingName}-RESULTS.json`,
-        data: horseResults[i]
-      });
-      saveDataToFile({
-        filePath: dirString(`./data/${dayBefore}/results/R/`) + `${dayBefore}-${horseResults[i].meetingName}-RESULTS-ONLY.json`,
-        data: arr
-      });
     }
 
     saveDataToFile({
@@ -658,8 +675,7 @@ async function getAllFiles({
   return results;
 }
 
-function getResultsFile({date, raceType=""})
-{
+function getResultsFile({ date, raceType = "" }) {
   return `./data/${date}/${date}-${raceType === "" ? "" : `${raceType}-`}RESULTS.json`;
 }
 
@@ -751,7 +767,10 @@ scrape({
 let races = await getAllRaceFiles({
   dir: "./data",
 });
-saveDataToFile({ filePath: dirString("./data/raceFormFiles") + "/racePaths.json", data: races });
+saveDataToFile({
+  filePath: dirString("./data/raceFormFiles") + "/racePaths.json",
+  data: races,
+});
 
 // when i upload this to aws to automate, when it runs every 5 mins i may redownload the meetings each time and update what races to download; tralee in irl for G wasnt listed earlier or id have it, the irish dogs seem to have good form info too; ill have to think more about this stuff
 
@@ -760,4 +779,8 @@ saveDataToFile({ filePath: dirString("./data/raceFormFiles") + "/racePaths.json"
 /* 
 ok now i want to get the previous days races and add them to the meeting data, and add the runners form to the meeting data too
   - load meeting data for venue
+  - load all race-form files for that venue
+  - load all results for that venue
+  - merge appropriately
+might be better to keep them all separated the way they are for aggregations and then processing to csv, will think about more before i do anything, will do some stuff smallscale before pipelining for batches
 */
