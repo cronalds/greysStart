@@ -5,7 +5,7 @@ import { json } from "stream/consumers";
 import path from "path";
 
 import dayjs from "dayjs";
-import { time } from "console";
+import { pipeline } from "stream/promises";
 
 const timeHHMMSS = new Date().toTimeString().slice(0, 8).replace(/:/g, "-");
 
@@ -345,7 +345,7 @@ async function capture({
   //! save race data from daily meetings as a monolithic file
   saveDataToFile({
     filePath:
-      dirString(`${destinationDirectory}/H`) +
+      dirString(`${destinationDirectory}`) +
       `/${date}-${timeHHMMSS}-all-meetings-race-DATA.json`,
     data: races,
   });
@@ -559,14 +559,14 @@ async function scrape({
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/G/`) +
-          `${dayBefore}-${greyResults[i].meetingName}-RESULTS.json`,
+          `${dayBefore}-${greyResults[i].meetingName.replace(" ", "_")}-RESULTS.json`,
         data: greyResults[i],
       });
 
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/G/`) +
-          `${dayBefore}-${greyResults[i].meetingName}-RESULTS-ONLY.json`,
+          `${dayBefore}-${greyResults[i].meetingName.replace(" ", "_")}-RESULTS-ONLY.json`,
         data: arr,
       });
     }
@@ -584,14 +584,14 @@ async function scrape({
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/H/`) +
-          `${dayBefore}-${harnessResults[i].meetingName}-RESULTS.json`,
+          `${dayBefore}-${harnessResults[i].meetingName.replace(" ", "_")}-RESULTS.json`,
         data: harnessResults[i],
       });
 
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/H/`) +
-          `${dayBefore}-${harnessResults[i].meetingName}-RESULTS-ONLY.json`,
+          `${dayBefore}-${harnessResults[i].meetingName.replace(" ", "_")}-RESULTS-ONLY.json`,
         data: arr,
       });
     }
@@ -609,13 +609,13 @@ async function scrape({
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/R/`) +
-          `${dayBefore}-${horseResults[i].meetingName}-RESULTS.json`,
+          `${dayBefore}-${horseResults[i].meetingName.replace(" ", "_")}-RESULTS.json`,
         data: horseResults[i],
       });
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/R/`) +
-          `${dayBefore}-${horseResults[i].meetingName}-RESULTS-ONLY.json`,
+          `${dayBefore}-${horseResults[i].meetingName.replace(" ", "_")}-RESULTS-ONLY.json`,
         data: arr,
       });
     }
@@ -762,9 +762,21 @@ async function getAllRaceFiles({
   };
 }
 
+async function downloadFile({url, dir, filename}) {
+  try{
+    const filePath = dirString(dir)+"/"+filename;
+
+  const response = await fetch(url);
+  if (!response.ok) throw new Error("Download failed");
+
+  await pipeline(response.body, fs.createWriteStream(filePath));
+  }
+  catch{console.log(`unable to download file of URL: ${url}`)}
+}
+
 scrape({
   destinationDirectory: "./data",
-  date: "2026-04-09",
+  date: "2026-04-10",
   download: false,
   resulted: false,
   greyhounds: false,
@@ -774,6 +786,22 @@ scrape({
   //harnessExcludedLocationsArray: ["CAN"],
   //horsesExcludedLocationsArray: ["IRL", "USA", "ARG", "GBR", "TUR"],
 });
+
+/* //! download videos and audio
+
+let x = readDataFromFile("./data/2026-04-09/G/2026-04-09-MANDURAH-race-DATA.json");
+
+let indices = 3;
+
+let vidURL = x.data.races[indices].skyRacing.video
+let vm = x.data.races[indices].pools[0].legs[0].venueMnemonic;
+let rn = x.data.races[indices].raceNumber;
+let date = "2026-04-09";
+
+console.log(vidURL)
+
+downloadFile({url:vidURL, dir:"./data/test", filename:`${date}-${vm}-${rn}.mp4`});
+*/ //!!!!!!!!!!!!!!
 
 // when i upload this to aws to automate, when it runs every 5 mins i may redownload the meetings each time and update what races to download; tralee in irl for G wasnt listed earlier or id have it, the irish dogs seem to have good form info too; ill have to think more about this stuff
 
