@@ -18,7 +18,7 @@ const timeHHMMSS = new Date().toTimeString().slice(0, 8).replace(/:/g, "-");
  * @param {string} url the url string from the builder
  * @returns {json}
  */
-export async function fetchURL(url) {
+async function fetchURL(url) {
   const res = await fetch(url);
 
   if (!res.ok) {
@@ -39,7 +39,7 @@ export async function fetchURL(url) {
  * @param {*} data data to save
  * @param {boolean} [json=true] if true will stringify, default true
  */
-export function saveDataToFile({ filePath, data, json = true }) {
+function saveDataToFile({ filePath, data, json = true }) {
   if (json === true) {
     fs.writeFileSync(filePath, JSON.stringify(data));
   } else {
@@ -54,7 +54,7 @@ export function saveDataToFile({ filePath, data, json = true }) {
  * @param {string} filePath
  * @returns {{}}
  */
-export function readDataFromFile(filePath) {
+function readDataFromFile(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 }
 
@@ -64,7 +64,7 @@ export function readDataFromFile(filePath) {
  * @param {string} filePathString
  * @returns {[]}
  */
-export function getFormURLsFromJsonFile(filePathString) {
+function getFormURLsFromJsonFile(filePathString) {
   let dataFile = fs.readFileSync(filePathString, "utf-8");
   let data = JSON.parse(dataFile);
   let runnersArray = data.data.runners;
@@ -92,7 +92,7 @@ export function getFormURLsFromJsonFile(filePathString) {
  * @param {string} filePath
  * @param {string} destinationFilePath
  */
-export function getFormURLsFromJsonFileAndSaveToFile({
+function getFormURLsFromJsonFileAndSaveToFile({
   filePath,
   destinationFilePath,
 }) {
@@ -108,7 +108,7 @@ export function getFormURLsFromJsonFileAndSaveToFile({
  * @param {{}} data json data
  * @returns {[string]}
  */
-export async function getFormURLs(data) {
+async function getFormURLs(data) {
   let runnersArray = data.data.runners;
   let runnersFormURLsArray = [];
 
@@ -159,7 +159,7 @@ async function fetchFormDataOfRunningDogs({ url, filePath }) {
  * @param {string} venueMnemonic "GDH", "HEA", "TRE", etc
  * @returns {{}}
  */
-export function filterMeetingByVenueNameOrMnemonic({
+function filterMeetingByVenueNameOrMnemonic({
   filePath,
   venueName,
   venueMnemonic,
@@ -190,7 +190,7 @@ export function filterMeetingByVenueNameOrMnemonic({
  * @param {string} venueMnemonic "GDH", "HEA", "TRE", etc
  * @returns {{}}
  */
-export async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
+async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
   filePath,
   venueName,
   venueMnemonic,
@@ -236,7 +236,7 @@ async function fetchResultsByDate({ date }) {
  * @param {boolean} [namesOnly=true] true by default, false for array of objects with all data
  * @returns {array} stringArray or object
  */
-export async function filterMeetingByExludingJurisdictions({
+async function filterMeetingByExludingJurisdictions({
   filePath,
   meetingData,
   arrayOfExclusionStrings = [],
@@ -276,7 +276,7 @@ export async function filterMeetingByExludingJurisdictions({
  * @param {string} date yyyy-mm-dd i.e. 2026-04-23
  * @returns {JSON}
  */
-export async function fetchDailyMeetings(date) {
+async function fetchDailyMeetings(date) {
   let data = await fetchURL(
     `https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/${date}/meetings?jurisdiction=NSW&returnOffers=true&returnPromo=false`,
   );
@@ -292,7 +292,7 @@ export async function fetchDailyMeetings(date) {
  * @param {string} date
  * @param {string} filePath
  */
-export async function fetchAndSaveDailyMeetings({ date, filePath }) {
+async function fetchAndSaveDailyMeetings({ date, filePath }) {
   let data = await fetchDailyMeetings(date);
   saveDataToFile({ filePath: filePath, data: data });
 }
@@ -304,7 +304,7 @@ export async function fetchAndSaveDailyMeetings({ date, filePath }) {
  * @param {string} path i.e. "./this/directory/and/this/subdirectory/are/all/ensured/to/be/created/BUT_NO_FILES
  * @returns {string}
  */
-export function dirString(path) {
+function dirString(path) {
   fs.mkdirSync(path, { recursive: true });
   return path;
 }
@@ -629,14 +629,16 @@ async function scrape({
   let races = await getAllRaceFiles({
     dir: "./data",
   });
+
   saveDataToFile({
-    filePath: dirString("./data/raceFormFiles") + "/racePaths.json",
+    filePath: dirString("./data/metadata") + "/racePaths.json",
     data: races,
   });
 }
 
 async function getAllFiles({
   dir,
+  relativeDir = "./",
   excludeSubstrings = [],
   mustIncludeSubstrings = [],
 }) {
@@ -673,6 +675,7 @@ async function getAllFiles({
   }
   for (let i = 0; i < results.length; i++) {
     results[i] = results[i].replace(/\\/g, "/"); // replaces all occurrences of "\\"
+    results[i] = `${relativeDir}${results[i]}`; // relative dirs
   }
   return results;
 }
@@ -697,42 +700,7 @@ async function getAllRaceFiles({
   excludeSubstrings = ["race-DATA", "all-meetings", "meetings", "racePaths"],
   mustIncludeSubstrings = ["race", "form-DATA"],
 }) {
-  const stack = [dir];
-  const results = [];
-
-  const exclude = excludeSubstrings.map((s) => s);
-  const include = mustIncludeSubstrings.map((s) => s);
-
-  while (stack.length) {
-    const current = stack.pop();
-    const entries = await fs.promises.readdir(current, { withFileTypes: true });
-
-    for (const entry of entries) {
-      const fullPath = path.join(current, entry.name);
-
-      if (exclude.some((sub) => fullPath.includes(sub))) {
-        continue;
-      }
-
-      if (entry.isDirectory()) {
-        stack.push(fullPath);
-        continue;
-      }
-
-      if (
-        include.length > 0 &&
-        !include.some((sub) => fullPath.includes(sub))
-      ) {
-        continue;
-      }
-
-      results.push(fullPath);
-    }
-  }
-  for (let i = 0; i < results.length; i++) {
-    results[i] = results[i].replace(/\\/g, "/"); // replaces all occurrences of "\\"
-    results[i] = `${relativeDir}${results[i]}`;
-  }
+  let results = await getAllFiles({dir:dir, relativeDir:relativeDir, excludeSubstrings:excludeSubstrings, mustIncludeSubstrings:mustIncludeSubstrings});
 
   let greys = [];
   let harness = [];
@@ -809,9 +777,11 @@ downloadFile({url:vidURL, dir:"./data/test", filename:`${date}-${vm}-${rn}.mp4`}
 
 /* 
 ok now i want to get the previous days races and add them to the meeting data, and add the runners form to the meeting data too
-  - load meeting data for venue
-  - load all race-form files for that venue
-  - load all results for that venue
+  - load meeting data for venue @date
+  - load all race-form files for that venue @date
+  - load all results for that venue @date
   - merge appropriately
+    - will look for common properties and overwrite/merge/fill them, such as raceDataFile.json.data.races[i]=runnersForRaceI, which will be filled into date-g-meetings.json[j].races[k].runners=newPropertyFilledInWithRunnersFormForRaceI; ill need to split each date-time-racetype-meetings into their own file via venueName to simplify this a bit more, i mean not really hard, but still, no harm in it, may just keep it in memory and export after merging results into runnersForRaceI.data.races[j].results, some races will already have their results but better to batch overwrite with full results collected, may just get rid of the data i have right now and start collecting proper full data soon now that the data collection pipeline is good, just need to process now and everything then i can start aggregates for features for the csv data, then i can start feature engineering properly
+
 might be better to keep them all separated the way they are for aggregations and then processing to csv, will think about more before i do anything, will do some stuff smallscale before pipelining for batches
 */
