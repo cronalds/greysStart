@@ -90,3 +90,80 @@ Outcome =
     pressure,
     finish_strength
   )
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+
+- ok now i need to start merging the data together appropriately
+  - ill get the meeting data for each venue and append/merge data into that; maybe sqlite instead of json, ill think about it a little bit more
+
+- meetings // g/h/r meetings file of date
+  - meetingName
+  - location
+  - meetingDate
+  - weatherCondition
+  - trackCondition
+  - venueMnemonic
+  - races // foreach
+    - raceNumber
+    - raceClassConditions
+    - raceStartTime
+    - raceStatus
+    - raceDistance
+    - scratchings
+    - // results will be in race info where placings will be stored, can derive results from there
+
+- form data // foreach race at each venue of g/h/r meetings
+  - form
+    - runnerNumber // box# for g
+    - runnerName
+    - sire
+    - dam
+    - sex
+    - dateOfBirth
+    - colour
+    - formComment
+    - bestTime
+    - daysSinceLastRun // later will derive
+    - handicapWeight // h/r
+    - runsSinceLastSpell
+    - trainerName // trainerID
+    - runnerStarts.previousStarts // everything else is boxX, track, distance, trackDistance, firstUp, secondUp, overall, etc, and aggregated
+      - startDate
+      - raceNumber
+      - finishingPosition // this is where i can get the finishing position for places 5+
+      - numberOfStarters
+      - draw // h/r
+      - margin
+      - venueAbbreviation // {venueMnemonic}{raceType}
+      - distance
+      - class
+      - weight // will probably get this from extended form/moreForm
+      - startingPosition
+      - winnerOrSecond // runnerID
+      - positionsInRun // firstSplit-secondSplit-sometimesThirdSplitDependsOnDistance
+      - time
+
+- extended form/moreForm
+  - form
+    - data
+      - trackDirection
+      - all meeting data except for races, just individual race runner additional data
+      - runners // array of objects
+        - runnerName // runnerID
+        - runnerNumber // box for G
+        - vacantBox
+        - trainerFullName // trainerID
+        - barrierNumber // h/r
+        - riderDriverName // h/r
+        - handicapWeight, harnessHandicap, blinkers, tcdwIndicators, emergency, penalty // h/r
+        - dfsFormRating
+        - techFormRating // h/r???
+        - totalRatingPoints
+        - earlySpeedRating
+        - earlySpeedRatingBand
+      - raceComments // stringified json
+      - ratings // \[{}\]
+        - ratingType
+        - ratingRunnerNumbers // []

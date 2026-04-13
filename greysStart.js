@@ -174,10 +174,10 @@ async function capture({
   for (let i = 0; i < dailyMeeting.length; i++) {
     try {
       meetings.push({
-        venueName: dailyMeeting[i].meetingName.replace(" ", "_"),
+        venueName: dailyMeeting[i].meetingName.replace(/ /g, "_"),
         raceLink: dailyMeeting[i]._links.races,
       });
-      alreadyCapturedVenues.push(dailyMeeting[i].meetingName.replace(" ", "_"));
+      alreadyCapturedVenues.push(dailyMeeting[i].meetingName.replace(/ /g, "_"));
     } catch {}
   }
   console.log(meetings);
@@ -700,11 +700,11 @@ async function downloadFile({ url, dir, filename }) {
 scrape({
   destinationDirectory: "./data",
   date: "2026-04-13",
-  download: false,
-  resulted: false,
-  greyhounds: false,
-  harness: false,
-  horses: false,
+  download: true,
+  resulted: true,
+  greyhounds: true,
+  harness: true,
+  horses: true,
   //greyhoundsExcludedVenuesArray: [],
   //harnessExcludedVenuesArray:[],
   //horsesExcludedVenuesArray: ["LAUREL PARK", "LEOPARDSTOWN", "SHA TIN"],
