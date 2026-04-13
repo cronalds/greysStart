@@ -1,31 +1,92 @@
-# basic gist
+# notes
 
-- start by downloading meetings
-  - i can split into 3 separate json files by raceType as well as further splitting by venue
+- features
+  - domains:
+    - straight vs general track:
+      - min time for each, historically, over past x runs
+      - max time for each, historically, over past x runs
+      - average time for each, historically, over past x runs
+      - average place for each, historically, over past x runs
+      - average position in run for each, historically, over past x runs
+    - distance performance:
+      - min time, historically, over past x runs
+      - max time, historically, over past x runs
+      - average time, historically, over past x runs
+      - average place, historically, over past x runs
+      - average position in run, historically, over past x runs
+    - venue performance:
+      - min time, historically, over past x runs
+      - max time, historically, over past x runs
+      - average time, historically, over past x runs
+      - average place, historically, over past x runs
+      - average position in run, historically, over past x runs
+    - time of day performance:
+      - min time
+      - max time
+      - average time
+      - average place
+      - average position in run
+    - weather performance:
+      - min time
+      - max time
+      - average time
+      - average place
+      - average position in run
+    - grade performance:
+      - min time, historically, over past x runs
+      - max time, historically, over past x runs
+      - average time, historically, over past x runs
+      - average place, historically, over past x runs
+      - average position in run, historically, over past x runs
+    - trainer stats:
+      - average placing
+      - average winning
+    - lineage stats:
+      - average time
+      - average place
+      - average position in run
+    - dog stats:
+      - min time per distance, historically, over past x runs
+      - max time per distance, historically, over past x runs
+      - average time per distance, historically, over past x runs
+      - average place per distance, historically, over past x runs
+      - average position in run per distance, historically, over past x runs
+      - average early position first and second split
+      - box bias:
+        - inside bias
+        - centre bias
+        - outside bias
+        - box repeat performance stability
+      - box# to lead conversion rate
+      - fieldRankEfficiency: finishingPosition/runnerCount
+      - bend efficiency score: position change between first and second split
+      - straight line speed dominance score: improvement between last position and finishing position
+      - small vs full field performance
+      - distance efficiency delta: performance drop off when outside preferred distance
+      - track speed suitability: performance relative to track specific average times
+      - interference recovery score
+      - rail pressure tolerance: boxed inside vs crowded rail; pressure = sum(earlySpeed of adjacent boxes)
+      - momentum carry index: correlation between mid race position and finishing position
+      - win efficiency under pressure: win in races where dog is not early leader
+      - Clean Run Dependency Score: measures interference sensitivity; if a dog starts well sometimes and finishes badly in an inconsistent fashion => likely sensitive; variance(finishPosition - earlyPosition); small change = clear runners, large swings = volatile
+      - Race Shape Adaptability: leaderDominated(earlyPositionOfWinner == finishPositionOfWinner); swooper(earlyPositionOfWinner > 2); tells you whether front-run dependant, adaptable, or late runners.
+      - disagreement signal: skyRatingRank - earlySpeedRank
 
-- from there download each race from each venue
-  - store these in separate json files, maybe in a monolithic file, but probably better to store per race for the races than per venue, ill figure that out later
+[BOX] → determines initial position
+   ↓
+[EARLY SPEED] → determines first split
+   ↓
+[TRACK + PRESSURE] → determines position changes
+   ↓
+[FINISH STRENGTH] → determines final result
 
-- then each form for each race
-  - these come as an array of runners already i think
+-
 
-- then at the end of each racing day ill download the meetings again which should contain results, which ill merge/store correctly, will look at that soon; cant seem to get the winning times but that will probably show up on each individual dogs form next race etc
-
-- this will all be done in a monolithic procedural function that will straight up get called and handle everything, right now its split up over various functions and all that shit but i think id prefer this as a single large function that handles everything in order of procedure. ill figure that out too but atm thats what im thinking itll be.
-
-- naming conventions:
-  - fileNameBuilderObject function to do it and ensures consistency of naming with basic access.
-
-- infrastructure of data storage:
-  - "./data"
-  - += "/{raceType}" // G/H/R
-  - += "/{venueName}" // TAREE/GUNNEDAH/WARRNAMBOOL/etc
-  - += "/{date}/" // store meeting/meetresults/racedata and formdata for each venue on the day
-
-##
-
-- fetchMeetings -> splitByRaceType -> fetchRaces -> fetchRunnerForms
-
-- later i can consolidate runnerData into a single json for each runner then foreign key them to races/trainers/etc
-
-- create a cron job to do this auto, will host/serve somewhere online
+Outcome =
+  f(
+    box_position,
+    early_speed,
+    leader_dominance,
+    pressure,
+    finish_strength
+  )

@@ -58,163 +58,6 @@ function readDataFromFile(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf-8"));
 }
 
-/**
- * gets the form urls for each runner so as to download the forms as well
- *
- * @param {string} filePathString
- * @returns {[]}
- */
-function getFormURLsFromJsonFile(filePathString) {
-  let dataFile = fs.readFileSync(filePathString, "utf-8");
-  let data = JSON.parse(dataFile);
-  let runnersArray = data.data.runners;
-  let runnersFormURLsArray = [];
-
-  for (let i = 0; i < runnersArray.length; i++) {
-    let scratchedPotential = i + 1;
-    try {
-      let getting = runnersArray[i]._links.form;
-      runnersFormURLsArray.push(getting);
-    } catch {
-      console.log(
-        "unable for runner " + scratchedPotential + ", must be scratched",
-      );
-    }
-  }
-  return runnersFormURLsArray;
-}
-
-/**
- * gets the formURL of the runners in an array and saves it to a file.
- *
- * @export
- * @param {{ filePath: string; destinationFilePath: string; }}
- * @param {string} filePath
- * @param {string} destinationFilePath
- */
-function getFormURLsFromJsonFileAndSaveToFile({
-  filePath,
-  destinationFilePath,
-}) {
-  let x = getFormURLsFromJsonFile(filePath);
-  saveDataToFile({ filePath: destinationFilePath, data: x });
-}
-
-/**
- * gets the form urls from json
- *
- * @export
- * @async
- * @param {{}} data json data
- * @returns {[string]}
- */
-async function getFormURLs(data) {
-  let runnersArray = data.data.runners;
-  let runnersFormURLsArray = [];
-
-  for (let i = 0; i < runnersArray.length; i++) {
-    let scratchedPotential = i + 1;
-    try {
-      let getting = runnersArray[i]["_links"]["form"];
-      runnersFormURLsArray.push(getting);
-    } catch {
-      console.log(
-        "unable for runner " + scratchedPotential + ", must be scratched",
-      );
-    }
-  }
-  return runnersFormURLsArray;
-}
-
-/**
- * fetchs the form data from a url to racedata
- *
- * @async
- * @param {{ url: string; filePath: string; }}
- * @param {string} url
- * @param {string} filePath
- * @returns {{}}
- */
-async function fetchFormDataOfRunningDogs({ url, filePath }) {
-  const raceData = await fetchURL(url);
-  console.log(raceData);
-  let formDataURLS = await getFormURLs(raceData);
-  let fetchedFormData = [];
-
-  for (let i = 0; i < formDataURLS.length; i++) {
-    const data = await fetchURL(formDataURLS[i]);
-    fetchedFormData.push(data);
-    console.log(data);
-  }
-  saveDataToFile({ filePath: filePath, data: fetchedFormData });
-}
-
-/**
- * filter json meeting data by either the meetingName or venueMnemonic
- *
- * @export
- * @param {{ filePath: string; venueName: string; venueMnemonic: string; }}
- * @param {string} filePath i.e. "./test.json"
- * @param {string} venueName "SALE", "MANDURAH", "THE-GARDENS", etc
- * @param {string} venueMnemonic "GDH", "HEA", "TRE", etc
- * @returns {{}}
- */
-function filterMeetingByVenueNameOrMnemonic({
-  filePath,
-  venueName,
-  venueMnemonic,
-}) {
-  let data = readDataFromFile(filePath);
-  if (!venueMnemonic && !venueName) {
-    return [];
-  }
-  if (venueName) {
-    return data?.data?.meetings.filter(
-      (meeting) => meeting.meetingName === venueName,
-    );
-  } else if (venueMnemonic) {
-    return data?.data?.meetings.filter(
-      (meeting) => meeting.venueMnemonic === venueMnemonic,
-    );
-  }
-}
-
-/**
- * fetchs the json of all races in a meeting from the meeting data file
- *
- * @export
- * @async
- * @param {{ filePath: string; venueName: string; venueMnemonic: string; }}
- * @param {string} filePath filepath to the meeting data file
- * @param {string} venueName "SALE", "MANDURAH", "THE-GARDENS", etc
- * @param {string} venueMnemonic "GDH", "HEA", "TRE", etc
- * @returns {{}}
- */
-async function fetchRacesOfAMeetingByVenueNameOrMnemonic({
-  filePath,
-  venueName,
-  venueMnemonic,
-}) {
-  if (!venueName && !venueMnemonic) {
-    return "NO VENUE NAME OR MNEMONIC MATCH";
-  }
-  if (venueMnemonic) {
-    let data = filterMeetingByVenueNameOrMnemonic({
-      filePath: filePath,
-      venueMnemonic: venueMnemonic,
-    })[0]; // gets first indices of array before going into object such as below; its the only indices, idk why they didnt just make it a string, probably an accident that doesnt need fixing
-    console.log(data);
-    return await fetchURL(data._links.races);
-  } else if (venueName) {
-    let data = filterMeetingByVenueNameOrMnemonic({
-      filePath: filePath,
-      venueName: venueName,
-    })[0]; // gets first indices of array before going into object such as below; its the only indices, idk why they didnt just make it a string, probably an accident that doesnt need fixing
-    console.log(data);
-    return await fetchURL(data._links.races);
-  }
-}
-
 async function fetchResultsByDate({ date }) {
   let x = await fetchURL(
     `https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/${date}`,
@@ -228,7 +71,7 @@ async function fetchResultsByDate({ date }) {
  *
  * @export
  * @async
- * @param {{ filePath?: string; meetingData?: object; arrayOfExclusionStrings?: [string]; raceType?: string; namesOnly?: boolean; }}
+ * @param {{ filePath?: string; meetingData?: object; arrayOfExclusionStrings?: [string]; arrayOfVenueNameExclusionStrings: [string]; raceType?: string; namesOnly?: boolean; }}
  * @param {string} filePath
  * @param {{}} meetingData if meeting data is already read into a var, then exclude filePath and use the data in the variable
  * @param {{}} [arrayOfExclusionStrings=[]] i.e. ["NSW","SA","NZL"] etc
@@ -240,6 +83,7 @@ async function filterMeetingByExludingJurisdictions({
   filePath,
   meetingData,
   arrayOfExclusionStrings = [],
+  arrayOfVenueNameExclusionStrings = [],
   raceType = "G",
   namesOnly = true,
 }) {
@@ -259,6 +103,16 @@ async function filterMeetingByExludingJurisdictions({
     let excludeByLocation = arrayOfExclusionStrings;
 
     if (!excludeByLocation.includes(meetings[i].location))
+      if (namesOnly) {
+        returnValues.push(meetings[i].meetingName);
+      } else {
+        returnValues.push(meetings[i]);
+      }
+  }
+  for (let i = 0; i < meetings.length; i++) {
+    let excludeByVenueName = arrayOfVenueNameExclusionStrings;
+
+    if (!excludeByVenueName.includes(meetings[i].meetingName))
       if (namesOnly) {
         returnValues.push(meetings[i].meetingName);
       } else {
@@ -324,7 +178,6 @@ async function capture({
         raceLink: dailyMeeting[i]._links.races,
       });
       alreadyCapturedVenues.push(dailyMeeting[i].meetingName.replace(" ", "_"));
-      setTimeout(() => {}, 1000);
     } catch {}
   }
   console.log(meetings);
@@ -337,7 +190,6 @@ async function capture({
       venueName: meetings[i].venueName,
       races: await x,
     });
-    setTimeout(() => {}, 1000);
   }
 
   console.log(races);
@@ -372,7 +224,6 @@ async function capture({
           raceNumber: races[i].races.data.races[j].raceNumber,
           form: x.data.form,
         });
-        setTimeout(() => {}, 1000);
       } catch {}
     }
   }
@@ -395,6 +246,47 @@ async function capture({
     });
   }
   console.log(form);
+
+  //! /////////////////////////////////////////
+  let moreForm = [];
+  for (let i = 0; i < races.length; i++) {
+    for (let j = 0; j < races[i].races.data.races.length; j++) {
+      try {
+        let x = await fetchURL(races[i].races.data.races[j]["_links"]["self"]);
+        console.log(`${races[i].races.data.races[j]["_links"]["self"]}`);
+        console.log(x);
+        moreForm.push({
+          venueName: races[i].venueName,
+          raceNumber: races[i].races.data.races[j].raceNumber,
+          form: x,
+        });
+      } catch {}
+    }
+  }
+
+  //! save runner form for each race at all meetings in a single monolithic file
+  saveDataToFile({
+    filePath:
+      dirString(destinationDirectory) +
+      `/${date}-${timeHHMMSS}-all-meetings-races-moreForm-DATA.json`,
+    data: moreForm,
+  });
+
+  //! get form for runners in each race and save to individual race files
+  for (let i = 0; i < moreForm.length; i++) {
+    try {
+      saveDataToFile({
+        filePath:
+          dirString(
+            `${destinationDirectory}/${raceType}/${moreForm[i].venueName}`,
+          ) +
+          `/${date}-${moreForm[i].venueName}-race-${moreForm[i].raceNumber}-moreForm-DATA.json`,
+        data: moreForm[i],
+      });
+    } catch {}
+  }
+  console.log(moreForm);
+  //! /////////////////////////////////////////
 }
 
 async function scrape({
@@ -409,6 +301,9 @@ async function scrape({
   greyhoundsExcludedLocationsArray,
   harnessExcludedLocationsArray,
   horsesExcludedLocationsArray,
+  greyhoundsExcludedVenuesArray,
+  harnessExcludedVenuesArray,
+  horsesExcludedVenuesArray,
 }) {
   let alreadyCapturedVenues = [];
 
@@ -450,6 +345,7 @@ async function scrape({
     meetingData: dailyMeetings,
     raceType: "G",
     arrayOfExclusionStrings: greyhoundsExcludedLocationsArray,
+    arrayOfVenueNameExclusionStrings: greyhoundsExcludedVenuesArray,
     namesOnly: false,
   });
 
@@ -457,6 +353,7 @@ async function scrape({
     meetingData: dailyMeetings,
     raceType: "H",
     arrayOfExclusionStrings: harnessExcludedLocationsArray,
+    arrayOfVenueNameExclusionStrings: harnessExcludedVenuesArray,
     namesOnly: false,
   });
 
@@ -464,6 +361,7 @@ async function scrape({
     meetingData: dailyMeetings,
     raceType: "R",
     arrayOfExclusionStrings: horsesExcludedLocationsArray,
+    arrayOfVenueNameExclusionStrings: horsesExcludedVenuesArray,
     namesOnly: false,
   });
 
@@ -700,11 +598,37 @@ async function getAllRaceFiles({
   excludeSubstrings = ["race-DATA", "all-meetings", "meetings", "racePaths"],
   mustIncludeSubstrings = ["race", "form-DATA"],
 }) {
-  let results = await getAllFiles({dir:dir, relativeDir:relativeDir, excludeSubstrings:excludeSubstrings, mustIncludeSubstrings:mustIncludeSubstrings});
+  let results = await getAllFiles({
+    dir: dir,
+    relativeDir: relativeDir,
+    excludeSubstrings: [...excludeSubstrings, "moreForm"],
+    mustIncludeSubstrings: mustIncludeSubstrings,
+  });
+
+  let resultsOfRaces = await getAllFiles({
+    dir: dir,
+    relativeDir: relativeDir,
+    excludeSubstrings: excludeSubstrings,
+    mustIncludeSubstrings: ["RESULTS-ONLY"],
+  });
+  let extendedFormOfRaces = await getAllFiles({
+    dir: dir,
+    relativeDir: relativeDir,
+    excludeSubstrings: excludeSubstrings,
+    mustIncludeSubstrings: ["moreForm"],
+  });
 
   let greys = [];
   let harness = [];
   let horses = [];
+
+  let greysResults = [];
+  let harnessResults = [];
+  let horsesResults = [];
+
+  let greysMoreForm = [];
+  let harnessMoreForm = [];
+  let horsesMoreForm = [];
 
   for (let str of results) {
     if (str.includes("/G/")) {
@@ -713,6 +637,24 @@ async function getAllRaceFiles({
       harness.push(str);
     } else if (str.includes("/R/")) {
       horses.push(str);
+    }
+  }
+  for (let str of resultsOfRaces) {
+    if (str.includes("/G/")) {
+      greysResults.push(str);
+    } else if (str.includes("/H/")) {
+      harnessResults.push(str);
+    } else if (str.includes("/R/")) {
+      horsesResults.push(str);
+    }
+  }
+  for (let str of extendedFormOfRaces) {
+    if (str.includes("/G/")) {
+      greysMoreForm.push(str);
+    } else if (str.includes("/H/")) {
+      harnessMoreForm.push(str);
+    } else if (str.includes("/R/")) {
+      horsesMoreForm.push(str);
     }
   }
 
@@ -724,35 +666,54 @@ async function getAllRaceFiles({
     greys,
     harness,
     horses,
+    greysExtendedForm: greysMoreForm,
+    harnessExtendedForm: harnessMoreForm,
+    horsesExtendedForm: horsesMoreForm,
+    greysResults,
+    harnessResults,
+    horsesResults,
     greyCount: greys.length,
     harnessCount: harness.length,
     horsesCount: horses.length,
+    greysExtendedFormCount: greysMoreForm.length,
+    harnessExtendedFormCount: harnessMoreForm.length,
+    horsesExtendedFormCount: horsesMoreForm.length,
+    greysResultsCount: greysResults.length,
+    harnessResultsCount: harnessResults.length,
+    horsesResultsCount: horsesResults.length,
   };
 }
 
-async function downloadFile({url, dir, filename}) {
-  try{
-    const filePath = dirString(dir)+"/"+filename;
+async function downloadFile({ url, dir, filename }) {
+  try {
+    const filePath = dirString(dir) + "/" + filename;
 
-  const response = await fetch(url);
-  if (!response.ok) throw new Error("Download failed");
+    const response = await fetch(url);
+    if (!response.ok) throw new Error("Download failed");
 
-  await pipeline(response.body, fs.createWriteStream(filePath));
+    await pipeline(response.body, fs.createWriteStream(filePath));
+  } catch {
+    console.log(`unable to download file of URL: ${url}`);
   }
-  catch{console.log(`unable to download file of URL: ${url}`)}
 }
 
 scrape({
   destinationDirectory: "./data",
-  date: "2026-04-10",
+  date: "2026-04-13",
   download: false,
   resulted: false,
   greyhounds: false,
   harness: false,
   horses: false,
+  //greyhoundsExcludedVenuesArray: [],
+  //harnessExcludedVenuesArray:[],
+  //horsesExcludedVenuesArray: ["LAUREL PARK", "LEOPARDSTOWN", "SHA TIN"],
   //greyhoundsExcludedLocationsArray: ["GBR"],
   //harnessExcludedLocationsArray: ["CAN"],
-  //horsesExcludedLocationsArray: ["IRL", "USA", "ARG", "GBR", "TUR"],
+  //horsesExcludedLocationsArray: [ "ARG", "TUR", "HKG"],
+  /*
+    ! not sure whether to exclude by location or venue name or just exclude races later based off of lacking specific data points or maybe just keeping all races for training irregardless of data points that are present; probably better to keep all races.
+  */
 });
 
 /* //! download videos and audio
@@ -784,4 +745,10 @@ ok now i want to get the previous days races and add them to the meeting data, a
     - will look for common properties and overwrite/merge/fill them, such as raceDataFile.json.data.races[i]=runnersForRaceI, which will be filled into date-g-meetings.json[j].races[k].runners=newPropertyFilledInWithRunnersFormForRaceI; ill need to split each date-time-racetype-meetings into their own file via venueName to simplify this a bit more, i mean not really hard, but still, no harm in it, may just keep it in memory and export after merging results into runnersForRaceI.data.races[j].results, some races will already have their results but better to batch overwrite with full results collected, may just get rid of the data i have right now and start collecting proper full data soon now that the data collection pipeline is good, just need to process now and everything then i can start aggregates for features for the csv data, then i can start feature engineering properly
 
 might be better to keep them all separated the way they are for aggregations and then processing to csv, will think about more before i do anything, will do some stuff smallscale before pipelining for batches
+
+//!
+
+will need to extract necessary info eventually and merge into a single object with race form, will add meeting data to that too as a property, gotta look at the data and think it through a little; ill eventually need to pay attention to actual standards and practices soon but i just wanted to get the data scraping done quick but i probably shot myself in the foot a little haha but so far its scraping good and ill get around to cleaning it up and putting in appropriate error output to json and everything else that needs to be done properly.
+
+//!
 */
