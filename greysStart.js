@@ -177,7 +177,9 @@ async function capture({
         venueName: dailyMeeting[i].meetingName.replace(/ /g, "_"),
         raceLink: dailyMeeting[i]._links.races,
       });
-      alreadyCapturedVenues.push(dailyMeeting[i].meetingName.replace(/ /g, "_"));
+      alreadyCapturedVenues.push(
+        dailyMeeting[i].meetingName.replace(/ /g, "_"),
+      );
     } catch {}
   }
   console.log(meetings);
@@ -425,6 +427,7 @@ async function scrape({
 
   if (resulted) {
     let dayBefore = dayjs(date).subtract(1, "day").format("YYYY-MM-DD");
+
     let results = await fetchResultsByDate({ date: dayBefore });
 
     let greyResults = await filterMeetingByExludingJurisdictions({
@@ -432,11 +435,13 @@ async function scrape({
       raceType: "G",
       namesOnly: false,
     });
+
     let harnessResults = await filterMeetingByExludingJurisdictions({
       meetingData: results,
       raceType: "H",
       namesOnly: false,
     });
+
     let horseResults = await filterMeetingByExludingJurisdictions({
       meetingData: results,
       raceType: "R",
@@ -457,14 +462,47 @@ async function scrape({
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/G/`) +
-          `${dayBefore}-${greyResults[i].meetingName.replace(" ", "_")}-RESULTS.json`,
+          `${dayBefore}-${greyResults[i].meetingName.replace(/ /g, "_")}-RESULTS.json`,
         data: greyResults[i],
       });
+
+      let greyRaceResults = [];
+
+      //! //////////////////////////////////////////////////////
+
+      for (let j = 0; j < greyResults[i].races.length; j++) {
+
+        let x = await fetchURL(greyResults[i].races[j]._links.self);
+
+        saveDataToFile({
+          filePath:
+            dirString(
+              `./data/${dayBefore}/results/G/${greyResults[i].meetingName.replace(/ /g, "_")}/`,
+            ) +
+            `${dayBefore}-${greyResults[i].meetingName.replace(/ /g, "_")}-race-${greyResults[i].races[j].raceNumber}-RESULTS.json`,
+          data: x,
+        });
+
+        greyRaceResults.push(x);
+
+        if (j == greyResults[i].races.length - 1) {
+          saveDataToFile({
+            filePath:
+              dirString(
+                `./data/${dayBefore}/results/G/${greyResults[i].meetingName.replace(/ /g, "_")}/`,
+              ) +
+              `${dayBefore}-${greyResults[i].meetingName.replace(/ /g, "_")}-ALL-RACES-RESULTS.json`,
+            data: greyRaceResults,
+          });
+        }
+      }
+
+      //! //////////////////////////////////////////////////////
 
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/G/`) +
-          `${dayBefore}-${greyResults[i].meetingName.replace(" ", "_")}-RESULTS-ONLY.json`,
+          `${dayBefore}-${greyResults[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
         data: arr,
       });
     }
@@ -475,21 +513,57 @@ async function scrape({
     });
 
     for (let i = 0; i < harnessResults.length; i++) {
+
       let arr = [];
+
       for (let j = 0; j < harnessResults[i].races.length; j++) {
         arr.push(harnessResults[i].races[j].results);
       }
-      saveDataToFile({
-        filePath:
-          dirString(`./data/${dayBefore}/results/H/`) +
-          `${dayBefore}-${harnessResults[i].meetingName.replace(" ", "_")}-RESULTS.json`,
-        data: harnessResults[i],
-      });
 
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/H/`) +
-          `${dayBefore}-${harnessResults[i].meetingName.replace(" ", "_")}-RESULTS-ONLY.json`,
+          `${dayBefore}-${harnessResults[i].meetingName.replace(/ /g, "_")}-RESULTS.json`,
+        data: harnessResults[i],
+      });
+
+      let harnessRacesResults = [];
+
+      //! //////////////////////////////////////////////////////
+
+      for (let j = 0; j < harnessResults[i].races.length; j++) {
+
+        let x = await fetchURL(harnessResults[i].races[j]._links.self);
+
+        saveDataToFile({
+          filePath:
+            dirString(
+              `./data/${dayBefore}/results/H/${harnessResults[i].meetingName.replace(/ /g, "_")}/`,
+            ) +
+            `${dayBefore}-${harnessResults[i].meetingName.replace(/ /g, "_")}-race-${harnessResults[i].races[j].raceNumber}-RESULTS.json`,
+          data: x,
+        });
+
+        harnessRacesResults.push(x);
+
+        if (j == harnessResults[i].races.length - 1) {
+          saveDataToFile({
+            filePath:
+              dirString(
+                `./data/${dayBefore}/results/H/${harnessResults[i].meetingName.replace(/ /g, "_")}/`,
+              ) +
+              `${dayBefore}-${harnessResults[i].meetingName.replace(/ /g, "_")}-ALL-RACES-RESULTS.json`,
+            data: harnessRacesResults,
+          });
+        }
+      }
+
+      //! //////////////////////////////////////////////////////
+
+      saveDataToFile({
+        filePath:
+          dirString(`./data/${dayBefore}/results/H/`) +
+          `${dayBefore}-${harnessResults[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
         data: arr,
       });
     }
@@ -500,20 +574,54 @@ async function scrape({
     });
 
     for (let i = 0; i < horseResults.length; i++) {
+
       let arr = [];
+
       for (let j = 0; j < horseResults[i].races.length; j++) {
         arr.push(horseResults[i].races[j].results);
       }
+
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/R/`) +
-          `${dayBefore}-${horseResults[i].meetingName.replace(" ", "_")}-RESULTS.json`,
+          `${dayBefore}-${horseResults[i].meetingName.replace(/ /g, "_")}-RESULTS.json`,
         data: horseResults[i],
       });
+
+      let horseRaceResults = [];
+
+      //! //////////////////////////////////////////////////////
+
+      for (let j = 0; j < horseResults[i].races.length; j++) {
+
+        let x = await fetchURL(horseResults[i].races[j]._links.self);
+        
+        saveDataToFile({
+          filePath:
+            dirString(
+              `./data/${dayBefore}/results/R/${horseResults[i].meetingName.replace(/ /g, "_")}/`,
+            ) +
+            `${dayBefore}-${horseResults[i].meetingName.replace(/ /g, "_")}-race-${horseResults[i].races[j].raceNumber}-RESULTS.json`,
+          data: x,
+        });
+        horseRaceResults.push(x);
+        if (j == horseResults[i].races.length - 1) {
+          saveDataToFile({
+            filePath:
+              dirString(
+                `./data/${dayBefore}/results/R/${horseResults[i].meetingName.replace(/ /g, "_")}/`,
+              ) +
+              `${dayBefore}-${horseResults[i].meetingName.replace(/ /g, "_")}-ALL-RACES-RESULTS.json`,
+            data: horseRaceResults,
+          });
+        }
+      }
+      //! //////////////////////////////////////////////////////
+
       saveDataToFile({
         filePath:
           dirString(`./data/${dayBefore}/results/R/`) +
-          `${dayBefore}-${horseResults[i].meetingName.replace(" ", "_")}-RESULTS-ONLY.json`,
+          `${dayBefore}-${horseResults[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
         data: arr,
       });
     }
@@ -595,27 +703,50 @@ function getResultsFile({ date, raceType = "" }) {
 async function getAllRaceFiles({
   dir,
   relativeDir = "./",
-  excludeSubstrings = ["race-DATA", "all-meetings", "meetings", "racePaths"],
-  mustIncludeSubstrings = ["race", "form-DATA"],
+  excludeSubstrings = [],
+  mustIncludeSubstrings = [],
 }) {
   let results = await getAllFiles({
     dir: dir,
     relativeDir: relativeDir,
-    excludeSubstrings: [...excludeSubstrings, "moreForm"],
-    mustIncludeSubstrings: mustIncludeSubstrings,
+    excludeSubstrings: [
+      ...excludeSubstrings,
+      "moreForm",
+      "race-DATA",
+      "all-meetings",
+      "meetings",
+      "racePaths",
+    ],
+    mustIncludeSubstrings: [...mustIncludeSubstrings, "race", "form-DATA"],
   });
 
   let resultsOfRaces = await getAllFiles({
     dir: dir,
     relativeDir: relativeDir,
-    excludeSubstrings: excludeSubstrings,
-    mustIncludeSubstrings: ["RESULTS-ONLY"],
+    excludeSubstrings: [
+      ...excludeSubstrings,
+      "ALL-RACES",
+      "moreForm",
+      "form-DATA",
+      "moreForm",
+      "race-DATA",
+      "all-meetings",
+      "meetings",
+      "racePaths",
+    ],
+    mustIncludeSubstrings: ["race", "RESULTS"],
   });
   let extendedFormOfRaces = await getAllFiles({
     dir: dir,
     relativeDir: relativeDir,
-    excludeSubstrings: excludeSubstrings,
-    mustIncludeSubstrings: ["moreForm"],
+    excludeSubstrings: [
+      ...excludeSubstrings,
+      "race-DATA",
+      "all-meetings",
+      "meetings",
+      "racePaths",
+    ],
+    mustIncludeSubstrings: [...mustIncludeSubstrings, "moreForm"],
   });
 
   let greys = [];
@@ -639,6 +770,7 @@ async function getAllRaceFiles({
       horses.push(str);
     }
   }
+
   for (let str of resultsOfRaces) {
     if (str.includes("/G/")) {
       greysResults.push(str);
@@ -648,6 +780,7 @@ async function getAllRaceFiles({
       horsesResults.push(str);
     }
   }
+
   for (let str of extendedFormOfRaces) {
     if (str.includes("/G/")) {
       greysMoreForm.push(str);
@@ -662,6 +795,24 @@ async function getAllRaceFiles({
   harness.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
   horses.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
 
+  greysMoreForm.sort((a, b) =>
+    a.localeCompare(b, undefined, { numeric: true }),
+  );
+  harnessMoreForm.sort((a, b) =>
+    a.localeCompare(b, undefined, { numeric: true }),
+  );
+  horsesMoreForm.sort((a, b) =>
+    a.localeCompare(b, undefined, { numeric: true }),
+  );
+
+  greysResults.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  harnessResults.sort((a, b) =>
+    a.localeCompare(b, undefined, { numeric: true }),
+  );
+  horsesResults.sort((a, b) =>
+    a.localeCompare(b, undefined, { numeric: true }),
+  );
+
   return {
     greys,
     harness,
@@ -669,9 +820,7 @@ async function getAllRaceFiles({
     greysExtendedForm: greysMoreForm,
     harnessExtendedForm: harnessMoreForm,
     horsesExtendedForm: horsesMoreForm,
-    greysResults,
-    harnessResults,
-    horsesResults,
+    results: { greysResults, harnessResults, horsesResults },
     greyCount: greys.length,
     harnessCount: harness.length,
     horsesCount: horses.length,
@@ -699,18 +848,18 @@ async function downloadFile({ url, dir, filename }) {
 
 scrape({
   destinationDirectory: "./data",
-  date: "2026-04-13",
-  download: true,
-  resulted: true,
-  greyhounds: true,
-  harness: true,
-  horses: true,
+  date: "2026-04-14",
+  download: false,
+  resulted: false,
+  greyhounds: false,
+  harness: false,
+  horses: false,
   //greyhoundsExcludedVenuesArray: [],
   //harnessExcludedVenuesArray:[],
   //horsesExcludedVenuesArray: ["LAUREL PARK", "LEOPARDSTOWN", "SHA TIN"],
-  //greyhoundsExcludedLocationsArray: ["GBR"],
-  //harnessExcludedLocationsArray: ["CAN"],
-  //horsesExcludedLocationsArray: [ "ARG", "TUR", "HKG"],
+  greyhoundsExcludedLocationsArray: ["GBR"],
+  harnessExcludedLocationsArray: ["CAN"],
+  horsesExcludedLocationsArray: ["ARG", "TUR", "HKG"],
   /*
     ! not sure whether to exclude by location or venue name or just exclude races later based off of lacking specific data points or maybe just keeping all races for training irregardless of data points that are present; probably better to keep all races.
   */
@@ -749,6 +898,8 @@ might be better to keep them all separated the way they are for aggregations and
 //!
 
 will need to extract necessary info eventually and merge into a single object with race form, will add meeting data to that too as a property, gotta look at the data and think it through a little; ill eventually need to pay attention to actual standards and practices soon but i just wanted to get the data scraping done quick but i probably shot myself in the foot a little haha but so far its scraping good and ill get around to cleaning it up and putting in appropriate error output to json and everything else that needs to be done properly.
+
+//! ///////////////////////// in individual race result file has the scratchings and barriers
 
 //!
 */

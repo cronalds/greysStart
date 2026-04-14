@@ -116,7 +116,7 @@ Outcome =
 
 - form data // foreach race at each venue of g/h/r meetings
   - form
-    - runnerNumber // box# for g
+    - runnerNumber //
     - runnerName
     - sire
     - dam
@@ -152,10 +152,10 @@ Outcome =
       - all meeting data except for races, just individual race runner additional data
       - runners // array of objects
         - runnerName // runnerID
-        - runnerNumber // box for G
+        - runnerNumber
         - vacantBox
         - trainerFullName // trainerID
-        - barrierNumber // h/r
+        - barrierNumber // h/r/g box# for g
         - riderDriverName // h/r
         - handicapWeight, harnessHandicap, blinkers, tcdwIndicators, emergency, penalty // h/r
         - dfsFormRating
@@ -167,3 +167,9 @@ Outcome =
       - ratings // \[{}\]
         - ratingType
         - ratingRunnerNumbers // []
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+
+- for draw places ill rely on having more than 1 dog placing for x place and have a drawX column either 0-1
