@@ -454,7 +454,9 @@ async function scrape({
     });
 
     for (let i = 0; i < greyResults.length; i++) {
+
       let arr = [];
+
       for (let j = 0; j < greyResults[i].races.length; j++) {
         arr.push(greyResults[i].races[j].results);
       }
@@ -466,6 +468,7 @@ async function scrape({
         data: greyResults[i],
       });
 
+      console.log(greyResults[i]);
       let greyRaceResults = [];
 
       //! //////////////////////////////////////////////////////
@@ -484,6 +487,8 @@ async function scrape({
         });
 
         greyRaceResults.push(x);
+
+        console.log(x);
 
         if (j == greyResults[i].races.length - 1) {
           saveDataToFile({
@@ -505,12 +510,15 @@ async function scrape({
           `${dayBefore}-${greyResults[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
         data: arr,
       });
+      console.log(arr)
     }
+
 
     saveDataToFile({
       filePath: `./data/${dayBefore}/${dayBefore}-H-RESULTS.json`,
       data: harnessResults,
     });
+    console.log(harnessResults)
 
     for (let i = 0; i < harnessResults.length; i++) {
 
@@ -518,6 +526,7 @@ async function scrape({
 
       for (let j = 0; j < harnessResults[i].races.length; j++) {
         arr.push(harnessResults[i].races[j].results);
+        console.log(harnessResults[i].races[j].results)
       }
 
       saveDataToFile({
@@ -546,6 +555,8 @@ async function scrape({
 
         harnessRacesResults.push(x);
 
+        console.log(x)
+
         if (j == harnessResults[i].races.length - 1) {
           saveDataToFile({
             filePath:
@@ -566,6 +577,7 @@ async function scrape({
           `${dayBefore}-${harnessResults[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
         data: arr,
       });
+      console.log(arr)
     }
 
     saveDataToFile({
@@ -579,6 +591,7 @@ async function scrape({
 
       for (let j = 0; j < horseResults[i].races.length; j++) {
         arr.push(horseResults[i].races[j].results);
+        console.log(horseResults[i].races[j].results)
       }
 
       saveDataToFile({
@@ -588,6 +601,8 @@ async function scrape({
         data: horseResults[i],
       });
 
+      console.log(horseResults[i])
+
       let horseRaceResults = [];
 
       //! //////////////////////////////////////////////////////
@@ -595,7 +610,7 @@ async function scrape({
       for (let j = 0; j < horseResults[i].races.length; j++) {
 
         let x = await fetchURL(horseResults[i].races[j]._links.self);
-        
+
         saveDataToFile({
           filePath:
             dirString(
@@ -604,7 +619,11 @@ async function scrape({
             `${dayBefore}-${horseResults[i].meetingName.replace(/ /g, "_")}-race-${horseResults[i].races[j].raceNumber}-RESULTS.json`,
           data: x,
         });
+
         horseRaceResults.push(x);
+
+        console.log(x)
+
         if (j == horseResults[i].races.length - 1) {
           saveDataToFile({
             filePath:
@@ -850,7 +869,7 @@ scrape({
   destinationDirectory: "./data",
   date: "2026-04-14",
   download: false,
-  resulted: false,
+  resulted: true,
   greyhounds: false,
   harness: false,
   horses: false,
