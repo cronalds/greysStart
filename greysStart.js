@@ -336,7 +336,7 @@ async function scrape({
       meetings: dailyMeetings.data.meetings.filter(
         (meeting) =>
           !alreadyCapturedVenues.includes(
-            meeting.meetingName.replace(" ", "_"),
+            meeting.meetingName.replace(/ /g, "_"),
           ),
       ),
     },
@@ -434,18 +434,24 @@ async function scrape({
       meetingData: results,
       raceType: "G",
       namesOnly: false,
+      arrayOfVenueNameExclusionStrings: greyhoundsExcludedVenuesArray,
+      arrayOfExclusionStrings: greyhoundsExcludedLocationsArray,
     });
 
     let harnessResults = await filterMeetingByExludingJurisdictions({
       meetingData: results,
       raceType: "H",
       namesOnly: false,
+      arrayOfVenueNameExclusionStrings: harnessExcludedVenuesArray,
+      arrayOfExclusionStrings: harnessExcludedLocationsArray,
     });
 
     let horseResults = await filterMeetingByExludingJurisdictions({
       meetingData: results,
       raceType: "R",
       namesOnly: false,
+      arrayOfVenueNameExclusionStrings: horsesExcludedVenuesArray,
+      arrayOfExclusionStrings: horsesExcludedLocationsArray,
     });
 
     saveDataToFile({
@@ -735,6 +741,7 @@ async function getAllRaceFiles({
       "all-meetings",
       "meetings",
       "racePaths",
+      "RESULTS"
     ],
     mustIncludeSubstrings: [...mustIncludeSubstrings, "race", "form-DATA"],
   });
@@ -764,6 +771,7 @@ async function getAllRaceFiles({
       "all-meetings",
       "meetings",
       "racePaths",
+      "races",
     ],
     mustIncludeSubstrings: [...mustIncludeSubstrings, "moreForm"],
   });
@@ -867,18 +875,18 @@ async function downloadFile({ url, dir, filename }) {
 
 scrape({
   destinationDirectory: "./data",
-  date: "2026-04-14",
+  date: "2026-04-15",
   download: false,
-  resulted: true,
+  resulted: false,
   greyhounds: false,
   harness: false,
   horses: false,
   //greyhoundsExcludedVenuesArray: [],
   //harnessExcludedVenuesArray:[],
   //horsesExcludedVenuesArray: ["LAUREL PARK", "LEOPARDSTOWN", "SHA TIN"],
-  greyhoundsExcludedLocationsArray: ["GBR"],
-  harnessExcludedLocationsArray: ["CAN"],
-  horsesExcludedLocationsArray: ["ARG", "TUR", "HKG"],
+  // greyhoundsExcludedLocationsArray: ["GBR"],
+  //harnessExcludedLocationsArray: ["CAN"],
+  //horsesExcludedLocationsArray: ["ARG", "HKG"],
   /*
     ! not sure whether to exclude by location or venue name or just exclude races later based off of lacking specific data points or maybe just keeping all races for training irregardless of data points that are present; probably better to keep all races.
   */
