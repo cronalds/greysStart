@@ -460,7 +460,6 @@ async function scrape({
     });
 
     for (let i = 0; i < greyResults.length; i++) {
-
       let arr = [];
 
       for (let j = 0; j < greyResults[i].races.length; j++) {
@@ -480,7 +479,6 @@ async function scrape({
       //! //////////////////////////////////////////////////////
 
       for (let j = 0; j < greyResults[i].races.length; j++) {
-
         let x = await fetchURL(greyResults[i].races[j]._links.self);
 
         saveDataToFile({
@@ -516,23 +514,21 @@ async function scrape({
           `${dayBefore}-${greyResults[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
         data: arr,
       });
-      console.log(arr)
+      console.log(arr);
     }
-
 
     saveDataToFile({
       filePath: `./data/${dayBefore}/${dayBefore}-H-RESULTS.json`,
       data: harnessResults,
     });
-    console.log(harnessResults)
+    console.log(harnessResults);
 
     for (let i = 0; i < harnessResults.length; i++) {
-
       let arr = [];
 
       for (let j = 0; j < harnessResults[i].races.length; j++) {
         arr.push(harnessResults[i].races[j].results);
-        console.log(harnessResults[i].races[j].results)
+        console.log(harnessResults[i].races[j].results);
       }
 
       saveDataToFile({
@@ -547,7 +543,6 @@ async function scrape({
       //! //////////////////////////////////////////////////////
 
       for (let j = 0; j < harnessResults[i].races.length; j++) {
-
         let x = await fetchURL(harnessResults[i].races[j]._links.self);
 
         saveDataToFile({
@@ -561,7 +556,7 @@ async function scrape({
 
         harnessRacesResults.push(x);
 
-        console.log(x)
+        console.log(x);
 
         if (j == harnessResults[i].races.length - 1) {
           saveDataToFile({
@@ -583,7 +578,7 @@ async function scrape({
           `${dayBefore}-${harnessResults[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
         data: arr,
       });
-      console.log(arr)
+      console.log(arr);
     }
 
     saveDataToFile({
@@ -592,12 +587,11 @@ async function scrape({
     });
 
     for (let i = 0; i < horseResults.length; i++) {
-
       let arr = [];
 
       for (let j = 0; j < horseResults[i].races.length; j++) {
         arr.push(horseResults[i].races[j].results);
-        console.log(horseResults[i].races[j].results)
+        console.log(horseResults[i].races[j].results);
       }
 
       saveDataToFile({
@@ -607,14 +601,13 @@ async function scrape({
         data: horseResults[i],
       });
 
-      console.log(horseResults[i])
+      console.log(horseResults[i]);
 
       let horseRaceResults = [];
 
       //! //////////////////////////////////////////////////////
 
       for (let j = 0; j < horseResults[i].races.length; j++) {
-
         let x = await fetchURL(horseResults[i].races[j]._links.self);
 
         saveDataToFile({
@@ -628,7 +621,7 @@ async function scrape({
 
         horseRaceResults.push(x);
 
-        console.log(x)
+        console.log(x);
 
         if (j == horseResults[i].races.length - 1) {
           saveDataToFile({
@@ -711,10 +704,6 @@ async function getAllFiles({
   return results;
 }
 
-function getResultsFile({ date, raceType = "" }) {
-  return `./data/${date}/${date}-${raceType === "" ? "" : `${raceType}-`}RESULTS.json`;
-}
-
 /**
  * same as get all files except returns all race form files as an object with greys, harness, and horses properties to access for the arrays.
  *
@@ -741,7 +730,7 @@ async function getAllRaceFiles({
       "all-meetings",
       "meetings",
       "racePaths",
-      "RESULTS"
+      "RESULTS",
     ],
     mustIncludeSubstrings: [...mustIncludeSubstrings, "race", "form-DATA"],
   });
@@ -760,7 +749,7 @@ async function getAllRaceFiles({
       "meetings",
       "racePaths",
     ],
-    mustIncludeSubstrings: ["race", "RESULTS"],
+    mustIncludeSubstrings: ["race", "RESULTS.json"],
   });
   let extendedFormOfRaces = await getAllFiles({
     dir: dir,
@@ -873,6 +862,183 @@ async function downloadFile({ url, dir, filename }) {
   }
 }
 
+async function getRacePathsAsGroupedObject() {
+  let data = await getAllRaceFiles({ dir: "./data" });
+  let greys = [];
+  let harness = [];
+  let horses = [];
+
+  let greysExtendedForm = [];
+  let harnessExtendedForm = [];
+  let horsesExtendedForm = [];
+
+  let greysResults = [];
+  let harnessResults = [];
+  let horsesResults = [];
+
+  for (let i = 0; i < data.greys.length; i++) {
+    greys.push({pathless:path.basename(data.greys[i]), pathed:data.greys[i]});
+  }
+  for (let i = 0; i < data.harness.length; i++) {
+    harness.push({pathless:path.basename(data.harness[i]), pathed:data.harness[i]});
+  }
+  for (let i = 0; i < data.horses.length; i++) {
+    horses.push({pathless:path.basename(data.horses[i]), pathed:data.horses[i]});
+  }
+
+  for (let i = 0; i < data.greysExtendedForm.length; i++) {
+    greysExtendedForm.push({pathless:path.basename(data.greysExtendedForm[i]), pathed:data.greysExtendedForm[i]});
+  }
+  for (let i = 0; i < data.harnessExtendedForm.length; i++) {
+    harnessExtendedForm.push({pathless:path.basename(data.harnessExtendedForm[i]), pathed:data.harnessExtendedForm[i]});
+  }
+  for (let i = 0; i < data.horsesExtendedForm.length; i++) {
+    horsesExtendedForm.push({pathless:path.basename(data.horsesExtendedForm[i]), pathed:data.horsesExtendedForm[i]});
+  }
+
+  for (let i = 0; i < data.results.greysResults.length; i++) {
+    greysResults.push({pathless:path.basename(data.results.greysResults[i]), pathed:data.results.greysResults[i]});
+  }
+  for (let i = 0; i < data.results.harnessResults.length; i++) {
+    harnessResults.push({pathless:path.basename(data.results.harnessResults[i]), pathed:data.results.harnessResults[i]});
+  }
+  for (let i = 0; i < data.results.horsesResults.length; i++) {
+    horsesResults.push({pathless:path.basename(data.results.horsesResults[i]), pathed:data.results.horsesResults[i]});
+  }
+
+  let groupedByDate = {greys:[], harness:[], horses:[], greysExtendedForm:[], harnessExtendedForm:[], horsesExtendedForm:[],greysResults:[], harnessResults:[], horsesResults:[]};
+  
+  for(let i = 0; i < greys.length; i++){
+    let date = greys[i].pathless.slice(0, 10)
+
+    if(!groupedByDate.greys[date]){
+      groupedByDate.greys[date] = [];
+    }
+    if(!groupedByDate.greys[date][greys[i].pathless.split("-")[3]]){
+      groupedByDate.greys[date][greys[i].pathless.split("-")[3]] = [];
+    }
+      groupedByDate.greys[date][greys[i].pathless.split("-")[3]].push(greys[i]);
+  }
+
+  for(let i = 0; i < harness.length; i++){
+    let date = harness[i].pathless.slice(0, 10)
+
+    if(!groupedByDate.harness[date]){
+      groupedByDate.harness[date] = [];
+    }
+
+    if(!groupedByDate.harness[date][harness[i].pathless.split("-")[3]]){
+      groupedByDate.harness[date][harness[i].pathless.split("-")[3]] = [];
+    }
+      groupedByDate.harness[date][harness[i].pathless.split("-")[3]].push(harness[i]);
+  }
+
+  for(let i = 0; i < horses.length; i++){
+    let date = horses[i].pathless.slice(0, 10)
+
+    if(!groupedByDate.horses[date]){
+      groupedByDate.horses[date] = [];
+    }
+
+    if(!groupedByDate.horses[date][horses[i].pathless.split("-")[3]]){
+      groupedByDate.horses[date][horses[i].pathless.split("-")[3]] = [];
+    }
+      groupedByDate.horses[date][horses[i].pathless.split("-")[3]].push(horses[i]);
+  }
+
+  for(let i = 0; i < greysExtendedForm.length; i++){
+    let date = greysExtendedForm[i].pathless.slice(0, 10)
+
+    if(!groupedByDate.greysExtendedForm[date]){
+      groupedByDate.greysExtendedForm[date] = [];
+    }
+
+    if(!groupedByDate.greysExtendedForm[date][greysExtendedForm[i].pathless.split("-")[3]]){
+      groupedByDate.greysExtendedForm[date][greysExtendedForm[i].pathless.split("-")[3]] = [];
+    }
+
+    groupedByDate.greysExtendedForm[date][greysExtendedForm[i].pathless.split("-")[3]].push(greysExtendedForm[i]);
+  }
+
+  for(let i = 0; i < harnessExtendedForm.length; i++){
+    let date = harnessExtendedForm[i].pathless.slice(0, 10)
+
+    if(!groupedByDate.harnessExtendedForm[date]){
+      groupedByDate.harnessExtendedForm[date] = [];
+    }
+
+    if(!groupedByDate.harnessExtendedForm[date][harnessExtendedForm[i].pathless.split("-")[3]]){
+      groupedByDate.harnessExtendedForm[date][harnessExtendedForm[i].pathless.split("-")[3]] = [];
+    }
+
+    groupedByDate.harnessExtendedForm[date][harnessExtendedForm[i].pathless.split("-")[3]].push(harnessExtendedForm[i]);
+  }
+
+  for(let i = 0; i < horsesExtendedForm.length; i++){
+    let date = horsesExtendedForm[i].pathless.slice(0, 10)
+
+    if(!groupedByDate.horsesExtendedForm[date]){
+      groupedByDate.horsesExtendedForm[date] = [];
+    }
+
+    if(!groupedByDate.horsesExtendedForm[date][horsesExtendedForm[i].pathless.split("-")[3]]){
+      groupedByDate.horsesExtendedForm[date][horsesExtendedForm[i].pathless.split("-")[3]] = [];
+    }
+
+    groupedByDate.horsesExtendedForm[date][horsesExtendedForm[i].pathless.split("-")[3]].push(horsesExtendedForm[i]);
+  }
+
+  for(let i = 0; i < greysResults.length; i++){
+    let date = greysResults[i].pathless.slice(0, 10)
+
+    if(!groupedByDate.greysResults[date]){
+      groupedByDate.greysResults[date] = [];
+    }
+
+    if(!groupedByDate.greysResults[date][greysResults[i].pathless.split("-")[3]]){
+      groupedByDate.greysResults[date][greysResults[i].pathless.split("-")[3]] = [];
+    }
+
+    if(greysResults[i].pathed.includes("race")){
+      groupedByDate.greysResults[date][greysResults[i].pathless.split("-")[3]].push(greysResults[i]);
+    }    
+  }
+
+  for(let i = 0; i < harnessResults.length; i++){
+    let date = harnessResults[i].pathless.slice(0, 10)
+
+    if(!groupedByDate.harnessResults[date]){
+      groupedByDate.harnessResults[date] = [];
+    }
+
+    if(!groupedByDate.harnessResults[date][harnessResults[i].pathless.split("-")[3]]){
+      groupedByDate.harnessResults[date][harnessResults[i].pathless.split("-")[3]] = [];
+    }
+
+    if(harnessResults[i].pathed.includes("race")){
+      groupedByDate.harnessResults[date][harnessResults[i].pathless.split("-")[3]].push(harnessResults[i]);
+    }
+  }
+
+  for(let i = 0; i < horsesResults.length; i++){
+    let date = horsesResults[i].pathless.slice(0, 10)
+
+    if(!groupedByDate.horsesResults[date]){
+      groupedByDate.horsesResults[date] = [];
+    }
+
+    if(!groupedByDate.horsesResults[date][horsesResults[i].pathless.split("-")[3]]){
+      groupedByDate.horsesResults[date][horsesResults[i].pathless.split("-")[3]] = [];
+    }
+
+    if(horsesResults[i].pathed.includes("race")){
+      groupedByDate.horsesResults[date][horsesResults[i].pathless.split("-")[3]].push(horsesResults[i]);
+    }
+  }
+
+  return groupedByDate;
+}
+
 scrape({
   destinationDirectory: "./data",
   date: "2026-04-15",
@@ -891,6 +1057,11 @@ scrape({
     ! not sure whether to exclude by location or venue name or just exclude races later based off of lacking specific data points or maybe just keeping all races for training irregardless of data points that are present; probably better to keep all races.
   */
 });
+
+let x = await getRacePathsAsGroupedObject();
+console.log(x.greysExtendedForm["2026-04-15"].SALE)
+
+//console.log(x.harnessResults['2026-04-13'])
 
 /* //! download videos and audio
 
