@@ -884,7 +884,7 @@ scrape({
   //greyhoundsExcludedVenuesArray: [],
   //harnessExcludedVenuesArray:[],
   //horsesExcludedVenuesArray: ["LAUREL PARK", "LEOPARDSTOWN", "SHA TIN"],
-  // greyhoundsExcludedLocationsArray: ["GBR"],
+  greyhoundsExcludedLocationsArray: ["GBR"],
   //harnessExcludedLocationsArray: ["CAN"],
   //horsesExcludedLocationsArray: ["ARG", "HKG"],
   /*
