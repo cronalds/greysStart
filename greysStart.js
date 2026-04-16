@@ -1055,13 +1055,4 @@ ok now i want to get the previous days races and add them to the meeting data, a
   - merge appropriately
     - will look for common properties and overwrite/merge/fill them, such as raceDataFile.json.data.races[i]=runnersForRaceI, which will be filled into date-g-meetings.json[j].races[k].runners=newPropertyFilledInWithRunnersFormForRaceI; ill need to split each date-time-racetype-meetings into their own file via venueName to simplify this a bit more, i mean not really hard, but still, no harm in it, may just keep it in memory and export after merging results into runnersForRaceI.data.races[j].results, some races will already have their results but better to batch overwrite with full results collected, may just get rid of the data i have right now and start collecting proper full data soon now that the data collection pipeline is good, just need to process now and everything then i can start aggregates for features for the csv data, then i can start feature engineering properly
 
-might be better to keep them all separated the way they are for aggregations and then processing to csv, will think about more before i do anything, will do some stuff smallscale before pipelining for batches
-
-//!
-
-will need to extract necessary info eventually and merge into a single object with race form, will add meeting data to that too as a property, gotta look at the data and think it through a little; ill eventually need to pay attention to actual standards and practices soon but i just wanted to get the data scraping done quick but i probably shot myself in the foot a little haha but so far its scraping good and ill get around to cleaning it up and putting in appropriate error output to json and everything else that needs to be done properly.
-
-//! ///////////////////////// in individual race result file has the scratchings and barriers
-
-//!
 */

@@ -198,4 +198,10 @@ Outcome =
 -----------------------------------------
 -----------------------------------------
 
-- foreach key in xResults in racePathsGrouped.json will be the keys for greys/harness/horses and their extendedForms as well to group; results are a day behind the rest, ill get the results/form/extended form for each race at each venue and ill get scratchings and replacement runners from the resultings, and the rest of the info from race form and extendedForm; ill just group each into objects with the paths for {race, extendedForm, results} and that will get the paths bundled for proper processing where ill have to create an empty object and fill with pertinent info from each json object(listed above)
+- foreach key in xResults in racePathsGrouped.json will be the keys for greys/harness/horses and their extendedForms as well to group; results are a day behind the rest, ill get the results/form/extended form for each race at each venue and ill get scratchings and replacement runners from the resultings, and the rest of the info from race form and extendedForm; ill just group each into objects with the paths for {race, extendedForm, results} and that will get the paths bundled for proper processing where ill have to create an empty object and fill with pertinent info from each json object(listed above) and add transactions to sqliteDB where data will be appropriately consolidated and itll be much easier to handle/aggregate/etc
+
+- putting in appropriate error output to json and everything else that needs to be done properly. // either winston or bespoke
+
+- get each key in xResults(greysResults first, maybe harness and horses later)
+- those will be the keys for greys and greysExtendedForm as well to get the paths from
+- should be as easy as ensuring count of each === each other and then pairing {race[i], extendedForm[i], result[i]} to get the groupings before processing into a single json object
