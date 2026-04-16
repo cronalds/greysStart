@@ -205,4 +205,6 @@ Outcome =
 - get each key in xResults(greysResults first, maybe harness and horses later)
 - those will be the keys for greys and greysExtendedForm as well to get the paths from
 - get each key inside there x.y for venues
-- should be as easy as ensuring count of each venue === each other in race, extended, result and then pairing {race[i][j], extendedForm[i][j], result[i][j]} to get the groupings before processing into a single json object and then adding to sqlite for consolidated data; will think this over more once i have the tables and their schemas written
+- should be as easy as ensuring count of each venue === each other in race, extended, result and then pairing {race[venue][raceNumber], extendedForm[venue][raceNumber], result[venue][raceNumber]} to get the groupings before processing into a single json object and then adding to sqlite for consolidated data; will think this over more once i have the tables and their schemas written
+
+- then comes updating data from previous race history, for each dog ill have to get that race up if finishPosition >=5 and update with position number, maybe a few other datapoints as well, but i only definitively know ill need to update position as of rn
