@@ -1,0 +1,915 @@
+{
+  "venueName": "KILMORE",
+  "raceNumber": 9,
+  "form": {
+    "data": {
+      "raceNumber": 9,
+      "spectrumId": "KILMORE_R8",
+      "raceName": "BERALDO COFFEE 3YO MAIDEN TROT MS",
+      "raceDistance": 1690,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "KILMORE",
+        "venueMnemonic": "KIL",
+        "meetingDate": "2026-04-16",
+        "location": "VIC",
+        "raceType": "H",
+        "weatherCondition": "FINE",
+        "trackCondition": "GOOD",
+        "sellCode": {
+          "meetingCode": "M",
+          "scheduledType": "H"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416KILT09.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416KILT09_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": true,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": false,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-16T11:37:00.000Z",
+      "raceClassConditions": "3YO MAIDEN",
+      "sprintLane": true,
+      "apprenticesCanClaim": false,
+      "prizeMoney": "$6000.00",
+      "raceStatus": "Normal",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "KIL",
+              "raceType": "H",
+              "startTime": "2026-04-16T11:37:00.000Z"
+            }
+          ],
+          "poolHistory": [
+            {
+              "poolTotal": 4.5,
+              "poolTotalTime": "2026-04-16T01:37:04.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 2.5,
+              "poolTotalTime": "2026-04-16T00:37:03.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 2.5,
+              "poolTotalTime": "2026-04-16T00:37:03.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 1,
+              "poolTotalTime": "2026-04-15T23:37:06.000Z",
+              "specialDisplayIndicator": false
+            }
+          ],
+          "poolTotal": 4.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Place",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "KIL",
+              "raceType": "H",
+              "startTime": "2026-04-16T11:37:00.000Z"
+            }
+          ],
+          "poolTotal": 3,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "KIL",
+              "raceType": "H",
+              "startTime": "2026-04-16T11:37:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/KIL/races/9/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 3,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "KIL",
+              "raceType": "H",
+              "startTime": "2026-04-16T11:37:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/KIL/races/9/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "KIL",
+              "raceType": "H",
+              "startTime": "2026-04-16T11:37:00.000Z"
+            }
+          ],
+          "poolTotal": 1.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "KIL",
+              "raceType": "H",
+              "startTime": "2026-04-16T11:37:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": true,
+      "allowParimutuelPlace": true,
+      "parimutuelPlaceStatus": "Open",
+      "allowFixedOddsPlace": true,
+      "numberOfPlaces": 2,
+      "numberOfFixedOddsPlaces": 2,
+      "runners": [
+        {
+          "runnerName": "THE TROUT COD",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 4.2,
+            "returnWinTime": "2026-04-15T22:07:51.000Z",
+            "returnWinOpen": 3.7,
+            "returnWinOpenDaily": 3.7,
+            "returnPlace": 1.95,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 163881,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-15T22:07:40.000Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-15T22:06:47.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-15T22:06:47.069Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-15T22:07:39.908Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-15T22:07:51.182Z"
+              }
+            ],
+            "percentageChange": 8,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 3.8,
+            "returnPlace": 1.2,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": true,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/PINK%2C%20BLACK%20BAND%2C%20BLACK%20SLEEVES",
+          "trainerName": "A Gath",
+          "vacantBox": false,
+          "trainerFullName": "ANDY GATH",
+          "barrierNumber": 0,
+          "riderDriverName": "K Gath",
+          "riderDriverFullName": "KATE GATH",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "f70",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 99,
+          "techFormRating": 0,
+          "totalRatingPoints": 3,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "fastForm": [
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 2
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/KIL/races/9/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "GRAINGER",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 8,
+            "returnWinTime": "2026-04-15T22:07:51.000Z",
+            "returnWinOpen": 6.5,
+            "returnWinOpenDaily": 6.5,
+            "returnPlace": 3,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 163882,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-15T22:07:40.000Z"
+              },
+              {
+                "returnWin": 6.5,
+                "returnWinTime": "2026-04-15T22:06:47.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 6.5,
+                "returnWinTime": "2026-04-15T22:06:47.069Z"
+              },
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-15T22:07:39.908Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-15T22:07:51.182Z"
+              }
+            ],
+            "percentageChange": 7,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 3.8,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/LIGHT%20BLUE%20%26AMP%3B%20YELLOW%20STRIPES%2C%20DARK%20BLUE%20DIAMOND",
+          "trainerName": "F Spiteri",
+          "vacantBox": false,
+          "trainerFullName": "FRED SPITERI",
+          "barrierNumber": 0,
+          "riderDriverName": "J Caldow",
+          "riderDriverFullName": "JOHN CALDOW",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": null,
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 0,
+          "techFormRating": 0,
+          "totalRatingPoints": 3,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/KIL/races/9/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "WAR DAN PHOENIX",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 10,
+            "returnWinTime": "2026-04-15T22:07:51.000Z",
+            "returnWinOpen": 8,
+            "returnWinOpenDaily": 8,
+            "returnPlace": 3.6,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 163883,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 9,
+                "returnWinTime": "2026-04-15T22:07:40.000Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-15T22:06:47.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-15T22:06:47.069Z"
+              },
+              {
+                "returnWin": 9,
+                "returnWinTime": "2026-04-15T22:07:39.908Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-15T22:07:50.645Z"
+              }
+            ],
+            "percentageChange": 11,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 7.6,
+            "returnPlace": 2.5,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T00:37:03.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 81
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/WHITE%20SHOULDERS%2C%20NAVY%20BLUE%20TRIANGLE%20WITH%20GOLD%20Z%2C%20NAVY%20BLUE%20SLEEVES%2C%20TWO%20GOLD%20ARMBANDS",
+          "trainerName": "D Miles",
+          "vacantBox": false,
+          "trainerFullName": "DAVID MILES",
+          "barrierNumber": 0,
+          "riderDriverName": "N Beale",
+          "riderDriverFullName": "NICK BEALE",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "f8x36",
+          "tcdwIndicators": "c",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 95,
+          "techFormRating": 0,
+          "totalRatingPoints": 4,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/KIL/races/9/form/3?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "GIANT FRANKIE",
+          "runnerNumber": 4,
+          "fixedOdds": {
+            "returnWin": 34,
+            "returnWinTime": "2026-04-15T22:07:51.000Z",
+            "returnWinOpen": 23,
+            "returnWinOpenDaily": 23,
+            "returnPlace": 10,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 163884,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-15T22:07:40.000Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-15T22:06:47.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-15T22:06:47.069Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-15T22:07:39.908Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-15T22:07:51.182Z"
+              }
+            ],
+            "percentageChange": 31,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 3.8,
+            "returnPlace": 1.2,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": true,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 2.1,
+                "returnWinTime": "2026-04-16T00:37:03.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1,
+                "returnWinTime": "2026-04-15T23:37:06.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 81
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/WHITE%2C%20DARK%20BLUE%20STARS%2C%20RED%20HOOPED%20SLEEVES",
+          "trainerName": "R Burnett",
+          "vacantBox": false,
+          "trainerFullName": "RITA BURNETT",
+          "barrierNumber": 0,
+          "riderDriverName": "R Burnett",
+          "riderDriverFullName": "RITA BURNETT",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "f886x",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 85,
+          "techFormRating": 0,
+          "totalRatingPoints": 2,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/KIL/races/9/form/4?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "SUMMIT MEETING",
+          "runnerNumber": 5,
+          "fixedOdds": {
+            "returnWin": 13,
+            "returnWinTime": "2026-04-15T22:07:51.000Z",
+            "returnWinOpen": 10,
+            "returnWinOpenDaily": 10,
+            "returnPlace": 4.4,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 163885,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-15T22:07:40.000Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-15T22:06:47.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-15T22:06:47.069Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-15T22:07:39.908Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-15T22:07:50.645Z"
+              }
+            ],
+            "percentageChange": 8,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/ROYAL%20BLUE%2C%20EMERALD%20GREEN%20SHAMROCK%2C%20WHITE%20SLEEVES%2C%20EMERALD%20GREEN%20STRIPE%20%26AMP%3B%20CUFFS",
+          "trainerName": "J Murphy",
+          "vacantBox": false,
+          "trainerFullName": "JOHN MURPHY",
+          "barrierNumber": 0,
+          "riderDriverName": "B Murphy",
+          "riderDriverFullName": "BRENT MURPHY",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": null,
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 0,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/KIL/races/9/form/5?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "HEIR JAURDON",
+          "runnerNumber": 6,
+          "fixedOdds": {
+            "returnWin": 5,
+            "returnWinTime": "2026-04-15T22:07:40.000Z",
+            "returnWinOpen": 4.6,
+            "returnWinOpenDaily": 4.6,
+            "returnPlace": 2.2,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 163886,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 4.6,
+                "returnWinTime": "2026-04-15T22:06:47.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 4.6,
+                "returnWinTime": "2026-04-15T22:06:47.053Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-15T22:07:39.908Z"
+              }
+            ],
+            "percentageChange": 9,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 7.6,
+            "returnPlace": 2.5,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T00:37:03.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 81
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2C%20BLACK%20STAR%2C%20WHITE%20SHOULDER%20STRIPES%2C%20BLACK%20SLEEVES.",
+          "trainerName": "D Miles",
+          "vacantBox": false,
+          "trainerFullName": "DAVID MILES",
+          "barrierNumber": 0,
+          "riderDriverName": "D Miles",
+          "riderDriverFullName": "DAVID MILES",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "f73",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 95,
+          "techFormRating": 0,
+          "totalRatingPoints": 9,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "fastForm": [
+            {
+              "type": "LikelyLeader",
+              "keywords": null,
+              "ranking": null
+            },
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 3
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/KIL/races/9/form/6?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "PIPALICIOUS",
+          "runnerNumber": 7,
+          "fixedOdds": {
+            "returnWin": 1.75,
+            "returnWinTime": "2026-04-15T22:07:51.000Z",
+            "returnWinOpen": 2.3,
+            "returnWinOpenDaily": 2.3,
+            "returnPlace": 1.28,
+            "isFavouriteWin": true,
+            "isFavouritePlace": true,
+            "bettingStatus": "Open",
+            "propositionNumber": 163887,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 1.95,
+                "returnWinTime": "2026-04-15T22:07:40.000Z"
+              },
+              {
+                "returnWin": 2.3,
+                "returnWinTime": "2026-04-15T22:06:47.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 2.3,
+                "returnWinTime": "2026-04-15T22:06:47.069Z"
+              },
+              {
+                "returnWin": 1.95,
+                "returnWinTime": "2026-04-15T22:07:39.908Z"
+              },
+              {
+                "returnWin": 1.75,
+                "returnWinTime": "2026-04-15T22:07:51.182Z"
+              }
+            ],
+            "percentageChange": -10,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 7.6,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T00:37:03.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 81
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/DARK%20GREEN%2C%20WHITE%20YOKE%20%26AMP%3B%20BRACES%2C%20BLACK%20COLLAR%20%26AMP%3B%20DIAMONDS",
+          "trainerName": "D Van Ryn",
+          "vacantBox": false,
+          "trainerFullName": "DAVID VAN RYN",
+          "barrierNumber": 0,
+          "riderDriverName": "R Sanderson",
+          "riderDriverFullName": "RYAN SANDERSON",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "26282",
+          "tcdwIndicators": "tcd",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 15,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "fastForm": [
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 1
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/KIL/races/9/form/7?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-16T01:37:04.000Z",
+      "fixedOddsUpdateTime": "2026-04-15T22:07:51.000Z",
+      "raceComments": "{\"comment\":\"7. PIPALICIOUS kept her manners in check last start and went close, coming from the back row to miss by a head when second at Bendigo. The driver has some work to do from this wide starting position and she'll need to be on her best behaviour but can win with her A-game. Manners have let 1. THE TROUT COD down in both starts so far but she started favourite last time so suspect there is ability there. Gets the ace draw and the penny could drop. 6. HEIR JAURDON showed improvement to place at start number two. Draws wider but has scope for further progression. 3. WAR DAN PHOENIX drops in grade on the last attempt and led from wider than this for a resuming placing prior.\",\"runners\":[7,1,6,3],\"exclusive\":false}",
+      "tips": {
+        "tipType": "Standard",
+        "tipster": "Brendan Delaney",
+        "tipRunnerNumbers": [
+          7,
+          6,
+          1,
+          2
+        ]
+      },
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            7,
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            7,
+            4,
+            6,
+            3
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            7,
+            6,
+            2,
+            5
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            7,
+            6,
+            3,
+            4
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            7,
+            6,
+            3,
+            1
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            7,
+            6,
+            3,
+            1
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            7,
+            6,
+            3,
+            1
+          ]
+        }
+      ],
+      "multiLegApproximates": [],
+      "betTypes": [
+        {
+          "wageringProduct": "Win",
+          "firstLeg": {
+            "raceNumber": 9,
+            "venueMnemonic": "KIL",
+            "raceType": "H"
+          }
+        },
+        {
+          "wageringProduct": "Place",
+          "firstLeg": {
+            "raceNumber": 9,
+            "venueMnemonic": "KIL",
+            "raceType": "H"
+          }
+        },
+        {
+          "wageringProduct": "Quinella",
+          "firstLeg": {
+            "raceNumber": 9,
+            "venueMnemonic": "KIL",
+            "raceType": "H"
+          }
+        },
+        {
+          "wageringProduct": "Exacta",
+          "firstLeg": {
+            "raceNumber": 9,
+            "venueMnemonic": "KIL",
+            "raceType": "H"
+          }
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "firstLeg": {
+            "raceNumber": 9,
+            "venueMnemonic": "KIL",
+            "raceType": "H"
+          }
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "firstLeg": {
+            "raceNumber": 9,
+            "venueMnemonic": "KIL",
+            "raceType": "H"
+          }
+        }
+      ]
+    }
+  }
+}

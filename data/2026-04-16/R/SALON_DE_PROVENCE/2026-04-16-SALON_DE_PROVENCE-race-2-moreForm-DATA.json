@@ -1,0 +1,781 @@
+{
+  "venueName": "SALON_DE_PROVENCE",
+  "raceNumber": 2,
+  "form": {
+    "data": {
+      "raceNumber": 2,
+      "spectrumId": "SALON_DE_0",
+      "raceName": "PRIX DE LA COTE BLEUE",
+      "raceDistance": 2400,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "SALON DE PROVENCE",
+        "venueMnemonic": "SDP",
+        "meetingDate": "2026-04-16",
+        "location": "FRA",
+        "raceType": "R",
+        "weatherCondition": null,
+        "trackCondition": null,
+        "sellCode": {
+          "meetingCode": "F",
+          "scheduledType": "R"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416SDPR02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416SDPR02_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": false,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": true,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-16T10:23:00.000Z",
+      "raceClassConditions": "3YO CLM",
+      "apprenticesCanClaim": false,
+      "prizeMoney": "$24080.00",
+      "raceStatus": "Normal",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:23:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Place",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:23:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:23:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/SDP/races/2/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:23:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/SDP/races/2/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:23:00.000Z"
+            }
+          ],
+          "poolTotal": 2,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:23:00.000Z"
+            }
+          ],
+          "poolTotal": 2,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "DailyDouble",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:23:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 4,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T11:27:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "legNumber": 2,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Enabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 1,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:51:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 2,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:23:00.000Z"
+            },
+            {
+              "legNumber": 3,
+              "raceNumber": 3,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:55:00.000Z"
+            },
+            {
+              "legNumber": 4,
+              "raceNumber": 4,
+              "venueMnemonic": "SDP",
+              "raceType": "R",
+              "startTime": "2026-04-16T11:27:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": false,
+      "allowParimutuelPlace": true,
+      "parimutuelPlaceStatus": "Open",
+      "allowFixedOddsPlace": false,
+      "numberOfPlaces": 2,
+      "runners": [
+        {
+          "runnerName": "AFFECTION",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807781,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/GREEN%2C%20WHITE%20DIAMOND%2C%20SLEEVES%2C%20GREEN%20HALVED%2C%20BLACK%20PEAK",
+          "trainerName": "C Escuder",
+          "vacantBox": false,
+          "trainerFullName": "CHRISTOPHE ESCUDER",
+          "barrierNumber": 4,
+          "riderDriverName": "H Besnier",
+          "riderDriverFullName": "HUGO BESNIER",
+          "handicapWeight": 60,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "41371",
+          "tcdwIndicators": "C w",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 97,
+          "techFormRating": 0,
+          "totalRatingPoints": 17,
+          "earlySpeedRating": 63,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/SDP/races/2/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "TOREBEK",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807782,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/LIGHT%20BLUE%2C%20LIGHT%20BLUE%2C%20BLACK%20HALVED%20SLEEVES%2C%20BLACK%20PEAK",
+          "trainerName": "M Scandella-lacaille",
+          "vacantBox": false,
+          "trainerFullName": "MANON SCANDELLA-LACAILLE",
+          "barrierNumber": 1,
+          "riderDriverName": "A Orani",
+          "riderDriverFullName": "ANTONIO ORANI",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "06335",
+          "tcdwIndicators": "c",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 89,
+          "techFormRating": 0,
+          "totalRatingPoints": 4,
+          "earlySpeedRating": 64,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/SDP/races/2/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "CHILLIDA",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807783,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2C%20YELLOW%20DISC%2C%20SLEEVES%2C%20BLACK%20PEAK",
+          "trainerName": "R Montenegro",
+          "vacantBox": false,
+          "trainerFullName": "ROBERTO C. MONTENEGRO",
+          "barrierNumber": 2,
+          "riderDriverName": "A Crastus",
+          "riderDriverFullName": "ANTHONY CRASTUS",
+          "handicapWeight": 56,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "f95",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 77,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 31,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/SDP/races/2/form/3?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "TO NIGHT MOON",
+          "runnerNumber": 4,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807784,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/LIME%2C%20NAVY%20EPAULETTES%2C%20SLEEVES%2C%20LIME%20HOOPS%2C%20NAVY%20CAP%2C%20LIME%20STRIPES%2C%20BLACK%20PEAK",
+          "trainerName": "R Montenegro",
+          "vacantBox": false,
+          "trainerFullName": "ROBERTO C. MONTENEGRO",
+          "barrierNumber": 6,
+          "riderDriverName": "G Guedj-ga",
+          "riderDriverFullName": "GUILLAUME GUEDJ-GA",
+          "handicapWeight": 56,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "8x736",
+          "tcdwIndicators": "c",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 82,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 42,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/SDP/races/2/form/4?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "PRINCESS ALICE",
+          "runnerNumber": 5,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807785,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/LIGHT%20BLUE%2C%20BLACK%20DISC%2C%20ARMBANDS%2C%20LIGHT%20BLUE%20CAP%2C%20BLACK%20PEAK",
+          "trainerName": "L Proietti",
+          "vacantBox": false,
+          "trainerFullName": "LUDOVIC PROIETTI",
+          "barrierNumber": 3,
+          "riderDriverName": "H Mouesan",
+          "riderDriverFullName": "HUGO MOUESAN",
+          "handicapWeight": 54.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "88556",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 87,
+          "techFormRating": 0,
+          "totalRatingPoints": 1,
+          "earlySpeedRating": 56,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/SDP/races/2/form/5?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "SIMPLYTHEBEST",
+          "runnerNumber": 6,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807786,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/WHITE%2C%20YELLOW%20QUARTERS%2C%20SLEEVES%2C%20CAP%2C%20WHITE%20QUARTERS%2C%20BLACK%20PEAK",
+          "trainerName": "M Scandella-lacaille",
+          "vacantBox": false,
+          "trainerFullName": "MANON SCANDELLA-LACAILLE",
+          "barrierNumber": 7,
+          "riderDriverName": "M Brunelli",
+          "riderDriverFullName": "MARINA BRUNELLI",
+          "handicapWeight": 54.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": 1.5,
+          "last5Starts": "x5232",
+          "tcdwIndicators": "cdw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 13,
+          "earlySpeedRating": 58,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/SDP/races/2/form/6?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "NEVER LOST",
+          "runnerNumber": 7,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807787,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/LT%20BLUE%2C%20YELLOW%20CROSS%20LORRAINE%2C%20ARMBAND%2C%20STRIPES%20CAP%2C%20BLACK%20PEAK",
+          "trainerName": "M Scandella-lacaille",
+          "vacantBox": false,
+          "trainerFullName": "MANON SCANDELLA-LACAILLE",
+          "barrierNumber": 5,
+          "riderDriverName": "M Germain",
+          "riderDriverFullName": "MANON GERMAIN",
+          "handicapWeight": 53,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": 1.5,
+          "last5Starts": "f8",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 88,
+          "techFormRating": 0,
+          "totalRatingPoints": 1,
+          "earlySpeedRating": 1,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/SDP/races/2/form/7?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-16T01:23:02.000Z",
+      "raceComments": "{\"comment\":\"6. SIMPLYTHEBEST suffered a 0.5L defeat placing second contesting a 2400m claiming event at Moulins. Taken to break through for the first win of his career. 1. AFFECTION came home 2.5L clear of her nearest rival attempting a 2150m claiming event at Lyon-la-Soie. Bold show expected revisiting turf. 2. TOREBEK registered a 5.75L fifth competing over 2600m among maiden company at Marseille-Borely. Notable contender making his first appearance at this circuit. Sea The Moon colt 4. TO NIGHT MOON registered a 2.75L third over 2000m at Marseille-Vivaux providing his penultimate start. Warrants close consideration.\",\"runners\":[6,1,2,4],\"exclusive\":false}",
+      "tips": {
+        "tipType": "Standard",
+        "tipster": "Zeturf France",
+        "tipRunnerNumbers": [
+          1,
+          2,
+          6,
+          4
+        ]
+      },
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            6,
+            1,
+            2,
+            7
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            1,
+            6,
+            2,
+            5
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            1,
+            6,
+            2,
+            7
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            1,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            1,
+            6,
+            2,
+            4
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            1,
+            6,
+            5,
+            2
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            1,
+            6,
+            2,
+            5
+          ]
+        }
+      ],
+      "multiLegApproximates": [],
+      "betTypes": [
+        {
+          "wageringProduct": "Win",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "SDP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Place",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "SDP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quinella",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "SDP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Exacta",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "SDP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "SDP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "SDP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "DailyDouble",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "SDP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "firstLeg": {
+            "raceNumber": 1,
+            "venueMnemonic": "SDP",
+            "raceType": "R"
+          }
+        }
+      ]
+    }
+  }
+}

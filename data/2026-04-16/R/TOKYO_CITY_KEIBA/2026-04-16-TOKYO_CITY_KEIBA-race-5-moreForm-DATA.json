@@ -1,0 +1,1277 @@
+{
+  "venueName": "TOKYO_CITY_KEIBA",
+  "raceNumber": 5,
+  "form": {
+    "data": {
+      "raceNumber": 5,
+      "spectrumId": "TOKYO_CI15",
+      "raceName": "TOKYO CITY KEIBA C2",
+      "raceDistance": 1400,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "TOKYO CITY KEIBA",
+        "venueMnemonic": "TCY",
+        "meetingDate": "2026-04-16",
+        "location": "JPN",
+        "raceType": "R",
+        "weatherCondition": null,
+        "trackCondition": null,
+        "sellCode": {
+          "meetingCode": "L",
+          "scheduledType": "R"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416OHIR05.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416OHIR05_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": false,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": true,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-16T07:40:00.000Z",
+      "raceClassConditions": "C2",
+      "apprenticesCanClaim": false,
+      "prizeMoney": "$29473.00",
+      "raceStatus": "Normal",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T07:40:00.000Z"
+            }
+          ],
+          "poolHistory": [
+            {
+              "poolTotal": 17,
+              "poolTotalTime": "2026-04-16T01:39:51.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 12,
+              "poolTotalTime": "2026-04-16T01:09:51.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 12,
+              "poolTotalTime": "2026-04-16T01:09:51.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 9,
+              "poolTotalTime": "2026-04-16T00:39:51.000Z",
+              "specialDisplayIndicator": false
+            }
+          ],
+          "poolTotal": 17,
+          "jackpot": 0,
+          "cominglingHost": "IOM",
+          "cominglingHostName": "EUR - JPN/KOR/MYS/AME",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Place",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T07:40:00.000Z"
+            }
+          ],
+          "poolTotal": 9.5,
+          "jackpot": 0,
+          "cominglingHost": "IOM",
+          "cominglingHostName": "EUR - JPN/KOR/MYS/AME",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T07:40:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 6,
+          "jackpot": 0,
+          "cominglingHost": "IOM",
+          "cominglingHostName": "EUR - JPN/KOR/MYS/AME",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T07:40:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "IOM",
+          "cominglingHostName": "EUR - JPN/KOR/MYS/AME",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Duet",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T07:40:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/pools/Duet/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 7,
+          "jackpot": 0,
+          "cominglingHost": "IOM",
+          "cominglingHostName": "EUR - JPN/KOR/MYS/AME",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T07:40:00.000Z"
+            }
+          ],
+          "poolTotal": 4,
+          "jackpot": 0,
+          "cominglingHost": "IOM",
+          "cominglingHostName": "EUR - JPN/KOR/MYS/AME",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T07:40:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "IOM",
+          "cominglingHostName": "EUR - JPN/KOR/MYS/AME",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "RunningDouble",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T07:40:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 6,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T08:12:00.000Z"
+            }
+          ],
+          "poolTotal": 0.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "EarlyQuaddie",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Enabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T07:40:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 6,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T08:12:00.000Z"
+            },
+            {
+              "legNumber": 3,
+              "raceNumber": 7,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T08:45:00.000Z"
+            },
+            {
+              "legNumber": 4,
+              "raceNumber": 8,
+              "venueMnemonic": "TCY",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:20:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": false,
+      "allowParimutuelPlace": true,
+      "parimutuelPlaceStatus": "Open",
+      "allowFixedOddsPlace": false,
+      "numberOfPlaces": 3,
+      "runners": [
+        {
+          "runnerName": "FLOW OF TIME",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807491,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/GREEN%2C%20RED%20FIVE%20STARS%2C%20WHITE%20SLEEVES%2C%20RED%20DOUBLE%20ARMBANDS%2C%20WHITE%20CAP",
+          "trainerName": "Y Sasaki",
+          "vacantBox": false,
+          "trainerFullName": "YOICHI SASAKI",
+          "barrierNumber": 1,
+          "riderDriverName": "S Ishikawa",
+          "riderDriverFullName": "SHUNSUKE ISHIKAWA",
+          "handicapWeight": 54,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "7090x",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 30,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 23,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "BLUE CAT",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807492,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 2.7,
+            "returnPlace": 1,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": true,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2CWHITE%20ZIGZAG%20CHEVRON%2CPURPLE%20SLEEVES%2C%20BLACK%20CAP",
+          "trainerName": "H Kurita",
+          "vacantBox": false,
+          "trainerFullName": "HIROMITSU KURITA",
+          "barrierNumber": 2,
+          "riderDriverName": "J Wada",
+          "riderDriverFullName": "JIYOUJI WADA",
+          "handicapWeight": 54,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "07122",
+          "tcdwIndicators": "tcDw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 93,
+          "techFormRating": 0,
+          "totalRatingPoints": 11,
+          "earlySpeedRating": 49,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "AOI PHOTOGRAPH",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807493,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/YELLOW%2C%20RED%20CAP",
+          "trainerName": "M Ichimura",
+          "vacantBox": false,
+          "trainerFullName": "MAKOTO ICHIMURA",
+          "barrierNumber": 3,
+          "riderDriverName": "N Machida",
+          "riderDriverFullName": "NAOKI MACHIDA",
+          "handicapWeight": 54,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "63060",
+          "tcdwIndicators": "TCdW",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 74,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 39,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/3?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "KOTORINO SAEZURI",
+          "runnerNumber": 4,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807494,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 5,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/YELLOW%2C%20WHITE%20CHECKS%2C%20YELLOW%20SLEEVES%2C%20NAVY%20ARMBAND%2C%20RED%20CAP",
+          "trainerName": "H Takami",
+          "vacantBox": false,
+          "trainerFullName": "HIROSHI TAKAMI",
+          "barrierNumber": 4,
+          "riderDriverName": "G Fujimoto",
+          "riderDriverFullName": "GENKI FUJIMOTO",
+          "handicapWeight": 54,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "11334",
+          "tcdwIndicators": "TCD",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 94,
+          "techFormRating": 0,
+          "totalRatingPoints": 9,
+          "earlySpeedRating": 95,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/4?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "BLOOM NOSE",
+          "runnerNumber": 5,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807495,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 2.7,
+            "returnPlace": 2.5,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 1.9,
+                "returnWinTime": "2026-04-16T01:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.4,
+                "returnWinTime": "2026-04-16T00:39:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.4,
+                "returnWinTime": "2026-04-16T00:09:51.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 42
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/WHITE%2C%20RED%20DIAMOND%20CHECKS%2C%20GREEN%20SLEEVES%2C%20BLUE%20CAP",
+          "trainerName": "T Munakata",
+          "vacantBox": false,
+          "trainerFullName": "TAKEMI MUNAKATA",
+          "barrierNumber": 5,
+          "riderDriverName": "T Yano",
+          "riderDriverFullName": "TAKAYUKI YANO",
+          "handicapWeight": 56,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "35341",
+          "tcdwIndicators": "tCD",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 8,
+          "earlySpeedRating": 64,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/5?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "SAVIOUR",
+          "runnerNumber": 6,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807496,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2CMEDIUM%20BLUE%20RIGHT%20SASH%2CRED%20SLEEVES%2CWHITE%20ARMBANDS%2C%20BLUE%20CAP",
+          "trainerName": "R Yoshii",
+          "vacantBox": false,
+          "trainerFullName": "RYUICHI YOSHII",
+          "barrierNumber": 6,
+          "riderDriverName": "S Yoshii",
+          "riderDriverFullName": "SHO YOSHII",
+          "handicapWeight": 56,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "34x96",
+          "tcdwIndicators": "TCd",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 68,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 23,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/6?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "TIERNA TOTO",
+          "runnerNumber": 7,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807497,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/WHITE%2C%20NAVY%20BAND%2C%20SLEEVES%2C%20WHITE%20HOOPS%2C%20YELLOW%20CAP",
+          "trainerName": "M Tanaka",
+          "vacantBox": false,
+          "trainerFullName": "MASATO TANAKA",
+          "barrierNumber": 7,
+          "riderDriverName": "H Nakayama",
+          "riderDriverFullName": "HARUTO NAKAYAMA",
+          "handicapWeight": 53,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "x0090",
+          "tcdwIndicators": "TC",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 37,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 61,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/7?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "DELTA WAVE",
+          "runnerNumber": 8,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807498,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2C%20WHITE%20RIGHT%20SASH%2C%20RED%20SLEEVES%2C%20WHITE%20STARS%2C%20YELLOW%20CAP",
+          "trainerName": "H Horie",
+          "vacantBox": false,
+          "trainerFullName": "HITOSHI HORIE",
+          "barrierNumber": 8,
+          "riderDriverName": "R Novata",
+          "riderDriverFullName": "RYO NOVATA",
+          "handicapWeight": 54,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "370x6",
+          "tcdwIndicators": "tc",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 69,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 63,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/8?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "YUYU STARRY",
+          "runnerNumber": 9,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807499,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 6.8,
+            "returnPlace": 2.5,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 4.8,
+                "returnWinTime": "2026-04-16T01:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T00:39:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T00:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.6,
+                "returnWinTime": "2026-04-15T23:39:50.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 42
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/WHITE%2C%20MEDIUM%20BLUE%20STRIPES%2C%20RED%20SLEEVES%20%2CMEDIUM%20BLUE%20ARMBANDS%2C%20GREEN%20CAP",
+          "trainerName": "K Tsukioka",
+          "vacantBox": false,
+          "trainerFullName": "KENJI TSUKIOKA",
+          "barrierNumber": 9,
+          "riderDriverName": "Y Ando",
+          "riderDriverFullName": "YOICHI ANDO",
+          "handicapWeight": 54,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "44790",
+          "tcdwIndicators": "tC w",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 39,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 52,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/9?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "BURMESE RUBY",
+          "runnerNumber": 10,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807500,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/GREEN%2C%20WHITE%20FIVE%20STARS%2C%20SLEEVES%2C%20GREEN%20CAP",
+          "trainerName": "Y Sasaki",
+          "vacantBox": false,
+          "trainerFullName": "YOICHI SASAKI",
+          "barrierNumber": 10,
+          "riderDriverName": "H Higashih",
+          "riderDriverFullName": "HISAYOSHI HIGASHIH",
+          "handicapWeight": 54,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "00900",
+          "tcdwIndicators": "tCDW",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 61,
+          "techFormRating": 0,
+          "totalRatingPoints": 3,
+          "earlySpeedRating": 65,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/10?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "SONIC FOCUS",
+          "runnerNumber": 11,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807501,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2C%20BLACK%20BAND%2CARM%20BAND%2C%20ORANGE%20CAP",
+          "trainerName": "N Matoba",
+          "vacantBox": false,
+          "trainerFullName": "NAOYUKI MATOBA",
+          "barrierNumber": 11,
+          "riderDriverName": "R Yokogawa",
+          "riderDriverFullName": "REO YOKOGAWA",
+          "handicapWeight": 56,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "x237x",
+          "tcdwIndicators": "TC",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 56,
+          "techFormRating": 0,
+          "totalRatingPoints": 5,
+          "earlySpeedRating": 68,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/11?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "GOOD LOOKS",
+          "runnerNumber": 12,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807502,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2CYELLOW%20DOUBLE%20BAND%2CGREEN%20SLEEVES%2CYELLOW%20DOUBLE%20ARMBAND%2C%20ORANGE%20CAP",
+          "trainerName": "T Takaiwa",
+          "vacantBox": false,
+          "trainerFullName": "TAKATOSHI TAKAIWA",
+          "barrierNumber": 12,
+          "riderDriverName": "N Honmura",
+          "riderDriverFullName": "NAOKI HONMURA",
+          "handicapWeight": 56,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "08005",
+          "tcdwIndicators": "cdw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 43,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 42,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/12?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "WING WIND",
+          "runnerNumber": 13,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807503,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/BLUE%2C%20WHITE%20SIX%20SPOTS%2C%20SLEEVES%2C%20RED%20ARMBANDS%2C%20PINK%20CAP",
+          "trainerName": "K Hashimoto",
+          "vacantBox": false,
+          "trainerFullName": "KAZUMA HASHIMOTO",
+          "barrierNumber": 13,
+          "riderDriverName": "T Kouta",
+          "riderDriverFullName": "TANAKA KOUTA",
+          "handicapWeight": 56,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "02352",
+          "tcdwIndicators": "TCdw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 58,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 67,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/13?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "SANTO GRAAL",
+          "runnerNumber": 14,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807504,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 2.7,
+            "returnPlace": 1.2,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 1.9,
+                "returnWinTime": "2026-04-16T01:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T00:39:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T00:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.6,
+                "returnWinTime": "2026-04-15T23:39:50.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 42
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/YELLOW%2C%20MEDIUM%20BLUE%20RIGHT%20SASH%2C%20PINK%20CAP",
+          "trainerName": "Y Ebina",
+          "vacantBox": false,
+          "trainerFullName": "YUTA EBINA",
+          "barrierNumber": 14,
+          "riderDriverName": "M Honda",
+          "riderDriverFullName": "MASASHIGE HONDA",
+          "handicapWeight": 54,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "53673",
+          "tcdwIndicators": "TCDW",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 67,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 16,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/TCY/races/5/form/14?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-16T01:39:51.000Z",
+      "raceComments": "{\"comment\":\"2. BLUE CAT has been in good form, scoring three back at this track then placing twice in a row, most recently finishing second when she was prominent throughout over 1600m at this track. Finds a tougher race but she has the ability to test this field. 5. BLOOM NOSE turned in a fine effort to win by a neck at this track and distance last start in a much improved run. This looks a sterner test than last time but on his best form he is capable of another big performance. 4. KOTORINO SAEZURI missed the frame last time when fourth at this track. Prior to that had been in the money on two consecutive occasions. Form this track is hard to knock with two wins from five starts. Strong claims on her best form. 13. WING WIND made progress last time out, finishing second at the end of 1400m at this track. Best efforts measure up so capable of another big run.\",\"runners\":[2,5,4,13],\"exclusive\":false}",
+      "tips": {
+        "tipType": "Standard",
+        "tipster": "Japan Tips",
+        "tipRunnerNumbers": [
+          2,
+          8,
+          5,
+          3
+        ]
+      },
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            5,
+            4,
+            2,
+            3
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            10,
+            4,
+            2,
+            3
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            5,
+            4,
+            2,
+            14
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            11,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            2,
+            11,
+            4,
+            3
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            2,
+            5,
+            4,
+            3
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            2,
+            4,
+            5,
+            11
+          ]
+        }
+      ],
+      "multiLegApproximates": [],
+      "betTypes": [
+        {
+          "wageringProduct": "Win",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "TCY",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Place",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "TCY",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quinella",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "TCY",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Exacta",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "TCY",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Duet",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "TCY",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "TCY",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "TCY",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "RunningDouble",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "TCY",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "EarlyQuaddie",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "TCY",
+            "raceType": "R"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1186 @@
+{
+  "data": {
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceName": "PRIX DE LA FONTAINE CARPEAUX",
+        "raceClassConditions": "4YO+ HCP CL2",
+        "raceDistance": 1600,
+        "numberOfStarters": 16,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": false,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T11:55:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T11:55:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T11:55:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T11:55:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T11:55:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T11:55:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T11:55:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T11:55:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:05:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR01_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/1?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/1?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/1/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/1/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/1/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 2,
+        "raceName": "PRIX DU LOUVRE",
+        "raceClassConditions": "3YO CL2 F",
+        "raceDistance": 1600,
+        "numberOfStarters": 9,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": false,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T12:30:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "DailyDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 2,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T11:55:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:05:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR02_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/2?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/2?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/2/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/2/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/2/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 3,
+        "raceName": "PRIX MACHADO",
+        "raceClassConditions": "3YO CL2 CG",
+        "raceDistance": 1600,
+        "numberOfStarters": 6,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": false,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T13:05:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:05:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:05:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:05:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:05:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:05:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:05:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 3,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T11:55:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:05:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR03_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/3?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/3?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/3/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/3/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/3/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 4,
+        "raceName": "PRIX DE LA BOETIE",
+        "raceClassConditions": "4YO+ CL2 H",
+        "raceDistance": 3100,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": false,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T13:40:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "DailyDouble",
+            "legNumber": 2,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 4,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T11:55:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T12:30:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:05:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T13:40:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR04_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 5,
+        "raceName": "PRIX DE LA PROMENADE DES PLANCHES",
+        "raceClassConditions": "4YO+ HCP CL4",
+        "raceDistance": 1400,
+        "numberOfStarters": 12,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": false,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T14:15:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:15:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:15:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:15:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:15:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:15:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:15:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR05_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/5?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/5?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/5/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/5/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/5/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 6,
+        "raceName": "PRIX DU PAVILLON DES ANGLAIS",
+        "raceClassConditions": "4YO+ HCP CL3",
+        "raceDistance": 1400,
+        "numberOfStarters": 13,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": false,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T14:50:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T14:50:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR06_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/6?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/6?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/6/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/6/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/6/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 7,
+        "raceName": "PRIX DU TOTALISATEUR AUTOMATIQUE",
+        "raceClassConditions": "4YO+ HCP CL3",
+        "raceDistance": 1400,
+        "numberOfStarters": 13,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": false,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T15:25:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T15:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T15:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T15:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T15:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T15:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T15:25:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR07_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/7?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/7?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/7/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/7/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/7/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 8,
+        "raceName": "PRIX DU LION DE BELFORT",
+        "raceClassConditions": "4YO+ HCP CL3",
+        "raceDistance": 1600,
+        "numberOfStarters": 16,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": false,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T16:00:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T16:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T16:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T16:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T16:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T16:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "LGP",
+                "raceType": "R",
+                "startTime": "2026-04-16T16:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR08_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/8?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/8?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/8/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/8/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/8/big-bets?jurisdiction=NSW"
+        }
+      }
+    ]
+  }
+}

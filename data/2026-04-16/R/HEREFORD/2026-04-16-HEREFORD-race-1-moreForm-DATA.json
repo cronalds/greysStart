@@ -1,0 +1,467 @@
+{
+  "venueName": "HEREFORD",
+  "raceNumber": 1,
+  "form": {
+    "data": {
+      "raceNumber": 1,
+      "spectrumId": "HEREFORD_R",
+      "raceName": "SIGERIC LTD NOVICES' HANDICAP CHASE",
+      "raceDistance": 5069,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "HEREFORD",
+        "venueMnemonic": "HER",
+        "meetingDate": "2026-04-16",
+        "location": "GBR",
+        "raceType": "R",
+        "weatherCondition": null,
+        "trackCondition": null,
+        "sellCode": {
+          "meetingCode": "R",
+          "scheduledType": "R"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HFDR01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HFDR01_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": true,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": true,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-16T15:22:00.000Z",
+      "raceClassConditions": "5YO+ HCP CHSE C4",
+      "apprenticesCanClaim": false,
+      "prizeMoney": "$16420.00",
+      "raceStatus": "Normal",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 1,
+              "venueMnemonic": "HER",
+              "raceType": "R",
+              "startTime": "2026-04-16T15:22:00.000Z"
+            }
+          ],
+          "poolHistory": [
+            {
+              "poolTotal": 1,
+              "poolTotalTime": "2026-04-16T00:22:38.000Z",
+              "specialDisplayIndicator": false
+            }
+          ],
+          "poolTotal": 1,
+          "jackpot": 0,
+          "cominglingHost": "PG2",
+          "cominglingHostName": "EUR - UAE/ITALY",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 1,
+              "venueMnemonic": "HER",
+              "raceType": "R",
+              "startTime": "2026-04-16T15:22:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/HER/races/1/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "PG2",
+          "cominglingHostName": "EUR - UAE/ITALY",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 1,
+              "venueMnemonic": "HER",
+              "raceType": "R",
+              "startTime": "2026-04-16T15:22:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/HER/races/1/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "PG2",
+          "cominglingHostName": "EUR - UAE/ITALY",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 1,
+              "venueMnemonic": "HER",
+              "raceType": "R",
+              "startTime": "2026-04-16T15:22:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 87.01,
+          "cominglingHost": "PG2",
+          "cominglingHostName": "EUR - UAE/ITALY",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Enabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 1,
+              "venueMnemonic": "HER",
+              "raceType": "R",
+              "startTime": "2026-04-16T15:22:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 2,
+              "venueMnemonic": "HER",
+              "raceType": "R",
+              "startTime": "2026-04-16T15:57:00.000Z"
+            },
+            {
+              "legNumber": 3,
+              "raceNumber": 3,
+              "venueMnemonic": "HER",
+              "raceType": "R",
+              "startTime": "2026-04-16T16:30:00.000Z"
+            },
+            {
+              "legNumber": 4,
+              "raceNumber": 4,
+              "venueMnemonic": "HER",
+              "raceType": "R",
+              "startTime": "2026-04-16T17:00:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": true,
+      "allowParimutuelPlace": false,
+      "allowFixedOddsPlace": false,
+      "numberOfFixedOddsPlaces": 0,
+      "runners": [
+        {
+          "runnerName": "MAXIMUM OFFERS",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 1.95,
+            "returnWinTime": "2026-04-15T15:44:42.000Z",
+            "returnWinOpen": 1.95,
+            "returnWinOpenDaily": 1.95,
+            "returnPlace": 1.12,
+            "isFavouriteWin": true,
+            "isFavouritePlace": true,
+            "bettingStatus": "Open",
+            "propositionNumber": 808211,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": 1.95,
+                "returnWinTime": "2026-04-15T15:44:41.892Z"
+              }
+            ],
+            "percentageChange": 0,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": null,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/ROYAL%20BLUE%2C%20YELLOW%20DIAMOND%20BAND%2C%20WHITE%20SLEEVES%2C%20ROYAL%20BLUE%20ARMBANDS%2C%20ROYAL%20BLUE%20CAP%2C%20YELLOW%20DIAMOND",
+          "trainerName": "J Snowden",
+          "vacantBox": false,
+          "trainerFullName": "JAMIE SNOWDEN",
+          "barrierNumber": 1,
+          "riderDriverName": "G Sheehan",
+          "riderDriverFullName": "G SHEEHAN",
+          "handicapWeight": 75.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "x343x",
+          "tcdwIndicators": "c w",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 85,
+          "techFormRating": 0,
+          "totalRatingPoints": 12,
+          "earlySpeedRating": 78,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/HER/races/1/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "JULLOU DE GRISSAY",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 3,
+            "returnWinTime": "2026-04-15T15:44:42.000Z",
+            "returnWinOpen": 3,
+            "returnWinOpenDaily": 3,
+            "returnPlace": 1.24,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 808212,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": 3,
+                "returnWinTime": "2026-04-15T15:44:41.892Z"
+              }
+            ],
+            "percentageChange": 0,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": null,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/BLUE%2C%20YELLOW%20CROSSED%20SASHES%2C%20HOOPS%20SLEEVES%2C%20BLUE%20CAP%2C%20YELLOW%20QUARTERS",
+          "trainerName": "C Longsdon",
+          "vacantBox": false,
+          "trainerFullName": "C E LONGSDON",
+          "barrierNumber": 2,
+          "riderDriverName": "S Twiston-davies",
+          "riderDriverFullName": "SAM TWISTON-DAVIES",
+          "handicapWeight": 75.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "414x8",
+          "tcdwIndicators": "C",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 86,
+          "techFormRating": 0,
+          "totalRatingPoints": 13,
+          "earlySpeedRating": 59,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/HER/races/1/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "MOONLIT POTTER",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 3.5,
+            "returnWinTime": "2026-04-15T15:44:42.000Z",
+            "returnWinOpen": 3.5,
+            "returnWinOpenDaily": 3.5,
+            "returnPlace": 1.3,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 808213,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": 3.5,
+                "returnWinTime": "2026-04-15T15:44:41.892Z"
+              }
+            ],
+            "percentageChange": 0,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 1,
+            "returnPlace": null,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/ORANGE%2C%20BLACK%20CHECKS%20SLEEVES",
+          "trainerName": "D Newland & J Insole",
+          "vacantBox": false,
+          "trainerFullName": "DR R NEWLAND & J INSOLE",
+          "barrierNumber": 3,
+          "riderDriverName": "L Scott",
+          "riderDriverFullName": "LUKE SCOTT",
+          "handicapWeight": 71,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "43px2",
+          "tcdwIndicators": "tc W",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 11,
+          "earlySpeedRating": 68,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/HER/races/1/form/3?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-16T00:22:38.000Z",
+      "fixedOddsUpdateTime": "2026-04-15T15:44:42.000Z",
+      "raceComments": "{\"comment\":\"3. MOONLIT POTTER could have just enough to take this small field contest. Second of four when last seen twelve days ago at Huntingdon and subsequently received a small drop in the ratings. Well capable of mixing it from this mark in newly enlisted blinkers. 1. MAXIMUM OFFERS produced a quiet season so far. Arrives fresh from a three-month absence and needs to brush up the jumping a little based on first two efforts. Rates a leading contender against this line-up. 2. JULLOU DE GRISSAY tackles larger obstacles for the first time. Weakened out of contention providing first effort for this yard last month. May strip fitter.\",\"runners\":[3,1,2],\"exclusive\":false}",
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            2,
+            1,
+            3
+          ]
+        }
+      ],
+      "multiLegApproximates": [],
+      "betTypes": [
+        {
+          "wageringProduct": "Win",
+          "firstLeg": {
+            "raceNumber": 1,
+            "venueMnemonic": "HER",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quinella",
+          "firstLeg": {
+            "raceNumber": 1,
+            "venueMnemonic": "HER",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Exacta",
+          "firstLeg": {
+            "raceNumber": 1,
+            "venueMnemonic": "HER",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "firstLeg": {
+            "raceNumber": 1,
+            "venueMnemonic": "HER",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "firstLeg": {
+            "raceNumber": 1,
+            "venueMnemonic": "HER",
+            "raceType": "R"
+          }
+        }
+      ]
+    }
+  }
+}

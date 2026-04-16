@@ -1,0 +1,2562 @@
+{
+  "venueName": "PAKENHAM",
+  "raceNumber": 5,
+  "form": {
+    "data": {
+      "raceNumber": 5,
+      "spectrumId": "PAKENHAM_3",
+      "raceName": "BRIDGESTONE SELECT PAKENHAM MAIDEN PLATE",
+      "raceDistance": 1400,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "PAKENHAM",
+        "venueMnemonic": "PAK",
+        "meetingDate": "2026-04-16",
+        "location": "VIC",
+        "raceType": "R",
+        "weatherCondition": "SHWRY",
+        "trackCondition": "SOFT5",
+        "sellCode": {
+          "meetingCode": "M",
+          "scheduledType": "R"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416PAKR05.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416PAKR05_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": true,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": true,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-16T09:15:00.000Z",
+      "raceClassConditions": "3YO+ MDN FM",
+      "apprenticesCanClaim": true,
+      "prizeMoney": "$45000.00",
+      "raceStatus": "Normal",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:15:00.000Z"
+            }
+          ],
+          "poolHistory": [
+            {
+              "poolTotal": 635.5,
+              "poolTotalTime": "2026-04-16T01:44:55.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 532.5,
+              "poolTotalTime": "2026-04-16T01:14:56.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 532.5,
+              "poolTotalTime": "2026-04-16T01:14:56.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 295,
+              "poolTotalTime": "2026-04-16T00:15:04.000Z",
+              "specialDisplayIndicator": false
+            }
+          ],
+          "poolTotal": 635.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Place",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:15:00.000Z"
+            }
+          ],
+          "poolTotal": 207.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:15:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 87.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:15:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 35,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Duet",
+          "legNumber": 1,
+          "poolStatusCode": "Closed",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:15:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/pools/Duet/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0.75,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:15:00.000Z"
+            }
+          ],
+          "poolTotal": 99.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:15:00.000Z"
+            }
+          ],
+          "poolTotal": 56.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "RunningDouble",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:15:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 6,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:45:00.000Z"
+            }
+          ],
+          "poolTotal": 63.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Enabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:15:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 6,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T09:45:00.000Z"
+            },
+            {
+              "legNumber": 3,
+              "raceNumber": 7,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:15:00.000Z"
+            },
+            {
+              "legNumber": 4,
+              "raceNumber": 8,
+              "venueMnemonic": "PAK",
+              "raceType": "R",
+              "startTime": "2026-04-16T10:45:00.000Z"
+            }
+          ],
+          "poolTotal": 1415.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": true,
+      "allowParimutuelPlace": true,
+      "parimutuelPlaceStatus": "Open",
+      "allowFixedOddsPlace": true,
+      "numberOfPlaces": 2,
+      "numberOfFixedOddsPlaces": 2,
+      "runners": [
+        {
+          "runnerName": "BELLA VERONA",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 2.25,
+            "returnWinTime": "2026-04-15T11:47:41.000Z",
+            "returnWinOpen": 4.8,
+            "returnWinOpenDaily": 2.25,
+            "returnPlace": 1.06,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "LateScratched",
+            "propositionNumber": 165861,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 2.4,
+                "returnWinTime": "2026-04-15T11:37:04.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 2.7,
+                "returnWinTime": "2026-04-15T03:10:01.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-15T03:04:58.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 3.5,
+                "returnWinTime": "2026-04-15T01:33:38.000Z",
+                "isPreviousDay": true
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-14T22:37:31.564Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-14T22:44:06.583Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-14T23:40:11.785Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-15T00:20:46.382Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-15T00:56:20.350Z"
+              },
+              {
+                "returnWin": 3.5,
+                "returnWinTime": "2026-04-15T01:33:37.602Z"
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-15T03:04:57.925Z"
+              },
+              {
+                "returnWin": 2.7,
+                "returnWinTime": "2026-04-15T03:10:00.748Z"
+              },
+              {
+                "returnWin": 4.8,
+                "returnWinTime": "2026-04-14T05:11:51.170Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-14T05:12:16.567Z"
+              },
+              {
+                "returnWin": 3.5,
+                "returnWinTime": "2026-04-14T05:12:25.529Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-14T05:12:47.333Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-14T05:12:59.380Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-14T05:27:11.321Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-14T05:45:06.617Z"
+              },
+              {
+                "returnWin": 2.4,
+                "returnWinTime": "2026-04-15T11:37:04.083Z"
+              },
+              {
+                "returnWin": 2.25,
+                "returnWinTime": "2026-04-15T11:47:41.432Z"
+              }
+            ],
+            "percentageChange": -6,
+            "allowPlace": false,
+            "winDeduction": 28,
+            "placeDeduction": 18,
+            "scratchedTime": "2026-04-15T21:22:49.000Z"
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Scratched",
+            "marketMovers": [
+              {
+                "returnWin": 1.9,
+                "returnWinTime": "2026-04-15T19:42:45.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.9,
+                "returnWinTime": "2026-04-15T19:41:20.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": -100
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/NAVY%20BLUE%2C%20TURQUOISE%20ARMBANDS%2C%20NAVY%20BLUE%20AND%20TURQUOISE%20STRIPED%20CAP",
+          "trainerName": "M Laurie",
+          "vacantBox": false,
+          "trainerFullName": "MATT LAURIE",
+          "barrierNumber": 1,
+          "riderDriverName": "P Moloney",
+          "riderDriverFullName": "PATRICK MOLONEY",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": null,
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 53,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "HELLICA",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 41,
+            "returnWinTime": "2026-04-15T21:22:51.000Z",
+            "returnWinOpen": 101,
+            "returnWinOpenDaily": 41,
+            "returnPlace": 10,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "LateScratched",
+            "propositionNumber": 165862,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 101,
+                "returnWinTime": "2026-04-15T11:37:04.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 81,
+                "returnWinTime": "2026-04-15T05:20:13.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-15T03:21:42.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 61,
+                "returnWinTime": "2026-04-15T03:10:01.000Z",
+                "isPreviousDay": true
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-15T21:22:51.495Z"
+              },
+              {
+                "returnWin": 101,
+                "returnWinTime": "2026-04-15T03:04:57.925Z"
+              },
+              {
+                "returnWin": 61,
+                "returnWinTime": "2026-04-15T03:10:00.748Z"
+              },
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-15T03:21:41.540Z"
+              },
+              {
+                "returnWin": 101,
+                "returnWinTime": "2026-04-14T05:11:51.170Z"
+              },
+              {
+                "returnWin": 126,
+                "returnWinTime": "2026-04-14T05:12:16.567Z"
+              },
+              {
+                "returnWin": 151,
+                "returnWinTime": "2026-04-14T05:12:38.536Z"
+              },
+              {
+                "returnWin": 81,
+                "returnWinTime": "2026-04-15T05:20:13.169Z"
+              },
+              {
+                "returnWin": 101,
+                "returnWinTime": "2026-04-15T11:37:04.083Z"
+              }
+            ],
+            "percentageChange": -59,
+            "allowPlace": false,
+            "winDeduction": 0,
+            "placeDeduction": 2,
+            "scratchedTime": "2026-04-15T21:25:59.000Z"
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Scratched",
+            "marketMovers": [
+              {
+                "returnWin": 73.5,
+                "returnWinTime": "2026-04-15T19:42:45.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 73.5,
+                "returnWinTime": "2026-04-15T19:41:20.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": -100
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/GUNMETAL%20GREY%2C%20TEAL%20SEAMS%20AND%20CHECKED%20SASH%2C%20CHECKED%20CAP%2C%20TEAL%20POM%20POM",
+          "trainerName": "G Rielly",
+          "vacantBox": false,
+          "trainerFullName": "GEMMA RIELLY",
+          "barrierNumber": 3,
+          "riderDriverName": "J Beriman",
+          "riderDriverFullName": "JACKIE BERIMAN",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "f9",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 33,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 51,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "IVY PRINCESS",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 23,
+            "returnWinTime": "2026-04-15T21:30:25.000Z",
+            "returnWinOpen": 51,
+            "returnWinOpenDaily": 26,
+            "returnPlace": 5,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 165863,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-15T21:22:51.000Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-15T21:22:36.000Z"
+              },
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-15T11:47:41.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 61,
+                "returnWinTime": "2026-04-15T11:37:04.000Z",
+                "isPreviousDay": true
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-15T21:22:36.441Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-15T21:22:51.495Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-15T21:30:24.787Z"
+              },
+              {
+                "returnWin": 126,
+                "returnWinTime": "2026-04-15T00:56:20.350Z"
+              },
+              {
+                "returnWin": 81,
+                "returnWinTime": "2026-04-15T03:04:57.925Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-15T03:10:00.748Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-14T05:11:51.170Z"
+              },
+              {
+                "returnWin": 61,
+                "returnWinTime": "2026-04-14T05:12:16.567Z"
+              },
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-14T05:12:38.536Z"
+              },
+              {
+                "returnWin": 81,
+                "returnWinTime": "2026-04-14T05:12:53.645Z"
+              },
+              {
+                "returnWin": 126,
+                "returnWinTime": "2026-04-14T05:27:11.321Z"
+              },
+              {
+                "returnWin": 151,
+                "returnWinTime": "2026-04-14T05:45:06.617Z"
+              },
+              {
+                "returnWin": 61,
+                "returnWinTime": "2026-04-15T11:37:04.083Z"
+              },
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-15T11:47:41.432Z"
+              }
+            ],
+            "percentageChange": -12,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 22.6,
+            "returnPlace": 5.9,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 18.9,
+                "returnWinTime": "2026-04-16T01:14:56.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 84,
+                "returnWinTime": "2026-04-16T00:15:04.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 21.2,
+                "returnWinTime": "2026-04-15T23:15:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 16.7,
+                "returnWinTime": "2026-04-15T22:15:10.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 20
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/ROYAL%20BLUE%2C%20LIME%20NATAL%20STAR%2C%20SEAMS%20AND%20CAP",
+          "trainerName": "R Meunier",
+          "vacantBox": false,
+          "trainerFullName": "RICARDO MEUNIER",
+          "barrierNumber": 3,
+          "riderDriverName": "R Lamont",
+          "riderDriverFullName": "RUBY LAMONT",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": 4,
+          "last5Starts": "06666",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 57,
+          "techFormRating": 0,
+          "totalRatingPoints": 4,
+          "earlySpeedRating": 32,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "fastForm": [
+            {
+              "type": "GoldenSwitch",
+              "keywords": "Barrier",
+              "ranking": null
+            },
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 3
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/3?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "JENNI BAM BAM",
+          "runnerNumber": 4,
+          "fixedOdds": {
+            "returnWin": 3.7,
+            "returnWinTime": "2026-04-15T23:33:44.000Z",
+            "returnWinOpen": 8,
+            "returnWinOpenDaily": 3.7,
+            "returnPlace": 1.45,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 165864,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-15T21:30:25.000Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-15T21:22:51.000Z"
+              },
+              {
+                "returnWin": 6,
+                "returnWinTime": "2026-04-15T11:47:41.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 5.5,
+                "returnWinTime": "2026-04-15T11:37:04.000Z",
+                "isPreviousDay": true
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-14T22:44:07.725Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-15T21:22:51.495Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-15T21:30:24.787Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-15T23:33:44.473Z"
+              },
+              {
+                "returnWin": 7,
+                "returnWinTime": "2026-04-15T00:56:20.350Z"
+              },
+              {
+                "returnWin": 6.5,
+                "returnWinTime": "2026-04-15T03:04:57.925Z"
+              },
+              {
+                "returnWin": 4.8,
+                "returnWinTime": "2026-04-15T03:10:00.748Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-14T05:11:51.170Z"
+              },
+              {
+                "returnWin": 8.5,
+                "returnWinTime": "2026-04-14T05:12:16.567Z"
+              },
+              {
+                "returnWin": 9,
+                "returnWinTime": "2026-04-14T05:12:25.529Z"
+              },
+              {
+                "returnWin": 7,
+                "returnWinTime": "2026-04-14T05:12:38.536Z"
+              },
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-14T05:27:11.321Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-15T05:20:13.169Z"
+              },
+              {
+                "returnWin": 5.5,
+                "returnWinTime": "2026-04-15T11:37:04.083Z"
+              },
+              {
+                "returnWin": 6,
+                "returnWinTime": "2026-04-15T11:47:41.432Z"
+              }
+            ],
+            "percentageChange": 3,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 2.4,
+            "returnPlace": 1.3,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": true,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 2.5,
+                "returnWinTime": "2026-04-16T01:14:56.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 2.2,
+                "returnWinTime": "2026-04-16T00:15:04.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-15T23:15:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-15T22:15:10.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": -4
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/SKY%20BLUE%20AND%20PURPLE%20DIAMONDS",
+          "trainerName": "L Kennewell",
+          "vacantBox": false,
+          "trainerFullName": "LLOYD KENNEWELL",
+          "barrierNumber": 5,
+          "riderDriverName": "E Brown",
+          "riderDriverFullName": "ETHAN BROWN",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": null,
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 0,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/4?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "KOKESHI",
+          "runnerNumber": 5,
+          "fixedOdds": {
+            "returnWin": 9.5,
+            "returnWinTime": "2026-04-14T23:40:12.000Z",
+            "returnWinOpen": 11,
+            "returnWinOpenDaily": 9.5,
+            "returnPlace": 2.3,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "LateScratched",
+            "propositionNumber": 165865,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-14T22:44:08.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-14T05:45:07.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-14T05:27:11.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-14T05:25:47.000Z",
+                "isPreviousDay": true
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-14T22:44:07.725Z"
+              },
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-14T23:40:11.785Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-14T05:11:51.154Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-14T05:12:16.567Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-14T05:12:38.536Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-14T05:12:53.645Z"
+              },
+              {
+                "returnWin": 15,
+                "returnWinTime": "2026-04-14T05:12:59.380Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-14T05:25:46.864Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-14T05:27:11.321Z"
+              },
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-14T05:45:06.617Z"
+              }
+            ],
+            "percentageChange": -5,
+            "allowPlace": false,
+            "winDeduction": 5,
+            "placeDeduction": 6,
+            "scratchedTime": "2026-04-15T00:53:46.000Z"
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Scratched"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/ROYAL%20BLUE%2C%20RED%20SASH%2C%20ARMBANDS%20AND%20CAP",
+          "trainerName": "J Moloney",
+          "vacantBox": false,
+          "trainerFullName": "JOHN MOLONEY",
+          "barrierNumber": 11,
+          "riderDriverName": "B Mertens",
+          "riderDriverFullName": "BEAU MERTENS",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "x2447",
+          "tcdwIndicators": "tc",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 86,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 63,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/5?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "LET LILY LOOSE",
+          "runnerNumber": 6,
+          "fixedOdds": {
+            "returnWin": 3.3,
+            "returnWinTime": "2026-04-15T03:04:58.000Z",
+            "returnWinOpen": 4,
+            "returnWinOpenDaily": 3.3,
+            "returnPlace": 1.26,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "LateScratched",
+            "propositionNumber": 165866,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-15T00:56:20.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-14T23:40:12.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-14T22:44:08.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-14T22:06:27.000Z",
+                "isPreviousDay": true
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-14T22:06:27.088Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-14T22:44:07.725Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-14T23:40:11.785Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-15T00:56:20.350Z"
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-15T03:04:57.925Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-14T05:11:51.154Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-14T05:12:16.567Z"
+              },
+              {
+                "returnWin": 4.4,
+                "returnWinTime": "2026-04-14T05:12:38.536Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-14T05:12:47.333Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-14T05:12:59.380Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-14T05:25:46.864Z"
+              }
+            ],
+            "percentageChange": -8,
+            "allowPlace": false,
+            "winDeduction": 19,
+            "placeDeduction": 13,
+            "scratchedTime": "2026-04-15T03:09:59.000Z"
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Scratched"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/NAVY%20BLUE%2C%20GOLD%20DIAGONAL%20HALVES%2C%20PALE%20BLUE%20SASH",
+          "trainerName": "M Price & M Jnr",
+          "vacantBox": false,
+          "trainerFullName": "MICK PRICE & MICHAEL KENT JNR",
+          "barrierNumber": 9,
+          "riderDriverName": "L Neindorf",
+          "riderDriverFullName": "LACHLAN NEINDORF",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "f2x34",
+          "tcdwIndicators": "tc w",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 77,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/6?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "POMAH",
+          "runnerNumber": 7,
+          "fixedOdds": {
+            "returnWin": 10,
+            "returnWinTime": "2026-04-15T00:56:20.000Z",
+            "returnWinOpen": 7,
+            "returnWinOpenDaily": 10,
+            "returnPlace": 2.2,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "LateScratched",
+            "propositionNumber": 165867,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-14T22:44:08.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-14T22:37:03.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-14T22:06:27.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-14T05:27:11.000Z",
+                "isPreviousDay": true
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-14T22:06:27.088Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-14T22:37:02.835Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-14T22:44:07.725Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-15T00:56:20.350Z"
+              },
+              {
+                "returnWin": 7,
+                "returnWinTime": "2026-04-14T05:11:51.154Z"
+              },
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-14T05:12:16.567Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-14T05:12:38.536Z"
+              },
+              {
+                "returnWin": 8.5,
+                "returnWinTime": "2026-04-14T05:12:53.645Z"
+              },
+              {
+                "returnWin": 9,
+                "returnWinTime": "2026-04-14T05:12:59.380Z"
+              },
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-14T05:27:11.321Z"
+              }
+            ],
+            "percentageChange": -17,
+            "allowPlace": false,
+            "winDeduction": 5,
+            "placeDeduction": 5,
+            "scratchedTime": "2026-04-15T03:04:57.000Z"
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Scratched"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/HOT%20PINK%2C%20YELLOW%20STAR%2C%20NAVY%20BLUE%20AND%20YELLOW%20STARS%20SLEEVES%2C%20HOT%20PINK%20AND%20YELLOW%20STAR%20CAP",
+          "trainerName": "D O'Brien",
+          "vacantBox": false,
+          "trainerFullName": "DANNY O'BRIEN",
+          "barrierNumber": 8,
+          "riderDriverName": "J Childs",
+          "riderDriverFullName": "JORDAN CHILDS",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "43x25",
+          "tcdwIndicators": "c w",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 94,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 50,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/7?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "UPSTAGE",
+          "runnerNumber": 8,
+          "fixedOdds": {
+            "returnWin": 1.3,
+            "returnWinTime": "2026-04-15T23:33:44.000Z",
+            "returnWinOpen": 2.5,
+            "returnWinOpenDaily": 1.33,
+            "returnPlace": 1.08,
+            "isFavouriteWin": true,
+            "isFavouritePlace": true,
+            "bettingStatus": "Open",
+            "propositionNumber": 165868,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 1.35,
+                "returnWinTime": "2026-04-15T21:42:58.000Z"
+              },
+              {
+                "returnWin": 1.4,
+                "returnWinTime": "2026-04-15T21:30:25.000Z"
+              },
+              {
+                "returnWin": 1.33,
+                "returnWinTime": "2026-04-15T21:22:51.000Z"
+              },
+              {
+                "returnWin": 1.75,
+                "returnWinTime": "2026-04-15T21:22:36.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 1.35,
+                "returnWinTime": "2026-04-15T21:42:58.000Z"
+              },
+              {
+                "returnWin": 2.7,
+                "returnWinTime": "2026-04-14T22:37:02.835Z"
+              },
+              {
+                "returnWin": 1.75,
+                "returnWinTime": "2026-04-15T21:22:36.441Z"
+              },
+              {
+                "returnWin": 1.33,
+                "returnWinTime": "2026-04-15T21:22:51.496Z"
+              },
+              {
+                "returnWin": 1.4,
+                "returnWinTime": "2026-04-15T21:30:24.787Z"
+              },
+              {
+                "returnWin": 1.3,
+                "returnWinTime": "2026-04-15T23:33:44.473Z"
+              },
+              {
+                "returnWin": 2.5,
+                "returnWinTime": "2026-04-15T00:56:20.350Z"
+              },
+              {
+                "returnWin": 2.4,
+                "returnWinTime": "2026-04-15T03:04:57.925Z"
+              },
+              {
+                "returnWin": 1.85,
+                "returnWinTime": "2026-04-15T03:10:00.799Z"
+              },
+              {
+                "returnWin": 1.8,
+                "returnWinTime": "2026-04-15T03:21:41.540Z"
+              },
+              {
+                "returnWin": 2.5,
+                "returnWinTime": "2026-04-14T05:11:51.154Z"
+              },
+              {
+                "returnWin": 2.6,
+                "returnWinTime": "2026-04-14T05:12:16.567Z"
+              },
+              {
+                "returnWin": 2.7,
+                "returnWinTime": "2026-04-14T05:12:38.536Z"
+              },
+              {
+                "returnWin": 2.5,
+                "returnWinTime": "2026-04-14T05:12:53.645Z"
+              },
+              {
+                "returnWin": 2.6,
+                "returnWinTime": "2026-04-14T05:27:11.321Z"
+              },
+              {
+                "returnWin": 1.85,
+                "returnWinTime": "2026-04-15T11:37:04.083Z"
+              }
+            ],
+            "percentageChange": -4,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 2.3,
+            "returnPlace": 1.9,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 2.2,
+                "returnWinTime": "2026-04-16T01:14:56.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.8,
+                "returnWinTime": "2026-04-16T00:15:04.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.7,
+                "returnWinTime": "2026-04-15T23:15:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 2.1,
+                "returnWinTime": "2026-04-15T22:15:10.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 5
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/LIME%20GREEN%2C%20NAVY%20BLUE%20DIAMOND",
+          "trainerName": "G Begg",
+          "vacantBox": false,
+          "trainerFullName": "GRAHAME BEGG",
+          "barrierNumber": 1,
+          "riderDriverName": "D Stackhouse",
+          "riderDriverFullName": "DANIEL STACKHOUSE",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "38x22",
+          "tcdwIndicators": "cdw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 89,
+          "techFormRating": 0,
+          "totalRatingPoints": 17,
+          "earlySpeedRating": 28,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "fastForm": [
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 1
+            },
+            {
+              "type": "GoldenSwitch",
+              "keywords": "Barrier",
+              "ranking": null
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/8?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "VESPERS",
+          "runnerNumber": 9,
+          "fixedOdds": {
+            "returnWin": 13,
+            "returnWinTime": "2026-04-15T23:33:44.000Z",
+            "returnWinOpen": 34,
+            "returnWinOpenDaily": 14,
+            "returnPlace": 3.3,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 165869,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-15T21:30:25.000Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-15T21:22:51.000Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-15T11:37:04.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-15T05:20:13.000Z",
+                "isPreviousDay": true
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-14T22:06:27.088Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-14T22:37:02.835Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-15T21:22:51.495Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-15T21:30:24.787Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-15T23:33:44.473Z"
+              },
+              {
+                "returnWin": 31,
+                "returnWinTime": "2026-04-15T00:56:20.350Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-15T01:33:37.602Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-15T03:04:57.925Z"
+              },
+              {
+                "returnWin": 16,
+                "returnWinTime": "2026-04-15T03:10:00.799Z"
+              },
+              {
+                "returnWin": 18,
+                "returnWinTime": "2026-04-15T03:21:41.567Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-14T05:11:51.154Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-14T05:12:25.529Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-14T05:12:53.645Z"
+              },
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-14T05:27:11.321Z"
+              },
+              {
+                "returnWin": 81,
+                "returnWinTime": "2026-04-14T05:45:06.617Z"
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-15T05:20:13.169Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-15T11:37:04.083Z"
+              }
+            ],
+            "percentageChange": 8,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 6.5,
+            "returnPlace": 3.1,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 6.3,
+                "returnWinTime": "2026-04-16T01:14:56.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 15.2,
+                "returnWinTime": "2026-04-16T00:15:04.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 9.6,
+                "returnWinTime": "2026-04-15T23:15:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 7.6,
+                "returnWinTime": "2026-04-15T22:15:10.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 3
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/BLACK%2C%20PURPLE%20CROSS%20OF%20LORRAINE%20AND%20SLEEVES%2C%20OLD%20GOLD%20CAP",
+          "trainerName": "J Moloney",
+          "vacantBox": false,
+          "trainerFullName": "JOHN MOLONEY",
+          "barrierNumber": 2,
+          "riderDriverName": "T Nugent",
+          "riderDriverFullName": "TEO NUGENT",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "f6",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 73,
+          "techFormRating": 0,
+          "totalRatingPoints": 7,
+          "earlySpeedRating": 41,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "fastForm": [
+            {
+              "type": "SectionalStar",
+              "keywords": null,
+              "ranking": null
+            },
+            {
+              "type": "GoldenSwitch",
+              "keywords": "Barrier",
+              "ranking": null
+            },
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 2
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/9?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "WHO'LLSTOPLORRAINE",
+          "runnerNumber": 10,
+          "fixedOdds": {
+            "returnWin": 31,
+            "returnWinTime": "2026-04-15T21:30:25.000Z",
+            "returnWinOpen": 81,
+            "returnWinOpenDaily": 34,
+            "returnPlace": 7,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 165870,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-15T21:22:51.000Z"
+              },
+              {
+                "returnWin": 81,
+                "returnWinTime": "2026-04-15T11:37:04.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-15T05:20:13.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 61,
+                "returnWinTime": "2026-04-15T03:10:01.000Z",
+                "isPreviousDay": true
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-15T21:22:51.495Z"
+              },
+              {
+                "returnWin": 31,
+                "returnWinTime": "2026-04-15T21:30:24.802Z"
+              },
+              {
+                "returnWin": 126,
+                "returnWinTime": "2026-04-15T00:56:20.350Z"
+              },
+              {
+                "returnWin": 151,
+                "returnWinTime": "2026-04-15T01:33:37.602Z"
+              },
+              {
+                "returnWin": 101,
+                "returnWinTime": "2026-04-15T03:04:57.925Z"
+              },
+              {
+                "returnWin": 61,
+                "returnWinTime": "2026-04-15T03:10:00.799Z"
+              },
+              {
+                "returnWin": 81,
+                "returnWinTime": "2026-04-14T05:11:51.154Z"
+              },
+              {
+                "returnWin": 101,
+                "returnWinTime": "2026-04-14T05:12:25.529Z"
+              },
+              {
+                "returnWin": 126,
+                "returnWinTime": "2026-04-14T05:12:38.536Z"
+              },
+              {
+                "returnWin": 151,
+                "returnWinTime": "2026-04-14T05:12:53.645Z"
+              },
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-15T05:20:13.169Z"
+              },
+              {
+                "returnWin": 81,
+                "returnWinTime": "2026-04-15T11:37:04.083Z"
+              }
+            ],
+            "percentageChange": -9,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 9.2,
+            "returnPlace": 2.6,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 11.5,
+                "returnWinTime": "2026-04-16T01:14:56.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 11.2,
+                "returnWinTime": "2026-04-16T00:15:04.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 6.6,
+                "returnWinTime": "2026-04-15T23:15:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 5.2,
+                "returnWinTime": "2026-04-15T22:15:10.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": -20
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/LIGHT%20BLUE%2C%20PINK%20SPOT%2C%20WHITE%20SLEEVES%2C%20PINK%20CAP",
+          "trainerName": "P Carey & H Walker",
+          "vacantBox": false,
+          "trainerFullName": "PAT CAREY & HARRIS WALKER",
+          "barrierNumber": 4,
+          "riderDriverName": "M Castle",
+          "riderDriverFullName": "MELEA CASTLE",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": true,
+          "claimAmount": -1,
+          "last5Starts": "f8",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 20,
+          "techFormRating": 0,
+          "totalRatingPoints": 1,
+          "earlySpeedRating": 11,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/10?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "WYNORRIFIC",
+          "runnerNumber": 11,
+          "fixedOdds": {
+            "returnWin": 12,
+            "returnWinTime": "2026-04-15T21:30:25.000Z",
+            "returnWinOpen": 26,
+            "returnWinOpenDaily": 14,
+            "returnPlace": 3.1,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 165871,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-15T21:22:51.000Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-15T21:22:36.000Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-15T11:37:04.000Z",
+                "isPreviousDay": true
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-15T03:10:01.000Z",
+                "isPreviousDay": true
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-14T22:39:38.174Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-15T21:22:36.441Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-15T21:22:51.496Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-15T21:30:24.787Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-15T00:56:20.350Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-15T03:04:57.925Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-15T03:10:00.799Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-14T05:11:51.154Z"
+              },
+              {
+                "returnWin": 31,
+                "returnWinTime": "2026-04-14T05:12:25.529Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-14T05:12:38.536Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-14T05:12:59.380Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-14T05:27:11.321Z"
+              },
+              {
+                "returnWin": 61,
+                "returnWinTime": "2026-04-14T05:45:06.617Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-15T11:37:04.083Z"
+              }
+            ],
+            "percentageChange": -14,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 25.8,
+            "returnPlace": 4.1,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 22.7,
+                "returnWinTime": "2026-04-16T01:14:56.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 63,
+                "returnWinTime": "2026-04-16T00:15:04.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 53,
+                "returnWinTime": "2026-04-15T23:15:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 41.8,
+                "returnWinTime": "2026-04-15T22:15:10.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 14
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%20AND%20BLACK%20CHECKS%2C%20WHITE%20SLEEVES%2C%20RED%20ARMBANDS%2C%20BLACK%20AND%20RED%20CHECKED%20CAP",
+          "trainerName": "Emma-lee & D Browne",
+          "vacantBox": false,
+          "trainerFullName": "EMMA-LEE & DAVID BROWNE",
+          "barrierNumber": 6,
+          "riderDriverName": "J McNeil",
+          "riderDriverFullName": "JYE MCNEIL",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": null,
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 0,
+          "techFormRating": 0,
+          "totalRatingPoints": 1,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/PAK/races/5/form/11?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-16T01:44:55.000Z",
+      "fixedOddsUpdateTime": "2026-04-15T23:33:44.000Z",
+      "raceComments": "{\"comment\":\"What was a good maiden has been decimated by scratchings. It leaves 8. UPSTAGE as the horse to beat, and the clear one at that. She has just found one better in both runs this time in, beaten a nose at Geelong when last seen. She'll be hard to hold out from a low draw in a race that now lacks any sort of depth. 4. JENNI BAM BAM comes into second pick. She's a filly by Alabama Express for the Kennewell yard who has won a trial leading in at Traralgon. Have to respect off that showing, she should measure up. Then we're down to 11. WYNORRIFIC, a filly by Shocking for the Browne yard on debut. She will probably want a fair bit further in time but could surprise. 9. VESPERS struggled on debut at Geelong but is open to improvement.\",\"runners\":[8,4,11,9],\"exclusive\":false}",
+      "tips": {
+        "tipType": "Standard",
+        "tipster": "Adam Olszanski",
+        "tipRunnerNumbers": [
+          8,
+          9,
+          4,
+          11
+        ]
+      },
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            8,
+            9,
+            3,
+            10
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            8,
+            9,
+            3,
+            10
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            8,
+            4,
+            11,
+            9
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            8,
+            3,
+            10,
+            9
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            8,
+            3,
+            4,
+            9
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            9,
+            8,
+            11,
+            4
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            8,
+            9,
+            3,
+            4
+          ]
+        }
+      ],
+      "multiLegApproximates": [],
+      "betTypes": [
+        {
+          "wageringProduct": "Win",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "PAK",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Place",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "PAK",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quinella",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "PAK",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Exacta",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "PAK",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "PAK",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "PAK",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "RunningDouble",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "PAK",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "PAK",
+            "raceType": "R"
+          }
+        }
+      ],
+      "sameRaceMultiMarkets": [
+        {
+          "id": 131967390,
+          "name": "PAKENHAM-R5-Top1",
+          "shortName": "PAKENHAM-R5-Top1",
+          "betOption": "Top 1",
+          "message": null,
+          "informationMessage": null,
+          "refundsAndDeductions": true,
+          "bettingStatus": "Open",
+          "allowMulti": true,
+          "propositions": [
+            {
+              "name": "BELLA VERONA",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152000,
+              "runnerNumber": 1,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T21:22:49.000Z"
+            },
+            {
+              "name": "HELLICA",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152001,
+              "runnerNumber": 2,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T21:25:59.000Z"
+            },
+            {
+              "name": "IVY PRINCESS",
+              "returnWin": 23,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152002,
+              "runnerNumber": 3
+            },
+            {
+              "name": "JENNI BAM BAM",
+              "returnWin": 3.7,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152003,
+              "runnerNumber": 4
+            },
+            {
+              "name": "KOKESHI",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152004,
+              "runnerNumber": 5,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T00:53:46.000Z"
+            },
+            {
+              "name": "LET LILY LOOSE",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152005,
+              "runnerNumber": 6,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T03:09:59.000Z"
+            },
+            {
+              "name": "POMAH",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152006,
+              "runnerNumber": 7,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T03:04:57.000Z"
+            },
+            {
+              "name": "UPSTAGE",
+              "returnWin": 1.3,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152007,
+              "runnerNumber": 8
+            },
+            {
+              "name": "VESPERS",
+              "returnWin": 13,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152008,
+              "runnerNumber": 9
+            },
+            {
+              "name": "WHOLLSTOPLORRAINE",
+              "returnWin": 31,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152009,
+              "runnerNumber": 10
+            },
+            {
+              "name": "WYNORRIFIC",
+              "returnWin": 12,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152010,
+              "runnerNumber": 11
+            }
+          ]
+        },
+        {
+          "id": 131967391,
+          "name": "PAKENHAM-R5-Top2",
+          "shortName": "PAKENHAM-R5-Top2",
+          "betOption": "Top 2",
+          "message": null,
+          "informationMessage": null,
+          "refundsAndDeductions": true,
+          "bettingStatus": "Open",
+          "allowMulti": true,
+          "propositions": [
+            {
+              "name": "BELLA VERONA",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152011,
+              "runnerNumber": 1,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T21:22:49.000Z"
+            },
+            {
+              "name": "HELLICA",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152012,
+              "runnerNumber": 2,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T21:25:59.000Z"
+            },
+            {
+              "name": "IVY PRINCESS",
+              "returnWin": 6,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152013,
+              "runnerNumber": 3
+            },
+            {
+              "name": "JENNI BAM BAM",
+              "returnWin": 1.45,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152014,
+              "runnerNumber": 4
+            },
+            {
+              "name": "KOKESHI",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152015,
+              "runnerNumber": 5,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T00:53:46.000Z"
+            },
+            {
+              "name": "LET LILY LOOSE",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152016,
+              "runnerNumber": 6,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T03:09:59.000Z"
+            },
+            {
+              "name": "POMAH",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152017,
+              "runnerNumber": 7,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T03:04:57.000Z"
+            },
+            {
+              "name": "UPSTAGE",
+              "returnWin": 1.03,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152018,
+              "runnerNumber": 8
+            },
+            {
+              "name": "VESPERS",
+              "returnWin": 3.75,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152019,
+              "runnerNumber": 9
+            },
+            {
+              "name": "WHOLLSTOPLORRAINE",
+              "returnWin": 7.5,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152020,
+              "runnerNumber": 10
+            },
+            {
+              "name": "WYNORRIFIC",
+              "returnWin": 3.5,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152021,
+              "runnerNumber": 11
+            }
+          ]
+        },
+        {
+          "id": 131967392,
+          "name": "PAKENHAM-R5-Top3",
+          "shortName": "PAKENHAM-R5-Top3",
+          "betOption": "Top 3",
+          "message": null,
+          "informationMessage": null,
+          "refundsAndDeductions": true,
+          "bettingStatus": "Open",
+          "allowMulti": true,
+          "propositions": [
+            {
+              "name": "BELLA VERONA",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152022,
+              "runnerNumber": 1,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T21:22:49.000Z"
+            },
+            {
+              "name": "HELLICA",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152023,
+              "runnerNumber": 2,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T21:25:59.000Z"
+            },
+            {
+              "name": "IVY PRINCESS",
+              "returnWin": 2.75,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152024,
+              "runnerNumber": 3
+            },
+            {
+              "name": "JENNI BAM BAM",
+              "returnWin": 1.05,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152025,
+              "runnerNumber": 4
+            },
+            {
+              "name": "KOKESHI",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152026,
+              "runnerNumber": 5,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T00:53:46.000Z"
+            },
+            {
+              "name": "LET LILY LOOSE",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152027,
+              "runnerNumber": 6,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T03:09:59.000Z"
+            },
+            {
+              "name": "POMAH",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152028,
+              "runnerNumber": 7,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T03:04:57.000Z"
+            },
+            {
+              "name": "UPSTAGE",
+              "returnWin": 1.02,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152029,
+              "runnerNumber": 8
+            },
+            {
+              "name": "VESPERS",
+              "returnWin": 1.95,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152030,
+              "runnerNumber": 9
+            },
+            {
+              "name": "WHOLLSTOPLORRAINE",
+              "returnWin": 3.5,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152031,
+              "runnerNumber": 10
+            },
+            {
+              "name": "WYNORRIFIC",
+              "returnWin": 1.85,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152032,
+              "runnerNumber": 11
+            }
+          ]
+        },
+        {
+          "id": 131967393,
+          "name": "PAKENHAM-R5-Top4",
+          "shortName": "PAKENHAM-R5-Top4",
+          "betOption": "Top 4",
+          "message": null,
+          "informationMessage": null,
+          "refundsAndDeductions": true,
+          "bettingStatus": "Open",
+          "allowMulti": true,
+          "propositions": [
+            {
+              "name": "BELLA VERONA",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152033,
+              "runnerNumber": 1,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T21:22:49.000Z"
+            },
+            {
+              "name": "HELLICA",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152034,
+              "runnerNumber": 2,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T21:25:59.000Z"
+            },
+            {
+              "name": "IVY PRINCESS",
+              "returnWin": 1.7,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152035,
+              "runnerNumber": 3
+            },
+            {
+              "name": "JENNI BAM BAM",
+              "returnWin": 1.01,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152036,
+              "runnerNumber": 4
+            },
+            {
+              "name": "KOKESHI",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152037,
+              "runnerNumber": 5,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T00:53:46.000Z"
+            },
+            {
+              "name": "LET LILY LOOSE",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152038,
+              "runnerNumber": 6,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T03:09:59.000Z"
+            },
+            {
+              "name": "POMAH",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "LateScratched",
+              "allowPlace": false,
+              "number": 152039,
+              "runnerNumber": 7,
+              "winDeduction": 0,
+              "placeDeduction": 0,
+              "scratchedTime": "2026-04-15T03:04:57.000Z"
+            },
+            {
+              "name": "UPSTAGE",
+              "returnWin": 1.01,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152040,
+              "runnerNumber": 8
+            },
+            {
+              "name": "VESPERS",
+              "returnWin": 1.29,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152041,
+              "runnerNumber": 9
+            },
+            {
+              "name": "WHOLLSTOPLORRAINE",
+              "returnWin": 2,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152042,
+              "runnerNumber": 10
+            },
+            {
+              "name": "WYNORRIFIC",
+              "returnWin": 1.25,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 152043,
+              "runnerNumber": 11
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

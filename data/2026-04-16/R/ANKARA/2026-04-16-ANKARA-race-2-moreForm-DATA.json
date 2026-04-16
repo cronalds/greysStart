@@ -1,0 +1,727 @@
+{
+  "venueName": "ANKARA",
+  "raceNumber": 2,
+  "form": {
+    "data": {
+      "raceNumber": 2,
+      "spectrumId": "ANKARA_R02",
+      "raceName": "ANKARA 3YO",
+      "raceDistance": 2000,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "ANKARA",
+        "venueMnemonic": "AKA",
+        "meetingDate": "2026-04-16",
+        "location": "TUR",
+        "raceType": "R",
+        "weatherCondition": null,
+        "trackCondition": null,
+        "sellCode": {
+          "meetingCode": "K",
+          "scheduledType": "R"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416AKAR02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416AKAR02_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": false,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": true,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-16T12:00:00.000Z",
+      "raceClassConditions": "3YO COND4",
+      "apprenticesCanClaim": false,
+      "prizeMoney": "$34072.00",
+      "raceStatus": "Normal",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:00:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "PG2",
+          "cominglingHostName": "EUR - UAE/ITALY",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Place",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:00:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "PG2",
+          "cominglingHostName": "EUR - UAE/ITALY",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:00:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/AKA/races/2/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "PG2",
+          "cominglingHostName": "EUR - UAE/ITALY",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:00:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/AKA/races/2/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "PG2",
+          "cominglingHostName": "EUR - UAE/ITALY",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:00:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "PG2",
+          "cominglingHostName": "EUR - UAE/ITALY",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:00:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "PG2",
+          "cominglingHostName": "EUR - UAE/ITALY",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "DailyDouble",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:00:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 4,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:00:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "legNumber": 2,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Enabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 1,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T11:30:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 2,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:00:00.000Z"
+            },
+            {
+              "legNumber": 3,
+              "raceNumber": 3,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:30:00.000Z"
+            },
+            {
+              "legNumber": 4,
+              "raceNumber": 4,
+              "venueMnemonic": "AKA",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:00:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": false,
+      "allowParimutuelPlace": true,
+      "parimutuelPlaceStatus": "Open",
+      "allowFixedOddsPlace": false,
+      "numberOfPlaces": 2,
+      "runners": [
+        {
+          "runnerName": "ALAMETI FARIKA",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 808311,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/BROWN%2C%20YELLOW%20SPOTS%2C%20SPOTS%20SLEEVES%2C%20SPOTS%20CAP",
+          "trainerName": "I Cecan",
+          "vacantBox": false,
+          "trainerFullName": "ISMAIL CECAN",
+          "barrierNumber": 4,
+          "riderDriverName": "H Cizik",
+          "riderDriverFullName": "HISMAN CIZIK",
+          "handicapWeight": 58,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "22282",
+          "tcdwIndicators": "t dw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 99,
+          "techFormRating": 0,
+          "totalRatingPoints": 9,
+          "earlySpeedRating": 78,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/AKA/races/2/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "NEJDET BASKAN",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 808312,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/BLACK%2C%20RED%20CHECKS%2C%20DIAMOND%20STRIPE%20SLEEVES%2C%20CAP",
+          "trainerName": "Y Polat",
+          "vacantBox": false,
+          "trainerFullName": "YASIN POLAT",
+          "barrierNumber": 5,
+          "riderDriverName": "A Kursun",
+          "riderDriverFullName": "AYHAN KURSUN",
+          "handicapWeight": 58,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "22313",
+          "tcdwIndicators": "W",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 77,
+          "techFormRating": 0,
+          "totalRatingPoints": 10,
+          "earlySpeedRating": 89,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/AKA/races/2/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "TAM TIME",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 808313,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/BLUE%2C%20BLACK%20STRIPE%2C%20DIAMOND%20STRIPE%20SLEEVES%2C%20BLUE%20CAP%2C%20BLACK%20DIAMOND",
+          "trainerName": "S Suslu",
+          "vacantBox": false,
+          "trainerFullName": "SERKAN SUSLU",
+          "barrierNumber": 1,
+          "riderDriverName": "M Celik",
+          "riderDriverFullName": "MUSLUM CELIK",
+          "handicapWeight": 58,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "42240",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 71,
+          "techFormRating": 0,
+          "totalRatingPoints": 1,
+          "earlySpeedRating": 51,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/AKA/races/2/form/3?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "SUPER DIVO",
+          "runnerNumber": 4,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 808314,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/WHITE%2C%20LT%20BLUE%20TROIS%20POIS%2C%20RED%20SLEEVES%2C%20CAP",
+          "trainerName": "I Ogullari",
+          "vacantBox": false,
+          "trainerFullName": "IBRAHIM BEKIR OGULLARI",
+          "barrierNumber": 6,
+          "riderDriverName": "S Celik",
+          "riderDriverFullName": "SALIH CELIK",
+          "handicapWeight": 56,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "11121",
+          "tcdwIndicators": "tC",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 10,
+          "earlySpeedRating": 80,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/AKA/races/2/form/4?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "ARNO RABEL",
+          "runnerNumber": 5,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 808315,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/YELLOW%2C%20WHITE%20DIAMOND%2C%20NAVY%20SLEEVES",
+          "trainerName": "U Kulak",
+          "vacantBox": false,
+          "trainerFullName": "UGUR KULAK",
+          "barrierNumber": 3,
+          "riderDriverName": "N Demir",
+          "riderDriverFullName": "NIZAMETTIN DEMIR",
+          "handicapWeight": 54,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "f6x8",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 20,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 41,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/AKA/races/2/form/5?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "CAPITAL",
+          "runnerNumber": 6,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 808316,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2C%20BLACK%20DIAMONDS%2C%20WHITE%20SLEEVES%2C%20RED%20ARMBANDS%2C%20WHITE%20CAP",
+          "trainerName": "I Akkilic",
+          "vacantBox": false,
+          "trainerFullName": "ISMET AKKILIC",
+          "barrierNumber": 2,
+          "riderDriverName": "M Akyavuz",
+          "riderDriverFullName": "MEHMET AKYAVUZ",
+          "handicapWeight": 55,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "22443",
+          "tcdwIndicators": "c W",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 61,
+          "techFormRating": 0,
+          "totalRatingPoints": 6,
+          "earlySpeedRating": 65,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/AKA/races/2/form/6?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-16T01:00:02.000Z",
+      "raceComments": "{\"comment\":\"4. SUPER DIVO arrives in excellent form gaining four wins from the last five outings with a 4L second trying 1900m at Yesiloba AW preceding an easy 13L success tackling the same track and trip two weeks ago. Looks hard to beat. 1. ALAMETI FARIKA is a consistent runner with four placings from the last five outings. Delivered a smart 0.75L second attempting the journey at Antalya nine days ago. Big chance. 2. NEJDET BASKAN made the frame three times before a narrow victory contesting 1300m at Osmangazi All Weather prior to a 3.5L third over the same course and distance. Every chance. 3. TAM TIME warrants a market check.\",\"runners\":[4,1,2,3],\"exclusive\":false}",
+      "tips": {
+        "tipType": "Standard",
+        "tipster": "Turkey Tips",
+        "tipRunnerNumbers": [
+          4,
+          2,
+          1,
+          3
+        ]
+      },
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            4,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            6,
+            1,
+            4,
+            2
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            2,
+            6,
+            1,
+            4
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            4,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            2,
+            4,
+            6,
+            1
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            1,
+            4,
+            2,
+            3
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            4,
+            2,
+            1,
+            6
+          ]
+        }
+      ],
+      "multiLegApproximates": [],
+      "betTypes": [
+        {
+          "wageringProduct": "Win",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "AKA",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Place",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "AKA",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quinella",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "AKA",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Exacta",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "AKA",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "AKA",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "AKA",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "DailyDouble",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "AKA",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "firstLeg": {
+            "raceNumber": 1,
+            "venueMnemonic": "AKA",
+            "raceType": "R"
+          }
+        }
+      ]
+    }
+  }
+}

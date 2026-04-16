@@ -1,0 +1,825 @@
+{
+  "venueName": "LONGCHAMP",
+  "raceNumber": 4,
+  "form": {
+    "data": {
+      "raceNumber": 4,
+      "spectrumId": "LONGCHAMP2",
+      "raceName": "PRIX DE LA BOETIE",
+      "raceDistance": 3100,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "LONGCHAMP",
+        "venueMnemonic": "LGP",
+        "meetingDate": "2026-04-16",
+        "location": "FRA",
+        "raceType": "R",
+        "weatherCondition": null,
+        "trackCondition": null,
+        "sellCode": {
+          "meetingCode": "Q",
+          "scheduledType": "R"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR04.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR04_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": false,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": true,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-16T13:40:00.000Z",
+      "raceClassConditions": "4YO+ CL2 H",
+      "apprenticesCanClaim": false,
+      "prizeMoney": "$41304.00",
+      "raceStatus": "Normal",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 4,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:40:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Place",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 4,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:40:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 4,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:40:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 4,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:40:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 4,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:40:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 4,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:40:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "DailyDouble",
+          "legNumber": 2,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 2,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:30:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 4,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:40:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "legNumber": 4,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Enabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 1,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T11:55:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 2,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T12:30:00.000Z"
+            },
+            {
+              "legNumber": 3,
+              "raceNumber": 3,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:05:00.000Z"
+            },
+            {
+              "legNumber": 4,
+              "raceNumber": 4,
+              "venueMnemonic": "LGP",
+              "raceType": "R",
+              "startTime": "2026-04-16T13:40:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": false,
+      "allowParimutuelPlace": true,
+      "parimutuelPlaceStatus": "Open",
+      "allowFixedOddsPlace": false,
+      "numberOfPlaces": 3,
+      "runners": [
+        {
+          "runnerName": "CRISTABEL",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807681,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/WHITE%2CGREEN%20HOOPS%2CWHITE%20SLEEVES%2CGREEN%20ARMBANDS%2CBLACK%20PEAK",
+          "trainerName": "A Couetil",
+          "vacantBox": false,
+          "trainerFullName": "ALAIN COUETIL",
+          "barrierNumber": 2,
+          "riderDriverName": "O D'andigne",
+          "riderDriverFullName": "OLIVIER D'ANDIGNE",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "8110x",
+          "tcdwIndicators": "C W",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 59,
+          "techFormRating": 0,
+          "totalRatingPoints": 3,
+          "earlySpeedRating": 56,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "BLARNEY",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807682,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/GREEN%2CWHITE%20CAP%2CBLACK%20STARS%2CBLACK%20PEAK",
+          "trainerName": "J Reynier",
+          "vacantBox": false,
+          "trainerFullName": "JEROME REYNIER",
+          "barrierNumber": 7,
+          "riderDriverName": "M Barzalona",
+          "riderDriverFullName": "MICKAEL BARZALONA",
+          "handicapWeight": 57.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "61011",
+          "tcdwIndicators": "C w",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 93,
+          "techFormRating": 0,
+          "totalRatingPoints": 13,
+          "earlySpeedRating": 63,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "AUTEUR",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807683,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2C%20ORANGE%20THREE%20DIAMONDS%2C%20BLACK%20CAP",
+          "trainerName": "A Fouassier",
+          "vacantBox": false,
+          "trainerFullName": "ADRIEN FOUASSIER",
+          "barrierNumber": 1,
+          "riderDriverName": "F Lefebvre",
+          "riderDriverFullName": "FABIEN LEFEBVRE",
+          "handicapWeight": 56.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "43211",
+          "tcdwIndicators": "TC w",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 85,
+          "techFormRating": 0,
+          "totalRatingPoints": 4,
+          "earlySpeedRating": 70,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/form/3?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "MAHOMES",
+          "runnerNumber": 4,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807684,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2C%20NAVY%20DIAMONDS%2C%20RED%20CAP%2C%20NAVY%20DIAMOND%2C%20BLACK%20PEAK",
+          "trainerName": "M Munch",
+          "vacantBox": false,
+          "trainerFullName": "MARKUS MUNCH",
+          "barrierNumber": 3,
+          "riderDriverName": "C Demuro",
+          "riderDriverFullName": "CRISTIAN DEMURO",
+          "handicapWeight": 56.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "126x2",
+          "tcdwIndicators": "C W",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 90,
+          "techFormRating": 0,
+          "totalRatingPoints": 2,
+          "earlySpeedRating": 71,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/form/4?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "LEYF CHOP",
+          "runnerNumber": 5,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807685,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/BLACK%2C%20WHITE%20CROSS%20LORRAINE%2C%20WHITE%20SLEEVES%2C%20WHITE%20CAP%2C%20BLACK%20PEAK",
+          "trainerName": "M Schiestel",
+          "vacantBox": false,
+          "trainerFullName": "MICHEL SCHIESTEL",
+          "barrierNumber": 8,
+          "riderDriverName": "S Souidane",
+          "riderDriverFullName": "SARAH SOUIDANE",
+          "handicapWeight": 56,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": 2.5,
+          "last5Starts": "f1x",
+          "tcdwIndicators": "C",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 65,
+          "techFormRating": 0,
+          "totalRatingPoints": 4,
+          "earlySpeedRating": 81,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/form/5?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "PRETTY QUEEN",
+          "runnerNumber": 6,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807686,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/WHITE%2C%20NAVY%20SLEEVES%2C%20ORANGE%20CAP%2C%20NAVY%20STAR%2CBLACK%20PEAK",
+          "trainerName": "Carlos & Y Lerner",
+          "vacantBox": false,
+          "trainerFullName": "CARLOS & YANN LERNER",
+          "barrierNumber": 4,
+          "riderDriverName": "R Thomas",
+          "riderDriverFullName": "RONAN THOMAS",
+          "handicapWeight": 54.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "5x158",
+          "tcdwIndicators": "C",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 7,
+          "earlySpeedRating": 50,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/form/6?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "ALHENA",
+          "runnerNumber": 7,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807687,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED%2C%20BLACK%20CROSSED%20SASHES%2C%20RED%20SLEEVES%2C%20BLACK%20ARMBANDS%2C%20RED%20CAP%2C%20BLACK%20HOOPS%2C%20BLACK%20PEAK",
+          "trainerName": "D Watrigant",
+          "vacantBox": false,
+          "trainerFullName": "DAMIEN DE WATRIGANT",
+          "barrierNumber": 6,
+          "riderDriverName": "I Mendizabal",
+          "riderDriverFullName": "IORITZ MENDIZABAL",
+          "handicapWeight": 54.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "f1x81",
+          "tcdwIndicators": "C W",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 89,
+          "techFormRating": 0,
+          "totalRatingPoints": 3,
+          "earlySpeedRating": 60,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/form/7?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "MONEY TIME",
+          "runnerNumber": 8,
+          "fixedOdds": {
+            "returnWin": 0,
+            "returnWinOpen": 0,
+            "returnWinOpenDaily": 0,
+            "returnPlace": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Reserve",
+            "propositionNumber": 807688,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/MEDIUM%20BLUE%2C%20BLACK%20CHECKS%20%2CCHECKS%20SLEEVES%2C%20MEDIUM%20BLUE%20CAP%2C%20BLACK%20PEAK",
+          "trainerName": "A Sefiane",
+          "vacantBox": false,
+          "trainerFullName": "A SEFIANE",
+          "barrierNumber": 5,
+          "riderDriverName": "A Molins",
+          "riderDriverFullName": "AMBRE MOLINS",
+          "handicapWeight": 54.5,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": 1.5,
+          "last5Starts": "9x528",
+          "tcdwIndicators": "c w",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 74,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 73,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/R/LGP/races/4/form/8?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-16T01:40:03.000Z",
+      "raceComments": "{\"comment\":\"2. BLARNEY raced from off the pace prior to securing a 0.5L victory contesting a 3000m handicap at Fontainebleau. Selected to record the fifth win of his career. 4. MAHOMES returned to action with a 2L second competing over 2400m at Saint-Cloud. Rates a big threat seeking a second success. 3. AUTEUR completed a double gaining a 1.25L triumph from a subsequent winner tackling 3000m at Fontainebleau. Dangerous debuting for a new trainer. Winning at Lyon-la-Soie three starts back 6. PRETTY QUEEN is another to consider despite disappointing when finishing 9L eighth in the previously mentioned Saint-Cloud race.\",\"runners\":[2,4,3,6],\"exclusive\":false}",
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            6,
+            2,
+            4,
+            7
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            6,
+            2,
+            7,
+            3
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            2,
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            1,
+            2,
+            5,
+            4
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            5,
+            7,
+            2,
+            1
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            2,
+            3,
+            4,
+            7
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            2,
+            6,
+            7,
+            3
+          ]
+        }
+      ],
+      "multiLegApproximates": [],
+      "betTypes": [
+        {
+          "wageringProduct": "Win",
+          "firstLeg": {
+            "raceNumber": 4,
+            "venueMnemonic": "LGP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Place",
+          "firstLeg": {
+            "raceNumber": 4,
+            "venueMnemonic": "LGP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quinella",
+          "firstLeg": {
+            "raceNumber": 4,
+            "venueMnemonic": "LGP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Exacta",
+          "firstLeg": {
+            "raceNumber": 4,
+            "venueMnemonic": "LGP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "firstLeg": {
+            "raceNumber": 4,
+            "venueMnemonic": "LGP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "firstLeg": {
+            "raceNumber": 4,
+            "venueMnemonic": "LGP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "DailyDouble",
+          "firstLeg": {
+            "raceNumber": 2,
+            "venueMnemonic": "LGP",
+            "raceType": "R"
+          }
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "firstLeg": {
+            "raceNumber": 1,
+            "venueMnemonic": "LGP",
+            "raceType": "R"
+          }
+        }
+      ]
+    }
+  }
+}

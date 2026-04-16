@@ -1,0 +1,2013 @@
+{
+  "data": {
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceName": "SAVE GREYHOUND RACING IN TASSIE!",
+        "raceClassConditions": "Other",
+        "raceDistance": 340,
+        "numberOfStarters": 10,
+        "isJackpotRace": true,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T09:25:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "EarlyQuaddie",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HOBG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HOBG01_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/1?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/1?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/1/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/1/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/1/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 2,
+        "raceName": "TUGRAH BEAVER",
+        "raceClassConditions": "Maiden",
+        "raceDistance": 461,
+        "numberOfStarters": 8,
+        "isJackpotRace": true,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T09:43:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "EarlyQuaddie",
+            "legNumber": 2,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HOBG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HOBG02_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/2?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/2?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/2/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/2/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/2/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 3,
+        "raceName": "KING RICKY",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 340,
+        "numberOfStarters": 10,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T10:04:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "EarlyQuaddie",
+            "legNumber": 3,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HOBG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HOBG03_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/3?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/3?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/3/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/3/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/3/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 4,
+        "raceName": "STAR FOR TWO",
+        "raceClassConditions": "R/W",
+        "raceDistance": 340,
+        "numberOfStarters": 10,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T10:28:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "EarlyQuaddie",
+            "legNumber": 4,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:25:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T09:43:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:04:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:28:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HOBG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HOBG04_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/4?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/4?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/4/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/4/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/4/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 5,
+        "raceName": "CHERYL SUTTON",
+        "raceClassConditions": "3rd/4th Grade",
+        "raceDistance": 461,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T10:49:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HOBG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HOBG05_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/5?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/5?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/5/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/5/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/5/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 6,
+        "raceName": "WAYNE IVORY",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 461,
+        "numberOfStarters": 9,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T11:17:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "DailyDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 2,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Treble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HOBG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HOBG06_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/6?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/6?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/6/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/6/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/6/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 7,
+        "raceName": "REG & AILEEN IVORY MEMORIAL FINAL",
+        "raceClassConditions": "SE",
+        "raceDistance": 461,
+        "numberOfStarters": 10,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T11:35:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 3,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Treble",
+            "legNumber": 2,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HOBG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HOBG07_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/7?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/7?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/7/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/7/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/7/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 8,
+        "raceName": "SCOTT JAMES",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 461,
+        "numberOfStarters": 9,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T11:59:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 9,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:14:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "DailyDouble",
+            "legNumber": 2,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 4,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T10:49:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Treble",
+            "legNumber": 3,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:17:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 7,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:35:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 8,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T11:59:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HOBG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HOBG08_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/8?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/8?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/8/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/8/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/8/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 9,
+        "raceName": "UNIQUE VENTURE",
+        "raceClassConditions": "4th Grade",
+        "raceDistance": 340,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T12:14:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:14:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:14:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:14:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:14:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:14:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:14:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:14:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:14:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 10,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:33:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HOBG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HOBG09_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/9?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/9?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/9/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/9/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/9/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 10,
+        "raceName": "LADBROKES QUICK MULTI",
+        "raceClassConditions": "R/W",
+        "raceDistance": 340,
+        "numberOfStarters": 10,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-16T12:33:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:33:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:33:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:33:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:33:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:33:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:33:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "HOB",
+                "raceType": "G",
+                "startTime": "2026-04-16T12:33:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HOBG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HOBG10_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/10?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/10?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/10/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/10/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/G/HOB/races/10/big-bets?jurisdiction=NSW"
+        }
+      }
+    ]
+  }
+}

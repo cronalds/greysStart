@@ -1,0 +1,2034 @@
+{
+  "venueName": "YONKERS",
+  "raceNumber": 9,
+  "form": {
+    "data": {
+      "raceNumber": 9,
+      "spectrumId": "YONKERS_R8",
+      "raceName": "YONKERS CLAIMING PACE MS",
+      "raceDistance": 1609,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "YONKERS",
+        "venueMnemonic": "YKS",
+        "meetingDate": "2026-04-16",
+        "location": "USA",
+        "raceType": "H",
+        "weatherCondition": "FINE",
+        "trackCondition": "FAST",
+        "sellCode": {
+          "meetingCode": "L",
+          "scheduledType": "H"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416YONT09.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416YONT09_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": false,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": false,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-16T01:53:00.000Z",
+      "raceClassConditions": "20000CLM",
+      "sprintLane": false,
+      "apprenticesCanClaim": false,
+      "prizeMoney": "$23290.00",
+      "raceStatus": "Closed",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Closed",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:53:00.000Z"
+            }
+          ],
+          "poolHistory": [
+            {
+              "poolTotal": 541.78,
+              "poolTotalTime": "2026-04-16T01:54:18.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 541.78,
+              "poolTotalTime": "2026-04-16T01:54:08.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 446.91,
+              "poolTotalTime": "2026-04-16T01:53:52.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 446.91,
+              "poolTotalTime": "2026-04-16T01:53:52.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 4,
+              "poolTotalTime": "2026-04-16T01:31:37.000Z",
+              "specialDisplayIndicator": true
+            }
+          ],
+          "poolTotal": 541.78,
+          "jackpot": 0,
+          "cominglingHost": "IOM",
+          "cominglingHostName": "EUR - JPN/KOR/MYS/AME",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Place",
+          "legNumber": 1,
+          "poolStatusCode": "Closed",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:53:00.000Z"
+            }
+          ],
+          "poolTotal": 101.59,
+          "jackpot": 0,
+          "cominglingHost": "IOM",
+          "cominglingHostName": "EUR - JPN/KOR/MYS/AME",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Closed",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:53:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/YKS/races/9/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 103.7,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Closed",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:53:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/YKS/races/9/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 144.2,
+          "jackpot": 21.36,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Closed",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:53:00.000Z"
+            }
+          ],
+          "poolTotal": 504.48,
+          "jackpot": 84.29,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "legNumber": 1,
+          "poolStatusCode": "Closed",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 9,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:53:00.000Z"
+            }
+          ],
+          "poolTotal": 31,
+          "jackpot": 7.68,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "DailyDouble",
+          "legNumber": 2,
+          "poolStatusCode": "Closed",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 7,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:07:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 9,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:53:00.000Z"
+            }
+          ],
+          "poolTotal": 0.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "legNumber": 4,
+          "poolStatusCode": "Closed",
+          "cashOutEligibility": "Enabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 6,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T00:44:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 7,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:07:00.000Z"
+            },
+            {
+              "legNumber": 3,
+              "raceNumber": 8,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:29:00.000Z"
+            },
+            {
+              "legNumber": 4,
+              "raceNumber": 9,
+              "venueMnemonic": "YKS",
+              "raceType": "H",
+              "startTime": "2026-04-16T01:53:00.000Z"
+            }
+          ],
+          "poolTotal": 0.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": false,
+      "allowParimutuelPlace": true,
+      "parimutuelPlaceStatus": "Closed",
+      "allowFixedOddsPlace": false,
+      "numberOfPlaces": 3,
+      "runners": [
+        {
+          "runnerName": "DISMAS",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 3.7,
+            "returnWinTime": "2026-04-16T01:53:50.000Z",
+            "returnWinOpen": 4,
+            "returnWinOpenDaily": 4,
+            "returnPlace": 1.45,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Closed",
+            "propositionNumber": 808831,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:53:40.000Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:53:19.000Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:53:15.000Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-16T01:52:54.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:40:53.492Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:41:14.726Z"
+              },
+              {
+                "returnWin": 4.4,
+                "returnWinTime": "2026-04-16T01:42:49.416Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:43:18.544Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-16T01:45:49.331Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:46:20.105Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:46:51.535Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-16T01:47:45.348Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:47:50.562Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:48:40.811Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-16T01:48:46.029Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-16T01:49:11.824Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-16T01:49:22.809Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:49:46.369Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:51:41.779Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:51:47.547Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:52:17.859Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-16T01:52:53.607Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:53:14.711Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:53:19.485Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:53:39.802Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-16T01:53:50.309Z"
+              }
+            ],
+            "percentageChange": 3,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 4.5,
+            "returnPlace": 1.7,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Closed",
+            "marketMovers": [
+              {
+                "returnWin": 4.5,
+                "returnWinTime": "2026-04-16T01:54:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-16T01:53:26.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-16T01:53:22.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 4.4,
+                "returnWinTime": "2026-04-16T01:52:46.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/RED",
+          "trainerName": "P Engblom",
+          "vacantBox": false,
+          "trainerFullName": "PER ENGBLOM",
+          "barrierNumber": 0,
+          "riderDriverName": "J Bartlett",
+          "riderDriverFullName": "JASON BARTLETT",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "07713",
+          "tcdwIndicators": "TCD",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 99,
+          "techFormRating": 0,
+          "totalRatingPoints": 9,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/YKS/races/9/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "HURRIKANEKINGJAMES",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 5,
+            "returnWinTime": "2026-04-16T01:53:50.000Z",
+            "returnWinOpen": 5,
+            "returnWinOpenDaily": 5,
+            "returnPlace": 1.65,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Closed",
+            "propositionNumber": 808832,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 4.8,
+                "returnWinTime": "2026-04-16T01:53:40.000Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:53:19.000Z"
+              },
+              {
+                "returnWin": 4.8,
+                "returnWinTime": "2026-04-16T01:53:15.000Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:52:54.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:40:53.492Z"
+              },
+              {
+                "returnWin": 5.5,
+                "returnWinTime": "2026-04-16T01:43:04.724Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:46:20.105Z"
+              },
+              {
+                "returnWin": 6,
+                "returnWinTime": "2026-04-16T01:47:11.726Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:47:21.745Z"
+              },
+              {
+                "returnWin": 5.5,
+                "returnWinTime": "2026-04-16T01:47:45.348Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:47:50.562Z"
+              },
+              {
+                "returnWin": 6,
+                "returnWinTime": "2026-04-16T01:48:09.820Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:48:16.052Z"
+              },
+              {
+                "returnWin": 6,
+                "returnWinTime": "2026-04-16T01:48:40.811Z"
+              },
+              {
+                "returnWin": 5.5,
+                "returnWinTime": "2026-04-16T01:48:46.029Z"
+              },
+              {
+                "returnWin": 6,
+                "returnWinTime": "2026-04-16T01:49:11.824Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:49:22.794Z"
+              },
+              {
+                "returnWin": 5.5,
+                "returnWinTime": "2026-04-16T01:49:46.369Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:49:52.032Z"
+              },
+              {
+                "returnWin": 5.5,
+                "returnWinTime": "2026-04-16T01:50:12.523Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:50:23.174Z"
+              },
+              {
+                "returnWin": 4.4,
+                "returnWinTime": "2026-04-16T01:52:07.675Z"
+              },
+              {
+                "returnWin": 4.8,
+                "returnWinTime": "2026-04-16T01:52:17.859Z"
+              },
+              {
+                "returnWin": 4.4,
+                "returnWinTime": "2026-04-16T01:52:48.214Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:52:53.607Z"
+              },
+              {
+                "returnWin": 4.8,
+                "returnWinTime": "2026-04-16T01:53:14.695Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:53:19.485Z"
+              },
+              {
+                "returnWin": 4.8,
+                "returnWinTime": "2026-04-16T01:53:39.802Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:53:50.309Z"
+              }
+            ],
+            "percentageChange": 4,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 7.6,
+            "returnPlace": 2.6,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Closed",
+            "marketMovers": [
+              {
+                "returnWin": 7.6,
+                "returnWinTime": "2026-04-16T01:54:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:53:26.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 4.8,
+                "returnWinTime": "2026-04-16T01:53:22.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-16T01:52:46.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.6,
+                "returnWinTime": "2026-04-16T01:31:37.000Z",
+                "specialDisplayIndicator": true
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/BLUE",
+          "trainerName": "C Stratton",
+          "vacantBox": false,
+          "trainerFullName": "CORY STRATTON",
+          "barrierNumber": 0,
+          "riderDriverName": "J Stratton",
+          "riderDriverFullName": "JORDAN STRATTON",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "17534",
+          "tcdwIndicators": "tCdW",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 92,
+          "techFormRating": 0,
+          "totalRatingPoints": 4,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/YKS/races/9/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "PINK FLOYD HANOVER",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 4,
+            "returnWinTime": "2026-04-16T01:53:50.000Z",
+            "returnWinOpen": 4.6,
+            "returnWinOpenDaily": 4.6,
+            "returnPlace": 1.5,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Closed",
+            "propositionNumber": 808833,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:53:40.000Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:53:19.000Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:53:15.000Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:52:54.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 4.6,
+                "returnWinTime": "2026-04-16T01:40:53.492Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:41:50.670Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:42:27.478Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:43:04.723Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:43:18.528Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-16T01:44:27.169Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:46:20.105Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:47:21.745Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:47:45.348Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:47:50.563Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:48:09.820Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:48:16.052Z"
+              },
+              {
+                "returnWin": 3.9,
+                "returnWinTime": "2026-04-16T01:48:40.811Z"
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-16T01:49:46.369Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:49:52.032Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-16T01:50:23.174Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:50:43.208Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-16T01:50:48.529Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:51:41.779Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-16T01:51:47.547Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:52:07.675Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:52:17.859Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:52:48.214Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:52:53.607Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:53:14.711Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:53:19.485Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:53:39.802Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:53:50.309Z"
+              }
+            ],
+            "percentageChange": -5,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 4.2,
+            "returnPlace": 1.2,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": true,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Closed",
+            "marketMovers": [
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-16T01:54:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 4.6,
+                "returnWinTime": "2026-04-16T01:53:26.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 4.7,
+                "returnWinTime": "2026-04-16T01:53:22.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 4.3,
+                "returnWinTime": "2026-04-16T01:52:46.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/WHITE",
+          "trainerName": "D Laterza",
+          "vacantBox": false,
+          "trainerFullName": "DENNIS J LATERZA",
+          "barrierNumber": 0,
+          "riderDriverName": "B Holland",
+          "riderDriverFullName": "BRENT HOLLAND",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "54227",
+          "tcdwIndicators": "tCdw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 94,
+          "techFormRating": 0,
+          "totalRatingPoints": 6,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/YKS/races/9/form/3?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "LOU'S BEACH",
+          "runnerNumber": 4,
+          "fixedOdds": {
+            "returnWin": 3.2,
+            "returnWinTime": "2026-04-16T01:53:50.000Z",
+            "returnWinOpen": 3.1,
+            "returnWinOpenDaily": 3.1,
+            "returnPlace": 1.4,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Closed",
+            "propositionNumber": 808834,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 2.8,
+                "returnWinTime": "2026-04-16T01:53:40.000Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-16T01:53:19.000Z"
+              },
+              {
+                "returnWin": 2.9,
+                "returnWinTime": "2026-04-16T01:53:15.000Z"
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-16T01:52:54.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 3.1,
+                "returnWinTime": "2026-04-16T01:40:53.492Z"
+              },
+              {
+                "returnWin": 3,
+                "returnWinTime": "2026-04-16T01:41:14.726Z"
+              },
+              {
+                "returnWin": 3.1,
+                "returnWinTime": "2026-04-16T01:41:50.670Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-16T01:42:27.478Z"
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-16T01:43:18.544Z"
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-16T01:43:48.135Z"
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-16T01:44:51.616Z"
+              },
+              {
+                "returnWin": 3.5,
+                "returnWinTime": "2026-04-16T01:46:20.105Z"
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-16T01:46:51.535Z"
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-16T01:47:11.726Z"
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-16T01:47:21.745Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T01:47:45.348Z"
+              },
+              {
+                "returnWin": 3.5,
+                "returnWinTime": "2026-04-16T01:47:50.562Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-16T01:48:09.820Z"
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-16T01:48:16.052Z"
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-16T01:48:46.029Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-16T01:49:11.824Z"
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-16T01:49:22.794Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-16T01:50:12.523Z"
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-16T01:50:23.174Z"
+              },
+              {
+                "returnWin": 3.1,
+                "returnWinTime": "2026-04-16T01:51:41.779Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-16T01:51:47.547Z"
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-16T01:52:17.859Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-16T01:52:48.214Z"
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-16T01:52:53.607Z"
+              },
+              {
+                "returnWin": 2.9,
+                "returnWinTime": "2026-04-16T01:53:14.695Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-16T01:53:19.485Z"
+              },
+              {
+                "returnWin": 2.8,
+                "returnWinTime": "2026-04-16T01:53:39.802Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-16T01:53:50.309Z"
+              }
+            ],
+            "percentageChange": 14,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 3.7,
+            "returnPlace": 2.1,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Closed",
+            "marketMovers": [
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-16T01:54:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T01:53:26.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:53:22.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-16T01:52:46.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/GREEN",
+          "trainerName": "I Estrada",
+          "vacantBox": false,
+          "trainerFullName": "IZZY ESTRADA",
+          "barrierNumber": 0,
+          "riderDriverName": "Y Gingras",
+          "riderDriverFullName": "YANNICK GINGRAS",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "63112",
+          "tcdwIndicators": "t dw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/YKS/races/9/form/4?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "BLACK HAWK JOE A",
+          "runnerNumber": 5,
+          "fixedOdds": {
+            "returnWin": 12,
+            "returnWinTime": "2026-04-16T01:53:19.000Z",
+            "returnWinOpen": 11,
+            "returnWinOpenDaily": 11,
+            "returnPlace": 2.7,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Closed",
+            "propositionNumber": 808835,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:53:15.000Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:52:54.000Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:52:48.000Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:52:18.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:40:53.492Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:42:49.416Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:43:04.723Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:46:20.105Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:50:48.529Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:51:08.622Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:51:19.675Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:51:41.779Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:51:47.547Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:52:07.675Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:52:17.859Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:52:48.214Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:52:53.607Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:53:14.695Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:53:19.485Z"
+              }
+            ],
+            "percentageChange": 9,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 23.9,
+            "returnPlace": 3.8,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Closed",
+            "marketMovers": [
+              {
+                "returnWin": 23.9,
+                "returnWinTime": "2026-04-16T01:54:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 16.1,
+                "returnWinTime": "2026-04-16T01:53:26.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 15.1,
+                "returnWinTime": "2026-04-16T01:53:22.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 13.2,
+                "returnWinTime": "2026-04-16T01:52:46.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.6,
+                "returnWinTime": "2026-04-16T01:31:37.000Z",
+                "specialDisplayIndicator": true
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/BLACK",
+          "trainerName": "A Adamczyk",
+          "vacantBox": false,
+          "trainerFullName": "ANDREW ADAMCZYK",
+          "barrierNumber": 0,
+          "riderDriverName": "C Kelly",
+          "riderDriverFullName": "COLIN KELLY",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "22467",
+          "tcdwIndicators": "tCDw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 94,
+          "techFormRating": 0,
+          "totalRatingPoints": 1,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/YKS/races/9/form/5?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "DANCININTHEFIRE",
+          "runnerNumber": 6,
+          "fixedOdds": {
+            "returnWin": 16,
+            "returnWinTime": "2026-04-16T01:53:50.000Z",
+            "returnWinOpen": 7,
+            "returnWinOpenDaily": 7,
+            "returnPlace": 3.2,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Closed",
+            "propositionNumber": 808836,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 15,
+                "returnWinTime": "2026-04-16T01:53:15.000Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:52:54.000Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:52:48.000Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:52:18.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 7,
+                "returnWinTime": "2026-04-16T01:40:53.492Z"
+              },
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-16T01:41:50.670Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-16T01:43:04.722Z"
+              },
+              {
+                "returnWin": 8.5,
+                "returnWinTime": "2026-04-16T01:43:48.135Z"
+              },
+              {
+                "returnWin": 9,
+                "returnWinTime": "2026-04-16T01:44:51.616Z"
+              },
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-16T01:45:49.347Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:46:20.105Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:46:51.535Z"
+              },
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-16T01:47:11.722Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:47:21.745Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-16T01:47:45.348Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:47:50.562Z"
+              },
+              {
+                "returnWin": 8.5,
+                "returnWinTime": "2026-04-16T01:48:09.820Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:48:16.052Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-16T01:48:40.811Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:48:46.029Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-16T01:49:11.824Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:49:22.794Z"
+              },
+              {
+                "returnWin": 8.5,
+                "returnWinTime": "2026-04-16T01:49:46.369Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:49:52.032Z"
+              },
+              {
+                "returnWin": 9,
+                "returnWinTime": "2026-04-16T01:50:12.523Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:50:23.174Z"
+              },
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-16T01:50:43.208Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:50:48.529Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:51:08.622Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:51:19.675Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:51:41.779Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:51:47.547Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:52:07.675Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:52:17.859Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:52:48.214Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:52:53.607Z"
+              },
+              {
+                "returnWin": 15,
+                "returnWinTime": "2026-04-16T01:53:14.711Z"
+              },
+              {
+                "returnWin": 16,
+                "returnWinTime": "2026-04-16T01:53:50.309Z"
+              }
+            ],
+            "percentageChange": 7,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 3.8,
+            "returnPlace": 1.2,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": true,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Closed",
+            "marketMovers": [
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-16T01:54:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 9.2,
+                "returnWinTime": "2026-04-16T01:53:26.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-16T01:53:22.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 8.5,
+                "returnWinTime": "2026-04-16T01:52:46.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/YELLOW",
+          "trainerName": "P Blumenfeld",
+          "vacantBox": false,
+          "trainerFullName": "PAUL BLUMENFELD",
+          "barrierNumber": 0,
+          "riderDriverName": "M Kakaley",
+          "riderDriverFullName": "MATT KAKALEY",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "72322",
+          "tcdwIndicators": "t Dw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 97,
+          "techFormRating": 0,
+          "totalRatingPoints": 3,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/YKS/races/9/form/6?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "DANCE ON THE BEACH",
+          "runnerNumber": 7,
+          "fixedOdds": {
+            "returnWin": 51,
+            "returnWinTime": "2026-04-16T01:53:19.000Z",
+            "returnWinOpen": 26,
+            "returnWinOpenDaily": 26,
+            "returnPlace": 7,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Closed",
+            "propositionNumber": 808837,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-16T01:53:15.000Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-16T01:52:48.000Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-16T01:50:43.000Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-16T01:50:23.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-16T01:40:53.492Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-16T01:40:55.048Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-16T01:42:49.416Z"
+              },
+              {
+                "returnWin": 31,
+                "returnWinTime": "2026-04-16T01:46:20.105Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-16T01:47:11.726Z"
+              },
+              {
+                "returnWin": 31,
+                "returnWinTime": "2026-04-16T01:47:21.745Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-16T01:47:45.348Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-16T01:48:40.811Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-16T01:48:46.029Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-16T01:49:46.369Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-16T01:49:52.032Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-16T01:50:12.523Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-16T01:50:23.174Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-16T01:50:43.208Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-16T01:52:48.214Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-16T01:53:14.695Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-16T01:53:19.485Z"
+              }
+            ],
+            "percentageChange": 24,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 21.1,
+            "returnPlace": 3.4,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Closed",
+            "marketMovers": [
+              {
+                "returnWin": 21.1,
+                "returnWinTime": "2026-04-16T01:54:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 25.2,
+                "returnWinTime": "2026-04-16T01:53:26.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 23.7,
+                "returnWinTime": "2026-04-16T01:53:22.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 19.3,
+                "returnWinTime": "2026-04-16T01:52:46.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/PINK",
+          "trainerName": "J Grasso",
+          "vacantBox": false,
+          "trainerFullName": "JOHN GRASSO",
+          "barrierNumber": 0,
+          "riderDriverName": "A Siegelman",
+          "riderDriverFullName": "AUSTIN SIEGELMAN",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "22262",
+          "tcdwIndicators": "tCDw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 84,
+          "techFormRating": 0,
+          "totalRatingPoints": 3,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/YKS/races/9/form/7?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "SHAKE IT",
+          "runnerNumber": 8,
+          "fixedOdds": {
+            "returnWin": 21,
+            "returnWinTime": "2026-04-16T01:53:50.000Z",
+            "returnWinOpen": 17,
+            "returnWinOpenDaily": 17,
+            "returnPlace": 3.9,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Closed",
+            "propositionNumber": 808838,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 17,
+                "returnWinTime": "2026-04-16T01:53:40.000Z"
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-16T01:53:19.000Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:53:15.000Z"
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-16T01:52:54.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 17,
+                "returnWinTime": "2026-04-16T01:40:53.492Z"
+              },
+              {
+                "returnWin": 16,
+                "returnWinTime": "2026-04-16T01:40:55.048Z"
+              },
+              {
+                "returnWin": 15,
+                "returnWinTime": "2026-04-16T01:41:14.726Z"
+              },
+              {
+                "returnWin": 16,
+                "returnWinTime": "2026-04-16T01:41:50.670Z"
+              },
+              {
+                "returnWin": 15,
+                "returnWinTime": "2026-04-16T01:42:27.478Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:42:49.416Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:47:11.721Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:47:21.745Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:47:45.348Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-16T01:47:50.562Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:48:09.820Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:48:16.052Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-16T01:48:40.811Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:48:46.029Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:49:11.824Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:49:22.794Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-16T01:49:46.369Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:49:52.032Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-16T01:50:12.523Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:50:23.174Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-16T01:50:43.208Z"
+              },
+              {
+                "returnWin": 16,
+                "returnWinTime": "2026-04-16T01:50:48.529Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:51:08.622Z"
+              },
+              {
+                "returnWin": 15,
+                "returnWinTime": "2026-04-16T01:51:19.675Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:51:41.779Z"
+              },
+              {
+                "returnWin": 16,
+                "returnWinTime": "2026-04-16T01:51:47.547Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-16T01:52:07.675Z"
+              },
+              {
+                "returnWin": 16,
+                "returnWinTime": "2026-04-16T01:52:17.859Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:52:48.214Z"
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-16T01:52:53.607Z"
+              },
+              {
+                "returnWin": 13,
+                "returnWinTime": "2026-04-16T01:53:14.711Z"
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-16T01:53:19.485Z"
+              },
+              {
+                "returnWin": 17,
+                "returnWinTime": "2026-04-16T01:53:39.802Z"
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-16T01:53:50.309Z"
+              }
+            ],
+            "percentageChange": 24,
+            "allowPlace": false
+          },
+          "parimutuel": {
+            "returnWin": 19.6,
+            "returnPlace": 4.8,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Closed",
+            "marketMovers": [
+              {
+                "returnWin": 19.6,
+                "returnWinTime": "2026-04-16T01:54:08.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 19.9,
+                "returnWinTime": "2026-04-16T01:53:26.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 18.7,
+                "returnWinTime": "2026-04-16T01:53:22.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 15.2,
+                "returnWinTime": "2026-04-16T01:52:46.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/GREY",
+          "trainerName": "M Alvarez",
+          "vacantBox": false,
+          "trainerFullName": "MARIA ALVAREZ",
+          "barrierNumber": 0,
+          "riderDriverName": "T Buter",
+          "riderDriverFullName": "TYLER BUTER",
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": false,
+          "claimAmount": -1,
+          "last5Starts": "11352",
+          "tcdwIndicators": "tCDw",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 98,
+          "techFormRating": 0,
+          "totalRatingPoints": 10,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-16/meetings/H/YKS/races/9/form/8?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-16T01:54:18.000Z",
+      "fixedOddsUpdateTime": "2026-04-16T01:53:50.000Z",
+      "raceComments": "{\"comment\":\"4. LOU'S BEACH is racing in great heart with two wins and two minor placings from the past four outings. Went close again last time over 1609m at this track, finishing second and 4 metres from the winner. Meets a comparable field and he is a strong winning hope. 1. DISMAS is in the mix following a respectable third at his most recent appearance over 1609m at this track. 8. SHAKE IT is in the mix following a respectable second at his most recent appearance over 1609m at this track.\",\"runners\":[4,1,8],\"exclusive\":false}",
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            4,
+            1,
+            8,
+            6
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            1,
+            6,
+            3,
+            4
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            8,
+            3,
+            7,
+            4
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            8,
+            3,
+            5,
+            2
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            8,
+            2,
+            6,
+            4
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            1,
+            7,
+            8,
+            4
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            8,
+            1,
+            3,
+            4
+          ]
+        }
+      ],
+      "multiLegApproximates": [
+        {
+          "wageringProduct": "DailyDouble",
+          "approximateSets": [
+            {
+              "results": [
+                {
+                  "legNumber": 1,
+                  "result": 8,
+                  "runnerName": "MINOTAUR"
+                }
+              ],
+              "approximates": [
+                {
+                  "selection": 1,
+                  "return": 1.04
+                },
+                {
+                  "selection": 2,
+                  "return": 1.04
+                },
+                {
+                  "selection": 3,
+                  "return": 1.04
+                },
+                {
+                  "selection": 4,
+                  "return": 1.04
+                },
+                {
+                  "selection": 5,
+                  "return": 1.04
+                },
+                {
+                  "selection": 6,
+                  "return": 1.04
+                },
+                {
+                  "selection": 7,
+                  "return": 1.04
+                },
+                {
+                  "selection": 8,
+                  "return": 1.04
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "approximateSets": [
+            {
+              "results": [
+                {
+                  "legNumber": 1,
+                  "result": 3,
+                  "runnerName": "SWEET ODDS"
+                },
+                {
+                  "legNumber": 2,
+                  "result": 8,
+                  "runnerName": "MINOTAUR"
+                },
+                {
+                  "legNumber": 3,
+                  "result": 4,
+                  "runnerName": "ARMANI BLUE CHIP"
+                }
+              ],
+              "approximates": [
+                {
+                  "selection": 1,
+                  "return": 0
+                },
+                {
+                  "selection": 2,
+                  "return": 0
+                },
+                {
+                  "selection": 3,
+                  "return": 0
+                },
+                {
+                  "selection": 4,
+                  "return": 0
+                },
+                {
+                  "selection": 5,
+                  "return": 0
+                },
+                {
+                  "selection": 6,
+                  "return": 0
+                },
+                {
+                  "selection": 7,
+                  "return": 0
+                },
+                {
+                  "selection": 8,
+                  "return": 0
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "betTypes": []
+    }
+  }
+}
