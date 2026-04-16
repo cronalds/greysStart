@@ -192,13 +192,14 @@ Outcome =
 -----------------------------------------
 -----------------------------------------
 
-- for draw places ill rely on having more than 1 dog placing for x place and have a drawX column either 0-1
+- for draw places ill rely on having more than 1 dog placing for x place and have a drawX column either 0-1; maybe for each place first, second, third, fourth, exclude draw 5+ but can still be derived from data
 
 -----------------------------------------
 -----------------------------------------
 -----------------------------------------
 
 - foreach key in xResults in racePathsGrouped.json will be the keys for greys/harness/horses and their extendedForms as well to group; results are a day behind the rest, ill get the results/form/extended form for each race at each venue and ill get scratchings and replacement runners from the resultings, and the rest of the info from race form and extendedForm; ill just group each into objects with the paths for {race, extendedForm, results} and that will get the paths bundled for proper processing where ill have to create an empty object and fill with pertinent info from each json object(listed above) and add transactions to sqliteDB where data will be appropriately consolidated and itll be much easier to handle/aggregate/etc
+- will need to handle files with orphaned pairings
 
 - putting in appropriate error output to json and everything else that needs to be done properly. // either winston or bespoke
 
