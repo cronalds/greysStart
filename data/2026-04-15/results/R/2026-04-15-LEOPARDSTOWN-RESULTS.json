@@ -1,0 +1,321 @@
+{
+  "meetingName": "LEOPARDSTOWN",
+  "location": "IRL",
+  "venueMnemonic": "I",
+  "raceType": "R",
+  "meetingDate": "2026-04-15",
+  "weatherCondition": "FINE",
+  "trackCondition": "SOFT",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 3.4,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T12:58:03+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 2,
+          "venueMnemonic": "I",
+          "raceType": "R",
+          "startTime": "2026-04-15T12:57:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 4,
+          "venueMnemonic": "I",
+          "raceType": "R",
+          "startTime": "2026-04-15T14:07:00+00:00"
+        }
+      ]
+    },
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "Quaddie",
+      "poolTotal": 0.5,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T12:22:26+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "I",
+          "raceType": "R",
+          "startTime": "2026-04-15T12:22:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "I",
+          "raceType": "R",
+          "startTime": "2026-04-15T12:57:00+00:00"
+        },
+        {
+          "legNumber": 3,
+          "raceNumber": 3,
+          "venueMnemonic": "I",
+          "raceType": "R",
+          "startTime": "2026-04-15T13:32:00+00:00"
+        },
+        {
+          "legNumber": 4,
+          "raceNumber": 4,
+          "venueMnemonic": "I",
+          "raceType": "R",
+          "startTime": "2026-04-15T14:07:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/R"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "IRISH STALLION FARMS EBF FILLIES MAIDEN",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          4
+        ],
+        [
+          9
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T12:22:00+00:00",
+      "raceDistance": 2012,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415LEOR01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415LEOR01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/R/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "STUDENT STYLE AWARDS C&G MAIDEN",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          2
+        ],
+        [
+          5
+        ],
+        [
+          11
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T12:57:00+00:00",
+      "raceDistance": 2012,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415LEOR02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415LEOR02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/R/races/2"
+      }
+    },
+    {
+      "raceNumber": 3,
+      "raceName": "DOMIN OH HOO HOO HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          1
+        ],
+        [
+          6
+        ],
+        [
+          10
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T13:32:00+00:00",
+      "raceDistance": 2012,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415LEOR03.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415LEOR03_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/R/races/3"
+      }
+    },
+    {
+      "raceNumber": 4,
+      "raceName": "HERITAGE STAKES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          8
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          9
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T14:07:00+00:00",
+      "raceDistance": 1609,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415LEOR04.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415LEOR04_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/R/races/4"
+      }
+    },
+    {
+      "raceNumber": 5,
+      "raceName": "IRISH STALLION FARMS EBF FILLIES MAIDEN",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          9
+        ],
+        [
+          2
+        ],
+        [
+          12
+        ],
+        [
+          7
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T14:42:00+00:00",
+      "raceDistance": 1609,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415LEOR05.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415LEOR05_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/R/races/5"
+      }
+    },
+    {
+      "raceNumber": 6,
+      "raceName": "HORSEWARE IRELAND STUDENT DERBY HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          8
+        ],
+        [
+          5
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T15:17:00+00:00",
+      "raceDistance": 1811,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415LEOR06.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415LEOR06_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/R/races/6"
+      }
+    },
+    {
+      "raceNumber": 7,
+      "raceName": "FM104 'GIDDY UP' HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          9
+        ],
+        [
+          12
+        ],
+        [
+          10
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T15:52:00+00:00",
+      "raceDistance": 1408,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415LEOR07.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415LEOR07_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/R/races/7"
+      }
+    },
+    {
+      "raceNumber": 8,
+      "raceName": "BUZZBALLZ HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          14
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          7
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T16:27:00+00:00",
+      "raceDistance": 1408,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415LEOR08.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415LEOR08_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/R/races/8"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "I",
+    "scheduledType": "R"
+  }
+}

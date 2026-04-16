@@ -148,8 +148,11 @@ Outcome =
 - extended form/moreForm
   - form
     - data
+      - raceDistance
       - trackDirection
-      - all meeting data except for races, just individual race runner additional data
+      - meeting.
+        - weatherCondition
+        - trackCondition
       - runners // array of objects
         - runnerName // runnerID
         - runnerNumber
@@ -168,8 +171,31 @@ Outcome =
         - ratingType
         - ratingRunnerNumbers // []
 
+- results:
+  - data
+    - raceStartTime
+    - raceStatus
+    - results = [[int],[int],[int],[int]]
+    - scratchings
+      - runnerName
+      - runnerNumber
+      - trainerName
+      - barrierNumber
+    - runners
+      - runnerName
+      - runnerNumber
+      - finishingPosition // 1-4 || 0
+      - trainerName
+    - raceClassConditions
+
 -----------------------------------------
 -----------------------------------------
 -----------------------------------------
 
 - for draw places ill rely on having more than 1 dog placing for x place and have a drawX column either 0-1
+
+-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+
+- foreach key in xResults in racePathsGrouped.json will be the keys for greys/harness/horses and their extendedForms as well to group; results are a day behind the rest, ill get the results/form/extended form for each race at each venue and ill get scratchings and replacement runners from the resultings, and the rest of the info from race form and extendedForm; ill just group each into objects with the paths for {race, extendedForm, results} and that will get the paths bundled for proper processing where ill have to create an empty object and fill with pertinent info from each json object(listed above)

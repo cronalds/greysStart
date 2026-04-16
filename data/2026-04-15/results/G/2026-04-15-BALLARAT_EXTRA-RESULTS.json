@@ -1,0 +1,103 @@
+{
+  "meetingName": "BALLARAT EXTRA",
+  "location": "VIC",
+  "venueMnemonic": "D",
+  "raceType": "G",
+  "meetingDate": "2026-04-15",
+  "weatherCondition": "FINE",
+  "trackCondition": "GOOD",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "RunningDouble",
+      "poolTotal": 5.6,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T12:31:56+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "D",
+          "raceType": "G",
+          "startTime": "2026-04-15T12:31:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "D",
+          "raceType": "G",
+          "startTime": "2026-04-15T12:47:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/G"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "BALLARAT RACE 13 DAMSELS DASH",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T12:31:00+00:00",
+      "raceDistance": 390,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415BAXG01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415BAXG01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/G/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "BALLARAT RACE 14",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T12:47:00+00:00",
+      "raceDistance": 390,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415BAXG02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415BAXG02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/G/races/2"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "D",
+    "scheduledType": "G"
+  }
+}

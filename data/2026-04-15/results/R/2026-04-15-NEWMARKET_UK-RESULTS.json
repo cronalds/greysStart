@@ -1,0 +1,290 @@
+{
+  "meetingName": "NEWMARKET UK",
+  "location": "GBR",
+  "venueMnemonic": "D",
+  "raceType": "R",
+  "meetingDate": "2026-04-15",
+  "weatherCondition": "OCAST",
+  "trackCondition": "GOOD",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 4.5,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T13:26:08+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 2,
+          "venueMnemonic": "D",
+          "raceType": "R",
+          "startTime": "2026-04-15T13:25:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 4,
+          "venueMnemonic": "D",
+          "raceType": "R",
+          "startTime": "2026-04-15T14:35:00+00:00"
+        }
+      ]
+    },
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "Quaddie",
+      "poolTotal": 25.08,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T12:50:58+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "D",
+          "raceType": "R",
+          "startTime": "2026-04-15T12:50:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "D",
+          "raceType": "R",
+          "startTime": "2026-04-15T13:25:00+00:00"
+        },
+        {
+          "legNumber": 3,
+          "raceNumber": 3,
+          "venueMnemonic": "D",
+          "raceType": "R",
+          "startTime": "2026-04-15T14:00:00+00:00"
+        },
+        {
+          "legNumber": 4,
+          "raceNumber": 4,
+          "venueMnemonic": "D",
+          "raceType": "R",
+          "startTime": "2026-04-15T14:35:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/R"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "WEATHERBYS GLOBAL STALLIONS APP HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          7
+        ],
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          13
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T12:50:00+00:00",
+      "raceDistance": 1207,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415NWMR01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415NWMR01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/R/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "BETWAY FEILDEN STAKES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T13:25:00+00:00",
+      "raceDistance": 1810,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415NWMR02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415NWMR02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/R/races/2"
+      }
+    },
+    {
+      "raceNumber": 3,
+      "raceName": "BETWAY EARL OF SEFTON STAKES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          1
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T14:00:00+00:00",
+      "raceDistance": 1810,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415NWMR03.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415NWMR03_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/R/races/3"
+      }
+    },
+    {
+      "raceNumber": 4,
+      "raceName": "LANWADES STUD NELL GWYN STAKES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          11
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T14:35:00+00:00",
+      "raceDistance": 1408,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415NWMR04.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415NWMR04_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/R/races/4"
+      }
+    },
+    {
+      "raceNumber": 5,
+      "raceName": "SCORTHY CHAMP AT BARTON MAIDEN STAKES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          7
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T15:10:00+00:00",
+      "raceDistance": 1005,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415NWMR05.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415NWMR05_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/R/races/5"
+      }
+    },
+    {
+      "raceNumber": 6,
+      "raceName": "MOLSON COORS MAIDEN FILLIES' STAKES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          6
+        ],
+        [
+          4
+        ],
+        [
+          1
+        ],
+        [
+          8
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T15:45:00+00:00",
+      "raceDistance": 1609,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415NWMR06.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415NWMR06_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/R/races/6"
+      }
+    },
+    {
+      "raceNumber": 7,
+      "raceName": "BETWAY BEST ODDS GUARANTEED HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          4
+        ],
+        [
+          8
+        ],
+        [
+          7
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T16:17:00+00:00",
+      "raceDistance": 2011,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415NWMR07.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415NWMR07_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/D/R/races/7"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "D",
+    "scheduledType": "R"
+  }
+}

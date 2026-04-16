@@ -1,0 +1,103 @@
+{
+  "meetingName": "Q1 LAKESIDE EXTRA",
+  "location": "QLD",
+  "venueMnemonic": "I",
+  "raceType": "G",
+  "meetingDate": "2026-04-15",
+  "weatherCondition": "FINE",
+  "trackCondition": "GOOD",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "RunningDouble",
+      "poolTotal": 1,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T09:24:37+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "I",
+          "raceType": "G",
+          "startTime": "2026-04-15T09:24:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "I",
+          "raceType": "G",
+          "startTime": "2026-04-15T09:40:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/G"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "Q1 LAKESIDE RACE 13",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          8
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T09:24:00+00:00",
+      "raceDistance": 352,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415QLXG01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415QLXG01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/G/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "Q1 LAKESIDE RACE 14",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          6
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T09:40:00+00:00",
+      "raceDistance": 352,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415QLXG02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415QLXG02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/I/G/races/2"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "I",
+    "scheduledType": "G"
+  }
+}

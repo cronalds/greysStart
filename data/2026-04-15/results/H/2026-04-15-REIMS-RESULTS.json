@@ -1,0 +1,260 @@
+{
+  "meetingName": "REIMS",
+  "location": "FRA",
+  "venueMnemonic": "N",
+  "raceType": "H",
+  "meetingDate": "2026-04-15",
+  "weatherCondition": "FINE",
+  "trackCondition": "GOOD",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 0,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T15:28:10+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 2,
+          "venueMnemonic": "N",
+          "raceType": "H",
+          "startTime": "2026-04-15T15:27:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 4,
+          "venueMnemonic": "N",
+          "raceType": "H",
+          "startTime": "2026-04-15T16:39:00+00:00"
+        }
+      ]
+    },
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "Quaddie",
+      "poolTotal": 0,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T14:52:58+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "N",
+          "raceType": "H",
+          "startTime": "2026-04-15T14:52:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "N",
+          "raceType": "H",
+          "startTime": "2026-04-15T15:27:00+00:00"
+        },
+        {
+          "legNumber": 3,
+          "raceNumber": 3,
+          "venueMnemonic": "N",
+          "raceType": "H",
+          "startTime": "2026-04-15T16:02:00+00:00"
+        },
+        {
+          "legNumber": 4,
+          "raceNumber": 4,
+          "venueMnemonic": "N",
+          "raceType": "H",
+          "startTime": "2026-04-15T16:39:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/N/H"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "PRIX DES NOUVEAUX PARTENAIRES PMU MS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          2
+        ],
+        [
+          8
+        ],
+        [
+          5
+        ],
+        [
+          7
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T14:52:00+00:00",
+      "raceDistance": 2500,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415REIT01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415REIT01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/N/H/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "PRIX DE LA CRINIERE MS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          7
+        ],
+        [
+          3
+        ],
+        [
+          6
+        ],
+        [
+          10
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T15:27:00+00:00",
+      "raceDistance": 2500,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415REIT02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415REIT02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/N/H/races/2"
+      }
+    },
+    {
+      "raceNumber": 3,
+      "raceName": "PRIX DU TOUPET SS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          10
+        ],
+        [
+          12
+        ],
+        [
+          7
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T16:02:00+00:00",
+      "raceDistance": 2550,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415REIT03.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415REIT03_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/N/H/races/3"
+      }
+    },
+    {
+      "raceNumber": 4,
+      "raceName": "PRIX DE L'ENCOLURE SS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          9
+        ],
+        [
+          2
+        ],
+        [
+          11
+        ],
+        [
+          3
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T16:39:00+00:00",
+      "raceDistance": 2550,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415REIT04.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415REIT04_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/N/H/races/4"
+      }
+    },
+    {
+      "raceNumber": 5,
+      "raceName": "PRIX DU CHAMPAGNE JOSEPH PERRIER MS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          11
+        ],
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          8
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T17:11:00+00:00",
+      "raceDistance": 2500,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415REIT05.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415REIT05_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/N/H/races/5"
+      }
+    },
+    {
+      "raceNumber": 6,
+      "raceName": "PRIX GENYBET MONTE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T17:43:00+00:00",
+      "raceDistance": 2550,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415REIT06.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415REIT06_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/N/H/races/6"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "N",
+    "scheduledType": "H"
+  }
+}

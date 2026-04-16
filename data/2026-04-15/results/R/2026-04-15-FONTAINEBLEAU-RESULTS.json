@@ -1,0 +1,290 @@
+{
+  "meetingName": "FONTAINEBLEAU",
+  "location": "FRA",
+  "venueMnemonic": "F",
+  "raceType": "R",
+  "meetingDate": "2026-04-15",
+  "weatherCondition": "FINE",
+  "trackCondition": "SOFT",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 1,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T10:21:42+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 2,
+          "venueMnemonic": "F",
+          "raceType": "R",
+          "startTime": "2026-04-15T10:21:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 4,
+          "venueMnemonic": "F",
+          "raceType": "R",
+          "startTime": "2026-04-15T11:28:00+00:00"
+        }
+      ]
+    },
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "Quaddie",
+      "poolTotal": 0.5,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T09:42:24+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "F",
+          "raceType": "R",
+          "startTime": "2026-04-15T09:42:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "F",
+          "raceType": "R",
+          "startTime": "2026-04-15T10:21:00+00:00"
+        },
+        {
+          "legNumber": 3,
+          "raceNumber": 3,
+          "venueMnemonic": "F",
+          "raceType": "R",
+          "startTime": "2026-04-15T10:55:00+00:00"
+        },
+        {
+          "legNumber": 4,
+          "raceNumber": 4,
+          "venueMnemonic": "F",
+          "raceType": "R",
+          "startTime": "2026-04-15T11:28:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/F/R"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "PRIX DE LA TOUR DENECOURT HURDLE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          7
+        ],
+        [
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T09:42:00+00:00",
+      "raceDistance": 3000,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415FTUR01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415FTUR01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/F/R/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "PRIX DE LA MARE A PIAT CHASE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          1
+        ],
+        [
+          7
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T10:21:00+00:00",
+      "raceDistance": 3850,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415FTUR02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415FTUR02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/F/R/races/2"
+      }
+    },
+    {
+      "raceNumber": 3,
+      "raceName": "PRIX DU BOIS ROND HURDLE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          10
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T10:55:00+00:00",
+      "raceDistance": 3000,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415FTUR03.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415FTUR03_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/F/R/races/3"
+      }
+    },
+    {
+      "raceNumber": 4,
+      "raceName": "PRIX D'ENGHIEN HURDLE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          12
+        ],
+        [
+          7
+        ],
+        [
+          10
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T11:28:00+00:00",
+      "raceDistance": 3550,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415FTUR04.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415FTUR04_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/F/R/races/4"
+      }
+    },
+    {
+      "raceNumber": 5,
+      "raceName": "PRIX CABARET MASSON HURDLE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          6
+        ],
+        [
+          8
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T12:16:00+00:00",
+      "raceDistance": 3550,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415FTUR05.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415FTUR05_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/F/R/races/5"
+      }
+    },
+    {
+      "raceNumber": 6,
+      "raceName": "LA SOCIETE DES COURSES DE MOULINS CHASE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          7
+        ],
+        [
+          10
+        ],
+        [
+          2
+        ],
+        [
+          6
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T12:49:00+00:00",
+      "raceDistance": 3600,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415FTUR06.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415FTUR06_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/F/R/races/6"
+      }
+    },
+    {
+      "raceNumber": 7,
+      "raceName": "CAVALERIE DE GARDE REPUBLICAINE HURDLE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          10
+        ],
+        [
+          4
+        ],
+        [
+          8
+        ],
+        [
+          5
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T13:24:00+00:00",
+      "raceDistance": 3550,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415FTUR07.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415FTUR07_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/F/R/races/7"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "F",
+    "scheduledType": "R"
+  }
+}

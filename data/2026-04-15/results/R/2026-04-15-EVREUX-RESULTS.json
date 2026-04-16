@@ -1,0 +1,288 @@
+{
+  "meetingName": "EVREUX",
+  "location": "FRA",
+  "venueMnemonic": "Q",
+  "raceType": "R",
+  "meetingDate": "2026-04-15",
+  "weatherCondition": "OCAST",
+  "trackCondition": "SOFT",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 4.5,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T14:37:08+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 2,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-15T14:35:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 4,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-15T15:45:00+00:00"
+        }
+      ]
+    },
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "Quaddie",
+      "poolTotal": 0,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T14:00:34+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-15T14:00:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-15T14:35:00+00:00"
+        },
+        {
+          "legNumber": 3,
+          "raceNumber": 3,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-15T15:10:00+00:00"
+        },
+        {
+          "legNumber": 4,
+          "raceNumber": 4,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-15T15:45:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/Q/R"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "PRIX DE L'HIPPODROME DE MARTINIQUE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          4
+        ],
+        [
+          1
+        ],
+        [
+          6
+        ],
+        [
+          10
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T14:00:00+00:00",
+      "raceDistance": 1800,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/Q/R/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "PRIX HENRI VAN DE POELE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          2
+        ],
+        [
+          6
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T14:35:00+00:00",
+      "raceDistance": 1200,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/Q/R/races/2"
+      }
+    },
+    {
+      "raceNumber": 3,
+      "raceName": "PRIX EQUURES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T15:10:00+00:00",
+      "raceDistance": 1200,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/Q/R/races/3"
+      }
+    },
+    {
+      "raceNumber": 4,
+      "raceName": "PRIX JEAN-YVES ARTU",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          10
+        ],
+        [
+          14
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T15:45:00+00:00",
+      "raceDistance": 2500,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/Q/R/races/4"
+      }
+    },
+    {
+      "raceNumber": 5,
+      "raceName": "PRIX FRANCE GALOP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          4
+        ],
+        [
+          7
+        ],
+        [
+          5
+        ],
+        [
+          2
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T16:23:00+00:00",
+      "raceDistance": 2500,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/Q/R/races/5"
+      }
+    },
+    {
+      "raceNumber": 6,
+      "raceName": "PRIX DES BENEVOLES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          2
+        ],
+        [
+          1
+        ],
+        [
+          8
+        ],
+        [
+          7
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T16:56:00+00:00",
+      "raceDistance": 2500,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/Q/R/races/6"
+      }
+    },
+    {
+      "raceNumber": 7,
+      "raceName": "PRIX DU PMU",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          7
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T17:27:00+00:00",
+      "raceDistance": 2500,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/Q/R/races/7"
+      }
+    },
+    {
+      "raceNumber": 8,
+      "raceName": "PRIX DE LA VILLE D'EVREUX",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          7
+        ],
+        [
+          13
+        ],
+        [
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T18:00:00+00:00",
+      "raceDistance": 2500,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/Q/R/races/8"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "Q",
+    "scheduledType": "R"
+  }
+}

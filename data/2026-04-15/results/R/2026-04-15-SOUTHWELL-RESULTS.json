@@ -1,0 +1,230 @@
+{
+  "meetingName": "SOUTHWELL",
+  "location": "GBR",
+  "venueMnemonic": "K",
+  "raceType": "R",
+  "meetingDate": "2026-04-15",
+  "weatherCondition": "SHWRY",
+  "trackCondition": "AWT",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 49.6,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T16:58:33+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 2,
+          "venueMnemonic": "K",
+          "raceType": "R",
+          "startTime": "2026-04-15T16:57:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 4,
+          "venueMnemonic": "K",
+          "raceType": "R",
+          "startTime": "2026-04-15T18:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "Quaddie",
+      "poolTotal": 0,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-15T16:23:33+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "K",
+          "raceType": "R",
+          "startTime": "2026-04-15T16:22:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "K",
+          "raceType": "R",
+          "startTime": "2026-04-15T16:57:00+00:00"
+        },
+        {
+          "legNumber": 3,
+          "raceNumber": 3,
+          "venueMnemonic": "K",
+          "raceType": "R",
+          "startTime": "2026-04-15T17:30:00+00:00"
+        },
+        {
+          "legNumber": 4,
+          "raceNumber": 4,
+          "venueMnemonic": "K",
+          "raceType": "R",
+          "startTime": "2026-04-15T18:00:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/K/R"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "SPONSORSHIP AT SOUTHWELL NOVICE STAKES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T16:22:00+00:00",
+      "raceDistance": 1000,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415SWLR01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415SWLR01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/K/R/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "COUNTRY & WESTERN 25TH APRIL HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          9
+        ],
+        [
+          1
+        ],
+        [
+          6
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T16:57:00+00:00",
+      "raceDistance": 1000,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415SWLR02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415SWLR02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/K/R/races/2"
+      }
+    },
+    {
+      "raceNumber": 3,
+      "raceName": "BOOK THE BISTRO IN SHERWOOD HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          6
+        ],
+        [
+          5
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T17:30:00+00:00",
+      "raceDistance": 2835,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415SWLR03.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415SWLR03_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/K/R/races/3"
+      }
+    },
+    {
+      "raceNumber": 4,
+      "raceName": "COME RACING 18TH JUNE NOVICE STAKES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          11
+        ],
+        [
+          3
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T18:00:00+00:00",
+      "raceDistance": 1621,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415SWLR04.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415SWLR04_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/K/R/races/4"
+      }
+    },
+    {
+      "raceNumber": 5,
+      "raceName": "CONFERENCE & EVENTS SOUTHWELL HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          1
+        ],
+        [
+          11
+        ],
+        [
+          8
+        ],
+        [
+          7
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T18:30:00+00:00",
+      "raceDistance": 1420,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260415SWLR05.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260415SWLR05_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-15/K/R/races/5"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "K",
+    "scheduledType": "R"
+  }
+}

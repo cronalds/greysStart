@@ -6,10 +6,11 @@ import path from "path";
 
 import dayjs from "dayjs";
 import { pipeline } from "stream/promises";
+// import * as _ from "lodash";
 
 const timeHHMMSS = new Date().toTimeString().slice(0, 8).replace(/:/g, "-");
+let dayBefore = (date) => dayjs(date).subtract(1, "day").format("YYYY-MM-DD");
 
-// import * as _ from "lodash";
 
 /**
  * fetch the json from the url
@@ -87,39 +88,30 @@ async function filterMeetingByExludingJurisdictions({
   raceType = "G",
   namesOnly = true,
 }) {
-  let meetings = [];
-  let returnValues = [];
   let data =
     filePath && !meetingData ? await readDataFromFile(filePath) : meetingData;
-  let meetAddr = data.data.meetings;
 
-  for (let i = 0; i < meetAddr.length; i++) {
-    if (meetAddr[i].raceType === raceType) {
-      meetings.push(meetAddr[i]);
-    }
-  }
+  let meetings = data.data.meetings;
+
+  let filtered = [];
 
   for (let i = 0; i < meetings.length; i++) {
-    let excludeByLocation = arrayOfExclusionStrings;
+    let meeting = meetings[i];
 
-    if (!excludeByLocation.includes(meetings[i].location))
-      if (namesOnly) {
-        returnValues.push(meetings[i].meetingName);
-      } else {
-        returnValues.push(meetings[i]);
-      }
-  }
-  for (let i = 0; i < meetings.length; i++) {
-    let excludeByVenueName = arrayOfVenueNameExclusionStrings;
+    // Filter by race type first
+    if (meeting.raceType !== raceType) continue;
 
-    if (!excludeByVenueName.includes(meetings[i].meetingName))
-      if (namesOnly) {
-        returnValues.push(meetings[i].meetingName);
-      } else {
-        returnValues.push(meetings[i]);
-      }
+    // Exclusion checks (COMBINED)
+    let excludeByLocation = arrayOfExclusionStrings.includes(meeting.location);
+    let excludeByName = arrayOfVenueNameExclusionStrings.includes(meeting.meetingName);
+
+    if (excludeByLocation || excludeByName) continue;
+
+    // Push result
+    filtered.push(namesOnly ? meeting.meetingName : meeting);
   }
-  return await returnValues;
+
+  return filtered;
 }
 
 /**
@@ -291,361 +283,236 @@ async function capture({
   //! /////////////////////////////////////////
 }
 
-async function scrape({
-  destinationDirectory = "./data",
-  loadDirectory,
-  date,
-  downloadDailyMeeting = true,
-  resulted = false,
-  greyhounds = true,
-  harness = true,
-  horses = true,
-  greyhoundsExcludedLocationsArray,
-  harnessExcludedLocationsArray,
-  horsesExcludedLocationsArray,
-  greyhoundsExcludedVenuesArray,
-  harnessExcludedVenuesArray,
-  horsesExcludedVenuesArray,
-}) {
-  let alreadyCapturedVenues = [];
-
-  //! try to load already captured venues, otherwise if it cant load it will stay as an empty array.
-  try {
-    alreadyCapturedVenues = readDataFromFile(
-      `./data/${date}/${date}-captured-venues.json`,
-    );
-  } catch {}
-
-  //! subdir by date to better organize data before appropriate processing
-  let newDir = dirString(destinationDirectory + `/${date}`);
-  destinationDirectory = newDir;
-
-  downloadDailyMeeting
-    ? await fetchAndSaveDailyMeetings({
-        date: date,
-        filePath: dirString(destinationDirectory) + `/${date}.json`,
-      })
-    : console.log("presumably downloaded");
-  let dailyMeetings = readDataFromFile(
-    `${loadDirectory ? loadDirectory : destinationDirectory}/${date}.json`,
-  );
-
-  //! filter out the already downloaded data in alreadyCapturedVenues
-  dailyMeetings = {
-    data: {
-      meetings: dailyMeetings.data.meetings.filter(
-        (meeting) =>
-          !alreadyCapturedVenues.includes(
-            meeting.meetingName.replace(/ /g, "_"),
-          ),
-      ),
-    },
-  };
-
-  //! further filtering by excluding locations, although all will try/catch and fail gracefully if there is no race link etc
-  let dailyGreyhounds = await filterMeetingByExludingJurisdictions({
-    meetingData: dailyMeetings,
-    raceType: "G",
-    arrayOfExclusionStrings: greyhoundsExcludedLocationsArray,
-    arrayOfVenueNameExclusionStrings: greyhoundsExcludedVenuesArray,
-    namesOnly: false,
-  });
-
-  let dailyHarness = await filterMeetingByExludingJurisdictions({
-    meetingData: dailyMeetings,
-    raceType: "H",
-    arrayOfExclusionStrings: harnessExcludedLocationsArray,
-    arrayOfVenueNameExclusionStrings: harnessExcludedVenuesArray,
-    namesOnly: false,
-  });
-
-  let dailyHorses = await filterMeetingByExludingJurisdictions({
-    meetingData: dailyMeetings,
-    raceType: "R",
-    arrayOfExclusionStrings: horsesExcludedLocationsArray,
-    arrayOfVenueNameExclusionStrings: horsesExcludedVenuesArray,
-    namesOnly: false,
-  });
-
-  //! save the meetings in separate files via race type then capture race data from venues
-  if (greyhounds) {
-    saveDataToFile({
-      filePath:
-        dirString(`${destinationDirectory}`) +
-        `/${date}-${timeHHMMSS}-G-meetings.json`,
-      data: dailyGreyhounds,
-    });
-
-    await capture({
-      dailyMeeting: dailyGreyhounds,
-      raceType: "G",
-      date: date,
-      destinationDirectory: destinationDirectory,
-      alreadyCapturedVenues: alreadyCapturedVenues,
-    });
-  }
-
-  if (harness) {
-    saveDataToFile({
-      filePath:
-        dirString(`${destinationDirectory}`) +
-        `/${date}-${timeHHMMSS}-H-meetings.json`,
-      data: dailyHarness,
-    });
-
-    await capture({
-      dailyMeeting: dailyHarness,
-      raceType: "H",
-      date: date,
-      destinationDirectory: destinationDirectory,
-      alreadyCapturedVenues: alreadyCapturedVenues,
-    });
-  }
-
-  if (horses) {
-    saveDataToFile({
-      filePath:
-        dirString(`${destinationDirectory}`) +
-        `/${date}-${timeHHMMSS}-R-meetings.json`,
-      data: dailyHorses,
-    });
-
-    await capture({
-      dailyMeeting: dailyHorses,
-      raceType: "R",
-      date: date,
-      destinationDirectory: destinationDirectory,
-      alreadyCapturedVenues: alreadyCapturedVenues,
-    });
-  }
-
-  //! save the alreadyCapturedVenues data
+async function resultFetch({ arrayRef, raceType, date}) {
+  
   saveDataToFile({
-    filePath: `${destinationDirectory}/${date}-captured-venues.json`,
-    data: alreadyCapturedVenues,
+    filePath: `./data/${dayBefore(date)}/${dayBefore(date)}-${raceType}-RESULTS.json`,
+    data: arrayRef,
   });
 
-  if (resulted) {
-    let dayBefore = dayjs(date).subtract(1, "day").format("YYYY-MM-DD");
+  for (let i = 0; i < arrayRef.length; i++) {
+    let arr = [];
 
-    let results = await fetchResultsByDate({ date: dayBefore });
+    for (let j = 0; j < arrayRef[i].races.length; j++) {
+      arr.push(arrayRef[i].races[j].results);
+    }
 
-    let greyResults = await filterMeetingByExludingJurisdictions({
-      meetingData: results,
+    saveDataToFile({
+      filePath:
+        dirString(`./data/${dayBefore(date)}/results/${raceType}/`) +
+        `${dayBefore(date)}-${arrayRef[i].meetingName.replace(/ /g, "_")}-RESULTS.json`,
+      data: arrayRef[i],
+    });
+
+    console.log(arrayRef[i]);
+
+    let raceResults = [];
+
+    for (let j = 0; j < arrayRef[i].races.length; j++) {
+      let x = await fetchURL(arrayRef[i].races[j]._links.self);
+
+      saveDataToFile({
+        filePath:
+          dirString(
+            `./data/${dayBefore(date)}/results/${raceType}/${arrayRef[i].meetingName.replace(/ /g, "_")}/`,
+          ) +
+          `${dayBefore(date)}-${arrayRef[i].meetingName.replace(/ /g, "_")}-race-${arrayRef[i].races[j].raceNumber}-RESULTS.json`,
+        data: x,
+      });
+
+      raceResults.push(x);
+
+      console.log(x);
+
+      if (j == arrayRef[i].races.length - 1) {
+        saveDataToFile({
+          filePath:
+            dirString(
+              `./data/${dayBefore(date)}/results/${raceType}/${arrayRef[i].meetingName.replace(/ /g, "_")}/`,
+            ) +
+            `${dayBefore(date)}-${arrayRef[i].meetingName.replace(/ /g, "_")}-ALL-RACES-RESULTS.json`,
+          data: raceResults,
+        });
+      }
+    }
+
+    saveDataToFile({
+        filePath:
+          dirString(`./data/${dayBefore(date)}/results/${raceType}/`) +
+          `${dayBefore(date)}-${arrayRef[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
+        data: arr,
+      });
+      console.log(arr);
+    }
+  }
+
+  async function scrape({
+    destinationDirectory = "./data",
+    loadDirectory,
+    date,
+    downloadDailyMeeting = true,
+    resulted = false,
+    greyhounds = true,
+    harness = true,
+    horses = true,
+    greyhoundsExcludedLocationsArray,
+    harnessExcludedLocationsArray,
+    horsesExcludedLocationsArray,
+    greyhoundsExcludedVenuesArray,
+    harnessExcludedVenuesArray,
+    horsesExcludedVenuesArray,
+  }) {
+    let alreadyCapturedVenues = [];
+
+    //! try to load already captured venues, otherwise if it cant load it will stay as an empty array.
+    try {
+      alreadyCapturedVenues = readDataFromFile(
+        `./data/${date}/${date}-captured-venues.json`,
+      );
+    } catch {}
+
+    //! subdir by date to better organize data before appropriate processing
+    let newDir = dirString(destinationDirectory + `/${date}`);
+    destinationDirectory = newDir;
+
+    downloadDailyMeeting
+      ? await fetchAndSaveDailyMeetings({
+          date: date,
+          filePath: dirString(destinationDirectory) + `/${date}.json`,
+        })
+      : console.log("presumably downloaded");
+    let dailyMeetings = readDataFromFile(
+      `${loadDirectory ? loadDirectory : destinationDirectory}/${date}.json`,
+    );
+
+    //! filter out the already downloaded data in alreadyCapturedVenues
+    dailyMeetings = {
+      data: {
+        meetings: dailyMeetings.data.meetings.filter(
+          (meeting) =>
+            !alreadyCapturedVenues.includes(
+              meeting.meetingName.replace(/ /g, "_"),
+            ),
+        ),
+      },
+    };
+
+    //! further filtering by excluding locations, although all will try/catch and fail gracefully if there is no race link etc
+    let dailyGreyhounds = await filterMeetingByExludingJurisdictions({
+      meetingData: dailyMeetings,
       raceType: "G",
-      namesOnly: false,
-      arrayOfVenueNameExclusionStrings: greyhoundsExcludedVenuesArray,
       arrayOfExclusionStrings: greyhoundsExcludedLocationsArray,
+      arrayOfVenueNameExclusionStrings: greyhoundsExcludedVenuesArray,
+      namesOnly: false,
     });
 
-    let harnessResults = await filterMeetingByExludingJurisdictions({
-      meetingData: results,
+    let dailyHarness = await filterMeetingByExludingJurisdictions({
+      meetingData: dailyMeetings,
       raceType: "H",
-      namesOnly: false,
-      arrayOfVenueNameExclusionStrings: harnessExcludedVenuesArray,
       arrayOfExclusionStrings: harnessExcludedLocationsArray,
-    });
-
-    let horseResults = await filterMeetingByExludingJurisdictions({
-      meetingData: results,
-      raceType: "R",
+      arrayOfVenueNameExclusionStrings: harnessExcludedVenuesArray,
       namesOnly: false,
-      arrayOfVenueNameExclusionStrings: horsesExcludedVenuesArray,
+    });
+
+    let dailyHorses = await filterMeetingByExludingJurisdictions({
+      meetingData: dailyMeetings,
+      raceType: "R",
       arrayOfExclusionStrings: horsesExcludedLocationsArray,
+      arrayOfVenueNameExclusionStrings: horsesExcludedVenuesArray,
+      namesOnly: false,
     });
 
-    saveDataToFile({
-      filePath: `./data/${dayBefore}/${dayBefore}-G-RESULTS.json`,
-      data: greyResults,
-    });
-
-    for (let i = 0; i < greyResults.length; i++) {
-      let arr = [];
-
-      for (let j = 0; j < greyResults[i].races.length; j++) {
-        arr.push(greyResults[i].races[j].results);
-      }
-
+    //! save the meetings in separate files via race type then capture race data from venues
+    if (greyhounds) {
       saveDataToFile({
         filePath:
-          dirString(`./data/${dayBefore}/results/G/`) +
-          `${dayBefore}-${greyResults[i].meetingName.replace(/ /g, "_")}-RESULTS.json`,
-        data: greyResults[i],
+          dirString(`${destinationDirectory}`) +
+          `/${date}-${timeHHMMSS}-G-meetings.json`,
+        data: dailyGreyhounds,
       });
 
-      console.log(greyResults[i]);
-      let greyRaceResults = [];
-
-      //! //////////////////////////////////////////////////////
-
-      for (let j = 0; j < greyResults[i].races.length; j++) {
-        let x = await fetchURL(greyResults[i].races[j]._links.self);
-
-        saveDataToFile({
-          filePath:
-            dirString(
-              `./data/${dayBefore}/results/G/${greyResults[i].meetingName.replace(/ /g, "_")}/`,
-            ) +
-            `${dayBefore}-${greyResults[i].meetingName.replace(/ /g, "_")}-race-${greyResults[i].races[j].raceNumber}-RESULTS.json`,
-          data: x,
-        });
-
-        greyRaceResults.push(x);
-
-        console.log(x);
-
-        if (j == greyResults[i].races.length - 1) {
-          saveDataToFile({
-            filePath:
-              dirString(
-                `./data/${dayBefore}/results/G/${greyResults[i].meetingName.replace(/ /g, "_")}/`,
-              ) +
-              `${dayBefore}-${greyResults[i].meetingName.replace(/ /g, "_")}-ALL-RACES-RESULTS.json`,
-            data: greyRaceResults,
-          });
-        }
-      }
-
-      //! //////////////////////////////////////////////////////
-
-      saveDataToFile({
-        filePath:
-          dirString(`./data/${dayBefore}/results/G/`) +
-          `${dayBefore}-${greyResults[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
-        data: arr,
-      });
-      console.log(arr);
-    }
-
-    saveDataToFile({
-      filePath: `./data/${dayBefore}/${dayBefore}-H-RESULTS.json`,
-      data: harnessResults,
-    });
-    console.log(harnessResults);
-
-    for (let i = 0; i < harnessResults.length; i++) {
-      let arr = [];
-
-      for (let j = 0; j < harnessResults[i].races.length; j++) {
-        arr.push(harnessResults[i].races[j].results);
-        console.log(harnessResults[i].races[j].results);
-      }
-
-      saveDataToFile({
-        filePath:
-          dirString(`./data/${dayBefore}/results/H/`) +
-          `${dayBefore}-${harnessResults[i].meetingName.replace(/ /g, "_")}-RESULTS.json`,
-        data: harnessResults[i],
-      });
-
-      let harnessRacesResults = [];
-
-      //! //////////////////////////////////////////////////////
-
-      for (let j = 0; j < harnessResults[i].races.length; j++) {
-        let x = await fetchURL(harnessResults[i].races[j]._links.self);
-
-        saveDataToFile({
-          filePath:
-            dirString(
-              `./data/${dayBefore}/results/H/${harnessResults[i].meetingName.replace(/ /g, "_")}/`,
-            ) +
-            `${dayBefore}-${harnessResults[i].meetingName.replace(/ /g, "_")}-race-${harnessResults[i].races[j].raceNumber}-RESULTS.json`,
-          data: x,
-        });
-
-        harnessRacesResults.push(x);
-
-        console.log(x);
-
-        if (j == harnessResults[i].races.length - 1) {
-          saveDataToFile({
-            filePath:
-              dirString(
-                `./data/${dayBefore}/results/H/${harnessResults[i].meetingName.replace(/ /g, "_")}/`,
-              ) +
-              `${dayBefore}-${harnessResults[i].meetingName.replace(/ /g, "_")}-ALL-RACES-RESULTS.json`,
-            data: harnessRacesResults,
-          });
-        }
-      }
-
-      //! //////////////////////////////////////////////////////
-
-      saveDataToFile({
-        filePath:
-          dirString(`./data/${dayBefore}/results/H/`) +
-          `${dayBefore}-${harnessResults[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
-        data: arr,
-      });
-      console.log(arr);
-    }
-
-    saveDataToFile({
-      filePath: `./data/${dayBefore}/${dayBefore}-R-RESULTS.json`,
-      data: horseResults,
-    });
-
-    for (let i = 0; i < horseResults.length; i++) {
-      let arr = [];
-
-      for (let j = 0; j < horseResults[i].races.length; j++) {
-        arr.push(horseResults[i].races[j].results);
-        console.log(horseResults[i].races[j].results);
-      }
-
-      saveDataToFile({
-        filePath:
-          dirString(`./data/${dayBefore}/results/R/`) +
-          `${dayBefore}-${horseResults[i].meetingName.replace(/ /g, "_")}-RESULTS.json`,
-        data: horseResults[i],
-      });
-
-      console.log(horseResults[i]);
-
-      let horseRaceResults = [];
-
-      //! //////////////////////////////////////////////////////
-
-      for (let j = 0; j < horseResults[i].races.length; j++) {
-        let x = await fetchURL(horseResults[i].races[j]._links.self);
-
-        saveDataToFile({
-          filePath:
-            dirString(
-              `./data/${dayBefore}/results/R/${horseResults[i].meetingName.replace(/ /g, "_")}/`,
-            ) +
-            `${dayBefore}-${horseResults[i].meetingName.replace(/ /g, "_")}-race-${horseResults[i].races[j].raceNumber}-RESULTS.json`,
-          data: x,
-        });
-
-        horseRaceResults.push(x);
-
-        console.log(x);
-
-        if (j == horseResults[i].races.length - 1) {
-          saveDataToFile({
-            filePath:
-              dirString(
-                `./data/${dayBefore}/results/R/${horseResults[i].meetingName.replace(/ /g, "_")}/`,
-              ) +
-              `${dayBefore}-${horseResults[i].meetingName.replace(/ /g, "_")}-ALL-RACES-RESULTS.json`,
-            data: horseRaceResults,
-          });
-        }
-      }
-      //! //////////////////////////////////////////////////////
-
-      saveDataToFile({
-        filePath:
-          dirString(`./data/${dayBefore}/results/R/`) +
-          `${dayBefore}-${horseResults[i].meetingName.replace(/ /g, "_")}-RESULTS-ONLY.json`,
-        data: arr,
+      await capture({
+        dailyMeeting: dailyGreyhounds,
+        raceType: "G",
+        date: date,
+        destinationDirectory: destinationDirectory,
+        alreadyCapturedVenues: alreadyCapturedVenues,
       });
     }
 
+    if (harness) {
+      saveDataToFile({
+        filePath:
+          dirString(`${destinationDirectory}`) +
+          `/${date}-${timeHHMMSS}-H-meetings.json`,
+        data: dailyHarness,
+      });
+
+      await capture({
+        dailyMeeting: dailyHarness,
+        raceType: "H",
+        date: date,
+        destinationDirectory: destinationDirectory,
+        alreadyCapturedVenues: alreadyCapturedVenues,
+      });
+    }
+
+    if (horses) {
+      saveDataToFile({
+        filePath:
+          dirString(`${destinationDirectory}`) +
+          `/${date}-${timeHHMMSS}-R-meetings.json`,
+        data: dailyHorses,
+      });
+
+      await capture({
+        dailyMeeting: dailyHorses,
+        raceType: "R",
+        date: date,
+        destinationDirectory: destinationDirectory,
+        alreadyCapturedVenues: alreadyCapturedVenues,
+      });
+    }
+
+    //! save the alreadyCapturedVenues data
     saveDataToFile({
-      filePath: `./data/${dayBefore}/${dayBefore}-all-RESULTS.json`,
+      filePath: `${destinationDirectory}/${date}-captured-venues.json`,
+      data: alreadyCapturedVenues,
+    });
+
+    if (resulted) {
+      let results = await fetchResultsByDate({ date: dayBefore(date) });
+
+      let greyResults = await filterMeetingByExludingJurisdictions({
+        meetingData: results,
+        raceType: "G",
+        namesOnly: false,
+        arrayOfVenueNameExclusionStrings: greyhoundsExcludedVenuesArray,
+        arrayOfExclusionStrings: greyhoundsExcludedLocationsArray,
+      });
+
+      let harnessResults = await filterMeetingByExludingJurisdictions({
+        meetingData: results,
+        raceType: "H",
+        namesOnly: false,
+        arrayOfVenueNameExclusionStrings: harnessExcludedVenuesArray,
+        arrayOfExclusionStrings: harnessExcludedLocationsArray,
+      });
+
+      let horseResults = await filterMeetingByExludingJurisdictions({
+        meetingData: results,
+        raceType: "R",
+        namesOnly: false,
+        arrayOfVenueNameExclusionStrings: horsesExcludedVenuesArray,
+        arrayOfExclusionStrings: horsesExcludedLocationsArray,
+      });
+
+      resultFetch({arrayRef:greyResults, raceType:"G", date:date});
+      resultFetch({arrayRef:harnessResults, raceType:"H", date:date});
+      resultFetch({arrayRef:horseResults, raceType:"R", date:date});
+
+    saveDataToFile({
+      filePath: `./data/${dayBefore(date)}/${dayBefore(date)}-all-RESULTS.json`,
       data: results,
     });
   }
@@ -658,7 +525,7 @@ async function scrape({
     filePath: dirString("./data/metadata") + "/racePaths.json",
     data: races,
   });
-  
+
   let racePathsGrouped = await getRacePathsAsGroupedObject();
   saveDataToFile({
     filePath: dirString("./data/metadata") + "/racePathsGrouped.json",
@@ -785,21 +652,27 @@ async function getAllRaceFiles({
 
   for (let str of results) {
     if (str.includes("/G/")) {
-      greys.push(str);
+        greys.push(str);
     } else if (str.includes("/H/")) {
-      harness.push(str);
+        harness.push(str);
     } else if (str.includes("/R/")) {
-      horses.push(str);
+        horses.push(str);
     }
   }
 
   for (let str of resultsOfRaces) {
     if (str.includes("/G/")) {
-      greysResults.push(str);
+      if (str.includes("race")) {
+        greysResults.push(str);
+      }
     } else if (str.includes("/H/")) {
-      harnessResults.push(str);
+      if (str.includes("race")) {
+        harnessResults.push(str);
+      }
     } else if (str.includes("/R/")) {
-      horsesResults.push(str);
+      if (str.includes("race")) {
+        horsesResults.push(str);
+      }
     }
   }
 
@@ -1135,13 +1008,13 @@ async function getRacePathsAsGroupedObject() {
 
 scrape({
   destinationDirectory: "./data",
-  date: "2026-04-15",
+  date: "2026-04-16",
   download: false,
   resulted: false,
   greyhounds: false,
   harness: false,
   horses: false,
-  //greyhoundsExcludedVenuesArray: [],
+  //greyhoundsExcludedVenuesArray: ["DONCASTER", "DUNSTALL PARK", "GREAT YARMOUTH", "HOVE", "MONMORE", "NEWCASTLE UK", "NOTTINGHAM", "ROMFORD", "SUNDERLAND", "VALLEY"],
   //harnessExcludedVenuesArray:[],
   //horsesExcludedVenuesArray: ["LAUREL PARK", "LEOPARDSTOWN", "SHA TIN"],
   greyhoundsExcludedLocationsArray: ["GBR"],
