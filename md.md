@@ -204,4 +204,5 @@ Outcome =
 
 - get each key in xResults(greysResults first, maybe harness and horses later)
 - those will be the keys for greys and greysExtendedForm as well to get the paths from
-- should be as easy as ensuring count of each === each other and then pairing {race[i], extendedForm[i], result[i]} to get the groupings before processing into a single json object
+- get each key inside there x.y for venues
+- should be as easy as ensuring count of each venue === each other in race, extended, result and then pairing {race[i][j], extendedForm[i][j], result[i][j]} to get the groupings before processing into a single json object and then adding to sqlite for consolidated data; will think this over more once i have the tables and their schemas written
