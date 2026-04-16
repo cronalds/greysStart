@@ -531,7 +531,7 @@ async function scrape({
     data: racePathsGrouped,
   });
 
-  pairPaths();
+  await pairPaths();
 }
 
 async function getAllFiles({
@@ -1009,7 +1009,7 @@ async function getRacePathsAsGroupedObject() {
 
 
 /**
- * pairs our race form, extendedForm/moreForm, and results data for each race at each venue, this will make it easy for the processing of each split set of data to be merged/processed next up before i add everything into a sqlDB
+ * pairs our race form, extendedForm/moreForm, and results data for each race at each venue, this will make it easy for the processing of each split set of data to be merged/processed next up before i add everything into a sqlDB; currently only working for greyhounds, will extend later if i choose to
  *
  * @async
  * @returns {*} 
@@ -1075,6 +1075,7 @@ async function pairPaths() {
         raceForm: null,
         moreForm: null,
         result: null,
+        raceType: null
       };
     }
 
@@ -1099,6 +1100,17 @@ async function pairPaths() {
     if (g.raceForm === null || g.moreForm === null || g.result === null) {
       // delete from object
       delete groups[key];
+    }
+    // add racetypes for future when i might add harness and horses; then can filter by racetype
+    else if(g.raceForm.includes("/G/"))
+    {
+      groups[key].raceType = "G";
+    }else if(g.raceForm.includes("/H/"))
+    {
+      groups[key].raceType = "H";
+    }else if(g.raceForm.includes("/R/"))
+    {
+      groups[key].raceType = "R";
     }
 
     // push the object at the key in our global object to an array to get an array of object pairings
