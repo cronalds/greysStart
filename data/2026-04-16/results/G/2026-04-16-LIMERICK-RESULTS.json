@@ -1,0 +1,272 @@
+{
+  "meetingName": "LIMERICK",
+  "location": "IRL",
+  "venueMnemonic": "O",
+  "raceType": "G",
+  "meetingDate": "2026-04-16",
+  "weatherCondition": "FINE",
+  "trackCondition": "GOOD",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 0,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-16T14:59:25+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 4,
+          "venueMnemonic": "O",
+          "raceType": "G",
+          "startTime": "2026-04-16T14:59:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 6,
+          "venueMnemonic": "O",
+          "raceType": "G",
+          "startTime": "2026-04-16T15:37:00+00:00"
+        }
+      ]
+    },
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "Quaddie",
+      "poolTotal": 0,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-16T14:41:49+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 3,
+          "venueMnemonic": "O",
+          "raceType": "G",
+          "startTime": "2026-04-16T14:41:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 4,
+          "venueMnemonic": "O",
+          "raceType": "G",
+          "startTime": "2026-04-16T14:59:00+00:00"
+        },
+        {
+          "legNumber": 3,
+          "raceNumber": 5,
+          "venueMnemonic": "O",
+          "raceType": "G",
+          "startTime": "2026-04-16T15:18:00+00:00"
+        },
+        {
+          "legNumber": 4,
+          "raceNumber": 6,
+          "venueMnemonic": "O",
+          "raceType": "G",
+          "startTime": "2026-04-16T15:37:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/O/H"
+  },
+  "races": [
+    {
+      "raceNumber": 3,
+      "raceName": "LIMERICK A6",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ],
+        []
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T14:41:00+00:00",
+      "raceDistance": 480,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/O/H/races/3"
+      }
+    },
+    {
+      "raceNumber": 4,
+      "raceName": "LIMERICK A6",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        []
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T14:59:00+00:00",
+      "raceDistance": 480,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/O/H/races/4"
+      }
+    },
+    {
+      "raceNumber": 5,
+      "raceName": "LIMERICK A5",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          1
+        ],
+        []
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T15:18:00+00:00",
+      "raceDistance": 480,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/O/H/races/5"
+      }
+    },
+    {
+      "raceNumber": 6,
+      "raceName": "LIMERICK A5",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          5
+        ],
+        [
+          2
+        ],
+        []
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T15:37:00+00:00",
+      "raceDistance": 480,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/O/H/races/6"
+      }
+    },
+    {
+      "raceNumber": 7,
+      "raceName": "LIMERICK A4",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          4
+        ],
+        [
+          6
+        ],
+        []
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T15:56:00+00:00",
+      "raceDistance": 480,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/O/H/races/7"
+      }
+    },
+    {
+      "raceNumber": 8,
+      "raceName": "LIMERICK A4",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          5
+        ],
+        []
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T16:14:00+00:00",
+      "raceDistance": 480,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/O/H/races/8"
+      }
+    },
+    {
+      "raceNumber": 9,
+      "raceName": "LIMERICK A4",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          1
+        ],
+        []
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T16:29:00+00:00",
+      "raceDistance": 480,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/O/H/races/9"
+      }
+    },
+    {
+      "raceNumber": 10,
+      "raceName": "LIMERICK A3",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          6
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        []
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T16:46:00+00:00",
+      "raceDistance": 480,
+      "hasFixedOdds": false,
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/O/H/races/10"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "O",
+    "scheduledType": "H"
+  }
+}

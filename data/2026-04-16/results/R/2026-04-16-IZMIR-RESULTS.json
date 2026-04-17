@@ -1,0 +1,320 @@
+{
+  "meetingName": "IZMIR",
+  "location": "TUR",
+  "venueMnemonic": "Z",
+  "raceType": "R",
+  "meetingDate": "2026-04-16",
+  "weatherCondition": "FINE",
+  "trackCondition": "GOOD",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 4,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-16T15:31:28+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 2,
+          "venueMnemonic": "Z",
+          "raceType": "R",
+          "startTime": "2026-04-16T15:30:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 4,
+          "venueMnemonic": "Z",
+          "raceType": "R",
+          "startTime": "2026-04-16T16:30:00+00:00"
+        }
+      ]
+    },
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "Quaddie",
+      "poolTotal": 0,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-16T14:46:36+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "Z",
+          "raceType": "R",
+          "startTime": "2026-04-16T14:45:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "Z",
+          "raceType": "R",
+          "startTime": "2026-04-16T15:30:00+00:00"
+        },
+        {
+          "legNumber": 3,
+          "raceNumber": 3,
+          "venueMnemonic": "Z",
+          "raceType": "R",
+          "startTime": "2026-04-16T16:00:00+00:00"
+        },
+        {
+          "legNumber": 4,
+          "raceNumber": 4,
+          "venueMnemonic": "Z",
+          "raceType": "R",
+          "startTime": "2026-04-16T16:30:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Z/R"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "IZMIR 3YO MAIDEN",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          2
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T14:45:00+00:00",
+      "raceDistance": 1000,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416IZRR01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416IZRR01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Z/R/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "IZMIR 3YO HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          2
+        ],
+        [
+          6
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T15:30:00+00:00",
+      "raceDistance": 1400,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416IZRR02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416IZRR02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Z/R/races/2"
+      }
+    },
+    {
+      "raceNumber": 3,
+      "raceName": "IZMIR 3YO HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          4
+        ],
+        [
+          1
+        ],
+        [
+          8
+        ],
+        [
+          3
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T16:00:00+00:00",
+      "raceDistance": 1000,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416IZRR03.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416IZRR03_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Z/R/races/3"
+      }
+    },
+    {
+      "raceNumber": 4,
+      "raceName": "IZMIR 4YO HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          2
+        ],
+        [
+          6
+        ],
+        [
+          1
+        ],
+        [
+          10
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T16:30:00+00:00",
+      "raceDistance": 1900,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416IZRR04.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416IZRR04_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Z/R/races/4"
+      }
+    },
+    {
+      "raceNumber": 5,
+      "raceName": "IZMIR 4YO & UP HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          2
+        ],
+        [
+          7
+        ],
+        [
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T17:00:00+00:00",
+      "raceDistance": 1900,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416IZRR05.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416IZRR05_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Z/R/races/5"
+      }
+    },
+    {
+      "raceNumber": 6,
+      "raceName": "IZMIR 3YO & UP F&M HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T17:30:00+00:00",
+      "raceDistance": 1600,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416IZRR06.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416IZRR06_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Z/R/races/6"
+      }
+    },
+    {
+      "raceNumber": 7,
+      "raceName": "IZMIR 3YO & UP HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          2
+        ],
+        [
+          7
+        ],
+        [
+          6
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T18:00:00+00:00",
+      "raceDistance": 1400,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416IZRR07.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416IZRR07_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Z/R/races/7"
+      }
+    },
+    {
+      "raceNumber": 8,
+      "raceName": "IZMIR 4YO & UP HANDICAP",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          15
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T18:30:00+00:00",
+      "raceDistance": 1400,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416IZRR08.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416IZRR08_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Z/R/races/8"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "Z",
+    "scheduledType": "R"
+  }
+}

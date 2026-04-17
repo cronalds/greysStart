@@ -1,0 +1,320 @@
+{
+  "meetingName": "LONGCHAMP",
+  "location": "FRA",
+  "venueMnemonic": "Q",
+  "raceType": "R",
+  "meetingDate": "2026-04-16",
+  "weatherCondition": "OCAST",
+  "trackCondition": "SOFT",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 6,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-16T12:38:29+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 2,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-16T12:38:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 4,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-16T13:43:00+00:00"
+        }
+      ]
+    },
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "Quaddie",
+      "poolTotal": 0,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-16T11:58:01+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-16T11:57:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-16T12:38:00+00:00"
+        },
+        {
+          "legNumber": 3,
+          "raceNumber": 3,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-16T13:11:00+00:00"
+        },
+        {
+          "legNumber": 4,
+          "raceNumber": 4,
+          "venueMnemonic": "Q",
+          "raceType": "R",
+          "startTime": "2026-04-16T13:43:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Q/R"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "PRIX DE LA FONTAINE CARPEAUX",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          10
+        ],
+        [
+          14
+        ],
+        [
+          8
+        ],
+        [
+          2
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T11:57:00+00:00",
+      "raceDistance": 1600,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Q/R/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "PRIX DU LOUVRE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          9
+        ],
+        [
+          2
+        ],
+        [
+          7
+        ],
+        [
+          6
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T12:38:00+00:00",
+      "raceDistance": 1600,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Q/R/races/2"
+      }
+    },
+    {
+      "raceNumber": 3,
+      "raceName": "PRIX MACHADO",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          6
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T13:11:00+00:00",
+      "raceDistance": 1600,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR03.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR03_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Q/R/races/3"
+      }
+    },
+    {
+      "raceNumber": 4,
+      "raceName": "PRIX DE LA BOETIE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          2
+        ],
+        [
+          6
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T13:43:00+00:00",
+      "raceDistance": 3100,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR04.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR04_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Q/R/races/4"
+      }
+    },
+    {
+      "raceNumber": 5,
+      "raceName": "PRIX DE LA PROMENADE DES PLANCHES",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          12
+        ],
+        [
+          4
+        ],
+        [
+          1
+        ],
+        [
+          5
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T14:15:00+00:00",
+      "raceDistance": 1400,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR05.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR05_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Q/R/races/5"
+      }
+    },
+    {
+      "raceNumber": 6,
+      "raceName": "PRIX DU PAVILLON DES ANGLAIS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          10
+        ],
+        [
+          12
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T14:54:00+00:00",
+      "raceDistance": 1400,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR06.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR06_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Q/R/races/6"
+      }
+    },
+    {
+      "raceNumber": 7,
+      "raceName": "PRIX DU TOTALISATEUR AUTOMATIQUE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          10
+        ],
+        [
+          7
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T15:27:00+00:00",
+      "raceDistance": 1400,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR07.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR07_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Q/R/races/7"
+      }
+    },
+    {
+      "raceNumber": 8,
+      "raceName": "PRIX DU LION DE BELFORT",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          2
+        ],
+        [
+          6
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T16:01:00+00:00",
+      "raceDistance": 1600,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416LCHR08.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416LCHR08_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/Q/R/races/8"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "Q",
+    "scheduledType": "R"
+  }
+}

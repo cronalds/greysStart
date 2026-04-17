@@ -1,0 +1,49 @@
+{
+  "meetingName": "HORSESHOE INDIANAPOLIS",
+  "location": "USA",
+  "venueMnemonic": "V",
+  "raceType": "R",
+  "meetingDate": "2026-04-16",
+  "weatherCondition": "OCAST",
+  "trackCondition": "FIRM",
+  "exoticPools": [],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/V/R"
+  },
+  "races": [
+    {
+      "raceNumber": 9,
+      "raceName": "HORSESHOE INDIANAPOLIS QUARTER HORSE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          5
+        ],
+        [
+          10
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-15T22:20:00+00:00",
+      "raceDistance": 274,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416HSER09.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416HSER09_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/V/R/races/9"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "V",
+    "scheduledType": "R"
+  }
+}

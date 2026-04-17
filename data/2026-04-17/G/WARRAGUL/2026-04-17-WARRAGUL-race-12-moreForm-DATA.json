@@ -1,0 +1,986 @@
+{
+  "venueName": "WARRAGUL",
+  "raceNumber": 12,
+  "form": {
+    "data": {
+      "raceNumber": 12,
+      "spectrumId": "WARRAGUL34",
+      "raceName": "SPORTSBET MORE PLACES",
+      "raceDistance": 400,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "WARRAGUL",
+        "venueMnemonic": "WRG",
+        "meetingDate": "2026-04-17",
+        "location": "VIC",
+        "raceType": "G",
+        "weatherCondition": "OCAST",
+        "trackCondition": "GOOD",
+        "sellCode": {
+          "meetingCode": "P",
+          "scheduledType": "G"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417WGLG12.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417WGLG12_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": true,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": true,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-17T08:20:00.000Z",
+      "raceClassConditions": "Grade 5",
+      "apprenticesCanClaim": false,
+      "prizeMoney": "$2925.00",
+      "raceStatus": "Normal",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 12,
+              "venueMnemonic": "WRG",
+              "raceType": "G",
+              "startTime": "2026-04-17T08:20:00.000Z"
+            }
+          ],
+          "poolHistory": [
+            {
+              "poolTotal": 4,
+              "poolTotalTime": "2026-04-17T01:49:52.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 2,
+              "poolTotalTime": "2026-04-17T01:19:52.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 2,
+              "poolTotalTime": "2026-04-17T01:19:52.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 2,
+              "poolTotalTime": "2026-04-17T00:49:52.000Z",
+              "specialDisplayIndicator": false
+            }
+          ],
+          "poolTotal": 4,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Place",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 12,
+              "venueMnemonic": "WRG",
+              "raceType": "G",
+              "startTime": "2026-04-17T08:20:00.000Z"
+            }
+          ],
+          "poolTotal": 0.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 12,
+              "venueMnemonic": "WRG",
+              "raceType": "G",
+              "startTime": "2026-04-17T08:20:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/WRG/races/12/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 4,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 12,
+              "venueMnemonic": "WRG",
+              "raceType": "G",
+              "startTime": "2026-04-17T08:20:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/WRG/races/12/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 2.83,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Duet",
+          "legNumber": 1,
+          "poolStatusCode": "Closed",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 12,
+              "venueMnemonic": "WRG",
+              "raceType": "G",
+              "startTime": "2026-04-17T08:20:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/WRG/races/12/pools/Duet/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 12,
+              "venueMnemonic": "WRG",
+              "raceType": "G",
+              "startTime": "2026-04-17T08:20:00.000Z"
+            }
+          ],
+          "poolTotal": 3,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 12,
+              "venueMnemonic": "WRG",
+              "raceType": "G",
+              "startTime": "2026-04-17T08:20:00.000Z"
+            }
+          ],
+          "poolTotal": 1.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": true,
+      "allowParimutuelPlace": true,
+      "parimutuelPlaceStatus": "Open",
+      "allowFixedOddsPlace": true,
+      "numberOfPlaces": 2,
+      "numberOfFixedOddsPlaces": 2,
+      "runners": [
+        {
+          "runnerName": "LOCKED AND READY",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 21,
+            "returnWinTime": "2026-04-16T22:31:16.000Z",
+            "returnWinOpen": 26,
+            "returnWinOpenDaily": 21,
+            "returnPlace": 6,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 167651,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-16T20:54:27.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-16T20:54:26.563Z"
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-16T22:31:16.047Z"
+              }
+            ],
+            "percentageChange": -19,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/1",
+          "trainerName": "J Carr",
+          "vacantBox": false,
+          "trainerFullName": "JOHN CARR",
+          "barrierNumber": 1,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "73635",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 77,
+          "techFormRating": 0,
+          "totalRatingPoints": 3,
+          "earlySpeedRating": 68,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/WRG/races/12/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "TURTLE TIME",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 1.75,
+            "returnWinTime": "2026-04-17T00:19:22.000Z",
+            "returnWinOpen": 2.1,
+            "returnWinOpenDaily": 1.7,
+            "returnPlace": 1.24,
+            "isFavouriteWin": true,
+            "isFavouritePlace": true,
+            "bettingStatus": "Open",
+            "propositionNumber": 167652,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 1.7,
+                "returnWinTime": "2026-04-16T22:31:16.000Z"
+              },
+              {
+                "returnWin": 2.1,
+                "returnWinTime": "2026-04-16T20:54:27.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 2.1,
+                "returnWinTime": "2026-04-16T20:54:26.563Z"
+              },
+              {
+                "returnWin": 1.7,
+                "returnWinTime": "2026-04-16T22:31:16.047Z"
+              },
+              {
+                "returnWin": 1.75,
+                "returnWinTime": "2026-04-17T00:19:21.500Z"
+              }
+            ],
+            "percentageChange": 3,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 1.1,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 1.7,
+                "returnWinTime": "2026-04-17T01:19:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.7,
+                "returnWinTime": "2026-04-17T00:49:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.7,
+                "returnWinTime": "2026-04-17T00:19:52.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": -35
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/2",
+          "trainerName": "D Johnston",
+          "vacantBox": false,
+          "trainerFullName": "DAWN JOHNSTON",
+          "barrierNumber": 2,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "21264",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 89,
+          "techFormRating": 0,
+          "totalRatingPoints": 9,
+          "earlySpeedRating": 57,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/WRG/races/12/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "BLACK PISTOL",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 23,
+            "returnWinTime": "2026-04-17T00:19:22.000Z",
+            "returnWinOpen": 26,
+            "returnWinOpenDaily": 21,
+            "returnPlace": 7,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 167653,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-16T22:31:16.000Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-16T20:54:27.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-16T20:54:26.563Z"
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-16T22:31:16.047Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-17T00:19:21.500Z"
+              }
+            ],
+            "percentageChange": 10,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/3",
+          "trainerName": "M Carr",
+          "vacantBox": false,
+          "trainerFullName": "MALCOLM CARR",
+          "barrierNumber": 3,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "26244",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 87,
+          "techFormRating": 0,
+          "totalRatingPoints": 1,
+          "earlySpeedRating": 73,
+          "earlySpeedRatingBand": "LEADER",
+          "fastForm": [
+            {
+              "type": "LikelyLeader",
+              "keywords": null,
+              "ranking": null
+            },
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 3
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/WRG/races/12/form/3?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "SMOOTH PANTHER",
+          "runnerNumber": 4,
+          "fixedOdds": {
+            "returnWin": 5,
+            "returnWinTime": "2026-04-17T00:19:22.000Z",
+            "returnWinOpen": 9.5,
+            "returnWinOpenDaily": 7.5,
+            "returnPlace": 2.1,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 167654,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-16T20:54:52.000Z"
+              },
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-16T20:54:27.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-16T20:54:26.563Z"
+              },
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-16T20:54:52.369Z"
+              },
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-17T00:19:21.500Z"
+              }
+            ],
+            "percentageChange": -33,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/4",
+          "trainerName": "A Dillon",
+          "vacantBox": false,
+          "trainerFullName": "AUSTIN DILLON",
+          "barrierNumber": 4,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "33657",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 20,
+          "techFormRating": 0,
+          "totalRatingPoints": 10,
+          "earlySpeedRating": 56,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "fastForm": [
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 1
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/WRG/races/12/form/4?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "....",
+          "runnerNumber": 5,
+          "fixedOdds": {
+            "returnWin": null,
+            "returnPlace": null,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "LateScratched",
+            "propositionNumber": null,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": null,
+                "returnWinTime": null
+              }
+            ],
+            "allowPlace": null
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Scratched"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/5",
+          "trainerName": "",
+          "vacantBox": true,
+          "trainerFullName": null,
+          "barrierNumber": 5,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": null,
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": null,
+          "techFormRating": 0,
+          "totalRatingPoints": null,
+          "earlySpeedRating": 0,
+          "earlySpeedRatingBand": "BACKMARKER"
+        },
+        {
+          "runnerName": "PAW JUDAS",
+          "runnerNumber": 6,
+          "fixedOdds": {
+            "returnWin": 6.5,
+            "returnWinTime": "2026-04-17T00:19:22.000Z",
+            "returnWinOpen": 7.5,
+            "returnWinOpenDaily": 6,
+            "returnPlace": 2.4,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 167656,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 6,
+                "returnWinTime": "2026-04-16T22:31:16.000Z"
+              },
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-16T20:54:27.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-16T20:54:26.563Z"
+              },
+              {
+                "returnWin": 6,
+                "returnWinTime": "2026-04-16T22:31:16.047Z"
+              },
+              {
+                "returnWin": 6.5,
+                "returnWinTime": "2026-04-17T00:19:21.500Z"
+              }
+            ],
+            "percentageChange": 8,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/6",
+          "trainerName": "R Kennedy",
+          "vacantBox": false,
+          "trainerFullName": "RUBY KENNEDY",
+          "barrierNumber": 6,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "65443",
+          "tcdwIndicators": "t D",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 93,
+          "techFormRating": 0,
+          "totalRatingPoints": 3,
+          "earlySpeedRating": 42,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/WRG/races/12/form/6?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "PAW XARIA",
+          "runnerNumber": 7,
+          "fixedOdds": {
+            "returnWin": 3.6,
+            "returnWinTime": "2026-04-16T20:54:52.000Z",
+            "returnWinOpen": 3.5,
+            "returnWinOpenDaily": 3.6,
+            "returnPlace": 1.85,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "LateScratched",
+            "propositionNumber": 167657,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 3.5,
+                "returnWinTime": "2026-04-16T20:54:27.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 3.5,
+                "returnWinTime": "2026-04-16T20:54:26.563Z"
+              },
+              {
+                "returnWin": 3.6,
+                "returnWinTime": "2026-04-16T20:54:52.369Z"
+              }
+            ],
+            "percentageChange": 3,
+            "allowPlace": false,
+            "winDeduction": 19,
+            "placeDeduction": 19,
+            "scratchedTime": "2026-04-16T22:31:15.000Z"
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Scratched"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/7",
+          "trainerName": "T Kennedy-harris",
+          "vacantBox": false,
+          "trainerFullName": "TAMMY KENNEDY-HARRIS",
+          "barrierNumber": 7,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "47783",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 20,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 34,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/WRG/races/12/form/7?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "PAW INFLAME",
+          "runnerNumber": 8,
+          "fixedOdds": {
+            "returnWin": 3.4,
+            "returnWinTime": "2026-04-17T00:19:22.000Z",
+            "returnWinOpen": 4,
+            "returnWinOpenDaily": 3.3,
+            "returnPlace": 1.65,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 167658,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-16T22:31:17.000Z"
+              },
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T20:54:27.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 4,
+                "returnWinTime": "2026-04-16T20:54:26.563Z"
+              },
+              {
+                "returnWin": 3.3,
+                "returnWinTime": "2026-04-16T22:31:16.595Z"
+              },
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-17T00:19:21.500Z"
+              }
+            ],
+            "percentageChange": 3,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 3.4,
+            "returnPlace": 1,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": true,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 1.7,
+                "returnWinTime": "2026-04-17T01:19:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.7,
+                "returnWinTime": "2026-04-17T00:49:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 1.7,
+                "returnWinTime": "2026-04-17T00:19:52.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 100
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/8",
+          "trainerName": "L Harris",
+          "vacantBox": false,
+          "trainerFullName": "LUKE HARRIS",
+          "barrierNumber": 8,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "x5742",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 4,
+          "earlySpeedRating": 51,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "fastForm": [
+            {
+              "type": "GoldenSwitch",
+              "keywords": "Box",
+              "ranking": null
+            },
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 2
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/WRG/races/12/form/8?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-17T01:49:52.000Z",
+      "fixedOddsUpdateTime": "2026-04-17T00:19:22.000Z",
+      "raceComments": "{\"comment\":\"2. TURTLE TIME has been out of the placings at his last couple but on the winners' heels when placing three back (22.90) in a Grade 5 at this track. Can turn it around this time. 6. PAW JUDAS finds it hard to win. Finished third (23.09) at Geelong latest and might be close to finding winning form again. Form here sound including two wins. Expected to feature. 8. PAW INFLAME is in the mix after placing last time out.\",\"runners\":[2,6,8],\"exclusive\":false}",
+      "tips": {
+        "tipType": "Standard",
+        "tipster": "Kyle Galley",
+        "tipRunnerNumbers": [
+          2,
+          8,
+          6,
+          4
+        ]
+      },
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            8,
+            6,
+            2,
+            3
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            4,
+            8,
+            2,
+            6
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            6,
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            4,
+            8,
+            2,
+            6
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            4,
+            2,
+            8,
+            1
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            2,
+            4,
+            3,
+            8
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            4,
+            2,
+            8,
+            6
+          ]
+        }
+      ],
+      "multiLegApproximates": [],
+      "betTypes": [
+        {
+          "wageringProduct": "Win",
+          "firstLeg": {
+            "raceNumber": 12,
+            "venueMnemonic": "WRG",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Place",
+          "firstLeg": {
+            "raceNumber": 12,
+            "venueMnemonic": "WRG",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Quinella",
+          "firstLeg": {
+            "raceNumber": 12,
+            "venueMnemonic": "WRG",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Exacta",
+          "firstLeg": {
+            "raceNumber": 12,
+            "venueMnemonic": "WRG",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "firstLeg": {
+            "raceNumber": 12,
+            "venueMnemonic": "WRG",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "firstLeg": {
+            "raceNumber": 12,
+            "venueMnemonic": "WRG",
+            "raceType": "G"
+          }
+        }
+      ]
+    }
+  }
+}

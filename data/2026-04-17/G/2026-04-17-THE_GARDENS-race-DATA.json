@@ -1,0 +1,2335 @@
+{
+  "data": {
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceName": "@THEGARDENSGRNSW MASTERS",
+        "raceClassConditions": "M3",
+        "raceDistance": 400,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T05:04:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "EarlyQuaddie",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG01_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/1?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/1?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/1/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/1/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/1/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 2,
+        "raceName": "EMERGENCY SERVICES APPRECIATION",
+        "raceClassConditions": "3rd/4th Grade",
+        "raceDistance": 272,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T05:23:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "EarlyQuaddie",
+            "legNumber": 2,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG02_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/2?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/2?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/2/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/2/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/2/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 3,
+        "raceName": "LADBROKES QUICK MULTI",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 272,
+        "numberOfStarters": 10,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T05:44:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "EarlyQuaddie",
+            "legNumber": 3,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG03_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/3?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/3?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/3/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/3/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/3/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 4,
+        "raceName": "BISHOP COLLINS",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 515,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T06:00:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "EarlyQuaddie",
+            "legNumber": 4,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 1,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:04:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 2,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:23:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 3,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T05:44:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 4,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG04_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/4?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/4?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/4/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/4/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/4/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 5,
+        "raceName": "MARK HUGHES FOUNDATION",
+        "raceClassConditions": "4th/5th Grade",
+        "raceDistance": 515,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T06:22:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG05_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/5?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/5?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/5/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/5/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/5/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 6,
+        "raceName": "LADBROKES POPULAR SRM",
+        "raceClassConditions": "Free For All",
+        "raceDistance": 400,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T06:42:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "DailyDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 2,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Treble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG06_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/6?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/6?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/6/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/6/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/6/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 7,
+        "raceName": "TG GREYHOUNDPRODUCTSDIRECT.COM.AU",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 400,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T07:03:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 3,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Treble",
+            "legNumber": 2,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG07_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/7?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/7?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/7/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/7/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/7/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 8,
+        "raceName": "TG GAPNSW.COM.AU",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 400,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T07:24:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 9,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "DailyDouble",
+            "legNumber": 2,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quaddie",
+            "legNumber": 4,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Enabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 5,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:22:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              },
+              {
+                "legNumber": 4,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Treble",
+            "legNumber": 3,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 6,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T06:42:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 7,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:03:00.000Z"
+              },
+              {
+                "legNumber": 3,
+                "raceNumber": 8,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:24:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG08_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/8?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/8?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/8/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/8/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/8/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 9,
+        "raceName": "TG SIRES ON ICE",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 400,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T07:42:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:42:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 9,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T07:42:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 10,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:04:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG09_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/9?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/9?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/9/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/9/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/9/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 10,
+        "raceName": "TG LADBROKES BIG BETS COPY NOW",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 400,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T08:04:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Closed",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:04:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 10,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:04:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 11,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:27:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG10_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/10?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/10?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/10/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/10/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/10/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 11,
+        "raceName": "TG LADBROKES RACING EXTRAS IN MULTI",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 400,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T08:27:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 11,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:27:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 11,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:27:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 11,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:27:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 11,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:27:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 11,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:27:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 11,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:27:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 11,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:27:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "RunningDouble",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 11,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:27:00.000Z"
+              },
+              {
+                "legNumber": 2,
+                "raceNumber": 12,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:50:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG11.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG11_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/11?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/11?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/11/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/11/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/11/big-bets?jurisdiction=NSW"
+        }
+      },
+      {
+        "raceNumber": 12,
+        "raceName": "TG RED TV",
+        "raceClassConditions": "5th Grade",
+        "raceDistance": 400,
+        "numberOfStarters": 8,
+        "isJackpotRace": false,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "raceStartTime": "2026-04-17T08:50:00.000Z",
+        "raceStatus": "Normal",
+        "results": [],
+        "pools": [
+          {
+            "wageringProduct": "Win",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 12,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Place",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 12,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Quinella",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 12,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Exacta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 12,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Duet",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 12,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "Trifecta",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 12,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:50:00.000Z"
+              }
+            ]
+          },
+          {
+            "wageringProduct": "FirstFour",
+            "legNumber": 1,
+            "poolStatusCode": "Open",
+            "cashOutEligibility": "Disabled",
+            "legs": [
+              {
+                "legNumber": 1,
+                "raceNumber": 12,
+                "venueMnemonic": "GAR",
+                "raceType": "G",
+                "startTime": "2026-04-17T08:50:00.000Z"
+              }
+            ]
+          }
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260417GDNG12.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260417GDNG12_V.mp4"
+        },
+        "_links": {
+          "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/12?jurisdiction=NSW",
+          "selfTemplate": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/12?jurisdiction={jurisdiction}{&fixedOdds,channelType,cashSales,homeState,returnPromo,returnOffers}",
+          "self:all-channels": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/12/all-channels?jurisdiction=NSW",
+          "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/12/form?jurisdiction=NSW",
+          "bigBets": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-17/meetings/G/GAR/races/12/big-bets?jurisdiction=NSW"
+        }
+      }
+    ]
+  }
+}

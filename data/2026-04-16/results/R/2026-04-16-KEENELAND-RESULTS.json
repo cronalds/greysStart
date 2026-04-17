@@ -1,0 +1,133 @@
+{
+  "meetingName": "KEENELAND",
+  "location": "USA",
+  "venueMnemonic": "G",
+  "raceType": "R",
+  "meetingDate": "2026-04-16",
+  "weatherCondition": "OCAST",
+  "trackCondition": "FIRM",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 0,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-16T17:01:13+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "G",
+          "raceType": "R",
+          "startTime": "2026-04-16T17:00:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 3,
+          "venueMnemonic": "G",
+          "raceType": "R",
+          "startTime": "2026-04-16T18:07:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/G/R"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "KEENELAND CLAIMING",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T17:00:00+00:00",
+      "raceDistance": 1207,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416KEER01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416KEER01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/G/R/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "KEENELAND MAIDEN SPECIAL WEIGHT",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          6
+        ],
+        [
+          4
+        ],
+        [
+          9
+        ],
+        [
+          12
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T17:37:00+00:00",
+      "raceDistance": 905,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416KEER02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416KEER02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/G/R/races/2"
+      }
+    },
+    {
+      "raceNumber": 3,
+      "raceName": "KEENELAND MAIDEN SPECIAL WEIGHT",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          7
+        ],
+        [
+          12
+        ],
+        [
+          8
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T18:07:00+00:00",
+      "raceDistance": 1106,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416KEER03.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416KEER03_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/G/R/races/3"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "G",
+    "scheduledType": "R"
+  }
+}

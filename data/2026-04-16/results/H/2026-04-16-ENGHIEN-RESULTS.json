@@ -1,0 +1,290 @@
+{
+  "meetingName": "ENGHIEN",
+  "location": "FRA",
+  "venueMnemonic": "F",
+  "raceType": "H",
+  "meetingDate": "2026-04-16",
+  "weatherCondition": "FINE",
+  "trackCondition": "GOOD",
+  "exoticPools": [
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "DailyDouble",
+      "poolTotal": 0.5,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-16T15:12:07+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 2,
+          "venueMnemonic": "F",
+          "raceType": "H",
+          "startTime": "2026-04-16T15:10:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 4,
+          "venueMnemonic": "F",
+          "raceType": "H",
+          "startTime": "2026-04-16T16:20:00+00:00"
+        }
+      ]
+    },
+    {
+      "poolStatusCode": "Paying",
+      "wageringProduct": "Quaddie",
+      "poolTotal": 0,
+      "jackpot": 0,
+      "poolCloseTime": "2026-04-16T14:36:35+00:00",
+      "legs": [
+        {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "F",
+          "raceType": "H",
+          "startTime": "2026-04-16T14:32:00+00:00"
+        },
+        {
+          "legNumber": 2,
+          "raceNumber": 2,
+          "venueMnemonic": "F",
+          "raceType": "H",
+          "startTime": "2026-04-16T15:10:00+00:00"
+        },
+        {
+          "legNumber": 3,
+          "raceNumber": 3,
+          "venueMnemonic": "F",
+          "raceType": "H",
+          "startTime": "2026-04-16T15:43:00+00:00"
+        },
+        {
+          "legNumber": 4,
+          "raceNumber": 4,
+          "venueMnemonic": "F",
+          "raceType": "H",
+          "startTime": "2026-04-16T16:20:00+00:00"
+        }
+      ]
+    }
+  ],
+  "_links": {
+    "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/F/H"
+  },
+  "races": [
+    {
+      "raceNumber": 1,
+      "raceName": "PRIX DU PONT DE FLANDRE MONTE",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          8
+        ],
+        [
+          3
+        ],
+        [
+          6
+        ],
+        [
+          10
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T14:32:00+00:00",
+      "raceDistance": 2875,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416EGHT01.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416EGHT01_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/F/H/races/1"
+      }
+    },
+    {
+      "raceNumber": 2,
+      "raceName": "PRIX DE DURAS SS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          10
+        ],
+        [
+          13
+        ],
+        [
+          12
+        ],
+        [
+          16
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T15:10:00+00:00",
+      "raceDistance": 2875,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416EGHT02.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416EGHT02_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/F/H/races/2"
+      }
+    },
+    {
+      "raceNumber": 3,
+      "raceName": "PRIX DE LA PORTE DE SAINT-CLOUD MS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          7
+        ],
+        [
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T15:43:00+00:00",
+      "raceDistance": 2150,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416EGHT03.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416EGHT03_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/F/H/races/3"
+      }
+    },
+    {
+      "raceNumber": 4,
+      "raceName": "PRIX JOURNAL WEEK-END SS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          7
+        ],
+        [
+          5
+        ],
+        [
+          11
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T16:20:00+00:00",
+      "raceDistance": 2875,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416EGHT04.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416EGHT04_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/F/H/races/4"
+      }
+    },
+    {
+      "raceNumber": 5,
+      "raceName": "PRIX DE FUMEL MS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          8
+        ],
+        [
+          6
+        ],
+        [
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T16:55:00+00:00",
+      "raceDistance": 2150,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416EGHT05.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416EGHT05_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/F/H/races/5"
+      }
+    },
+    {
+      "raceNumber": 6,
+      "raceName": "PRIX DE LA PORTE MAILLOT SS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          11
+        ],
+        [
+          9
+        ],
+        [
+          12
+        ],
+        [
+          4
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T17:27:00+00:00",
+      "raceDistance": 2875,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416EGHT06.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416EGHT06_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/F/H/races/6"
+      }
+    },
+    {
+      "raceNumber": 7,
+      "raceName": "PRIX DE L'ELYSEE MS",
+      "raceStatus": "Paying",
+      "results": [
+        [
+          3
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "scratchings": [],
+      "raceStartTime": "2026-04-16T17:59:00+00:00",
+      "raceDistance": 2150,
+      "hasFixedOdds": false,
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260416EGHT07.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260416EGHT07_V.mp4"
+      },
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/historical-results-service/NSW/racing/2026-04-16/F/H/races/7"
+      }
+    }
+  ],
+  "sellCode": {
+    "meetingCode": "F",
+    "scheduledType": "H"
+  }
+}

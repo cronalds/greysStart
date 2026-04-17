@@ -507,9 +507,15 @@ async function scrape({
       arrayOfExclusionStrings: horsesExcludedLocationsArray,
     });
 
-    resultFetch({ arrayRef: greyResults, raceType: "G", date: date });
-    resultFetch({ arrayRef: harnessResults, raceType: "H", date: date });
-    resultFetch({ arrayRef: horseResults, raceType: "R", date: date });
+    if(fs.existsSync(`./data/${dayBefore(date)}/G`)){
+      resultFetch({ arrayRef: greyResults, raceType: "G", date: date });
+    }
+    if(fs.existsSync(`./data/${dayBefore(date)}/H`)){
+      resultFetch({ arrayRef: harnessResults, raceType: "H", date: date });
+    }
+    if(fs.existsSync(`./data/${dayBefore(date)}/R`)){
+      resultFetch({ arrayRef: horseResults, raceType: "R", date: date });
+    }
 
     saveDataToFile({
       filePath: `./data/${dayBefore(date)}/${dayBefore(date)}-all-RESULTS.json`,
@@ -1092,6 +1098,8 @@ async function pairPaths() {
     }
   }
 
+  let orphaned = [];
+
   // for each key in our object
   for (const key of Object.keys(groups)) {
     const g = groups[key]; // the object at that key
@@ -1099,7 +1107,7 @@ async function pairPaths() {
     // if none of one or more of these filePaths
     if (g.raceForm === null || g.moreForm === null || g.result === null) {
       // delete from object
-      delete groups[key];
+      orphaned.push(g)
     }
     // add racetypes for future when i might add harness and horses; then can filter by racetype
     else if(g.raceForm.includes("/G/"))
@@ -1114,17 +1122,19 @@ async function pairPaths() {
     }
 
     // push the object at the key in our global object to an array to get an array of object pairings
-    groupsOut.push(groups[key]);
+    groupsOut.push(g);
   }
 
   // save to file as an object with a data property holding our array of pairings, and the length(so i can view it as text in the file pretty much)
   saveDataToFile({filePath:"./data/metadata/pairedData.json", data:{data: groupsOut, length: groupsOut.length}});
+  saveDataToFile({filePath:"./data/metadata/orphanedData.json", data:{data: orphaned, length: orphaned.length}});
 
   console.log({data: groupsOut, length: groupsOut.length});
 }
+
 scrape({
   destinationDirectory: "./data",
-  date: "2026-04-16",
+  date: "2026-04-17",
   download: false,
   resulted: false,
   greyhounds: false,
@@ -1133,7 +1143,7 @@ scrape({
   greyhoundsExcludedVenuesArray: [],
   //harnessExcludedVenuesArray:[],
   //horsesExcludedVenuesArray: ["LAUREL PARK", "LEOPARDSTOWN", "SHA TIN"],
-  greyhoundsExcludedLocationsArray: ["GBR"],
+  greyhoundsExcludedLocationsArray: ["GBR", "NZL"],
   //harnessExcludedLocationsArray: ["CAN"],
   //horsesExcludedLocationsArray: ["ARG", "HKG"],
   /*
