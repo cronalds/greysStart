@@ -1187,7 +1187,8 @@ function handlePairedData() {
       /*
       //! this is all data that the catboost cant really use anyway
       meeting.skyRacing = result.data.skyRacing;
-      meeting.raceComments = [JSON.parse(extendedForm.form.data.raceComments)];
+      meeting.raceComments = [...JSON.parse(extendedForm.form.data.raceComments)];
+
       meeting.tips = extendedForm.form.data.tips;
       meeting.ratings = {};
 
@@ -1255,24 +1256,25 @@ function handlePairedData() {
   }
 }
 
-/*
 scrape({
   destinationDirectory: "./data",
   date: "2026-04-17",
   download: false,
   resulted: false,
   greyhounds: false,
-  harness: false,
-  horses: false, // keep false until i decide to use the data, taking too much already
+  harness: false, //! keep false until i decide to use the data, taking too much already
+  horses: false, //! keep false until i decide to use the data, taking too much already
   greyhoundsExcludedVenuesArray: [],
   //harnessExcludedVenuesArray:[],
   //horsesExcludedVenuesArray: ["LAUREL PARK", "LEOPARDSTOWN", "SHA TIN"],
   greyhoundsExcludedLocationsArray: ["GBR", "NZL", "IRL"],
   //harnessExcludedLocationsArray: ["CAN"],
   //horsesExcludedLocationsArray: ["ARG", "HKG"],
+  
+  /*
   ! not sure whether to exclude by location or venue name or just exclude races later based off of lacking specific data points or maybe just keeping all races for training irregardless of data points that are present; probably better to keep all races.
+  */
 });
-*/
 
 handlePairedData();
 
