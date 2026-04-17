@@ -1107,16 +1107,35 @@ async function pairPaths() {
     // if none of one or more of these filePaths
     if (g.raceForm === null || g.moreForm === null || g.result === null) {
       // delete from object
+      let rt = "";
+      if(g.raceForm !== null)
+      {
+        if(g.raceForm.includes("/G/")) rt = "G"
+        if(g.raceForm.includes("/H/")) rt = "H"
+        if(g.raceForm.includes("/R/")) rt = "R"
+      } else if(g.moreForm !== null)
+      {
+        if(g.moreForm.includes("/G/")) rt = "G"
+        if(g.moreForm.includes("/H/")) rt = "H"
+        if(g.moreForm.includes("/R/")) rt = "R"
+      } else if(g.result !== null)
+      {
+        if(g.result.includes("/G/")) rt = "G"
+        if(g.result.includes("/H/")) rt = "H"
+        if(g.result.includes("/R/")) rt = "R"
+      }
+      g.raceType = rt;
       orphaned.push(g)
     }
+
     // add racetypes for future when i might add harness and horses; then can filter by racetype
-    else if(g.raceForm.includes("/G/"))
+    else if(g.raceForm.includes("/G/") || g.moreForm.includes("/G/") || g.result.includes("/G/"))
     {
       groups[key].raceType = "G";
-    }else if(g.raceForm.includes("/H/"))
+    }else if(g.raceForm.includes("/H/") || g.moreForm.includes("/H/") || g.result.includes("/H/"))
     {
       groups[key].raceType = "H";
-    }else if(g.raceForm.includes("/R/"))
+    }else if(g.raceForm.includes("/R/") || g.moreForm.includes("/R/") || g.result.includes("/R/"))
     {
       groups[key].raceType = "R";
     }
@@ -1125,7 +1144,7 @@ async function pairPaths() {
     groupsOut.push(g);
   }
 
-  // save to file as an object with a data property holding our array of pairings, and the length(so i can view it as text in the file pretty much)
+  // save to file as an object with a data property holding our array of pairings/orphans, and the length(so i can view it as text in the file pretty much)
   saveDataToFile({filePath:"./data/metadata/pairedData.json", data:{data: groupsOut, length: groupsOut.length}});
   saveDataToFile({filePath:"./data/metadata/orphanedData.json", data:{data: orphaned, length: orphaned.length}});
 
@@ -1143,7 +1162,7 @@ scrape({
   greyhoundsExcludedVenuesArray: [],
   //harnessExcludedVenuesArray:[],
   //horsesExcludedVenuesArray: ["LAUREL PARK", "LEOPARDSTOWN", "SHA TIN"],
-  greyhoundsExcludedLocationsArray: ["GBR", "NZL"],
+  greyhoundsExcludedLocationsArray: ["GBR", "NZL", "IRL"],
   //harnessExcludedLocationsArray: ["CAN"],
   //horsesExcludedLocationsArray: ["ARG", "HKG"],
   /*
