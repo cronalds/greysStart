@@ -1104,7 +1104,7 @@ async function pairPaths() {
   for (const key of Object.keys(groups)) {
     const g = groups[key]; // the object at that key
 
-    // if none of one or more of these filePaths
+    // if one or more of these filePaths
     if (g.raceForm === null || g.moreForm === null || g.result === null) {
       // delete from object
       let rt = "";
@@ -1140,8 +1140,10 @@ async function pairPaths() {
       groups[key].raceType = "R";
     }
 
-    // push the object at the key in our global object to an array to get an array of object pairings
-    groupsOut.push(g);
+    // push the object at the key in our global object to an array to get an array of object pairings; also exclude orphans
+    if(g.raceForm !== null && g.moreForm !== null && g.result !== null){
+      groupsOut.push(g);
+    }
   }
 
   // save to file as an object with a data property holding our array of pairings/orphans, and the length(so i can view it as text in the file pretty much)
@@ -1151,6 +1153,35 @@ async function pairPaths() {
   console.log({data: groupsOut, length: groupsOut.length});
 }
 
+function mergePairedData(){
+  pairPaths();
+  let data = readDataFromFile("./data/metadata/pairedData.json");
+
+  let greys = data.data.filter((item) => item.raceType === "G");
+  
+  for(let item of greys)
+  {
+    try{
+      let raceForm = readDataFromFile(item.raceForm);
+    let extendedForm = readDataFromFile(item.moreForm);
+    let result = readDataFromFile(item.result);
+    let test = {...raceForm, ...extendedForm, ...result};
+    console.log(test)
+    console.log("=============================================")
+    console.log("=============================================")
+    console.log(item.raceForm.split("/").pop())
+    console.log("=============================================")
+    console.log("=============================================")
+    }catch(e){
+      console.log(item.raceForm.split("/").pop())
+      console.log(item.moreForm.split("/").pop())
+      console.log(item.result.split("/").pop())
+      console.log(e)
+    }
+  }
+}
+
+/*
 scrape({
   destinationDirectory: "./data",
   date: "2026-04-17",
@@ -1165,10 +1196,11 @@ scrape({
   greyhoundsExcludedLocationsArray: ["GBR", "NZL", "IRL"],
   //harnessExcludedLocationsArray: ["CAN"],
   //horsesExcludedLocationsArray: ["ARG", "HKG"],
-  /*
   ! not sure whether to exclude by location or venue name or just exclude races later based off of lacking specific data points or maybe just keeping all races for training irregardless of data points that are present; probably better to keep all races.
-  */
 });
+*/
+
+mergePairedData()
 
 //console.log(x.harnessResults['2026-04-13'])
 
@@ -1189,15 +1221,3 @@ downloadFile({url:vidURL, dir:"./data/test", filename:`${date}-${vm}-${rn}.mp4`}
 */ //!!!!!!!!!!!!!!
 
 // when i upload this to aws to automate, when it runs every 5 mins i may redownload the meetings each time and update what races to download; tralee in irl for G wasnt listed earlier or id have it, the irish dogs seem to have good form info too; ill have to think more about this stuff
-
-// will need to add exclusions to the results as well, otherwise ill get results for venues that i never got the forms for
-
-/* 
-ok now i want to get the previous days races and add them to the meeting data, and add the runners form to the meeting data too
-  - load meeting data for venue @date
-  - load all race-form files for that venue @date
-  - load all results for that venue @date
-  - merge appropriately
-    - will look for common properties and overwrite/merge/fill them, such as raceDataFile.json.data.races[i]=runnersForRaceI, which will be filled into date-g-meetings.json[j].races[k].runners=newPropertyFilledInWithRunnersFormForRaceI; ill need to split each date-time-racetype-meetings into their own file via venueName to simplify this a bit more, i mean not really hard, but still, no harm in it, may just keep it in memory and export after merging results into runnersForRaceI.data.races[j].results, some races will already have their results but better to batch overwrite with full results collected, may just get rid of the data i have right now and start collecting proper full data soon now that the data collection pipeline is good, just need to process now and everything then i can start aggregates for features for the csv data, then i can start feature engineering properly
-
-*/

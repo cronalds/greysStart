@@ -98,24 +98,8 @@ Outcome =
 - ok now i need to start merging the data together appropriately
   - ill get the meeting data for each venue and append/merge data into that; maybe sqlite instead of json, ill think about it a little bit more
 
-- meetings // g/h/r meetings file of date
-  - meetingName
-  - location
-  - meetingDate
-  - weatherCondition
-  - trackCondition
-  - venueMnemonic
-  - races // foreach
-    - raceNumber
-    - raceClassConditions
-    - raceStartTime
-    - raceStatus
-    - raceDistance
-    - scratchings
-    - // results will be in race info where placings will be stored, can derive results from there
-
-- form data // foreach race at each venue of g/h/r meetings
-  - form
+- form data // foreach runner
+  - form[i]
     - runnerNumber //
     - runnerName
     - sire
@@ -151,8 +135,12 @@ Outcome =
       - raceDistance
       - trackDirection
       - meeting.
+        - meetingName
+        - meetingDate
+        - location
         - weatherCondition
         - trackCondition
+      - raceStartTime
       - runners // array of objects
         - runnerName // runnerID
         - runnerNumber
@@ -186,7 +174,6 @@ Outcome =
       - runnerNumber
       - finishingPosition // 1-4 || 0
       - trainerName
-    - raceClassConditions
 
 -----------------------------------------
 -----------------------------------------
