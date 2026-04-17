@@ -1,0 +1,1471 @@
+{
+  "meeting": {
+    "meetingName": "NOWRA",
+    "venueMnemonic": "NOW",
+    "meetingDate": "2026-04-13",
+    "location": "NSW",
+    "raceType": "G",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "raceDistance": 365,
+    "raceClassConditions": "4th/5th Grade",
+    "trackDirection": "anticlockwise",
+    "raceStartTime": "2026-04-13T12:09:00+00:00",
+    "scratched": [
+      {
+        "runnerName": "....",
+        "runnerNumber": 3,
+        "finishingPosition": 0,
+        "trainerName": null,
+        "barrierNumber": 3,
+        "riderDriverName": "",
+        "claimAmount": 0,
+        "fixedOdds": {},
+        "parimutuel": {
+          "bettingStatus": "Scratched",
+          "returnWin": 0,
+          "returnPlace": 0
+        }
+      },
+      {
+        "runnerName": "....",
+        "runnerNumber": 6,
+        "finishingPosition": 0,
+        "trainerName": null,
+        "barrierNumber": 6,
+        "riderDriverName": "",
+        "claimAmount": 0,
+        "fixedOdds": {},
+        "parimutuel": {
+          "bettingStatus": "Scratched",
+          "returnWin": 0,
+          "returnPlace": 0
+        }
+      },
+      {
+        "runnerName": "FUTURE REFERENCE",
+        "runnerNumber": 8,
+        "finishingPosition": 0,
+        "trainerName": "ALICIA PRATT",
+        "barrierNumber": 8,
+        "riderDriverName": "",
+        "claimAmount": 0,
+        "fixedOdds": {
+          "returnWin": 9.5,
+          "returnWinOpen": 8,
+          "returnPlace": 3.2,
+          "bettingStatus": "LateScratched",
+          "winDeduction": 7,
+          "placeDeduction": 9,
+          "propositionNumber": 153088,
+          "scratchedTime": "2026-04-12T22:47:47+00:00"
+        },
+        "parimutuel": {
+          "bettingStatus": "Scratched",
+          "returnWin": 0,
+          "returnPlace": 0
+        }
+      }
+    ],
+    "results": [
+      [
+        1
+      ],
+      [
+        7
+      ],
+      [
+        4
+      ],
+      [
+        2
+      ]
+    ]
+  },
+  "runners": [
+    {
+      "runnerNumber": 1,
+      "runnerName": "WHERE'S DEREK",
+      "prizeMoney": "$20960.00",
+      "last20Starts": "62244x11223722428x13",
+      "sire": "FERNANDO BALE",
+      "dam": "WHERES ELLA",
+      "sex": "Dog",
+      "dateOfBirth": "0223",
+      "colour": "LT FWN",
+      "formComment": "Jumped well at this track two runs back then again settled forward and finished third at this track last start over 365m. Has been around the mark at his last couple and should make his presence felt.",
+      "formComments": [
+        {
+          "source": "TAB",
+          "title": "TAB",
+          "comment": "Jumped well at this track two runs back then again settled forward and finished third at this track last start over 365m. Has been around the mark at his last couple and should make his presence felt."
+        }
+      ],
+      "bestTime": "20.53",
+      "daysSinceLastRun": 7,
+      "handicapWeight": 0,
+      "runsSinceSpell": 3,
+      "trainerName": "GLENN SUMMERFIELD",
+      "trainerLocation": "WORRIGEE",
+      "winningDistances": [
+        {
+          "winningDistance": 297,
+          "numberOfWinsAtDistance": 1
+        },
+        {
+          "winningDistance": 365,
+          "numberOfWinsAtDistance": 7
+        }
+      ],
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-13/meetings/G/NOW/races/12/form/1?jurisdiction=NSW"
+      },
+      "previousStarts": [
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-04-06",
+          "raceNumber": 4,
+          "finishingPosition": "3",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "6.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260406NOWG04.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260406NOWG04_V.mp4"
+          },
+          "distance": 365,
+          "class": "NG",
+          "weight": 30.6,
+          "startingPosition": 8,
+          "odds": "21.00",
+          "winnerOrSecond": "WHERE'S FERNANDO",
+          "positionInRun": "2",
+          "time": "0:20.71",
+          "stewardsComment": "Came together entering the home straight and again approaching the finish."
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-30",
+          "raceNumber": 6,
+          "finishingPosition": "1",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "3.0",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260330NOWG06.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260330NOWG06_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 4/5",
+          "weight": 30.5,
+          "startingPosition": 2,
+          "odds": "7.50",
+          "winnerOrSecond": "ZIPPING AUGUSTA",
+          "positionInRun": "1",
+          "time": "0:20.58",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-21",
+          "raceNumber": 10,
+          "finishingPosition": "8",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "4.0",
+          "venueAbbreviation": "BULI",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260121BULG10.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260121BULG10_V.mp4"
+          },
+          "distance": 400,
+          "class": "GR 5",
+          "weight": 30.6,
+          "startingPosition": 8,
+          "odds": "8.50",
+          "winnerOrSecond": "INNOVATION",
+          "positionInRun": "7-6-6",
+          "time": "0:22.65",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-16",
+          "raceNumber": 10,
+          "finishingPosition": "2",
+          "numberOfStarters": 5,
+          "draw": 0,
+          "margin": "1.5",
+          "venueAbbreviation": "GOUL",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260116GBNG10.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260116GBNG10_V.mp4"
+          },
+          "distance": 350,
+          "class": "GR 5",
+          "weight": 30.5,
+          "startingPosition": 5,
+          "odds": "5.00",
+          "winnerOrSecond": "CAWBOURNE OZZY",
+          "positionInRun": "2",
+          "time": "0:20.09",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-12",
+          "raceNumber": 7,
+          "finishingPosition": "4",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "13.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260112NOWG07.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260112NOWG07_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 4/5",
+          "weight": 30.4,
+          "startingPosition": 2,
+          "odds": "3.50",
+          "winnerOrSecond": "WHERE'S IVY",
+          "positionInRun": "5",
+          "time": "0:21.49",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-05",
+          "raceNumber": 7,
+          "finishingPosition": "2",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "2.5",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260105NOWG07.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260105NOWG07_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 4/5",
+          "weight": 30.3,
+          "startingPosition": 5,
+          "odds": "3.80",
+          "winnerOrSecond": "MANILA GHOST",
+          "positionInRun": "3",
+          "time": "0:20.77",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2025-12-29",
+          "raceNumber": 8,
+          "finishingPosition": "2",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "6.5",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2025/12/20251229NOWG08.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2025/12/20251229NOWG08_V.mp4"
+          },
+          "distance": 365,
+          "class": "NG",
+          "weight": 30.5,
+          "startingPosition": 5,
+          "odds": "11.00",
+          "winnerOrSecond": "WHERE'S FERNANDO",
+          "positionInRun": "2",
+          "time": "0:20.62",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2025-12-22",
+          "raceNumber": 6,
+          "finishingPosition": "7",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "10.0",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2025/12/20251222NOWG06.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2025/12/20251222NOWG06_V.mp4"
+          },
+          "distance": 365,
+          "class": "NG",
+          "weight": 30.5,
+          "startingPosition": 5,
+          "odds": "17.00",
+          "winnerOrSecond": "WHERE'S FERNANDO",
+          "positionInRun": "7",
+          "time": "0:21.09",
+          "stewardsComment": null
+        }
+      ],
+      "dfsFormRating": 100,
+      "totalRatingPoints": 11,
+      "earlySpeedRating": 68,
+      "earlySpeedRatingBand": "LEADER"
+    },
+    {
+      "runnerNumber": 2,
+      "runnerName": "HUGGETT",
+      "prizeMoney": "$15045.00",
+      "last20Starts": "4223727x435135144661",
+      "sire": "TOMMY SHELBY",
+      "dam": "JAZZ BUTTON",
+      "sex": "Dog",
+      "dateOfBirth": "0322",
+      "colour": "BL",
+      "formComment": "Strong performance after tracking the speed to win by 0.8 lengths at Bulli over 340m (19.46) beating Midnight Fury in Grade 5 on April 7. Better off looking to others.",
+      "formComments": [
+        {
+          "source": "TAB",
+          "title": "TAB",
+          "comment": "Strong performance after tracking the speed to win by 0.8 lengths at Bulli over 340m (19.46) beating Midnight Fury in Grade 5 on April 7. Better off looking to others."
+        }
+      ],
+      "bestTime": "21.36",
+      "daysSinceLastRun": 6,
+      "handicapWeight": 0,
+      "runsSinceSpell": 1,
+      "trainerName": "ALAN TUTT",
+      "trainerLocation": "HAWKER",
+      "winningDistances": [
+        {
+          "winningDistance": 297,
+          "numberOfWinsAtDistance": 1
+        },
+        {
+          "winningDistance": 330,
+          "numberOfWinsAtDistance": 1
+        },
+        {
+          "winningDistance": 340,
+          "numberOfWinsAtDistance": 2
+        },
+        {
+          "winningDistance": 350,
+          "numberOfWinsAtDistance": 2
+        }
+      ],
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-13/meetings/G/NOW/races/12/form/2?jurisdiction=NSW"
+      },
+      "previousStarts": [
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-04-07",
+          "raceNumber": 9,
+          "finishingPosition": "1",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "0.8",
+          "venueAbbreviation": "BULI",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260407BULG09.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260407BULG09_V.mp4"
+          },
+          "distance": 340,
+          "class": "GR 5",
+          "weight": 31.1,
+          "startingPosition": 4,
+          "odds": "18.30",
+          "winnerOrSecond": "MIDNIGHT FURY",
+          "positionInRun": "2-2-2",
+          "time": "0:19.46",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-30",
+          "raceNumber": 4,
+          "finishingPosition": "6",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "9.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260330NOWG04.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260330NOWG04_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 31,
+          "startingPosition": 8,
+          "odds": "19.00",
+          "winnerOrSecond": "RIVENDELL",
+          "positionInRun": "6",
+          "time": "0:21.36",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-03",
+          "raceNumber": 4,
+          "finishingPosition": "6",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "8.8",
+          "venueAbbreviation": "BULI",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260303BULG04.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260303BULG04_V.mp4"
+          },
+          "distance": 340,
+          "class": "GR 5",
+          "weight": 31.7,
+          "startingPosition": 4,
+          "odds": "81.00",
+          "winnerOrSecond": "PAW ZEVA",
+          "positionInRun": "7-7-6",
+          "time": "0:19.93",
+          "stewardsComment": "Rounding the home turn hampered and galloped off the back."
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-24",
+          "raceNumber": 8,
+          "finishingPosition": "4",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "3.8",
+          "venueAbbreviation": "BULI",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260224BULG08.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260224BULG08_V.mp4"
+          },
+          "distance": 340,
+          "class": "GR 5",
+          "weight": 31.6,
+          "startingPosition": 2,
+          "odds": "4.80",
+          "winnerOrSecond": "GOLDEN BLEND",
+          "positionInRun": "5-5-5",
+          "time": "0:19.73",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-16",
+          "raceNumber": 4,
+          "finishingPosition": "4",
+          "numberOfStarters": 5,
+          "draw": 0,
+          "margin": "6.3",
+          "venueAbbreviation": "GOUL",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260216GBNG04.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260216GBNG04_V.mp4"
+          },
+          "distance": 350,
+          "class": "GR 4",
+          "weight": 31.6,
+          "startingPosition": 4,
+          "odds": "8.50",
+          "winnerOrSecond": "CLOCK WINDER",
+          "positionInRun": "3-4-4",
+          "time": "0:20.23",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-06",
+          "raceNumber": 9,
+          "finishingPosition": "1",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "0.8",
+          "venueAbbreviation": "GOUL",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260206GBNG09.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260206GBNG09_V.mp4"
+          },
+          "distance": 350,
+          "class": "GR 5",
+          "weight": 31.7,
+          "startingPosition": 4,
+          "odds": "3.40",
+          "winnerOrSecond": "RUN REBEL RUN",
+          "positionInRun": "2-1-1",
+          "time": "0:20.25",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-03",
+          "raceNumber": 11,
+          "finishingPosition": "5",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "4.3",
+          "venueAbbreviation": "BULI",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260203BULG11.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260203BULG11_V.mp4"
+          },
+          "distance": 340,
+          "class": "GR 5",
+          "weight": 31.8,
+          "startingPosition": 1,
+          "odds": "13.00",
+          "winnerOrSecond": "LITTLE BIT SUPER",
+          "positionInRun": "3-3-4",
+          "time": "0:19.62",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-27",
+          "raceNumber": 6,
+          "finishingPosition": "3",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "3.0",
+          "venueAbbreviation": "BULI",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260127BULG06.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260127BULG06_V.mp4"
+          },
+          "distance": 340,
+          "class": "GR 5",
+          "weight": 31.6,
+          "startingPosition": 7,
+          "odds": "41.00",
+          "winnerOrSecond": "CAWDOR",
+          "positionInRun": "2-2-2",
+          "time": "0:19.48",
+          "stewardsComment": null
+        }
+      ],
+      "dfsFormRating": 82,
+      "totalRatingPoints": 3,
+      "earlySpeedRating": 56,
+      "earlySpeedRatingBand": "MIDFIELD"
+    },
+    {
+      "runnerNumber": 4,
+      "runnerName": "NICKO JACK",
+      "prizeMoney": "$52780.00",
+      "last20Starts": "56333332563323112233",
+      "sire": "FERAL FRANKY",
+      "dam": "NICKO DANCER",
+      "sex": "Dog",
+      "dateOfBirth": "1121",
+      "colour": "BDL",
+      "formComment": "Has hit the frame at his last four runs, the latest finishing third in 20.88 at this track. Will need a little luck early from the draw. Has ability and should run well.",
+      "formComments": [
+        {
+          "source": "TAB",
+          "title": "TAB",
+          "comment": "Has hit the frame at his last four runs, the latest finishing third in 20.88 at this track. Will need a little luck early from the draw. Has ability and should run well."
+        }
+      ],
+      "bestTime": "20.41",
+      "daysSinceLastRun": 18,
+      "handicapWeight": 0,
+      "runsSinceSpell": 0,
+      "trainerName": "CLIFFORD BELL",
+      "trainerLocation": "MARSHALL MOUNT",
+      "winningDistances": [
+        {
+          "winningDistance": 297,
+          "numberOfWinsAtDistance": 1
+        },
+        {
+          "winningDistance": 365,
+          "numberOfWinsAtDistance": 20
+        },
+        {
+          "winningDistance": 400,
+          "numberOfWinsAtDistance": 1
+        }
+      ],
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-13/meetings/G/NOW/races/12/form/4?jurisdiction=NSW"
+      },
+      "previousStarts": [
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-26",
+          "raceNumber": 3,
+          "finishingPosition": "3",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "2.5",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260326NOWG03.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260326NOWG03_V.mp4"
+          },
+          "distance": 365,
+          "class": "MX 1/2/3",
+          "weight": 30.9,
+          "startingPosition": 4,
+          "odds": "4.40",
+          "winnerOrSecond": "NICKO KING",
+          "positionInRun": "4",
+          "time": "0:20.88",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-16",
+          "raceNumber": 4,
+          "finishingPosition": "3",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "1.0",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260316NOWG04.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260316NOWG04_V.mp4"
+          },
+          "distance": 365,
+          "class": "NG",
+          "weight": 30.7,
+          "startingPosition": 2,
+          "odds": "2.00",
+          "winnerOrSecond": "KUNG FU BAY",
+          "positionInRun": "4",
+          "time": "0:20.85",
+          "stewardsComment": "Checked off the heels approaching the 630m boxes and moved out."
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-05",
+          "raceNumber": 10,
+          "finishingPosition": "2",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "1.8",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260305NOWG10.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260305NOWG10_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 4/5",
+          "weight": 30.9,
+          "startingPosition": 1,
+          "odds": "1.65",
+          "winnerOrSecond": "WHERE'S IVY",
+          "positionInRun": "3",
+          "time": "0:20.63",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-26",
+          "raceNumber": 10,
+          "finishingPosition": "2",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "4.8",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260226NOWG10.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260226NOWG10_V.mp4"
+          },
+          "distance": 365,
+          "class": "NG",
+          "weight": 31,
+          "startingPosition": 2,
+          "odds": "6.00",
+          "winnerOrSecond": "WHERE'S FERNANDO",
+          "positionInRun": "2",
+          "time": "0:20.65",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-16",
+          "raceNumber": 10,
+          "finishingPosition": "1",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "3.0",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260216NOWG10.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260216NOWG10_V.mp4"
+          },
+          "distance": 365,
+          "class": "MX 2/3",
+          "weight": 30.6,
+          "startingPosition": 2,
+          "odds": "1.95",
+          "winnerOrSecond": "NICKO KING",
+          "positionInRun": "1",
+          "time": "0:20.44",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-02",
+          "raceNumber": 10,
+          "finishingPosition": "1",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "0.8",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260202NOWG10.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260202NOWG10_V.mp4"
+          },
+          "distance": 365,
+          "class": "MX 2/3",
+          "weight": 30.8,
+          "startingPosition": 3,
+          "odds": "2.50",
+          "winnerOrSecond": "NICKO ACE",
+          "positionInRun": null,
+          "time": "0:20.87",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-27",
+          "raceNumber": 11,
+          "finishingPosition": "3",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "8.3",
+          "venueAbbreviation": "BULI",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260127BULG11.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260127BULG11_V.mp4"
+          },
+          "distance": 340,
+          "class": "MX 2/3",
+          "weight": 30.8,
+          "startingPosition": 3,
+          "odds": "6.50",
+          "winnerOrSecond": "OVERFLOW JILL",
+          "positionInRun": "6-6-3",
+          "time": "0:19.70",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-19",
+          "raceNumber": 4,
+          "finishingPosition": "2",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "2.5",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260119NOWG04.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260119NOWG04_V.mp4"
+          },
+          "distance": 365,
+          "class": "MX 2/3",
+          "weight": 30.8,
+          "startingPosition": 7,
+          "odds": "1.95",
+          "winnerOrSecond": "SPRING BREEZING",
+          "positionInRun": "2",
+          "time": "0:20.54",
+          "stewardsComment": null
+        }
+      ],
+      "dfsFormRating": 95,
+      "totalRatingPoints": 6,
+      "earlySpeedRating": 80,
+      "earlySpeedRatingBand": "LEADER"
+    },
+    {
+      "runnerNumber": 5,
+      "runnerName": "LIZZIE LONG LEGS",
+      "prizeMoney": "$14125.00",
+      "last20Starts": "55316656532615133526",
+      "sire": "DJAYS OCTANE (USA)",
+      "dam": "PRODIGIOUS",
+      "sex": "Bitch",
+      "dateOfBirth": "1122",
+      "colour": "BDL",
+      "formComment": "Last start finished sixth in a Grade 5 on March 12 over 520m at this track behind Princess Ada, beaten 6 lengths (30.20). Happy enough to dismiss in this field.",
+      "formComments": [
+        {
+          "source": "TAB",
+          "title": "TAB",
+          "comment": "Last start finished sixth in a Grade 5 on March 12 over 520m at this track behind Princess Ada, beaten 6 lengths (30.20). Happy enough to dismiss in this field."
+        }
+      ],
+      "bestTime": "20.74",
+      "daysSinceLastRun": 32,
+      "handicapWeight": 0,
+      "runsSinceSpell": 0,
+      "trainerName": "ANDREW BELL",
+      "trainerLocation": "WEROMBI",
+      "winningDistances": [
+        {
+          "winningDistance": 320,
+          "numberOfWinsAtDistance": 1
+        },
+        {
+          "winningDistance": 365,
+          "numberOfWinsAtDistance": 3
+        },
+        {
+          "winningDistance": 400,
+          "numberOfWinsAtDistance": 1
+        },
+        {
+          "winningDistance": 401,
+          "numberOfWinsAtDistance": 1
+        }
+      ],
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-13/meetings/G/NOW/races/12/form/5?jurisdiction=NSW"
+      },
+      "previousStarts": [
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-12",
+          "raceNumber": 8,
+          "finishingPosition": "6",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "6.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260312NOWG08.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260312NOWG08_V.mp4"
+          },
+          "distance": 520,
+          "class": "GR 5",
+          "weight": 26.3,
+          "startingPosition": 4,
+          "odds": "51.00",
+          "winnerOrSecond": "PRINCESS ADA",
+          "positionInRun": "2-4",
+          "time": "0:30.20",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-05",
+          "raceNumber": 7,
+          "finishingPosition": "2",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "2.8",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260305NOWG07.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260305NOWG07_V.mp4"
+          },
+          "distance": 520,
+          "class": "GR 5",
+          "weight": 26.3,
+          "startingPosition": 3,
+          "odds": "61.00",
+          "winnerOrSecond": "EUREKA MAC",
+          "positionInRun": "2-1",
+          "time": "0:29.91",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-26",
+          "raceNumber": 8,
+          "finishingPosition": "5",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "9.8",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260226NOWG08.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260226NOWG08_V.mp4"
+          },
+          "distance": 520,
+          "class": "GR 5",
+          "weight": 26.5,
+          "startingPosition": 8,
+          "odds": "41.00",
+          "winnerOrSecond": "ZIPPING CRUELLA",
+          "positionInRun": "3-3",
+          "time": "0:30.16",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-19",
+          "raceNumber": 5,
+          "finishingPosition": "3",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "8.0",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260219NOWG05.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260219NOWG05_V.mp4"
+          },
+          "distance": 520,
+          "class": "GR 5",
+          "weight": 26.3,
+          "startingPosition": 4,
+          "odds": "34.00",
+          "winnerOrSecond": "EUREKA MAC",
+          "positionInRun": "1-2",
+          "time": "0:30.25",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-16",
+          "raceNumber": 9,
+          "finishingPosition": "3",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "2.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260216NOWG09.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260216NOWG09_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 4",
+          "weight": 26,
+          "startingPosition": 4,
+          "odds": "14.00",
+          "winnerOrSecond": "DUSTY MCGRAW",
+          "positionInRun": "4",
+          "time": "0:21.17",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-09",
+          "raceNumber": 8,
+          "finishingPosition": "1",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "4.0",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260209NOWG08.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260209NOWG08_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 25.9,
+          "startingPosition": 1,
+          "odds": "10.00",
+          "winnerOrSecond": "ZIPPING LARGO",
+          "positionInRun": "1",
+          "time": "0:20.74",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-30",
+          "raceNumber": 2,
+          "finishingPosition": "5",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "6.3",
+          "venueAbbreviation": "RICH",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260130RMDG02.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260130RMDG02_V.mp4"
+          },
+          "distance": 401,
+          "class": "GR 4/5",
+          "weight": 25.8,
+          "startingPosition": 3,
+          "odds": "26.00",
+          "winnerOrSecond": "TUMBY BAY",
+          "positionInRun": "1-2-3",
+          "time": "0:23.35",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-26",
+          "raceNumber": 9,
+          "finishingPosition": "1",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "0.8",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260126NOWG09.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260126NOWG09_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 26.2,
+          "startingPosition": 8,
+          "odds": "1.90",
+          "winnerOrSecond": "MISS DELGARDO",
+          "positionInRun": "1",
+          "time": "0:20.88",
+          "stewardsComment": null
+        }
+      ],
+      "dfsFormRating": 87,
+      "totalRatingPoints": 2,
+      "earlySpeedRating": 73,
+      "earlySpeedRatingBand": "LEADER"
+    },
+    {
+      "runnerNumber": 7,
+      "runnerName": "HOT SPARK",
+      "prizeMoney": "$9075.00",
+      "last20Starts": "f3111168313",
+      "sire": "KOBLENZ",
+      "dam": "ZULU ZEPHYR",
+      "sex": "Bitch",
+      "dateOfBirth": "0224",
+      "colour": "BL",
+      "formComment": "Won two starts back when well in the market at this track over 365m. Last start finished 3rd over 365m at this track beaten 2.25 lengths (21.25) behind Tiggerlong Sassy in a Grade 5 on April 6. Racing well and can find winning form again.",
+      "formComments": [
+        {
+          "source": "TAB",
+          "title": "TAB",
+          "comment": "Won two starts back when well in the market at this track over 365m. Last start finished 3rd over 365m at this track beaten 2.25 lengths (21.25) behind Tiggerlong Sassy in a Grade 5 on April 6. Racing well and can find winning form again."
+        }
+      ],
+      "bestTime": "20.48",
+      "daysSinceLastRun": 7,
+      "handicapWeight": 0,
+      "runsSinceSpell": 0,
+      "trainerName": "GARRY EDWARDS",
+      "trainerLocation": "NOWRA HILL",
+      "winningDistances": [
+        {
+          "winningDistance": 365,
+          "numberOfWinsAtDistance": 5
+        }
+      ],
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-13/meetings/G/NOW/races/12/form/7?jurisdiction=NSW"
+      },
+      "previousStarts": [
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-04-06",
+          "raceNumber": 10,
+          "finishingPosition": "3",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "2.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260406NOWG10.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260406NOWG10_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 27.2,
+          "startingPosition": 4,
+          "odds": "2.60",
+          "winnerOrSecond": "TIGGERLONG SASSY",
+          "positionInRun": "4",
+          "time": "0:21.25",
+          "stewardsComment": "Came together in the turn to the home straight and lost momentum."
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-23",
+          "raceNumber": 9,
+          "finishingPosition": "1",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "5.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260323NOWG09.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260323NOWG09_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 26.9,
+          "startingPosition": 6,
+          "odds": "3.00",
+          "winnerOrSecond": "BABY TIME",
+          "positionInRun": "1",
+          "time": "0:20.48",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-16",
+          "raceNumber": 7,
+          "finishingPosition": "3",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "3.0",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260316NOWG07.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260316NOWG07_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 27.2,
+          "startingPosition": 3,
+          "odds": "3.50",
+          "winnerOrSecond": "FUTURE REFERENCE",
+          "positionInRun": "4",
+          "time": "0:20.76",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-26",
+          "raceNumber": 9,
+          "finishingPosition": "8",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "12.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260226NOWG09.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260226NOWG09_V.mp4"
+          },
+          "distance": 520,
+          "class": "GR 5",
+          "weight": 27.3,
+          "startingPosition": 4,
+          "odds": "6.00",
+          "winnerOrSecond": "MAGGIE'S ETHICS",
+          "positionInRun": "5-7",
+          "time": "0:30.54",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-19",
+          "raceNumber": 4,
+          "finishingPosition": "6",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "14.0",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260219NOWG04.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260219NOWG04_V.mp4"
+          },
+          "distance": 520,
+          "class": "GR 5",
+          "weight": 27.2,
+          "startingPosition": 5,
+          "odds": "8.00",
+          "winnerOrSecond": "WHERE'S IVY",
+          "positionInRun": "4-6",
+          "time": "0:30.90",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-29",
+          "raceNumber": 12,
+          "finishingPosition": "1",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "0.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260129NOWG12.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260129NOWG12_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 27.5,
+          "startingPosition": 8,
+          "odds": "2.40",
+          "winnerOrSecond": "ANGRY GOLIATH",
+          "positionInRun": "3",
+          "time": "0:20.83",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-22",
+          "raceNumber": 5,
+          "finishingPosition": "1",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "2.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260122NOWG05.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260122NOWG05_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 27.5,
+          "startingPosition": 1,
+          "odds": "1.45",
+          "winnerOrSecond": "EL CONDOR PASA",
+          "positionInRun": "1",
+          "time": "0:20.65",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-01-12",
+          "raceNumber": 2,
+          "finishingPosition": "1",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "0.8",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/01/20260112NOWG02.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/01/20260112NOWG02_V.mp4"
+          },
+          "distance": 365,
+          "class": "MDN",
+          "weight": 27.5,
+          "startingPosition": 3,
+          "odds": "5.00",
+          "winnerOrSecond": "FOREVER ALWAYS",
+          "positionInRun": "1",
+          "time": "0:20.70",
+          "stewardsComment": null
+        }
+      ],
+      "dfsFormRating": 85,
+      "totalRatingPoints": 9,
+      "earlySpeedRating": 52,
+      "earlySpeedRatingBand": "MIDFIELD"
+    },
+    {
+      "runnerNumber": 8,
+      "runnerName": "FUTURE REFERENCE",
+      "prizeMoney": "$6970.00",
+      "last20Starts": "f12435x5312118",
+      "sire": "ASTON DEE BEE",
+      "dam": "BLAND PURR",
+      "sex": "Bitch",
+      "dateOfBirth": "0323",
+      "colour": "BL",
+      "formComment": "Should get a clear run from the wide draw. Wasn't impressive last start but does have a great record at this track and distance, rates among the chances this time.",
+      "formComments": [
+        {
+          "source": "TAB",
+          "title": "TAB",
+          "comment": "Should get a clear run from the wide draw. Wasn't impressive last start but does have a great record at this track and distance, rates among the chances this time."
+        }
+      ],
+      "bestTime": "20.55",
+      "daysSinceLastRun": 21,
+      "handicapWeight": 0,
+      "runsSinceSpell": 0,
+      "trainerName": "ALICIA PRATT",
+      "trainerLocation": "GOULBURN",
+      "winningDistances": [
+        {
+          "winningDistance": 350,
+          "numberOfWinsAtDistance": 1
+        },
+        {
+          "winningDistance": 365,
+          "numberOfWinsAtDistance": 3
+        }
+      ],
+      "_links": {
+        "self": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-13/meetings/G/NOW/races/12/form/8?jurisdiction=NSW"
+      },
+      "previousStarts": [
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-23",
+          "raceNumber": 6,
+          "finishingPosition": "8",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "13.0",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260323NOWG06.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260323NOWG06_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 26.6,
+          "startingPosition": 6,
+          "odds": "11.00",
+          "winnerOrSecond": "TOWERING EARL",
+          "positionInRun": "8",
+          "time": "0:21.35",
+          "stewardsComment": "Came together in the back straight and lost ground."
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-16",
+          "raceNumber": 7,
+          "finishingPosition": "1",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "2.0",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260316NOWG07.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260316NOWG07_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 26.7,
+          "startingPosition": 7,
+          "odds": "4.80",
+          "winnerOrSecond": "MARKET MAVERICK",
+          "positionInRun": "1",
+          "time": "0:20.55",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-12",
+          "raceNumber": 2,
+          "finishingPosition": "1",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "0.8",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260312NOWG02.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260312NOWG02_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 27.1,
+          "startingPosition": 7,
+          "odds": "3.10",
+          "winnerOrSecond": "CASCADE MISS",
+          "positionInRun": "1",
+          "time": "0:20.76",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-05",
+          "raceNumber": 3,
+          "finishingPosition": "2",
+          "numberOfStarters": 6,
+          "draw": 0,
+          "margin": "0.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260305NOWG03.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260305NOWG03_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 27.3,
+          "startingPosition": 7,
+          "odds": "4.40",
+          "winnerOrSecond": "SABINA SPARKLES",
+          "positionInRun": "2",
+          "time": "0:20.82",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-03-02",
+          "raceNumber": 6,
+          "finishingPosition": "1",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "0.1",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/03/20260302NOWG06.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/03/20260302NOWG06_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 27.3,
+          "startingPosition": 1,
+          "odds": "7.00",
+          "winnerOrSecond": "SUNNY SUE",
+          "positionInRun": "1",
+          "time": "0:20.89",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-26",
+          "raceNumber": 6,
+          "finishingPosition": "3",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "6.5",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260226NOWG06.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260226NOWG06_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 27.7,
+          "startingPosition": 2,
+          "odds": "19.00",
+          "winnerOrSecond": "SKEDADDLE MAPLE",
+          "positionInRun": "2",
+          "time": "0:21.10",
+          "stewardsComment": "In the home straight came together."
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2026-02-23",
+          "raceNumber": 3,
+          "finishingPosition": "5",
+          "numberOfStarters": 7,
+          "draw": 0,
+          "margin": "5.3",
+          "venueAbbreviation": "NWRA",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/02/20260223NOWG03.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/02/20260223NOWG03_V.mp4"
+          },
+          "distance": 365,
+          "class": "GR 5",
+          "weight": 27.8,
+          "startingPosition": 1,
+          "odds": "5.50",
+          "winnerOrSecond": "JUST STOP IT",
+          "positionInRun": "5",
+          "time": "0:21.62",
+          "stewardsComment": null
+        },
+        {
+          "startType": "LastStarts",
+          "startDate": "2024-11-21",
+          "raceNumber": 9,
+          "finishingPosition": "5",
+          "numberOfStarters": 8,
+          "draw": 0,
+          "margin": "8.8",
+          "venueAbbreviation": "DAPO",
+          "skyRacing": {
+            "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2024/11/20241121DAPG09.mp3",
+            "video": "https://mediatabs.skyracing.com.au/Race_Replay/2024/11/20241121DAPG09_V.mp4"
+          },
+          "distance": 520,
+          "class": "GR 5",
+          "weight": 26.7,
+          "startingPosition": 7,
+          "odds": "3.80",
+          "winnerOrSecond": "CLUSTER ONE",
+          "positionInRun": "3-5",
+          "time": "0:30.63",
+          "stewardsComment": null
+        }
+      ],
+      "dfsFormRating": 20,
+      "totalRatingPoints": 0,
+      "earlySpeedRating": 78,
+      "earlySpeedRatingBand": "LEADER"
+    }
+  ]
+}

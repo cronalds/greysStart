@@ -507,13 +507,13 @@ async function scrape({
       arrayOfExclusionStrings: horsesExcludedLocationsArray,
     });
 
-    if(fs.existsSync(`./data/${dayBefore(date)}/G`)){
+    if (fs.existsSync(`./data/${dayBefore(date)}/G`)) {
       resultFetch({ arrayRef: greyResults, raceType: "G", date: date });
     }
-    if(fs.existsSync(`./data/${dayBefore(date)}/H`)){
+    if (fs.existsSync(`./data/${dayBefore(date)}/H`)) {
       resultFetch({ arrayRef: harnessResults, raceType: "H", date: date });
     }
-    if(fs.existsSync(`./data/${dayBefore(date)}/R`)){
+    if (fs.existsSync(`./data/${dayBefore(date)}/R`)) {
       resultFetch({ arrayRef: horseResults, raceType: "R", date: date });
     }
 
@@ -1013,12 +1013,11 @@ async function getRacePathsAsGroupedObject() {
   return groupedByDate;
 }
 
-
 /**
  * pairs our race form, extendedForm/moreForm, and results data for each race at each venue, this will make it easy for the processing of each split set of data to be merged/processed next up before i add everything into a sqlDB; currently only working for greyhounds, will extend later if i choose to
  *
  * @async
- * @returns {*} 
+ * @returns {*}
  */
 async function pairPaths() {
   let data = readDataFromFile("./data/metadata/racePathsGrouped.json");
@@ -1043,19 +1042,19 @@ async function pairPaths() {
       }
     }
   }
-  
+
   // push all paths to the array; filtered by dates that are in results
   for (let date of Object.keys(greysResults).filter((d) =>
     Object.keys(greysRaceData).includes(d),
-)) {
-  for (let venue of Object.keys(greysRaceData[date])) {
-    for (let race = 0; race < greysRaceData[date][venue].length; race++) {
-      out.push(greysRaceData[date][venue][race].pathed);
+  )) {
+    for (let venue of Object.keys(greysRaceData[date])) {
+      for (let race = 0; race < greysRaceData[date][venue].length; race++) {
+        out.push(greysRaceData[date][venue][race].pathed);
+      }
     }
   }
-}
 
-// push all paths to the array; filtered by dates that are in results
+  // push all paths to the array; filtered by dates that are in results
   for (let date of Object.keys(greysResults).filter((d) =>
     Object.keys(greysExtendedFormData).includes(d),
   )) {
@@ -1081,7 +1080,7 @@ async function pairPaths() {
         raceForm: null,
         moreForm: null,
         result: null,
-        raceType: null
+        raceType: null,
       };
     }
 
@@ -1108,75 +1107,118 @@ async function pairPaths() {
     if (g.raceForm === null || g.moreForm === null || g.result === null) {
       // delete from object
       let rt = "";
-      if(g.raceForm !== null)
-      {
-        if(g.raceForm.includes("/G/")) rt = "G"
-        if(g.raceForm.includes("/H/")) rt = "H"
-        if(g.raceForm.includes("/R/")) rt = "R"
-      } else if(g.moreForm !== null)
-      {
-        if(g.moreForm.includes("/G/")) rt = "G"
-        if(g.moreForm.includes("/H/")) rt = "H"
-        if(g.moreForm.includes("/R/")) rt = "R"
-      } else if(g.result !== null)
-      {
-        if(g.result.includes("/G/")) rt = "G"
-        if(g.result.includes("/H/")) rt = "H"
-        if(g.result.includes("/R/")) rt = "R"
+      if (g.raceForm !== null) {
+        if (g.raceForm.includes("/G/")) rt = "G";
+        if (g.raceForm.includes("/H/")) rt = "H";
+        if (g.raceForm.includes("/R/")) rt = "R";
+      } else if (g.moreForm !== null) {
+        if (g.moreForm.includes("/G/")) rt = "G";
+        if (g.moreForm.includes("/H/")) rt = "H";
+        if (g.moreForm.includes("/R/")) rt = "R";
+      } else if (g.result !== null) {
+        if (g.result.includes("/G/")) rt = "G";
+        if (g.result.includes("/H/")) rt = "H";
+        if (g.result.includes("/R/")) rt = "R";
       }
       g.raceType = rt;
-      orphaned.push(g)
+      orphaned.push(g);
     }
 
     // add racetypes for future when i might add harness and horses; then can filter by racetype
-    else if(g.raceForm.includes("/G/") || g.moreForm.includes("/G/") || g.result.includes("/G/"))
-    {
+    else if (
+      g.raceForm.includes("/G/") ||
+      g.moreForm.includes("/G/") ||
+      g.result.includes("/G/")
+    ) {
       groups[key].raceType = "G";
-    }else if(g.raceForm.includes("/H/") || g.moreForm.includes("/H/") || g.result.includes("/H/"))
-    {
+    } else if (
+      g.raceForm.includes("/H/") ||
+      g.moreForm.includes("/H/") ||
+      g.result.includes("/H/")
+    ) {
       groups[key].raceType = "H";
-    }else if(g.raceForm.includes("/R/") || g.moreForm.includes("/R/") || g.result.includes("/R/"))
-    {
+    } else if (
+      g.raceForm.includes("/R/") ||
+      g.moreForm.includes("/R/") ||
+      g.result.includes("/R/")
+    ) {
       groups[key].raceType = "R";
     }
 
     // push the object at the key in our global object to an array to get an array of object pairings; also exclude orphans
-    if(g.raceForm !== null && g.moreForm !== null && g.result !== null){
+    if (g.raceForm !== null && g.moreForm !== null && g.result !== null) {
       groupsOut.push(g);
     }
   }
 
   // save to file as an object with a data property holding our array of pairings/orphans, and the length(so i can view it as text in the file pretty much)
-  saveDataToFile({filePath:"./data/metadata/pairedData.json", data:{data: groupsOut, length: groupsOut.length}});
-  saveDataToFile({filePath:"./data/metadata/orphanedData.json", data:{data: orphaned, length: orphaned.length}});
+  saveDataToFile({
+    filePath: "./data/metadata/pairedData.json",
+    data: { data: groupsOut, length: groupsOut.length },
+  });
+  saveDataToFile({
+    filePath: "./data/metadata/orphanedData.json",
+    data: { data: orphaned, length: orphaned.length },
+  });
 
-  console.log({data: groupsOut, length: groupsOut.length});
+  console.log({ data: groupsOut, length: groupsOut.length });
 }
 
-function mergePairedData(){
+function mergePairedData() {
   pairPaths();
   let data = readDataFromFile("./data/metadata/pairedData.json");
 
   let greys = data.data.filter((item) => item.raceType === "G");
-  
-  for(let item of greys)
-  {
-    try{
+
+  for (let item of greys) {
+    try {
       let raceForm = readDataFromFile(item.raceForm);
-    let extendedForm = readDataFromFile(item.moreForm);
-    let result = readDataFromFile(item.result);
-    let test = {...raceForm, ...extendedForm, ...result};
-    console.log(test)
-    console.log("=============================================")
-    console.log("=============================================")
-    console.log(item.raceForm.split("/").pop())
-    console.log("=============================================")
-    console.log("=============================================")
-    }catch(e){
-      console.log(item.raceForm.split("/").pop())
-      console.log(item.moreForm.split("/").pop())
-      console.log(item.result.split("/").pop())
-      console.log(e)
+      let extendedForm = readDataFromFile(item.moreForm);
+      let result = readDataFromFile(item.result);
+
+      let meeting = extendedForm.form.data.meeting;
+      meeting.raceDistance = extendedForm.form.data.raceDistance;
+      meeting.raceClassConditions = result.data.raceClassConditions;
+      meeting.trackDirection = extendedForm.form.data.trackDirection;
+      meeting.raceStartTime = result.data.raceStartTime;
+      meeting.scratched = result.data.scratchings;
+      meeting.results = result.data.results;
+      delete meeting.sellCode;
+      
+      let runners = raceForm.form;
+      
+      for(let i = 0; i < runners.length; i++)
+      {
+        // place things in different propertynames
+        runners[i].previousStarts = runners[i].runnerStarts.previousStarts;
+
+        // remove shit
+        delete runners[i].runnerStarts;
+      }
+
+      let runnersExtended = extendedForm.form.data.runners;
+      for (let i = 0; i < runners.length; i++) {
+        const match = runnersExtended.find( // filter returns many and find returns 1, 
+          (r) => r.runnerName === runners[i].runnerName,
+        );
+
+        if (match) {
+          runners[i].dfsFormRating = match.dfsFormRating;
+          runners[i].totalRatingPoints = match.totalRatingPoints;
+          runners[i].earlySpeedRating = match.earlySpeedRating;
+          runners[i].earlySpeedRatingBand = match.earlySpeedRatingBand;
+        }
+      }
+
+      let test = { meeting, runners: runners };
+      saveDataToFile({
+        filePath:
+          dirString("./data/testMerge/") +
+          `${item.raceForm.split("/").pop().replace("form-DATA", "MERGED")}`,
+        data: test,
+      });
+    } catch (e) {
+      console.log(e);
     }
   }
 }
@@ -1200,7 +1242,7 @@ scrape({
 });
 */
 
-mergePairedData()
+mergePairedData();
 
 //console.log(x.harnessResults['2026-04-13'])
 
