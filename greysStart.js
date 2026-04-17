@@ -1164,8 +1164,7 @@ async function pairPaths() {
   console.log({ data: groupsOut, length: groupsOut.length });
 }
 
-function mergePairedData() {
-  pairPaths();
+function handlePairedData() {
   let data = readDataFromFile("./data/metadata/pairedData.json");
 
   let greys = data.data.filter((item) => item.raceType === "G");
@@ -1176,6 +1175,7 @@ function mergePairedData() {
       let extendedForm = readDataFromFile(item.moreForm);
       let result = readDataFromFile(item.result);
 
+      //////! meeting operations
       let meeting = extendedForm.form.data.meeting;
       meeting.raceDistance = extendedForm.form.data.raceDistance;
       meeting.raceClassConditions = result.data.raceClassConditions;
@@ -1184,37 +1184,69 @@ function mergePairedData() {
       meeting.scratched = result.data.scratchings;
       meeting.results = result.data.results;
       delete meeting.sellCode;
-      
-      let runners = raceForm.form;
-      
-      for(let i = 0; i < runners.length; i++)
-      {
-        // place things in different propertynames
-        runners[i].previousStarts = runners[i].runnerStarts.previousStarts;
+      /*
+      //! this is all data that the catboost cant really use anyway
+      meeting.skyRacing = result.data.skyRacing;
+      meeting.raceComments = [JSON.parse(extendedForm.form.data.raceComments)];
+      meeting.tips = extendedForm.form.data.tips;
+      meeting.ratings = {};
 
-        // remove shit
-        delete runners[i].runnerStarts;
+      for(let i = 0; i < extendedForm.form.data.ratings.length; i++){
+        meeting.ratings[extendedForm.form.data.ratings[i].ratingType] = extendedForm.form.data.ratings[i].ratingRunnerNumbers;
       }
+        */
 
+      //////! runner operations
+      let runners = raceForm.form;
       let runnersExtended = extendedForm.form.data.runners;
+
       for (let i = 0; i < runners.length; i++) {
-        const match = runnersExtended.find( // filter returns many and find returns 1, 
+        //! place things in different propertynames
+        runners[i].previousStarts = runners[i].runnerStarts.previousStarts; //? will need to use this to update db with placings 5+ and positionsInRun, otherwise exclude from data
+
+        //! remove shit
+        delete runners[i].runnerStarts;
+        delete runners[i].formComment;
+        delete runners[i].formComments;
+        delete runners[i]._links;
+        for(let j = 0; j <  runners[i].previousStarts.length; j++)
+        {
+          delete runners[i].previousStarts[j].skyRacing;
+          delete runners[i].previousStarts[j].stewardsComment;
+        }
+
+        //! match name runner result
+        let matchedNameResult = result.data.runners.find(
           (r) => r.runnerName === runners[i].runnerName,
         );
 
-        if (match) {
-          runners[i].dfsFormRating = match.dfsFormRating;
-          runners[i].totalRatingPoints = match.totalRatingPoints;
-          runners[i].earlySpeedRating = match.earlySpeedRating;
-          runners[i].earlySpeedRatingBand = match.earlySpeedRatingBand;
+        //! bring over properties from results for individual runners
+        if (matchedNameResult) {
+          runners[i].barrierNumber = matchedNameResult.barrierNumber;
+          runners[i].finishingPosition = matchedNameResult.finishingPosition;
+        }
+
+        //! match names runner extended
+        const matchedNameExtended = runnersExtended.find(
+          // filter returns many and find returns 1,
+          (r) => r.runnerName === runners[i].runnerName,
+        );
+
+        //! bring over properties from extended for individual runners
+        if (matchedNameExtended) {
+          runners[i].dfsFormRating = matchedNameExtended.dfsFormRating;
+          runners[i].totalRatingPoints = matchedNameExtended.totalRatingPoints;
+          runners[i].earlySpeedRating = matchedNameExtended.earlySpeedRating;
+          runners[i].earlySpeedRatingBand =
+            matchedNameExtended.earlySpeedRatingBand;
         }
       }
 
       let test = { meeting, runners: runners };
       saveDataToFile({
         filePath:
-          dirString("./data/testMerge/") +
-          `${item.raceForm.split("/").pop().replace("form-DATA", "MERGED")}`,
+          dirString("./data/testHandle/") +
+          `${item.raceForm.split("/").pop().replace("form-DATA", "HANDLED")}`,
         data: test,
       });
     } catch (e) {
@@ -1242,7 +1274,7 @@ scrape({
 });
 */
 
-mergePairedData();
+handlePairedData();
 
 //console.log(x.harnessResults['2026-04-13'])
 
