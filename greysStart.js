@@ -538,6 +538,7 @@ async function scrape({
   });
 
   await pairPaths();
+  handlePairedData();
 }
 
 async function getAllFiles({
@@ -1229,11 +1230,10 @@ function handlePairedData() {
 
         //! match names runner extended
         const matchedNameExtended = runnersExtended.find(
-          // filter returns many and find returns 1,
           (r) => r.runnerName === runners[i].runnerName,
         );
 
-        //! bring over properties from extended for individual runners
+        //! bring over properties from extended form for individual runners
         if (matchedNameExtended) {
           runners[i].dfsFormRating = matchedNameExtended.dfsFormRating;
           runners[i].totalRatingPoints = matchedNameExtended.totalRatingPoints;
@@ -1258,7 +1258,7 @@ function handlePairedData() {
 
 scrape({
   destinationDirectory: "./data",
-  date: "2026-04-17",
+  date: "2026-04-18",
   download: false,
   resulted: false,
   greyhounds: false,
@@ -1275,8 +1275,6 @@ scrape({
   ! not sure whether to exclude by location or venue name or just exclude races later based off of lacking specific data points or maybe just keeping all races for training irregardless of data points that are present; probably better to keep all races.
   */
 });
-
-handlePairedData();
 
 //console.log(x.harnessResults['2026-04-13'])
 

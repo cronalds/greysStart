@@ -1,0 +1,1189 @@
+{
+  "venueName": "WENTWORTH_PARK",
+  "raceNumber": 7,
+  "form": {
+    "data": {
+      "raceNumber": 7,
+      "spectrumId": "WENTWORT15",
+      "raceName": "SPONSOR A RACE @ WENTY FINAL",
+      "raceDistance": 520,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "WENTWORTH PARK",
+        "venueMnemonic": "WWP",
+        "meetingDate": "2026-04-18",
+        "location": "NSW",
+        "raceType": "G",
+        "weatherCondition": "FINE",
+        "trackCondition": "GOOD",
+        "sellCode": {
+          "meetingCode": "S",
+          "scheduledType": "G"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260418WENG07.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260418WENG07_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": true,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": true,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-18T11:12:00.000Z",
+      "raceClassConditions": "5th Grade",
+      "apprenticesCanClaim": false,
+      "prizeMoney": "$8900.00",
+      "raceStatus": "Normal",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 7,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:12:00.000Z"
+            }
+          ],
+          "poolHistory": [
+            {
+              "poolTotal": 63.5,
+              "poolTotalTime": "2026-04-18T01:12:04.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 15.5,
+              "poolTotalTime": "2026-04-18T00:12:02.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 15.5,
+              "poolTotalTime": "2026-04-18T00:12:02.000Z",
+              "specialDisplayIndicator": false
+            }
+          ],
+          "poolTotal": 63.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Place",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 7,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:12:00.000Z"
+            }
+          ],
+          "poolTotal": 14.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 7,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:12:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 17,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 7,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:12:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Duet",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 7,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:12:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/pools/Duet/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 3,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 7,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:12:00.000Z"
+            }
+          ],
+          "poolTotal": 97.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 7,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:12:00.000Z"
+            }
+          ],
+          "poolTotal": 23,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "RunningDouble",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 7,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:12:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 8,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:36:00.000Z"
+            }
+          ],
+          "poolTotal": 0.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "legNumber": 3,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Enabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 5,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T10:25:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 6,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T10:49:00.000Z"
+            },
+            {
+              "legNumber": 3,
+              "raceNumber": 7,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:12:00.000Z"
+            },
+            {
+              "legNumber": 4,
+              "raceNumber": 8,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:36:00.000Z"
+            }
+          ],
+          "poolTotal": 109.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Treble",
+          "legNumber": 2,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 6,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T10:49:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 7,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:12:00.000Z"
+            },
+            {
+              "legNumber": 3,
+              "raceNumber": 8,
+              "venueMnemonic": "WWP",
+              "raceType": "G",
+              "startTime": "2026-04-18T11:36:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": true,
+      "allowParimutuelPlace": true,
+      "parimutuelPlaceStatus": "Open",
+      "allowFixedOddsPlace": true,
+      "numberOfPlaces": 3,
+      "numberOfFixedOddsPlaces": 3,
+      "runners": [
+        {
+          "runnerName": "RIPPER JOE",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 8,
+            "returnWinTime": "2026-04-17T21:16:45.000Z",
+            "returnWinOpen": 7,
+            "returnWinOpenDaily": 8,
+            "returnPlace": 1.8,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 168081,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 7,
+                "returnWinTime": "2026-04-17T21:16:38.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 7,
+                "returnWinTime": "2026-04-17T21:16:37.749Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-17T21:16:44.672Z"
+              }
+            ],
+            "percentageChange": 14,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 9,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/1",
+          "trainerName": "J Estephan",
+          "vacantBox": false,
+          "trainerFullName": "JIHAD ESTEPHAN",
+          "barrierNumber": 1,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "74122",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 97,
+          "techFormRating": 0,
+          "totalRatingPoints": 5,
+          "earlySpeedRating": 74,
+          "earlySpeedRatingBand": "LEADER",
+          "fastForm": [
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 3
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "RITZA RINGER",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 1.9,
+            "returnWinTime": "2026-04-17T21:16:45.000Z",
+            "returnWinOpen": 1.8,
+            "returnWinOpenDaily": 1.9,
+            "returnPlace": 1.12,
+            "isFavouriteWin": true,
+            "isFavouritePlace": true,
+            "bettingStatus": "Open",
+            "propositionNumber": 168082,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 1.8,
+                "returnWinTime": "2026-04-17T21:16:38.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 1.8,
+                "returnWinTime": "2026-04-17T21:16:37.749Z"
+              },
+              {
+                "returnWin": 1.9,
+                "returnWinTime": "2026-04-17T21:16:44.672Z"
+              }
+            ],
+            "percentageChange": 6,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 1.3,
+            "returnPlace": 1,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": true,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 1,
+                "returnWinTime": "2026-04-18T00:12:02.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 30
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/2",
+          "trainerName": "M Gatt",
+          "vacantBox": false,
+          "trainerFullName": "MARK GATT",
+          "barrierNumber": 2,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "74311",
+          "tcdwIndicators": "T D",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 15,
+          "earlySpeedRating": 60,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "fastForm": [
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 2
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "WINSOME STORM",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 3.8,
+            "returnWinTime": "2026-04-17T21:16:45.000Z",
+            "returnWinOpen": 5,
+            "returnWinOpenDaily": 3.8,
+            "returnPlace": 1.35,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 168083,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-17T21:16:38.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 5,
+                "returnWinTime": "2026-04-17T21:16:37.733Z"
+              },
+              {
+                "returnWin": 3.8,
+                "returnWinTime": "2026-04-17T21:16:44.672Z"
+              }
+            ],
+            "percentageChange": -24,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 3.6,
+            "returnPlace": 4.1,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/3",
+          "trainerName": "M Finn",
+          "vacantBox": false,
+          "trainerFullName": "MELINDA FINN",
+          "barrierNumber": 3,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "62721",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 98,
+          "techFormRating": 0,
+          "totalRatingPoints": 9,
+          "earlySpeedRating": 36,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "fastForm": [
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 1
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/form/3?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "NOT OUR FAULT",
+          "runnerNumber": 4,
+          "fixedOdds": {
+            "returnWin": 34,
+            "returnWinTime": "2026-04-17T21:16:45.000Z",
+            "returnWinOpen": 26,
+            "returnWinOpenDaily": 34,
+            "returnPlace": 4,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 168084,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-17T21:16:38.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-17T21:16:37.733Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-17T21:16:44.672Z"
+              }
+            ],
+            "percentageChange": 31,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 108.5,
+            "returnPlace": 8.2,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/4",
+          "trainerName": "T Barnes",
+          "vacantBox": false,
+          "trainerFullName": "TODD BARNES",
+          "barrierNumber": 4,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "23533",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 92,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 54,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/form/4?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "TARAWI BANJO",
+          "runnerNumber": 5,
+          "fixedOdds": {
+            "returnWin": 41,
+            "returnWinTime": "2026-04-17T21:16:45.000Z",
+            "returnWinOpen": 34,
+            "returnWinOpenDaily": 41,
+            "returnPlace": 4.6,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 168085,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-17T21:16:38.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-17T21:16:37.718Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-17T21:16:44.672Z"
+              }
+            ],
+            "percentageChange": 21,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/5",
+          "trainerName": "L Atchison",
+          "vacantBox": false,
+          "trainerFullName": "LORRAINE ATCHISON",
+          "barrierNumber": 5,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "45413",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 89,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 66,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/form/5?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "GO JO JO",
+          "runnerNumber": 6,
+          "fixedOdds": {
+            "returnWin": 101,
+            "returnWinTime": "2026-04-17T21:16:38.000Z",
+            "returnWinOpen": 101,
+            "returnWinOpenDaily": 101,
+            "returnPlace": 9,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 168086,
+            "differential": null,
+            "returnHistory": [
+              {
+                "returnWin": 101,
+                "returnWinTime": "2026-04-17T21:16:37.718Z"
+              }
+            ],
+            "percentageChange": 0,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 108.5,
+            "returnPlace": 8.2,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/6",
+          "trainerName": "S Hazlett",
+          "vacantBox": false,
+          "trainerFullName": "STUART HAZLETT",
+          "barrierNumber": 6,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "53674",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 86,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 33,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/form/6?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "WYNDRA ALL HEART",
+          "runnerNumber": 7,
+          "fixedOdds": {
+            "returnWin": 3.7,
+            "returnWinTime": "2026-04-17T21:16:45.000Z",
+            "returnWinOpen": 3.4,
+            "returnWinOpenDaily": 3.7,
+            "returnPlace": 1.3,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 168087,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-17T21:16:38.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 3.4,
+                "returnWinTime": "2026-04-17T21:16:37.718Z"
+              },
+              {
+                "returnWin": 3.7,
+                "returnWinTime": "2026-04-17T21:16:44.672Z"
+              }
+            ],
+            "percentageChange": 9,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/7",
+          "trainerName": "M Gatt",
+          "vacantBox": false,
+          "trainerFullName": "MARK GATT",
+          "barrierNumber": 7,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "42523",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 92,
+          "techFormRating": 0,
+          "totalRatingPoints": 7,
+          "earlySpeedRating": 60,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/form/7?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "FLAMIN' JOE",
+          "runnerNumber": 8,
+          "fixedOdds": {
+            "returnWin": 11,
+            "returnWinTime": "2026-04-17T21:16:45.000Z",
+            "returnWinOpen": 10,
+            "returnWinOpenDaily": 11,
+            "returnPlace": 2.1,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 168088,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-17T21:16:38.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-17T21:16:37.718Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-17T21:16:44.672Z"
+              }
+            ],
+            "percentageChange": 10,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 108.5,
+            "returnPlace": 8.2,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/8",
+          "trainerName": "J Estephan",
+          "vacantBox": false,
+          "trainerFullName": "JIHAD ESTEPHAN",
+          "barrierNumber": 8,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "44574",
+          "tcdwIndicators": null,
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 91,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 43,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "fastForm": [
+            {
+              "type": "LikelyLeader",
+              "keywords": null,
+              "ranking": null
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/form/8?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "FANTASTIC STORM",
+          "runnerNumber": 9,
+          "fixedOdds": {
+            "returnWin": 1.01,
+            "returnWinTime": "2026-04-17T22:17:09.000Z",
+            "returnWinOpen": 71,
+            "returnWinOpenDaily": 1.01,
+            "returnPlace": 1.01,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "LateScratched",
+            "propositionNumber": 168089,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-17T21:16:38.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-17T21:16:37.718Z"
+              },
+              {
+                "returnWin": 1.01,
+                "returnWinTime": "2026-04-17T22:17:09.195Z"
+              }
+            ],
+            "percentageChange": -99,
+            "allowPlace": false,
+            "winDeduction": 0,
+            "placeDeduction": 0,
+            "scratchedTime": "2026-04-17T22:17:06.000Z"
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Scratched"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/9",
+          "trainerName": "E Kitchen",
+          "vacantBox": false,
+          "trainerFullName": "EMMA KITCHEN",
+          "barrierNumber": 0,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "41556",
+          "tcdwIndicators": "D",
+          "emergency": true,
+          "penalty": null,
+          "dfsFormRating": 20,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 34,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/form/9?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "DRINK TO THAT",
+          "runnerNumber": 10,
+          "fixedOdds": {
+            "returnWin": 1.01,
+            "returnWinTime": "2026-04-17T22:17:10.000Z",
+            "returnWinOpen": 31,
+            "returnWinOpenDaily": 1.01,
+            "returnPlace": 1.01,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "LateScratched",
+            "propositionNumber": 168090,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 31,
+                "returnWinTime": "2026-04-17T21:16:38.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 31,
+                "returnWinTime": "2026-04-17T21:16:37.702Z"
+              },
+              {
+                "returnWin": 1.01,
+                "returnWinTime": "2026-04-17T22:17:09.743Z"
+              }
+            ],
+            "percentageChange": -97,
+            "allowPlace": false,
+            "winDeduction": 0,
+            "placeDeduction": 0,
+            "scratchedTime": "2026-04-17T22:17:07.000Z"
+          },
+          "parimutuel": {
+            "returnWin": 0,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Scratched"
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/10",
+          "trainerName": "D Ivers",
+          "vacantBox": false,
+          "trainerFullName": "DANA IVERS",
+          "barrierNumber": 0,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "65154",
+          "tcdwIndicators": null,
+          "emergency": true,
+          "penalty": null,
+          "dfsFormRating": 20,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 63,
+          "earlySpeedRatingBand": "LEADER",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-18/meetings/G/WWP/races/7/form/10?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-18T01:12:04.000Z",
+      "fixedOddsUpdateTime": "2026-04-17T22:17:10.000Z",
+      "raceComments": "{\"comment\":\"2. RITZA RINGER continued his winning form with another strong run after enjoying a good run to make it back to back wins at this track over 520m (29.65). Hard to fault his recent form and can win again. 7. WYNDRA ALL HEART has found the minor placings here at last couple of runs, finishing third last time beaten 2 lengths (30.03). Must be included in calculations. 1. RIPPER JOE comes here following a placing in fast time (29.79) over 520m at this track. Top win latest and can measure up again. 3. WINSOME STORM has ability and can find the frame.\",\"runners\":[2,7,1,3],\"exclusive\":false}",
+      "tips": {
+        "tipType": "Standard",
+        "tipster": "Russell Veitch",
+        "tipRunnerNumbers": [
+          2,
+          1,
+          3,
+          7
+        ]
+      },
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            2,
+            3,
+            1,
+            7
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            2,
+            3,
+            7,
+            1
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            3,
+            7,
+            2,
+            1
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            2,
+            7,
+            3,
+            1
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            2,
+            7,
+            1,
+            3
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            2,
+            3,
+            1,
+            7
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            2,
+            3,
+            7,
+            1
+          ]
+        }
+      ],
+      "multiLegApproximates": [],
+      "betTypes": [
+        {
+          "wageringProduct": "Win",
+          "firstLeg": {
+            "raceNumber": 7,
+            "venueMnemonic": "WWP",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Place",
+          "firstLeg": {
+            "raceNumber": 7,
+            "venueMnemonic": "WWP",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Quinella",
+          "firstLeg": {
+            "raceNumber": 7,
+            "venueMnemonic": "WWP",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Exacta",
+          "firstLeg": {
+            "raceNumber": 7,
+            "venueMnemonic": "WWP",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Duet",
+          "firstLeg": {
+            "raceNumber": 7,
+            "venueMnemonic": "WWP",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "firstLeg": {
+            "raceNumber": 7,
+            "venueMnemonic": "WWP",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "firstLeg": {
+            "raceNumber": 7,
+            "venueMnemonic": "WWP",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "RunningDouble",
+          "firstLeg": {
+            "raceNumber": 7,
+            "venueMnemonic": "WWP",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Quaddie",
+          "firstLeg": {
+            "raceNumber": 5,
+            "venueMnemonic": "WWP",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Treble",
+          "firstLeg": {
+            "raceNumber": 6,
+            "venueMnemonic": "WWP",
+            "raceType": "G"
+          }
+        }
+      ]
+    }
+  }
+}
