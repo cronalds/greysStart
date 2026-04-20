@@ -1,0 +1,5827 @@
+[
+  {
+    "meetingName": "NOWRA",
+    "location": "NSW",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$35890.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "S",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "NOW",
+    "exoticPools": [
+      {
+        "wageringProduct": "DailyDouble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T09:56:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "NOW",
+          "raceType": "G",
+          "startTime": "2026-04-20T09:56:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:56:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 8,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:40:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 3.5
+      },
+      {
+        "wageringProduct": "Quaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T09:38:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 5,
+          "venueMnemonic": "NOW",
+          "raceType": "G",
+          "startTime": "2026-04-20T09:38:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 5,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:38:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 6,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:56:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 7,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:18:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 8,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:40:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 2
+      },
+      {
+        "wageringProduct": "EarlyQuaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T08:06:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "NOW",
+          "raceType": "G",
+          "startTime": "2026-04-20T08:06:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 1,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:06:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 2,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:30:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 3,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:49:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 4,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:12:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 1
+      },
+      {
+        "wageringProduct": "Treble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T09:56:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "NOW",
+          "raceType": "G",
+          "startTime": "2026-04-20T09:56:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:56:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 7,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:18:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 8,
+            "venueMnemonic": "NOW",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:40:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 1
+      }
+    ],
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/NOW/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Maiden",
+        "raceName": "BECHINI & ASSOCIATES MAIDEN",
+        "raceStartTime": "2026-04-20T08:06:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 365,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "5th Grade",
+        "raceName": "SOUTH NOWRA PREMIUM MEATS 1-4 WIN",
+        "raceStartTime": "2026-04-20T08:30:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 365,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "SPRING LAYLA",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 3,
+        "raceClassConditions": "5th Grade",
+        "raceName": "RYAN'S CLEANING SERVICES 1-4 WIN",
+        "raceStartTime": "2026-04-20T08:49:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 365,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG03_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "SPRING LAYLA",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 4,
+        "raceClassConditions": "4th/5th Grade",
+        "raceName": "COBARGO HOTEL",
+        "raceStartTime": "2026-04-20T09:12:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 630,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG04_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 5,
+        "raceClassConditions": "Non Graded",
+        "raceName": "LADBROKES NOWRA PUPPY CLASSIC HT 1",
+        "raceStartTime": "2026-04-20T09:38:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 520,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG05_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 6,
+        "raceClassConditions": "Non Graded",
+        "raceName": "LADBROKES NOWRA PUPPY CLASSIC HT 2",
+        "raceStartTime": "2026-04-20T09:56:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 520,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG06_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 7,
+        "raceClassConditions": "Non Graded",
+        "raceName": "LADBROKES NOWRA PUPPY CLASSIC HT 3",
+        "raceStartTime": "2026-04-20T10:18:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 520,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG07_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 4,
+            "runnerName": "MAJOR FORTE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 8,
+        "raceClassConditions": "Non Graded",
+        "raceName": "LADBROKES NOWRA PUPPY CLASSIC HT 4",
+        "raceStartTime": "2026-04-20T10:40:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 520,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG08_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 9,
+        "raceClassConditions": "Non Graded",
+        "raceName": "LADBROKES NOWRA PUPPY CLASSIC HT 5",
+        "raceStartTime": "2026-04-20T10:58:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 520,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG09_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 10,
+        "raceClassConditions": "Non Graded",
+        "raceName": "LADBROKES NOWRA PUPPY CLASSIC HT 6",
+        "raceStartTime": "2026-04-20T11:20:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 520,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG10_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 11,
+        "raceClassConditions": "Non Graded",
+        "raceName": "ANZAC DIGGERS SPRINT HEAT 1",
+        "raceStartTime": "2026-04-20T11:38:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 365,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG11.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG11_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 12,
+        "raceClassConditions": "Non Graded",
+        "raceName": "ANZAC DIGGERS SPRINT HEAT 2",
+        "raceStartTime": "2026-04-20T11:56:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 365,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOWG12.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOWG12_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 1,
+            "runnerName": "KOORINGA EXPRESS",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "SANDOWN PARK",
+    "location": "VIC",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$35255.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "M",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "SAN",
+    "exoticPools": [
+      {
+        "wageringProduct": "DailyDouble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T10:43:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "SAN",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:43:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:43:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 8,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:23:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Quaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T10:21:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 5,
+          "venueMnemonic": "SAN",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:21:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 5,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:21:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 6,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:43:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 7,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:01:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 8,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:23:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "EarlyQuaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T08:52:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "SAN",
+          "raceType": "G",
+          "startTime": "2026-04-20T08:52:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 1,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:52:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 2,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:15:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 3,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:41:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 4,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:59:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Treble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T10:43:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "SAN",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:43:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:43:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 7,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:01:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 8,
+            "venueMnemonic": "SAN",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:23:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      }
+    ],
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/SAN/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Maiden",
+        "raceName": "BOOK ANZAC COMMEMORATION NIGHT",
+        "raceStartTime": "2026-04-20T08:52:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SANG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SANG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "Mixed 6/7",
+        "raceName": "BOOK TICKETS FOR THE TRILOGY",
+        "raceStartTime": "2026-04-20T09:15:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SANG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SANG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 3,
+        "raceClassConditions": "Restricted Win",
+        "raceName": "SANDOWN MEMBERS NIGHT MAY 7 1-3 WINS",
+        "raceStartTime": "2026-04-20T09:41:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 595,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SANG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SANG03_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 4,
+        "raceClassConditions": "Restricted Win Heat",
+        "raceName": "SPORTSBET HT1 1-6 WINS",
+        "raceStartTime": "2026-04-20T09:59:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 595,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SANG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SANG04_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 5,
+        "raceClassConditions": "Restricted Win Heat",
+        "raceName": "SPORTSBET HT2 1-6 WINS",
+        "raceStartTime": "2026-04-20T10:21:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 595,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SANG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SANG05_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "READY ONE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 6,
+        "raceClassConditions": "Grade 5",
+        "raceName": "GREYHOUNDS ENTERTAINMENT",
+        "raceStartTime": "2026-04-20T10:43:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SANG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SANG06_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 7,
+        "raceClassConditions": "Grade 5",
+        "raceName": "TOONGABBIE LODGE",
+        "raceStartTime": "2026-04-20T11:01:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SANG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SANG07_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 8,
+        "raceClassConditions": "Mixed 3/4",
+        "raceName": "HOOKED ON SCOTCH AT STUD",
+        "raceStartTime": "2026-04-20T11:23:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SANG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SANG08_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 8,
+            "runnerName": "TALCOTT BALE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 9,
+        "raceClassConditions": "Grade 5",
+        "raceName": "ASTON RUPEE AT STUD",
+        "raceStartTime": "2026-04-20T11:41:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SANG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SANG09_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 10,
+        "raceClassConditions": "Grade 5 No Penalty",
+        "raceName": "PHOTO MAN AT STUD 275+ RANK",
+        "raceStartTime": "2026-04-20T11:59:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SANG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SANG10_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "Q STRAIGHT",
+    "location": "QLD",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$26000.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "B",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "QST",
+    "exoticPools": [
+      {
+        "wageringProduct": "DailyDouble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T10:12:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "QST",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:12:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:12:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 8,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:52:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Quaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T09:50:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 5,
+          "venueMnemonic": "QST",
+          "raceType": "G",
+          "startTime": "2026-04-20T09:50:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 5,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:50:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 6,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:12:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 7,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:30:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 8,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:52:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "EarlyQuaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T08:24:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "QST",
+          "raceType": "G",
+          "startTime": "2026-04-20T08:24:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 1,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:24:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 2,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:39:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 3,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:06:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 4,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:28:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Treble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T10:12:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "QST",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:12:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:12:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 7,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:30:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 8,
+            "venueMnemonic": "QST",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:52:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      }
+    ],
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/QST/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "PM",
+        "raceName": "ENGINEERING BY STP CONSULTANTS",
+        "raceStartTime": "2026-04-20T08:24:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "MIDNIGHT FLYER",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "LADY YOYO",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "Maiden",
+        "raceName": "BOX 1 PHOTOGRAPHY HEAT 1",
+        "raceStartTime": "2026-04-20T08:39:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 8,
+            "runnerName": "GO GEM GO",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 9,
+            "runnerName": "PANAMA KING",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 3,
+        "raceClassConditions": "Maiden",
+        "raceName": "GARRARD'S HORSE AND HOUND HEAT 2",
+        "raceStartTime": "2026-04-20T09:06:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG03_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 7,
+            "runnerName": "FRONT MAN",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "MISTER RAINMAKER",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 4,
+        "raceClassConditions": "Maiden",
+        "raceName": "LIDS FLY ON LADBROKES CHANNELS HEAT 3",
+        "raceStartTime": "2026-04-20T09:28:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG04_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 1,
+            "runnerName": "ENVY ACES",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "FRENCH FRIES",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 5,
+        "raceClassConditions": "6th Grade",
+        "raceName": "ROSEWOOD VETERINARY SERVICE",
+        "raceStartTime": "2026-04-20T09:50:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG05_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "FEDERAL JOEY",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 6,
+        "raceClassConditions": "6th Grade",
+        "raceName": "LADBROKES TOP 2/3/4 BETTING",
+        "raceStartTime": "2026-04-20T10:12:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG06_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 7,
+        "raceClassConditions": "6th Grade",
+        "raceName": "LADBROKES QUICK MULTI",
+        "raceStartTime": "2026-04-20T10:30:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG07_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "HAYMET HARRY",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "KATIE CUDDLES",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 8,
+        "raceClassConditions": "P5",
+        "raceName": "GORSKI SEMI TIPPERS PATHWAYS FINAL",
+        "raceStartTime": "2026-04-20T10:52:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG08_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "BARRY THE BOSS",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "EARLY MISSION",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 9,
+        "raceClassConditions": "5th Grade",
+        "raceName": "THE LIDS FLY HOSTED POTS",
+        "raceStartTime": "2026-04-20T11:14:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG09_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "IN ABSENTIA",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "TINY BIT SPOILT",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 10,
+        "raceClassConditions": "5th Grade",
+        "raceName": "THE Q - ENGINEERED BY STP CONSULTANTS",
+        "raceStartTime": "2026-04-20T11:32:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG10_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 1,
+            "runnerName": "SWIFT ETHICS",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 9,
+            "runnerName": "SCOUT BOBBER",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 11,
+        "raceClassConditions": "5th Grade",
+        "raceName": "LADBROKES POPULAR SRM",
+        "raceStartTime": "2026-04-20T11:50:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG11.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG11_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "TUTA TIMELINE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "SLEEK ZEKE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 12,
+        "raceClassConditions": "5th Grade",
+        "raceName": "GORSKI TRUCK & TRAILER",
+        "raceStartTime": "2026-04-20T12:09:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSTG12.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSTG12_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "SIP OF DEUCE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "CLASSIC BOODIE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "ANGLE PARK",
+    "location": "SA",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$19485.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "A",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "ANG",
+    "exoticPools": [
+      {
+        "wageringProduct": "DailyDouble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T10:24:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "ANG",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:24:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:24:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 8,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:04:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Quaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T10:02:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 5,
+          "venueMnemonic": "ANG",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:02:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 5,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:02:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 6,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:24:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 7,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:46:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 8,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:04:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "EarlyQuaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T08:36:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "ANG",
+          "raceType": "G",
+          "startTime": "2026-04-20T08:36:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 1,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:36:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 2,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:00:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 3,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:18:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 4,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:44:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Treble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T10:24:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "ANG",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:24:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:24:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 7,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:46:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 8,
+            "venueMnemonic": "ANG",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:04:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      }
+    ],
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/ANG/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Maiden",
+        "raceName": "WWW.GAPSA.ORG.AU MAIDEN STAKE",
+        "raceStartTime": "2026-04-20T08:36:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 342,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 7,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "Invitation",
+        "raceName": "@THEDOGSSA N/P MIXED STAKE",
+        "raceStartTime": "2026-04-20T09:00:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 342,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 3,
+        "raceClassConditions": "Other",
+        "raceName": "FUNDRAISERS AT ANGLE PARK 5+W FINAL",
+        "raceStartTime": "2026-04-20T09:18:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 342,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG03_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 9,
+            "runnerName": "SHAKA BIG CHIEF",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "CHRISTOFF",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 4,
+        "raceClassConditions": "Other",
+        "raceName": "MCQUEENS TAVERN TG 5+W SERIES 2 FINAL",
+        "raceStartTime": "2026-04-20T09:44:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 342,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG04_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 5,
+        "raceClassConditions": "5th/6th Grade",
+        "raceName": "TAB MIXED STAKE",
+        "raceStartTime": "2026-04-20T10:02:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 595,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG05_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 4,
+            "runnerName": "URANA UNO",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 6,
+        "raceClassConditions": "6th Grade",
+        "raceName": "SKY RACING GRADE 6 SERIES FINAL",
+        "raceStartTime": "2026-04-20T10:24:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 342,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG06_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 9,
+            "runnerName": "SHE'S GOT DESIGN",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "SHARPEN UP",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 7,
+        "raceClassConditions": "5th Grade",
+        "raceName": "FRESH PET FOOD CO STAKE",
+        "raceStartTime": "2026-04-20T10:46:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 342,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG07_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 8,
+        "raceClassConditions": "OPEN",
+        "raceName": "GREYHOUNDS AS PETS OPEN STAKE",
+        "raceStartTime": "2026-04-20T11:04:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 342,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG08_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 4,
+            "runnerName": "ALLINGA MERCURY",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 9,
+        "raceClassConditions": "6th Grade",
+        "raceName": "FOLLOW THEDOGSSA ON X STAKE",
+        "raceStartTime": "2026-04-20T11:26:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 342,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG09_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 7,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 10,
+        "raceClassConditions": "6th Grade",
+        "raceName": "WE LOVE OUR DOGS STAKE",
+        "raceStartTime": "2026-04-20T11:44:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 530,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG10_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 7,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 11,
+        "raceClassConditions": "4th/5th Grade",
+        "raceName": "WWW.GAPSA.ORG.AU MIXED STAKE",
+        "raceStartTime": "2026-04-20T12:02:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 530,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420ANPG11.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420ANPG11_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 7,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "NORTHAM",
+    "location": "WA",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$22636.00",
+    "weatherCondition": null,
+    "trackCondition": null,
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "W",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "NTM",
+    "exoticPools": [
+      {
+        "wageringProduct": "DailyDouble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T07:43:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "NTM",
+          "raceType": "G",
+          "startTime": "2026-04-20T07:43:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T07:43:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 8,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:27:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Quaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T07:28:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 5,
+          "venueMnemonic": "NTM",
+          "raceType": "G",
+          "startTime": "2026-04-20T07:28:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 5,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T07:28:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 6,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T07:43:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 7,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:02:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 8,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:27:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "EarlyQuaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T06:01:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "NTM",
+          "raceType": "G",
+          "startTime": "2026-04-20T06:01:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 1,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:01:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 2,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:19:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 3,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:44:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 4,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T07:09:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Treble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T07:43:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "NTM",
+          "raceType": "G",
+          "startTime": "2026-04-20T07:43:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T07:43:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 7,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:02:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 8,
+            "venueMnemonic": "NTM",
+            "raceType": "G",
+            "startTime": "2026-04-20T08:27:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      }
+    ],
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/NTM/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Maiden Y",
+        "raceName": "MONDAY'S @ NORTHAM",
+        "raceStartTime": "2026-04-20T06:01:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 297,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOTG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOTG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "NOV Y",
+        "raceName": "AFTERNOON IN THE VALLEY",
+        "raceStartTime": "2026-04-20T06:19:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 297,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOTG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOTG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 3,
+        "raceClassConditions": "LS6 Y",
+        "raceName": "DEB'S DINER",
+        "raceStartTime": "2026-04-20T06:44:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 297,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOTG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOTG03_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 4,
+        "raceClassConditions": "6th Grade Y",
+        "raceName": "FULLER FITNESS",
+        "raceStartTime": "2026-04-20T07:09:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 297,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOTG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOTG04_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 5,
+        "raceClassConditions": "NOV Y",
+        "raceName": "REAL PUNTERS PLAY HERE TABTOUCH",
+        "raceStartTime": "2026-04-20T07:28:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 509,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOTG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOTG05_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 6,
+        "raceClassConditions": "5th/6th Grade Y",
+        "raceName": "ALL TORQUE ENGINEERING",
+        "raceStartTime": "2026-04-20T07:43:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 297,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOTG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOTG06_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 7,
+        "raceClassConditions": "6th Grade Y",
+        "raceName": "PRIME TROPHIES",
+        "raceStartTime": "2026-04-20T08:02:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 509,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOTG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOTG07_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 8,
+        "raceClassConditions": "Free For All Y",
+        "raceName": "AUTO OWLS BENTLEY",
+        "raceStartTime": "2026-04-20T08:27:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 297,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOTG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOTG08_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 9,
+        "raceClassConditions": "4th/5th Grade Y",
+        "raceName": "SIRES ON ICE WA",
+        "raceStartTime": "2026-04-20T08:42:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 509,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOTG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOTG09_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 10,
+        "raceClassConditions": "4th/5th Grade Y",
+        "raceName": "TOMMY SHELBY @ STUD",
+        "raceStartTime": "2026-04-20T09:09:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 297,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420NOTG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420NOTG10_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "WARRNAMBOOL",
+    "location": "VIC",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$18360.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "P",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "WBO",
+    "exoticPools": [
+      {
+        "wageringProduct": "DailyDouble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T06:07:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "WBO",
+          "raceType": "G",
+          "startTime": "2026-04-20T06:07:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:07:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 8,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:47:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 1
+      },
+      {
+        "wageringProduct": "Quaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T05:47:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 5,
+          "venueMnemonic": "WBO",
+          "raceType": "G",
+          "startTime": "2026-04-20T05:47:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 5,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T05:47:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 6,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:07:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 7,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:22:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 8,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:47:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "EarlyQuaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T04:27:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "WBO",
+          "raceType": "G",
+          "startTime": "2026-04-20T04:27:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 1,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T04:27:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 2,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T04:42:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 3,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T05:09:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 4,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T05:27:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Treble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T06:07:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "WBO",
+          "raceType": "G",
+          "startTime": "2026-04-20T06:07:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:07:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 7,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:22:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 8,
+            "venueMnemonic": "WBO",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:47:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      }
+    ],
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/WBO/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Bottom Up - Maiden",
+        "raceName": "13 RACES TODAY 300+ RANK",
+        "raceStartTime": "2026-04-20T04:27:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "Bottom Up - Maiden",
+        "raceName": "MAC'S HOTEL 300+ RANK",
+        "raceStartTime": "2026-04-20T04:42:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 3,
+        "raceClassConditions": "Bottom Up - Maiden",
+        "raceName": "PADDY WANTS PATS 300+ RANK",
+        "raceStartTime": "2026-04-20T05:09:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG03_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 4,
+        "raceClassConditions": "Bottom Up - Grade 7",
+        "raceName": "CASSIGN DESIGN 300+ RANK",
+        "raceStartTime": "2026-04-20T05:27:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG04_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 2,
+            "runnerName": "AUSSIE FERNANDO",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 5,
+        "raceClassConditions": "Bottom Up - Grade 7",
+        "raceName": "SPORTSBET BLACKBOOK 300+ RANK",
+        "raceStartTime": "2026-04-20T05:47:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG05_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 6,
+        "raceClassConditions": "Bottom Up - Grade 5",
+        "raceName": "MATKO HIRE 300+ RANK",
+        "raceStartTime": "2026-04-20T06:07:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG06_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 7,
+        "raceClassConditions": "Bottom Up - Grade 5",
+        "raceName": "WOOD MOTORCYCLE AND MOWER 300+ RANK",
+        "raceStartTime": "2026-04-20T06:22:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG07_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 8,
+        "raceClassConditions": "Bottom Up - Grade 5",
+        "raceName": "EDWARDS ELECTRICAL 300+ RANK",
+        "raceStartTime": "2026-04-20T06:47:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG08_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 1,
+            "runnerName": "COMEBACK CHARLIE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 9,
+        "raceClassConditions": "Bottom Up - Grade 7",
+        "raceName": "SPORTSBET MORE PLACES 300+ RANK",
+        "raceStartTime": "2026-04-20T07:12:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG09_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 7,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 10,
+        "raceClassConditions": "Bottom Up - Grade 6",
+        "raceName": "PARMA POT LUCK DEAL AT WBL GREYS 300+",
+        "raceStartTime": "2026-04-20T07:32:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG10_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 11,
+        "raceClassConditions": "Bottom Up - Grade 6",
+        "raceName": "WANNON FUNCTION CENTRE 300+ RANK",
+        "raceStartTime": "2026-04-20T07:55:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG11.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG11_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 12,
+        "raceClassConditions": "Bottom Up - Grade 5",
+        "raceName": "ONE MORE RACE TO GO 300+ RANK",
+        "raceStartTime": "2026-04-20T08:14:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WARG12.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WARG12_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "MAITLAND",
+    "location": "NSW",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$29980.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "C",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "MTL",
+    "exoticPools": [
+      {
+        "wageringProduct": "DailyDouble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T10:49:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "MTL",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:49:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:49:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 8,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:29:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 3
+      },
+      {
+        "wageringProduct": "Quaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T10:27:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 5,
+          "venueMnemonic": "MTL",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:27:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 5,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:27:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 6,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:49:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 7,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:07:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 8,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:29:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "EarlyQuaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T09:03:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "MTL",
+          "raceType": "G",
+          "startTime": "2026-04-20T09:03:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 1,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:03:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 2,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:25:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 3,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:47:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 4,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:09:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Treble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T10:49:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "MTL",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:49:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:49:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 7,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:07:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 8,
+            "venueMnemonic": "MTL",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:29:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      }
+    ],
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/MTL/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Maiden",
+        "raceName": "WELCOME TO MAITLAND GBOTA MAIDEN HEAT 1",
+        "raceStartTime": "2026-04-20T09:03:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 400,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 2,
+            "runnerName": "VERDUN",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "Maiden",
+        "raceName": "EAST MAITLAND BOWLING CLUB MAIDEN HEAT 2",
+        "raceStartTime": "2026-04-20T09:25:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 400,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 3,
+        "raceClassConditions": "Mixed",
+        "raceName": "HUSQVARNA 0-1 WIN",
+        "raceStartTime": "2026-04-20T09:47:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG03_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 8,
+            "runnerName": "COBBLESTONE ROAD",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 4,
+        "raceClassConditions": "5th Grade",
+        "raceName": "WINDSOR CASTLE HOTEL 2-4 WIN",
+        "raceStartTime": "2026-04-20T10:09:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG04_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "MR. NICKO",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 5,
+        "raceClassConditions": "5th Grade",
+        "raceName": "SHIPLEY MEATS",
+        "raceStartTime": "2026-04-20T10:27:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 565,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG05_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "HAPPY ETHICS",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 6,
+        "raceClassConditions": "NG1-4",
+        "raceName": "J&H COMMERCIAL SERVICES",
+        "raceStartTime": "2026-04-20T10:49:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 400,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG06_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 7,
+        "raceClassConditions": "4th/5th Grade",
+        "raceName": "RANVET K-MAX",
+        "raceStartTime": "2026-04-20T11:07:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 400,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG07_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 8,
+        "raceClassConditions": "5th Grade",
+        "raceName": "HUNTER CONCRETE GROUP",
+        "raceStartTime": "2026-04-20T11:29:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 400,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG08_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 9,
+        "raceClassConditions": "5th Grade",
+        "raceName": "GARTELMANN WINES",
+        "raceStartTime": "2026-04-20T11:47:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 400,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG09_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 6,
+            "runnerName": "ARMATREE FREDDO",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 10,
+        "raceClassConditions": "5th Grade",
+        "raceName": "THE SIGN PLACE MAITLAND",
+        "raceStartTime": "2026-04-20T12:05:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 400,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG10_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 1,
+            "runnerName": "ALCARAZ",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 11,
+        "raceClassConditions": "5th Grade",
+        "raceName": "RED TV",
+        "raceStartTime": "2026-04-20T12:23:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 400,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG11.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG11_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 12,
+        "raceClassConditions": "M1/M2/M3",
+        "raceName": "JENNY AITCHISON APPRECIATION MASTERS",
+        "raceStartTime": "2026-04-20T12:40:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 400,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420MAIG12.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420MAIG12_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 2,
+            "runnerName": "MAX STAPPEN",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "OVERFLOW BEAU",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 7,
+            "runnerName": "FURIOUS",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "BALLARAT",
+    "location": "VIC",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$18570.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "E",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "BAL",
+    "exoticPools": [
+      {
+        "wageringProduct": "DailyDouble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T01:46:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "BAL",
+          "raceType": "G",
+          "startTime": "2026-04-20T01:46:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T01:46:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 8,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T02:17:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 3.5
+      },
+      {
+        "wageringProduct": "Quaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T01:30:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 5,
+          "venueMnemonic": "BAL",
+          "raceType": "G",
+          "startTime": "2026-04-20T01:30:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 5,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T01:30:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 6,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T01:46:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 7,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T02:02:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 8,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T02:17:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "EarlyQuaddie",
+        "poolStatusCode": "Closed",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T00:19:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "BAL",
+          "raceType": "G",
+          "startTime": "2026-04-20T00:19:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 1,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T00:19:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 2,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T00:34:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 3,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T00:54:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 4,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T01:14:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 10.57
+      },
+      {
+        "wageringProduct": "Treble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T01:46:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "BAL",
+          "raceType": "G",
+          "startTime": "2026-04-20T01:46:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T01:46:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 7,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T02:02:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 8,
+            "venueMnemonic": "BAL",
+            "raceType": "G",
+            "startTime": "2026-04-20T02:17:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      }
+    ],
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/BAL/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Tier 3 - Maiden",
+        "raceName": "14 RACES TODAY",
+        "raceStartTime": "2026-04-20T00:19:00.000Z",
+        "raceStatus": "Closed",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": false,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "CARNIVAL KID",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "LADY NATASHA",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "Tier 3 - Maiden",
+        "raceName": "ALSOP AND CO CATERING",
+        "raceStartTime": "2026-04-20T00:34:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "RAPID WATERBOY",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "SHOULD BE QUEEN",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 3,
+        "raceClassConditions": "Tier 3 - Maiden",
+        "raceName": "SPORTSBET MORE PLACES",
+        "raceStartTime": "2026-04-20T00:54:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG03_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 1,
+            "runnerName": "ASTON ANTIBES",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "BOUNDING BETTY",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 4,
+        "raceClassConditions": "Tier 3 - Grade 7",
+        "raceName": "TUDOR ELECTRICAL",
+        "raceStartTime": "2026-04-20T01:14:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG04_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "JAY'S DAZZLER",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "SLAY",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 5,
+        "raceClassConditions": "Tier 3 - Restricted Win",
+        "raceName": "A1 SIGNAGE 1-2 WINS",
+        "raceStartTime": "2026-04-20T01:30:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG05_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 4,
+            "runnerName": "VALKYRIE LEGEND",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "SCOTT CLARITY",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 6,
+        "raceClassConditions": "Grade 5 T3",
+        "raceName": "SOUTHERN SHEETMETAL",
+        "raceStartTime": "2026-04-20T01:46:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG06_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "ZIVA DIVA",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 7,
+            "runnerName": "SON OF WITCHY",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 7,
+        "raceClassConditions": "Grade 5 T3",
+        "raceName": "EUREKA CONCRETE",
+        "raceStartTime": "2026-04-20T02:02:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG07_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "BERN'S BANJO",
+            "bettingStatus": "LateScratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 8,
+        "raceClassConditions": "Grade 5 T3",
+        "raceName": "BALLARAT FUNCTION CENTRE",
+        "raceStartTime": "2026-04-20T02:17:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 545,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG08_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 9,
+        "raceClassConditions": "Tier 3 - Grade 6",
+        "raceName": "HAPPY HORSE PRODUCE",
+        "raceStartTime": "2026-04-20T02:32:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG09_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 10,
+        "raceClassConditions": "Tier 3 - Grade 6",
+        "raceName": "SPORTSBET FEED",
+        "raceStartTime": "2026-04-20T02:51:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG10_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 11,
+        "raceClassConditions": "Grade 5 T3",
+        "raceName": "DOWNLOAD THE WATCHDOG APP",
+        "raceStartTime": "2026-04-20T03:07:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG11.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG11_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "TINKER CONALL",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "MAGPIE HARRY",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 12,
+        "raceClassConditions": "Grade 5 T3",
+        "raceName": "TWO MORE RACES TO GO",
+        "raceStartTime": "2026-04-20T03:34:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BARG12.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BARG12_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "GO ME GO",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "KATE'S RIFT",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "LAUNCESTON",
+    "location": "TAS",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$55220.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "T",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "LAU",
+    "exoticPools": [
+      {
+        "wageringProduct": "DailyDouble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T11:17:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "LAU",
+          "raceType": "G",
+          "startTime": "2026-04-20T11:17:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:17:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 8,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:53:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Quaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T10:55:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 5,
+          "venueMnemonic": "LAU",
+          "raceType": "G",
+          "startTime": "2026-04-20T10:55:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 5,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:55:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 6,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:17:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 7,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:35:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 8,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:53:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "EarlyQuaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T09:35:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "LAU",
+          "raceType": "G",
+          "startTime": "2026-04-20T09:35:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 1,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:35:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 2,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T09:53:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 3,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:15:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 4,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T10:33:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Treble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T11:17:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "LAU",
+          "raceType": "G",
+          "startTime": "2026-04-20T11:17:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:17:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 7,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:35:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 8,
+            "venueMnemonic": "LAU",
+            "raceType": "G",
+            "startTime": "2026-04-20T11:53:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      }
+    ],
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/LAU/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "6th Grade",
+        "raceName": "SAVE GREYHOUND RACING IN TASSIE",
+        "raceStartTime": "2026-04-20T09:35:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 278,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420LAUG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420LAUG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "SHE'S TROUBLE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "BUCKLE UP AOIFE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "5th Grade",
+        "raceName": "KINGSLEY JARMAN FENCING",
+        "raceStartTime": "2026-04-20T09:53:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 278,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420LAUG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420LAUG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "WIZIN WOODHOUSE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "BLACKPOOL LOTTIE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 3,
+        "raceClassConditions": "4th/5th Grade",
+        "raceName": "THE LIDS FLY ON HOSTED POTS",
+        "raceStartTime": "2026-04-20T10:15:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 278,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420LAUG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420LAUG03_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "HIGHGATE WINSTON",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "BURNT DESIRES",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 4,
+        "raceClassConditions": "Other",
+        "raceName": "COLONIAL HOTEL",
+        "raceStartTime": "2026-04-20T10:33:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 278,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420LAUG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420LAUG04_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "FOSSIL BLUFF",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 5,
+        "raceClassConditions": "SE",
+        "raceName": "TASMANIAN BREEDERS CLASSIC FINAL",
+        "raceStartTime": "2026-04-20T10:55:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420LAUG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420LAUG05_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "SHE'S TROUBLE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "NEPTUNE FIREBALL",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 6,
+        "raceClassConditions": "5th Grade",
+        "raceName": "FARRELL'S PET NUTRITION",
+        "raceStartTime": "2026-04-20T11:17:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420LAUG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420LAUG06_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "MIGHTY MURPHY",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 7,
+        "raceClassConditions": "SE",
+        "raceName": "CLARKIE TYRES RISING STARS FINAL",
+        "raceStartTime": "2026-04-20T11:35:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420LAUG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420LAUG07_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "FISHING YARI",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "VISTA EXAM",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 8,
+        "raceClassConditions": "3rd/4th Grade",
+        "raceName": "HST TREE SERVICES",
+        "raceStartTime": "2026-04-20T11:53:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420LAUG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420LAUG08_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 1,
+            "runnerName": "VISTA YANK",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 3,
+            "runnerName": "KISSES FOR RUBY",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 9,
+        "raceClassConditions": "5th Grade",
+        "raceName": "CHASE NEWSPAPER",
+        "raceStartTime": "2026-04-20T12:17:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 515,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420LAUG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420LAUG09_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "MIGHTY MURPHY",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 10,
+        "raceClassConditions": "5th Grade",
+        "raceName": "GREYHOUNDS AS PETS",
+        "raceStartTime": "2026-04-20T12:35:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 278,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420LAUG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420LAUG10_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "NIGHT ROD",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "AYLA ZORRO",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "SHEPPARTON",
+    "location": "VIC",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$36015.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "Y",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "SHE",
+    "exoticPools": [
+      {
+        "wageringProduct": "DailyDouble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T05:39:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "SHE",
+          "raceType": "G",
+          "startTime": "2026-04-20T05:39:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T05:39:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 8,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:14:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Quaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T05:17:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 5,
+          "venueMnemonic": "SHE",
+          "raceType": "G",
+          "startTime": "2026-04-20T05:17:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 5,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T05:17:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 6,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T05:39:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 7,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T05:57:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 8,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:14:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "EarlyQuaddie",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Enabled",
+        "startTime": "2026-04-20T03:57:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 1,
+          "venueMnemonic": "SHE",
+          "raceType": "G",
+          "startTime": "2026-04-20T03:57:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 1,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T03:57:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 2,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T04:17:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 3,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T04:34:00.000Z"
+          },
+          {
+            "legNumber": 4,
+            "raceNumber": 4,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T04:57:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      },
+      {
+        "wageringProduct": "Treble",
+        "poolStatusCode": "Open",
+        "cashOutEligibility": "Disabled",
+        "startTime": "2026-04-20T05:39:00.000Z",
+        "nextRaceToJump": {
+          "legNumber": 1,
+          "raceNumber": 6,
+          "venueMnemonic": "SHE",
+          "raceType": "G",
+          "startTime": "2026-04-20T05:39:00.000Z"
+        },
+        "legs": [
+          {
+            "legNumber": 1,
+            "raceNumber": 6,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T05:39:00.000Z"
+          },
+          {
+            "legNumber": 2,
+            "raceNumber": 7,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T05:57:00.000Z"
+          },
+          {
+            "legNumber": 3,
+            "raceNumber": 8,
+            "venueMnemonic": "SHE",
+            "raceType": "G",
+            "startTime": "2026-04-20T06:14:00.000Z"
+          }
+        ],
+        "jackpot": 0,
+        "poolTotal": 0
+      }
+    ],
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/SHE/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Maiden",
+        "raceName": "14 RACES TODAY",
+        "raceStartTime": "2026-04-20T03:57:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "MULTIPLE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "IMPRESS CARTER",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "Maiden Final",
+        "raceName": "SPORTSBET FINAL",
+        "raceStartTime": "2026-04-20T04:17:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 3,
+            "runnerName": "STORM SHADOW",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 6,
+            "runnerName": "STACEY DEVERE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 7,
+            "runnerName": "MYSTIC CONTESSA",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "DON'T LOOK",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 3,
+        "raceClassConditions": "Mixed 6/7",
+        "raceName": "BYERS ELECTRICAL",
+        "raceStartTime": "2026-04-20T04:34:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG03.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG03_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 4,
+        "raceClassConditions": "Mixed 6/7",
+        "raceName": "SHEPPARTON NEWS",
+        "raceStartTime": "2026-04-20T04:57:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG04.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG04_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 1,
+            "runnerName": "PAW VITALI",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 5,
+        "raceClassConditions": "Mixed 6/7",
+        "raceName": "CKH PAINTING",
+        "raceStartTime": "2026-04-20T05:17:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG05.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG05_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 6,
+        "raceClassConditions": "Grade 5",
+        "raceName": "GPP LASER 3300",
+        "raceStartTime": "2026-04-20T05:39:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG06.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG06_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 7,
+        "raceClassConditions": "Grade 5",
+        "raceName": "SHEPPARTON WORKWEAR AND SAFETY",
+        "raceStartTime": "2026-04-20T05:57:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG07.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG07_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 8,
+        "raceClassConditions": "Mixed 4/5",
+        "raceName": "NAGAMBIE GUTTER CLEANING",
+        "raceStartTime": "2026-04-20T06:14:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 450,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG08.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG08_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 4,
+            "runnerName": "ELITE ONE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 5,
+            "runnerName": "....",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 9,
+        "raceClassConditions": "Grade 4",
+        "raceName": "SPORTSBET MORE PLACES",
+        "raceStartTime": "2026-04-20T06:39:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG09.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG09_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 10,
+        "raceClassConditions": "Mixed 4/5",
+        "raceName": "GVSHELVING.COM.AU",
+        "raceStartTime": "2026-04-20T06:57:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG10.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG10_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "PAW JENNEKE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "GOT A MESSAGE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 11,
+        "raceClassConditions": "Grade 5",
+        "raceName": "ELITE COLLARS AND LEADS",
+        "raceStartTime": "2026-04-20T07:25:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG11.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG11_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "SPANISH ARMADA",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "LIKE A BLAZE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 12,
+        "raceClassConditions": "Grade 5",
+        "raceName": "TWO MORE RACES TO GO",
+        "raceStartTime": "2026-04-20T07:40:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHEG12.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHEG12_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "PAW JENNEKE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "GOT A MESSAGE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "Q STRAIGHT EXTRA",
+    "location": "QLD",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$4200.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "F",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "QSX",
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/QSX/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "5th Grade",
+        "raceName": "Q STRAIGHT RACE 13",
+        "raceStartTime": "2026-04-20T12:27:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSXG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSXG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "ZABDON CREAM BUN",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "DANNI AND YOU",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "5th Grade",
+        "raceName": "Q STRAIGHT RACE 14",
+        "raceStartTime": "2026-04-20T12:44:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 300,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420QSXG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420QSXG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "SPIRIT RIPPLE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "OXLEY CHARM",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "WARRNAMBOOL EXTRA",
+    "location": "VIC",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$1530.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "H",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "WBX",
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/WBX/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Bottom Up - Grade 5",
+        "raceName": "WARRNAMBOOL RACE 13 300+ RANK",
+        "raceStartTime": "2026-04-20T08:33:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420WBXG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420WBXG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "SHEPPARTON EXTRA",
+    "location": "VIC",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$5850.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "I",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "SHX",
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/SHX/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Grade 5",
+        "raceName": "SHEPPARTON RACE 13",
+        "raceStartTime": "2026-04-20T07:59:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHXG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHXG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "SPANISH ARMADA",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "LIKE A BLAZE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "Grade 5",
+        "raceName": "SHEPPARTON RACE 14",
+        "raceStartTime": "2026-04-20T08:17:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420SHXG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420SHXG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "PAW JENNEKE",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "GOT A MESSAGE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  },
+  {
+    "meetingName": "BALLARAT EXTRA",
+    "location": "VIC",
+    "raceType": "G",
+    "meetingDate": "2026-04-20",
+    "prizeMoney": "$3060.00",
+    "weatherCondition": "FINE",
+    "trackCondition": "GOOD",
+    "railPosition": null,
+    "sellCode": {
+      "meetingCode": "N",
+      "scheduledType": "G"
+    },
+    "venueMnemonic": "BAX",
+    "_links": {
+      "races": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-20/meetings/G/BAX/races?jurisdiction=NSW"
+    },
+    "races": [
+      {
+        "raceNumber": 1,
+        "raceClassConditions": "Grade 5 T3",
+        "raceName": "BALLARAT RACE 13",
+        "raceStartTime": "2026-04-20T03:49:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BAXG01.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BAXG01_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "GOTHAM THANOS",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "ZIPPING SCOOBY",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      },
+      {
+        "raceNumber": 2,
+        "raceClassConditions": "Grade 5 T3",
+        "raceName": "BALLARAT RACE 14",
+        "raceStartTime": "2026-04-20T04:09:00.000Z",
+        "raceStatus": "Normal",
+        "raceDistance": 390,
+        "hasParimutuel": true,
+        "hasFixedOdds": true,
+        "broadcastChannel": "Sky Racing 1",
+        "broadcastChannels": [
+          "Sky Racing 1"
+        ],
+        "skyRacing": {
+          "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260420BAXG02.mp3",
+          "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260420BAXG02_V.mp4"
+        },
+        "willHaveFixedOdds": true,
+        "allIn": false,
+        "cashOutEligibility": "Disabled",
+        "allowBundle": false,
+        "results": [],
+        "scratchings": [
+          {
+            "runnerNumber": 9,
+            "runnerName": "CHALKY",
+            "bettingStatus": "Scratched"
+          },
+          {
+            "runnerNumber": 10,
+            "runnerName": "HARTLAND PRINCE",
+            "bettingStatus": "Scratched"
+          }
+        ],
+        "isJackpotRace": false
+      }
+    ]
+  }
+]

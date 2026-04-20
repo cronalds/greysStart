@@ -1,0 +1,1936 @@
+{
+  "venueName": "ROCKHAMPTON",
+  "raceNumber": 3,
+  "form": {
+    "data": {
+      "raceNumber": 3,
+      "spectrumId": "ROCKHAMPT1",
+      "raceName": "DELUXE YOUR PUNTING",
+      "raceDistance": 407,
+      "trackDirection": "anticlockwise",
+      "meeting": {
+        "meetingName": "ROCKHAMPTON",
+        "venueMnemonic": "ROC",
+        "meetingDate": "2026-04-19",
+        "location": "QLD",
+        "raceType": "G",
+        "weatherCondition": "FINE",
+        "trackCondition": "GOOD",
+        "sellCode": {
+          "meetingCode": "L",
+          "scheduledType": "G"
+        }
+      },
+      "skyRacing": {
+        "audio": "https://mediatabs.skyracing.com.au/Audio_Replay/2026/04/20260419ROCG03.mp3",
+        "video": "https://mediatabs.skyracing.com.au/Race_Replay/2026/04/20260419ROCG03_V.mp4"
+      },
+      "hasParimutuel": true,
+      "hasFixedOdds": true,
+      "broadcastChannel": null,
+      "broadcastChannels": [],
+      "hasForm": true,
+      "hasEarlySpeedRatings": true,
+      "allIn": false,
+      "cashOutEligibility": "Disabled",
+      "allowBundle": false,
+      "willHaveFixedOdds": true,
+      "fixedOddsOnlineBetting": true,
+      "raceStartTime": "2026-04-19T07:10:00.000Z",
+      "raceClassConditions": "M5",
+      "apprenticesCanClaim": false,
+      "prizeMoney": "$2400.00",
+      "raceStatus": "Normal",
+      "substitute": "NR",
+      "results": [],
+      "pools": [
+        {
+          "wageringProduct": "Win",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 3,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:10:00.000Z"
+            }
+          ],
+          "poolHistory": [
+            {
+              "poolTotal": 23,
+              "poolTotalTime": "2026-04-19T06:27:53.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 23,
+              "poolTotalTime": "2026-04-19T06:10:52.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 23,
+              "poolTotalTime": "2026-04-19T06:10:52.000Z",
+              "specialDisplayIndicator": false
+            },
+            {
+              "poolTotal": 23,
+              "poolTotalTime": "2026-04-19T06:09:51.000Z",
+              "specialDisplayIndicator": false
+            }
+          ],
+          "poolTotal": 23,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Place",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 3,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:10:00.000Z"
+            }
+          ],
+          "poolTotal": 17.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Quinella",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 3,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:10:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/pools/Quinella/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 11,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Exacta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 3,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:10:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/pools/Exacta/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Duet",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 3,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:10:00.000Z"
+            }
+          ],
+          "_links": {
+            "approximates": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/pools/Duet/approximates?jurisdiction=NSW"
+          },
+          "poolTotal": 1.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 3,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:10:00.000Z"
+            }
+          ],
+          "poolTotal": 22.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 3,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:10:00.000Z"
+            }
+          ],
+          "poolTotal": 8.5,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "RunningDouble",
+          "legNumber": 1,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Disabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 3,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:10:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 4,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:25:00.000Z"
+            }
+          ],
+          "poolTotal": 0,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        },
+        {
+          "wageringProduct": "EarlyQuaddie",
+          "legNumber": 3,
+          "poolStatusCode": "Open",
+          "cashOutEligibility": "Enabled",
+          "legs": [
+            {
+              "legNumber": 1,
+              "raceNumber": 1,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T06:31:00.000Z"
+            },
+            {
+              "legNumber": 2,
+              "raceNumber": 2,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T06:52:00.000Z"
+            },
+            {
+              "legNumber": 3,
+              "raceNumber": 3,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:10:00.000Z"
+            },
+            {
+              "legNumber": 4,
+              "raceNumber": 4,
+              "venueMnemonic": "ROC",
+              "raceType": "G",
+              "startTime": "2026-04-19T07:25:00.000Z"
+            }
+          ],
+          "poolTotal": 3,
+          "jackpot": 0,
+          "cominglingHost": "NSW",
+          "cominglingHostName": "NSW TAB",
+          "cominglingGuests": true,
+          "substitute": "NYD"
+        }
+      ],
+      "allowMulti": true,
+      "allowParimutuelPlace": true,
+      "parimutuelPlaceStatus": "Open",
+      "allowFixedOddsPlace": true,
+      "numberOfPlaces": 3,
+      "numberOfFixedOddsPlaces": 3,
+      "runners": [
+        {
+          "runnerName": "SPRING OLIVER",
+          "runnerNumber": 1,
+          "fixedOdds": {
+            "returnWin": 4.2,
+            "returnWinTime": "2026-04-19T02:05:27.000Z",
+            "returnWinOpen": 7.5,
+            "returnWinOpenDaily": 7.5,
+            "returnPlace": 1.35,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 162531,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 4.4,
+                "returnWinTime": "2026-04-19T00:30:00.000Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-18T23:23:10.000Z"
+              },
+              {
+                "returnWin": 4.4,
+                "returnWinTime": "2026-04-18T23:10:36.000Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-18T21:28:37.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-18T21:28:15.790Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-18T21:28:36.594Z"
+              },
+              {
+                "returnWin": 4.4,
+                "returnWinTime": "2026-04-18T23:10:35.961Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-18T23:23:10.100Z"
+              },
+              {
+                "returnWin": 4.4,
+                "returnWinTime": "2026-04-19T00:30:00.461Z"
+              },
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-19T02:05:27.334Z"
+              }
+            ],
+            "percentageChange": -5,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 9.8,
+            "returnPlace": 1,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": true,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 9.8,
+                "returnWinTime": "2026-04-19T06:10:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 9.8,
+                "returnWinTime": "2026-04-19T06:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 9.4,
+                "returnWinTime": "2026-04-19T05:39:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 9.4,
+                "returnWinTime": "2026-04-19T05:09:51.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/1",
+          "trainerName": "K Suli",
+          "vacantBox": false,
+          "trainerFullName": "KELLY SULI",
+          "barrierNumber": 1,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "35622",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 99,
+          "techFormRating": 0,
+          "totalRatingPoints": 5,
+          "earlySpeedRating": 59,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "fastForm": [
+            {
+              "type": "GoldenSwitch",
+              "keywords": "Box",
+              "ranking": null
+            },
+            {
+              "type": "LikelyLeader",
+              "keywords": null,
+              "ranking": null
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/1?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "VANZANT HAYZE",
+          "runnerNumber": 2,
+          "fixedOdds": {
+            "returnWin": 2.3,
+            "returnWinTime": "2026-04-19T02:25:48.000Z",
+            "returnWinOpen": 1.7,
+            "returnWinOpenDaily": 1.7,
+            "returnPlace": 1.16,
+            "isFavouriteWin": false,
+            "isFavouritePlace": true,
+            "bettingStatus": "Open",
+            "propositionNumber": 162532,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 2.25,
+                "returnWinTime": "2026-04-19T02:05:27.000Z"
+              },
+              {
+                "returnWin": 2.2,
+                "returnWinTime": "2026-04-19T00:34:42.000Z"
+              },
+              {
+                "returnWin": 2.15,
+                "returnWinTime": "2026-04-19T00:30:00.000Z"
+              },
+              {
+                "returnWin": 2,
+                "returnWinTime": "2026-04-18T23:23:10.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 1.7,
+                "returnWinTime": "2026-04-18T21:28:15.790Z"
+              },
+              {
+                "returnWin": 1.8,
+                "returnWinTime": "2026-04-18T21:28:36.594Z"
+              },
+              {
+                "returnWin": 1.95,
+                "returnWinTime": "2026-04-18T23:10:35.961Z"
+              },
+              {
+                "returnWin": 2,
+                "returnWinTime": "2026-04-18T23:23:10.100Z"
+              },
+              {
+                "returnWin": 2.15,
+                "returnWinTime": "2026-04-19T00:30:00.461Z"
+              },
+              {
+                "returnWin": 2.2,
+                "returnWinTime": "2026-04-19T00:34:42.336Z"
+              },
+              {
+                "returnWin": 2.25,
+                "returnWinTime": "2026-04-19T02:05:27.334Z"
+              },
+              {
+                "returnWin": 2.3,
+                "returnWinTime": "2026-04-19T02:25:48.058Z"
+              }
+            ],
+            "percentageChange": 2,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 4.9,
+            "returnPlace": 10,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 4.9,
+                "returnWinTime": "2026-04-19T06:10:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 4.9,
+                "returnWinTime": "2026-04-19T06:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 4.7,
+                "returnWinTime": "2026-04-19T05:39:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 4.7,
+                "returnWinTime": "2026-04-19T05:09:51.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/2",
+          "trainerName": "T Trigg",
+          "vacantBox": false,
+          "trainerFullName": "TRACY TRIGG",
+          "barrierNumber": 2,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "23512",
+          "tcdwIndicators": "T D",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 11,
+          "earlySpeedRating": 68,
+          "earlySpeedRatingBand": "LEADER",
+          "fastForm": [
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 2
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/2?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "KERRI BEACH",
+          "runnerNumber": 3,
+          "fixedOdds": {
+            "returnWin": 34,
+            "returnWinTime": "2026-04-19T00:30:00.000Z",
+            "returnWinOpen": 21,
+            "returnWinOpenDaily": 21,
+            "returnPlace": 4,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 162533,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-18T23:10:36.000Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-18T21:28:37.000Z"
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-18T21:28:16.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-18T21:28:15.790Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-18T21:28:36.594Z"
+              },
+              {
+                "returnWin": 26,
+                "returnWinTime": "2026-04-18T23:10:35.961Z"
+              },
+              {
+                "returnWin": 34,
+                "returnWinTime": "2026-04-19T00:30:00.461Z"
+              }
+            ],
+            "percentageChange": 31,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 6.5,
+            "returnPlace": 2.5,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 6.5,
+                "returnWinTime": "2026-04-19T06:10:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 6.5,
+                "returnWinTime": "2026-04-19T06:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 6.2,
+                "returnWinTime": "2026-04-19T05:39:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 6.2,
+                "returnWinTime": "2026-04-19T05:09:51.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/3",
+          "trainerName": "K Suli",
+          "vacantBox": false,
+          "trainerFullName": "KELLY SULI",
+          "barrierNumber": 3,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "35534",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 95,
+          "techFormRating": 0,
+          "totalRatingPoints": 1,
+          "earlySpeedRating": 49,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/3?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "HEROIC HENRY",
+          "runnerNumber": 4,
+          "fixedOdds": {
+            "returnWin": 2.25,
+            "returnWinTime": "2026-04-19T02:25:48.000Z",
+            "returnWinOpen": 4.2,
+            "returnWinOpenDaily": 4.2,
+            "returnPlace": 1.16,
+            "isFavouriteWin": true,
+            "isFavouritePlace": true,
+            "bettingStatus": "Open",
+            "propositionNumber": 162534,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 2.3,
+                "returnWinTime": "2026-04-19T00:34:42.000Z"
+              },
+              {
+                "returnWin": 2.4,
+                "returnWinTime": "2026-04-19T00:30:00.000Z"
+              },
+              {
+                "returnWin": 3,
+                "returnWinTime": "2026-04-18T23:23:10.000Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-18T23:10:36.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 4.2,
+                "returnWinTime": "2026-04-18T21:28:15.790Z"
+              },
+              {
+                "returnWin": 4.4,
+                "returnWinTime": "2026-04-18T21:28:36.594Z"
+              },
+              {
+                "returnWin": 3.2,
+                "returnWinTime": "2026-04-18T23:10:35.961Z"
+              },
+              {
+                "returnWin": 3,
+                "returnWinTime": "2026-04-18T23:23:10.100Z"
+              },
+              {
+                "returnWin": 2.4,
+                "returnWinTime": "2026-04-19T00:30:00.461Z"
+              },
+              {
+                "returnWin": 2.3,
+                "returnWinTime": "2026-04-19T00:34:42.336Z"
+              },
+              {
+                "returnWin": 2.25,
+                "returnWinTime": "2026-04-19T02:25:48.058Z"
+              }
+            ],
+            "percentageChange": -2,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 19.6,
+            "returnPlace": 5,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 19.6,
+                "returnWinTime": "2026-04-19T06:10:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 19.6,
+                "returnWinTime": "2026-04-19T06:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 18.8,
+                "returnWinTime": "2026-04-19T05:39:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 18.8,
+                "returnWinTime": "2026-04-19T05:09:51.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/4",
+          "trainerName": "R Hassall",
+          "vacantBox": false,
+          "trainerFullName": "RICKY HASSALL",
+          "barrierNumber": 4,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "31525",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 37,
+          "techFormRating": 0,
+          "totalRatingPoints": 9,
+          "earlySpeedRating": 72,
+          "earlySpeedRatingBand": "LEADER",
+          "fastForm": [
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 1
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/4?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "PENNY DAZE",
+          "runnerNumber": 5,
+          "fixedOdds": {
+            "returnWin": 17,
+            "returnWinTime": "2026-04-19T06:17:09.000Z",
+            "returnWinOpen": 9.5,
+            "returnWinOpenDaily": 9.5,
+            "returnPlace": 2.6,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 162535,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 15,
+                "returnWinTime": "2026-04-19T04:31:15.000Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-19T02:25:48.000Z"
+              },
+              {
+                "returnWin": 18,
+                "returnWinTime": "2026-04-19T02:05:27.000Z"
+              },
+              {
+                "returnWin": 16,
+                "returnWinTime": "2026-04-19T00:34:42.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-18T21:28:15.790Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-18T21:28:36.594Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-18T23:10:35.961Z"
+              },
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-18T23:23:10.100Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-19T00:30:00.461Z"
+              },
+              {
+                "returnWin": 16,
+                "returnWinTime": "2026-04-19T00:34:42.336Z"
+              },
+              {
+                "returnWin": 18,
+                "returnWinTime": "2026-04-19T02:05:27.334Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-19T02:25:48.058Z"
+              },
+              {
+                "returnWin": 15,
+                "returnWinTime": "2026-04-19T04:31:15.288Z"
+              },
+              {
+                "returnWin": 17,
+                "returnWinTime": "2026-04-19T06:17:09.312Z"
+              }
+            ],
+            "percentageChange": 13,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 2.8,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": true,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 2.8,
+                "returnWinTime": "2026-04-19T06:10:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 2.8,
+                "returnWinTime": "2026-04-19T06:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 2.6,
+                "returnWinTime": "2026-04-19T05:39:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 2.6,
+                "returnWinTime": "2026-04-19T05:09:51.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/5",
+          "trainerName": "L Wisener",
+          "vacantBox": false,
+          "trainerFullName": "LES WISENER",
+          "barrierNumber": 5,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "7x425",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 92,
+          "techFormRating": 0,
+          "totalRatingPoints": 2,
+          "earlySpeedRating": 44,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "fastForm": [
+            {
+              "type": "TopRated",
+              "keywords": null,
+              "ranking": 3
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/5?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "TWISTED YEW",
+          "runnerNumber": 6,
+          "fixedOdds": {
+            "returnWin": 81,
+            "returnWinTime": "2026-04-19T00:34:42.000Z",
+            "returnWinOpen": 31,
+            "returnWinOpenDaily": 31,
+            "returnPlace": 7,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 162536,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-19T00:30:00.000Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-18T23:10:36.000Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-18T21:28:37.000Z"
+              },
+              {
+                "returnWin": 31,
+                "returnWinTime": "2026-04-18T21:28:16.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 31,
+                "returnWinTime": "2026-04-18T21:28:15.790Z"
+              },
+              {
+                "returnWin": 41,
+                "returnWinTime": "2026-04-18T21:28:36.594Z"
+              },
+              {
+                "returnWin": 51,
+                "returnWinTime": "2026-04-18T23:10:35.961Z"
+              },
+              {
+                "returnWin": 71,
+                "returnWinTime": "2026-04-19T00:30:00.461Z"
+              },
+              {
+                "returnWin": 81,
+                "returnWinTime": "2026-04-19T00:34:42.336Z"
+              }
+            ],
+            "percentageChange": 14,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 19.6,
+            "returnPlace": 5,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 19.6,
+                "returnWinTime": "2026-04-19T06:10:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 19.6,
+                "returnWinTime": "2026-04-19T06:09:51.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/6",
+          "trainerName": "D Raines",
+          "vacantBox": false,
+          "trainerFullName": "DAVID RAINES",
+          "barrierNumber": 6,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "75676",
+          "tcdwIndicators": "T D",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 89,
+          "techFormRating": 0,
+          "totalRatingPoints": 0,
+          "earlySpeedRating": 35,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/6?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "BARGARA KILLIAN",
+          "runnerNumber": 7,
+          "fixedOdds": {
+            "returnWin": 23,
+            "returnWinTime": "2026-04-19T06:17:09.000Z",
+            "returnWinOpen": 12,
+            "returnWinOpenDaily": 12,
+            "returnPlace": 3.1,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 162537,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-19T02:25:48.000Z"
+              },
+              {
+                "returnWin": 19,
+                "returnWinTime": "2026-04-19T00:34:42.000Z"
+              },
+              {
+                "returnWin": 17,
+                "returnWinTime": "2026-04-19T00:30:00.000Z"
+              },
+              {
+                "returnWin": 15,
+                "returnWinTime": "2026-04-18T23:10:36.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 12,
+                "returnWinTime": "2026-04-18T21:28:15.790Z"
+              },
+              {
+                "returnWin": 14,
+                "returnWinTime": "2026-04-18T21:28:36.594Z"
+              },
+              {
+                "returnWin": 15,
+                "returnWinTime": "2026-04-18T23:10:35.961Z"
+              },
+              {
+                "returnWin": 17,
+                "returnWinTime": "2026-04-19T00:30:00.461Z"
+              },
+              {
+                "returnWin": 19,
+                "returnWinTime": "2026-04-19T00:34:42.336Z"
+              },
+              {
+                "returnWin": 21,
+                "returnWinTime": "2026-04-19T02:25:48.058Z"
+              },
+              {
+                "returnWin": 23,
+                "returnWinTime": "2026-04-19T06:17:09.312Z"
+              }
+            ],
+            "percentageChange": 10,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 5.6,
+            "returnPlace": 0,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 5.6,
+                "returnWinTime": "2026-04-19T06:10:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 5.6,
+                "returnWinTime": "2026-04-19T06:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 5.3,
+                "returnWinTime": "2026-04-19T05:39:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 5.3,
+                "returnWinTime": "2026-04-19T05:09:51.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/7",
+          "trainerName": "J Kuhl",
+          "vacantBox": false,
+          "trainerFullName": "JEFF KUHL",
+          "barrierNumber": 7,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "58478",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 20,
+          "techFormRating": 0,
+          "totalRatingPoints": 5,
+          "earlySpeedRating": 38,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/7?jurisdiction=NSW"
+          }
+        },
+        {
+          "runnerName": "SLICK RAM",
+          "runnerNumber": 8,
+          "fixedOdds": {
+            "returnWin": 10,
+            "returnWinTime": "2026-04-19T06:17:09.000Z",
+            "returnWinOpen": 7.5,
+            "returnWinOpenDaily": 7.5,
+            "returnPlace": 2,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "bettingStatus": "Open",
+            "propositionNumber": 162538,
+            "differential": null,
+            "flucs": [
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-19T00:30:00.000Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-18T23:23:10.000Z"
+              },
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-18T23:10:36.000Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-18T21:28:37.000Z"
+              }
+            ],
+            "returnHistory": [
+              {
+                "returnWin": 7.5,
+                "returnWinTime": "2026-04-18T21:28:15.790Z"
+              },
+              {
+                "returnWin": 8,
+                "returnWinTime": "2026-04-18T21:28:36.594Z"
+              },
+              {
+                "returnWin": 9.5,
+                "returnWinTime": "2026-04-18T23:10:35.961Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-18T23:23:10.100Z"
+              },
+              {
+                "returnWin": 11,
+                "returnWinTime": "2026-04-19T00:30:00.461Z"
+              },
+              {
+                "returnWin": 10,
+                "returnWinTime": "2026-04-19T06:17:09.312Z"
+              }
+            ],
+            "percentageChange": -9,
+            "allowPlace": true
+          },
+          "parimutuel": {
+            "returnWin": 13.1,
+            "returnPlace": 3.3,
+            "returnExact2": 0,
+            "isFavouriteWin": false,
+            "isFavouritePlace": false,
+            "isFavouriteExact2": false,
+            "bettingStatus": "Open",
+            "marketMovers": [
+              {
+                "returnWin": 13.1,
+                "returnWinTime": "2026-04-19T06:10:52.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 13.1,
+                "returnWinTime": "2026-04-19T06:09:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 12.5,
+                "returnWinTime": "2026-04-19T05:39:51.000Z",
+                "specialDisplayIndicator": false
+              },
+              {
+                "returnWin": 12.5,
+                "returnWinTime": "2026-04-19T05:09:51.000Z",
+                "specialDisplayIndicator": false
+              }
+            ],
+            "percentageChange": 0
+          },
+          "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/8",
+          "trainerName": "T Jones",
+          "vacantBox": false,
+          "trainerFullName": "TIMOTHY JONES",
+          "barrierNumber": 8,
+          "riderDriverName": "",
+          "riderDriverFullName": null,
+          "handicapWeight": 0,
+          "harnessHandicap": null,
+          "blinkers": null,
+          "claimAmount": -1,
+          "last5Starts": "65443",
+          "tcdwIndicators": "t d",
+          "emergency": false,
+          "penalty": null,
+          "dfsFormRating": 100,
+          "techFormRating": 0,
+          "totalRatingPoints": 3,
+          "earlySpeedRating": 49,
+          "earlySpeedRatingBand": "MIDFIELD",
+          "fastForm": [
+            {
+              "type": "GoldenSwitch",
+              "keywords": "Box",
+              "ranking": null
+            }
+          ],
+          "_links": {
+            "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/8?jurisdiction=NSW"
+          }
+        }
+      ],
+      "oddsUpdateTime": "2026-04-19T06:10:52.000Z",
+      "fixedOddsUpdateTime": "2026-04-19T06:17:09.000Z",
+      "raceComments": "{\"comment\":\"2. VANZANT HAYZE was in the placings last time but prior to that clocked a speedy 23.80 win over 407m at this track. Rates a top chance if runs up to time two back. 1. SPRING OLIVER finds it hard to win but looks close to breaking through. Finished second (24.15) at this track last time making it two minors on end. Good beginner assisted by the inside draw. Expected to feature again. 7. BARGARA KILLIAN has been beaten for early speed lately, last time finishing eighth (27.74) in a Mix 5 at this track. Safe beginner but wide box to overcome and will need some luck. Has ability and is one of the better chances. 8. SLICK RAM has strong claims after a top-three finish at this track and distance last time out.\",\"runners\":[2,1,7,8],\"exclusive\":false}",
+      "tips": {
+        "tipType": "Standard",
+        "tipster": "Liam Mulry",
+        "tipRunnerNumbers": [
+          2,
+          1,
+          5,
+          4
+        ]
+      },
+      "ratings": [
+        {
+          "ratingType": "Rating",
+          "ratingRunnerNumbers": [
+            2,
+            8,
+            1,
+            3
+          ]
+        },
+        {
+          "ratingType": "Last12Months",
+          "ratingRunnerNumbers": [
+            2,
+            8,
+            7,
+            1
+          ]
+        },
+        {
+          "ratingType": "Recent",
+          "ratingRunnerNumbers": [
+            7,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "ratingType": "Distance",
+          "ratingRunnerNumbers": [
+            4,
+            1,
+            8,
+            2
+          ]
+        },
+        {
+          "ratingType": "Class",
+          "ratingRunnerNumbers": [
+            4,
+            5,
+            2,
+            7
+          ]
+        },
+        {
+          "ratingType": "Time",
+          "ratingRunnerNumbers": [
+            2,
+            4,
+            7,
+            1
+          ]
+        },
+        {
+          "ratingType": "Overall",
+          "ratingRunnerNumbers": [
+            2,
+            4,
+            7,
+            8
+          ]
+        }
+      ],
+      "multiLegApproximates": [],
+      "betTypes": [
+        {
+          "wageringProduct": "Win",
+          "firstLeg": {
+            "raceNumber": 3,
+            "venueMnemonic": "ROC",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Place",
+          "firstLeg": {
+            "raceNumber": 3,
+            "venueMnemonic": "ROC",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Quinella",
+          "firstLeg": {
+            "raceNumber": 3,
+            "venueMnemonic": "ROC",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Exacta",
+          "firstLeg": {
+            "raceNumber": 3,
+            "venueMnemonic": "ROC",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Duet",
+          "firstLeg": {
+            "raceNumber": 3,
+            "venueMnemonic": "ROC",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "Trifecta",
+          "firstLeg": {
+            "raceNumber": 3,
+            "venueMnemonic": "ROC",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "FirstFour",
+          "firstLeg": {
+            "raceNumber": 3,
+            "venueMnemonic": "ROC",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "RunningDouble",
+          "firstLeg": {
+            "raceNumber": 3,
+            "venueMnemonic": "ROC",
+            "raceType": "G"
+          }
+        },
+        {
+          "wageringProduct": "EarlyQuaddie",
+          "firstLeg": {
+            "raceNumber": 1,
+            "venueMnemonic": "ROC",
+            "raceType": "G"
+          }
+        }
+      ],
+      "extraMarkets": [
+        {
+          "id": 132149651,
+          "name": "ROCKHAMPTON-R3-Fav Out",
+          "shortName": "ROCKHAMPTON-R3-FavOut",
+          "betOption": "Favourite Out",
+          "message": "Must finish 1st or 2nd behind N/A Runner",
+          "informationMessage": null,
+          "cashOutEligibility": "Disabled",
+          "refundsAndDeductions": true,
+          "closeTime": "2026-04-19T07:10:00.000Z",
+          "bettingStatus": "Open",
+          "allowWin": true,
+          "allowPlace": false,
+          "allowEachWay": false,
+          "allowMulti": true,
+          "allowMultiWin": true,
+          "allowMultiPlace": false,
+          "allowMultiEachWay": false,
+          "numberOfPlaces": 0,
+          "allowBundle": false,
+          "propositions": [
+            {
+              "id": "5333532",
+              "name": "SPRING OLIVER",
+              "returnWin": 2.7,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "sortOrder": 1,
+              "number": 156408,
+              "runnerNumber": 1,
+              "isOpen": true,
+              "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/1",
+              "_links": {
+                "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/1?jurisdiction=NSW"
+              }
+            },
+            {
+              "id": "5333533",
+              "name": "VANZANT HAYZE",
+              "returnWin": 1.45,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "sortOrder": 2,
+              "number": 156412,
+              "runnerNumber": 2,
+              "isOpen": true,
+              "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/2",
+              "_links": {
+                "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/2?jurisdiction=NSW"
+              }
+            },
+            {
+              "id": "5333534",
+              "name": "KERRI BEACH",
+              "returnWin": 23,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "sortOrder": 3,
+              "number": 156424,
+              "runnerNumber": 3,
+              "isOpen": true,
+              "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/3",
+              "_links": {
+                "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/3?jurisdiction=NSW"
+              }
+            },
+            {
+              "id": "5333535",
+              "name": "HEROIC HENRY",
+              "returnWin": 0,
+              "returnPlace": 0,
+              "bettingStatus": "Reserve",
+              "allowPlace": false,
+              "sortOrder": 4,
+              "number": 156435,
+              "runnerNumber": 4,
+              "isOpen": false,
+              "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/4",
+              "_links": {
+                "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/4?jurisdiction=NSW"
+              }
+            },
+            {
+              "id": "5333536",
+              "name": "PENNY DAZE",
+              "returnWin": 12,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "sortOrder": 5,
+              "number": 156448,
+              "runnerNumber": 5,
+              "isOpen": true,
+              "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/5",
+              "_links": {
+                "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/5?jurisdiction=NSW"
+              }
+            },
+            {
+              "id": "5333537",
+              "name": "TWISTED YEW",
+              "returnWin": 61,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "sortOrder": 6,
+              "number": 156459,
+              "runnerNumber": 6,
+              "isOpen": true,
+              "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/6",
+              "_links": {
+                "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/6?jurisdiction=NSW"
+              }
+            },
+            {
+              "id": "5333538",
+              "name": "BARGARA KILLIAN",
+              "returnWin": 16,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "sortOrder": 7,
+              "number": 156470,
+              "runnerNumber": 7,
+              "isOpen": true,
+              "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/7",
+              "_links": {
+                "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/7?jurisdiction=NSW"
+              }
+            },
+            {
+              "id": "5333539",
+              "name": "SLICK RAM",
+              "returnWin": 6.5,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "sortOrder": 8,
+              "number": 156476,
+              "runnerNumber": 8,
+              "isOpen": true,
+              "silkURL": "https://api.beta.tab.com.au/v1/tab-info-service/racing/silk/8",
+              "_links": {
+                "form": "https://api.beta.tab.com.au/v1/tab-info-service/racing/dates/2026-04-19/meetings/G/ROC/races/3/form/8?jurisdiction=NSW"
+              }
+            }
+          ]
+        }
+      ],
+      "sameRaceMultiMarkets": [
+        {
+          "id": 132154445,
+          "name": "ROCKHAMPTON-R3-Top1",
+          "shortName": "ROCKHAMPTON-R3-Top1",
+          "betOption": "Top 1",
+          "message": null,
+          "informationMessage": null,
+          "refundsAndDeductions": true,
+          "bettingStatus": "Open",
+          "allowMulti": true,
+          "propositions": [
+            {
+              "name": "SPRING OLIVER",
+              "returnWin": 4.2,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157097,
+              "runnerNumber": 1
+            },
+            {
+              "name": "VANZANT HAYZE",
+              "returnWin": 2.3,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157098,
+              "runnerNumber": 2
+            },
+            {
+              "name": "KERRI BEACH",
+              "returnWin": 34,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157099,
+              "runnerNumber": 3
+            },
+            {
+              "name": "HEROIC HENRY",
+              "returnWin": 2.25,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157100,
+              "runnerNumber": 4
+            },
+            {
+              "name": "PENNY DAZE",
+              "returnWin": 17,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157101,
+              "runnerNumber": 5
+            },
+            {
+              "name": "TWISTED YEW",
+              "returnWin": 81,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157102,
+              "runnerNumber": 6
+            },
+            {
+              "name": "BARGARA KILLIAN",
+              "returnWin": 23,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157103,
+              "runnerNumber": 7
+            },
+            {
+              "name": "SLICK RAM",
+              "returnWin": 10,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157104,
+              "runnerNumber": 8
+            }
+          ]
+        },
+        {
+          "id": 132154446,
+          "name": "ROCKHAMPTON-R3-Top2",
+          "shortName": "ROCKHAMPTON-R3-Top2",
+          "betOption": "Top 2",
+          "message": null,
+          "informationMessage": null,
+          "refundsAndDeductions": true,
+          "bettingStatus": "Open",
+          "allowMulti": true,
+          "propositions": [
+            {
+              "name": "SPRING OLIVER",
+              "returnWin": 2.05,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157105,
+              "runnerNumber": 1
+            },
+            {
+              "name": "VANZANT HAYZE",
+              "returnWin": 1.35,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157106,
+              "runnerNumber": 2
+            },
+            {
+              "name": "KERRI BEACH",
+              "returnWin": 9,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157107,
+              "runnerNumber": 3
+            },
+            {
+              "name": "HEROIC HENRY",
+              "returnWin": 1.35,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157108,
+              "runnerNumber": 4
+            },
+            {
+              "name": "PENNY DAZE",
+              "returnWin": 5.5,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157109,
+              "runnerNumber": 5
+            },
+            {
+              "name": "TWISTED YEW",
+              "returnWin": 17,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157110,
+              "runnerNumber": 6
+            },
+            {
+              "name": "BARGARA KILLIAN",
+              "returnWin": 7,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157111,
+              "runnerNumber": 7
+            },
+            {
+              "name": "SLICK RAM",
+              "returnWin": 3.75,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157112,
+              "runnerNumber": 8
+            }
+          ]
+        },
+        {
+          "id": 132154447,
+          "name": "ROCKHAMPTON-R3-Top3",
+          "shortName": "ROCKHAMPTON-R3-Top3",
+          "betOption": "Top 3",
+          "message": null,
+          "informationMessage": null,
+          "refundsAndDeductions": true,
+          "bettingStatus": "Open",
+          "allowMulti": true,
+          "propositions": [
+            {
+              "name": "SPRING OLIVER",
+              "returnWin": 1.4,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157113,
+              "runnerNumber": 1
+            },
+            {
+              "name": "VANZANT HAYZE",
+              "returnWin": 1.1,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157114,
+              "runnerNumber": 2
+            },
+            {
+              "name": "KERRI BEACH",
+              "returnWin": 4.5,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157115,
+              "runnerNumber": 3
+            },
+            {
+              "name": "HEROIC HENRY",
+              "returnWin": 1.1,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157116,
+              "runnerNumber": 4
+            },
+            {
+              "name": "PENNY DAZE",
+              "returnWin": 3,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157117,
+              "runnerNumber": 5
+            },
+            {
+              "name": "TWISTED YEW",
+              "returnWin": 7,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157118,
+              "runnerNumber": 6
+            },
+            {
+              "name": "BARGARA KILLIAN",
+              "returnWin": 3.5,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157119,
+              "runnerNumber": 7
+            },
+            {
+              "name": "SLICK RAM",
+              "returnWin": 2.25,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157120,
+              "runnerNumber": 8
+            }
+          ]
+        },
+        {
+          "id": 132154448,
+          "name": "ROCKHAMPTON-R3-Top4",
+          "shortName": "ROCKHAMPTON-R3-Top4",
+          "betOption": "Top 4",
+          "message": null,
+          "informationMessage": null,
+          "refundsAndDeductions": true,
+          "bettingStatus": "Open",
+          "allowMulti": true,
+          "propositions": [
+            {
+              "name": "SPRING OLIVER",
+              "returnWin": 1.16,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157121,
+              "runnerNumber": 1
+            },
+            {
+              "name": "VANZANT HAYZE",
+              "returnWin": 1.01,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157122,
+              "runnerNumber": 2
+            },
+            {
+              "name": "KERRI BEACH",
+              "returnWin": 2.6,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157123,
+              "runnerNumber": 3
+            },
+            {
+              "name": "HEROIC HENRY",
+              "returnWin": 1.01,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157124,
+              "runnerNumber": 4
+            },
+            {
+              "name": "PENNY DAZE",
+              "returnWin": 1.95,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157125,
+              "runnerNumber": 5
+            },
+            {
+              "name": "TWISTED YEW",
+              "returnWin": 3.75,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157126,
+              "runnerNumber": 6
+            },
+            {
+              "name": "BARGARA KILLIAN",
+              "returnWin": 2.25,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157127,
+              "runnerNumber": 7
+            },
+            {
+              "name": "SLICK RAM",
+              "returnWin": 1.6,
+              "returnPlace": 1.01,
+              "bettingStatus": "Open",
+              "allowPlace": false,
+              "number": 157128,
+              "runnerNumber": 8
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

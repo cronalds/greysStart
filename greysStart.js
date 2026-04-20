@@ -11,6 +11,37 @@ import { pipeline } from "stream/promises";
 const timeHHMMSS = new Date().toTimeString().slice(0, 8).replace(/:/g, "-");
 let dayBefore = (date) => dayjs(date).subtract(1, "day").format("YYYY-MM-DD");
 
+
+/**
+ * input time string(not datetime) and get back as a float
+ *
+ * @param {*} str 
+ * @returns {*} 
+ */
+function timeToSeconds(str) {
+  if (!str) return NaN;
+
+  const parts = str.split(":").map(Number);
+
+  if (parts.some(Number.isNaN)) return NaN;
+
+  if (parts.length === 1) {
+    return parts[0];
+  }
+
+  if (parts.length === 2) {
+    const [m, s] = parts;
+    return m * 60 + s;
+  }
+
+  if (parts.length === 3) {
+    const [h, m, s] = parts;
+    return h * 3600 + m * 60 + s;
+  }
+
+  return NaN; // bad input fallback
+}
+
 /**
  * fetch the json from the url
  *
@@ -1244,6 +1275,7 @@ function handlePairedData() {
       }
 
       let test = { meeting, runners: runners };
+      
       saveDataToFile({
         filePath:
           dirString("./data/testHandle/") +
@@ -1256,9 +1288,10 @@ function handlePairedData() {
   }
 }
 
-scrape({
+//? DRY RUN WITH ALL FALSE AFTER TO PROCESS PAIRINGS
+await scrape({
   destinationDirectory: "./data",
-  date: "2026-04-18",
+  date: "2026-04-20",
   download: false,
   resulted: false,
   greyhounds: false,
